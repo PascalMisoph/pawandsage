@@ -5,7 +5,7 @@ pubDate: 2026-04-10
 category: "behavior"
 tags: ["behavior", "sleep", "night activity", "training"]
 readTime: "6 min read"
-heroImage: "/blog/3am-cat-hero.jpg"
+heroImage: "/blog/3am-cat-hero.png"
 draft: false
 ---
 

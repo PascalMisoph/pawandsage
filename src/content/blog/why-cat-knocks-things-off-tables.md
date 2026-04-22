@@ -4,7 +4,7 @@ description: "Your cat isn't being a jerk — there's real science behind why ca
 pubDate: 2026-04-19
 category: "behavior"
 tags: ["behavior", "enrichment", "indoor cats", "training"]
-heroImage: "/blog/cat-knocking-things-off.jpg"
+heroImage: "/blog/cat-knocking-things-off.png"
 readTime: "5 min read"
 draft: false
 ---

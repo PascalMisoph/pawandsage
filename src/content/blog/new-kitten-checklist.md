@@ -5,7 +5,7 @@ pubDate: 2026-04-15
 category: "new-cat"
 tags: ["kitten", "new cat", "checklist", "essentials"]
 readTime: "8 min read"
-heroImage: "/blog/kitten-checklist-hero.jpg"
+heroImage: "/blog/kitten-checklist-hero.png"
 pinImage: "/blog/kitten-checklist-pin.jpg"
 draft: false
 ---

@@ -5,7 +5,7 @@ pubDate: 2026-04-12
 category: "enrichment"
 tags: ["enrichment", "indoor cat", "boredom", "diy"]
 readTime: "10 min read"
-heroImage: "/blog/enrichment-hero.jpg"
+heroImage: "/blog/enrichment-hero.png"
 draft: false
 ---
 
