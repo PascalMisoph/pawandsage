@@ -7,9 +7,11 @@ const navItems = [
   { href: '/categories/health', label: 'Health' },
   { href: '/about', label: 'About' },
 ];
+
+const isHome = Astro.url.pathname === '/';
 ---
 
-<header>
+<header class={isHome ? 'home-header' : undefined}>
   <div class="container header-inner">
     <a href="/" class="logo">
       paw <span class="and">and</span> sage
@@ -37,11 +39,33 @@ const navItems = [
     backdrop-filter: blur(8px);
     background: rgba(250, 246, 239, 0.92);
   }
+  header.home-header {
+    position: absolute;
+    inset: 0 0 auto 0;
+    border-bottom: none;
+    background: transparent;
+    backdrop-filter: none;
+  }
+  header.home-header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      90deg,
+      rgba(250, 246, 239, 0.9) 0%,
+      rgba(250, 246, 239, 0.76) 34%,
+      rgba(250, 246, 239, 0.28) 66%,
+      rgba(250, 246, 239, 0.08) 100%
+    );
+    pointer-events: none;
+  }
   .header-inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1.25rem 1.5rem;
+    position: relative;
+    z-index: 1;
   }
   .logo {
     font-family: 'Fraunces', serif;
@@ -88,6 +112,10 @@ const navItems = [
     background: var(--sage-900);
   }
   @media (max-width: 768px) {
+    header.home-header::before {
+      background: rgba(250, 246, 239, 0.78);
+      backdrop-filter: blur(8px);
+    }
     nav { display: none; }
     .menu-toggle { display: flex; }
   }
