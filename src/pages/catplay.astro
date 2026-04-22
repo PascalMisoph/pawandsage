@@ -1,0 +1,119 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="CatPlay — Coming Soon" description="An iOS app for understanding your cat's behavior. Join the waitlist.">
+  <section class="page-header">
+    <div class="container-narrow">
+      <span class="eyebrow">Coming soon · iOS</span>
+      <h1>CatPlay</h1>
+      <p class="lede">
+        Notice patterns. Spot changes. Understand your cat better — without becoming a cat behaviorist.
+      </p>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container-narrow">
+      <div class="prose">
+        <p>
+          CatPlay is a small iOS app that helps you keep track of the things that matter — play sessions, eating habits, litter box patterns, weight, mood. Not as a chore, but as a way to actually <em>see</em> your cat's life clearly enough to notice when something changes.
+        </p>
+
+        <p>
+          It's built by the same people who write paw and sage, with the same belief: paying attention is the foundation of good care.
+        </p>
+
+        <h2>What's coming</h2>
+        <ul>
+          <li>Multi-cat profiles with personality tracking</li>
+          <li>A weekly "report card" you can share</li>
+          <li>Pattern detection for behavior, eating, and health signals</li>
+          <li>Reminders that don't feel like guilt</li>
+        </ul>
+      </div>
+
+      <div class="waitlist-box">
+        <span class="eyebrow">Get early access</span>
+        <h3>Join the waitlist.</h3>
+        <p>Be the first to know when CatPlay launches. Early access, founding-member pricing, and a free month for everyone on the list.</p>
+        <form action="https://YOUR-MAILERLITE-FORM-URL" method="post" class="email-form">
+          <input
+            type="email"
+            name="email"
+            placeholder="your@email.com"
+            required
+            aria-label="Email address"
+          />
+          <button type="submit" class="btn btn-accent">Join waitlist</button>
+        </form>
+        <p class="fineprint">No spam. Unsubscribe anytime.</p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header { padding: 5rem 0 2rem; text-align: center; }
+  .page-header .eyebrow { display: block; margin-bottom: 1rem; }
+  .lede {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: var(--ink-soft);
+    max-width: 560px;
+    margin: 1.5rem auto 0;
+    line-height: 1.5;
+  }
+  .content-section { padding: 2rem 0 5rem; }
+  .prose { font-size: 1.05rem; line-height: 1.75; margin-bottom: 3rem; }
+
+  .waitlist-box {
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, var(--sage-50) 0%, var(--cream-200) 100%);
+    border: 1px solid var(--sage-300);
+    border-radius: 12px;
+    text-align: center;
+  }
+  .waitlist-box .eyebrow { display: block; margin-bottom: 0.75rem; }
+  .waitlist-box h3 {
+    font-size: 2rem;
+    margin: 0 0 1rem;
+  }
+  .waitlist-box p {
+    color: var(--ink-soft);
+    margin-bottom: 1.5rem;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .email-form {
+    display: flex;
+    gap: 0.5rem;
+    max-width: 480px;
+    margin: 0 auto 0.75rem;
+  }
+  .email-form input {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--line);
+    background: var(--cream-100);
+    border-radius: 100px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    color: var(--ink);
+  }
+  .email-form input:focus {
+    outline: none;
+    border-color: var(--sage-700);
+  }
+  .fineprint {
+    font-size: 0.75rem;
+    color: var(--ink-soft);
+    margin-top: 0.5rem;
+  }
+  @media (max-width: 600px) {
+    .email-form { flex-direction: column; }
+  }
+</style>

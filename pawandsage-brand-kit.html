@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>paw and sage — Brand Kit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=Caveat:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    /* Primary Sage */
+    --sage-900: #3d4a3d;
+    --sage-700: #5a6b58;
+    --sage-500: #8a9a83;
+    --sage-300: #b8c5b1;
+    --sage-100: #dde4d8;
+    --sage-50:  #eef2eb;
+
+    /* Cream Family */
+    --cream-100: #faf6ef;
+    --cream-200: #f3ece0;
+    --cream-300: #e8dfce;
+
+    /* Terracotta Accent */
+    --terra-700: #a04e2f;
+    --terra-500: #c46a45;
+    --terra-300: #e0a085;
+    --terra-100: #f2d9cb;
+
+    /* Neutral */
+    --ink: #2a2724;
+    --ink-soft: #5a544e;
+    --line: #d8d2c4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--cream-100);
+    color: var(--ink);
+    font-size: 15px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 1100px; margin: 0 auto; padding: 0 32px; }
+
+  /* Hero */
+  .hero {
+    padding: 100px 32px 80px;
+    background: var(--cream-100);
+    text-align: center;
+    border-bottom: 1px solid var(--line);
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -100px; right: -100px;
+    width: 400px; height: 400px;
+    background: radial-gradient(circle, var(--sage-100) 0%, transparent 70%);
+    opacity: 0.6;
+  }
+  .hero::after {
+    content: '';
+    position: absolute;
+    bottom: -150px; left: -100px;
+    width: 350px; height: 350px;
+    background: radial-gradient(circle, var(--terra-100) 0%, transparent 70%);
+    opacity: 0.5;
+  }
+  .hero-inner { position: relative; z-index: 1; }
+  .eyebrow {
+    font-family: 'Inter';
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--sage-700);
+    margin-bottom: 24px;
+    font-weight: 500;
+  }
+  .logotype {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 88px;
+    line-height: 0.95;
+    color: var(--sage-900);
+    letter-spacing: -2px;
+    margin-bottom: 28px;
+    font-variation-settings: "opsz" 144;
+  }
+  .logotype .and {
+    font-style: italic;
+    font-weight: 300;
+    color: var(--terra-500);
+  }
+  .tagline {
+    font-family: 'Fraunces', serif;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--ink-soft);
+    max-width: 540px;
+    margin: 0 auto 40px;
+    line-height: 1.5;
+  }
+  .domain-pill {
+    display: inline-block;
+    padding: 10px 22px;
+    background: var(--sage-900);
+    color: var(--cream-100);
+    font-family: 'Inter';
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 100px;
+    letter-spacing: 0.5px;
+  }
+
+  /* Section */
+  section { padding: 80px 0; border-bottom: 1px solid var(--line); }
+  .section-label {
+    font-family: 'Inter';
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--terra-700);
+    margin-bottom: 16px;
+    font-weight: 500;
+  }
+  .section-title {
+    font-family: 'Fraunces', serif;
+    font-size: 42px;
+    line-height: 1.1;
+    color: var(--sage-900);
+    margin-bottom: 16px;
+    font-weight: 400;
+    letter-spacing: -1px;
+  }
+  .section-subtitle {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-size: 18px;
+    color: var(--ink-soft);
+    margin-bottom: 48px;
+    max-width: 600px;
+  }
+
+  /* Logo Variants */
+  .logo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  .logo-card {
+    padding: 60px 32px;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid var(--line);
+    position: relative;
+  }
+  .logo-card.cream { background: var(--cream-100); }
+  .logo-card.sage { background: var(--sage-900); }
+  .logo-card.terra { background: var(--terra-500); }
+  .logo-card.cream-alt { background: var(--cream-200); }
+  .logo-label {
+    position: absolute;
+    top: 14px; left: 18px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--ink-soft);
+    font-weight: 500;
+  }
+  .logo-card.sage .logo-label, .logo-card.terra .logo-label {
+    color: rgba(255,255,255,0.6);
+  }
+  .logo-mark {
+    font-family: 'Fraunces', serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.5px;
+  }
+  .logo-mark .and {
+    font-style: italic;
+    font-weight: 300;
+  }
+  .logo-card.cream .logo-mark { color: var(--sage-900); }
+  .logo-card.cream .logo-mark .and { color: var(--terra-500); }
+  .logo-card.cream-alt .logo-mark { color: var(--sage-900); }
+  .logo-card.cream-alt .logo-mark .and { color: var(--terra-500); }
+  .logo-card.sage .logo-mark { color: var(--cream-100); }
+  .logo-card.sage .logo-mark .and { color: var(--terra-300); }
+  .logo-card.terra .logo-mark { color: var(--cream-100); }
+  .logo-card.terra .logo-mark .and { color: var(--sage-100); font-style: italic; }
+
+  /* Stacked variant */
+  .logo-stacked {
+    font-family: 'Fraunces', serif;
+    line-height: 0.9;
+    font-weight: 400;
+    text-align: center;
+  }
+  .logo-stacked .top { display: block; font-size: 38px; color: var(--sage-900); letter-spacing: -0.5px; }
+  .logo-stacked .and { display: block; font-size: 22px; font-style: italic; font-weight: 300; color: var(--terra-500); margin: 4px 0; }
+  .logo-stacked .bottom { display: block; font-size: 38px; color: var(--sage-900); letter-spacing: -0.5px; }
+
+  /* Color Palette */
+  .palette {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+  .swatch {
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid var(--line);
+  }
+  .swatch-color {
+    height: 140px;
+    position: relative;
+  }
+  .swatch-info {
+    padding: 16px;
+    background: var(--cream-100);
+  }
+  .swatch-name {
+    font-family: 'Fraunces', serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--sage-900);
+    margin-bottom: 4px;
+  }
+  .swatch-hex {
+    font-family: 'Inter';
+    font-size: 12px;
+    color: var(--ink-soft);
+    letter-spacing: 0.5px;
+  }
+  .swatch-role {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--terra-700);
+    margin-top: 6px;
+    font-weight: 500;
+  }
+
+  /* Color Usage */
+  .usage-bar {
+    display: flex;
+    height: 60px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 16px;
+    border: 1px solid var(--line);
+  }
+  .usage-segment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+  }
+  .usage-legend {
+    display: flex;
+    gap: 32px;
+    font-size: 13px;
+    color: var(--ink-soft);
+  }
+  .legend-dot {
+    display: inline-block;
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+
+  /* Typography */
+  .type-spec {
+    padding: 32px;
+    background: var(--cream-100);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+  .type-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--terra-700);
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  .type-display {
+    font-family: 'Fraunces', serif;
+    font-size: 56px;
+    line-height: 1;
+    color: var(--sage-900);
+    font-weight: 400;
+    letter-spacing: -1.5px;
+    margin-bottom: 8px;
+  }
+  .type-display .italic {
+    font-style: italic;
+    font-weight: 300;
+    color: var(--terra-500);
+  }
+  .type-h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    color: var(--sage-900);
+    font-weight: 500;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+  }
+  .type-body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--ink);
+    margin-bottom: 8px;
+  }
+  .type-meta-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: var(--sage-700);
+    font-weight: 500;
+  }
+  .type-script {
+    font-family: 'Caveat', cursive;
+    font-size: 28px;
+    color: var(--terra-500);
+    line-height: 1.2;
+  }
+
+  /* Pin Mockups */
+  .pins {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  .pin {
+    aspect-ratio: 2/3;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 32px;
+  }
+  .pin-1 {
+    background: linear-gradient(135deg, var(--sage-100) 0%, var(--cream-200) 100%);
+  }
+  .pin-2 {
+    background: var(--sage-900);
+  }
+  .pin-3 {
+    background: var(--terra-500);
+  }
+  .pin-tag {
+    font-family: 'Inter';
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    align-self: flex-start;
+    padding: 5px 12px;
+    border-radius: 100px;
+  }
+  .pin-1 .pin-tag {
+    background: var(--sage-700);
+    color: var(--cream-100);
+  }
+  .pin-2 .pin-tag {
+    background: var(--terra-500);
+    color: var(--cream-100);
+  }
+  .pin-3 .pin-tag {
+    background: var(--cream-100);
+    color: var(--terra-700);
+  }
+  .pin-headline {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    line-height: 1.05;
+    letter-spacing: -1px;
+  }
+  .pin-1 .pin-headline {
+    font-size: 38px;
+    color: var(--sage-900);
+  }
+  .pin-1 .pin-headline .italic { font-style: italic; color: var(--terra-500); font-weight: 400; }
+  .pin-2 .pin-headline {
+    font-size: 36px;
+    color: var(--cream-100);
+  }
+  .pin-2 .pin-headline .italic { font-style: italic; color: var(--terra-300); font-weight: 400; }
+  .pin-3 .pin-headline {
+    font-size: 40px;
+    color: var(--cream-100);
+  }
+  .pin-3 .pin-headline .italic { font-style: italic; color: var(--sage-100); font-weight: 400; }
+  .pin-footer {
+    font-family: 'Inter';
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+  }
+  .pin-1 .pin-footer { color: var(--sage-700); }
+  .pin-2 .pin-footer { color: var(--cream-300); }
+  .pin-3 .pin-footer { color: var(--cream-100); }
+
+  /* Voice & Tone */
+  .voice-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  .voice-card {
+    padding: 32px;
+    border-radius: 4px;
+    border: 1px solid var(--line);
+  }
+  .voice-yes { background: var(--sage-50); border-color: var(--sage-300); }
+  .voice-no { background: var(--cream-200); border-color: var(--terra-300); }
+  .voice-label {
+    font-family: 'Inter';
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  .voice-yes .voice-label { color: var(--sage-700); }
+  .voice-no .voice-label { color: var(--terra-700); }
+  .voice-list {
+    list-style: none;
+    font-size: 14px;
+    color: var(--ink);
+  }
+  .voice-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+  }
+  .voice-list li:last-child { border-bottom: none; }
+  .voice-quote {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-size: 17px;
+    line-height: 1.5;
+    margin-top: 24px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0,0,0,0.08);
+  }
+  .voice-yes .voice-quote { color: var(--sage-900); }
+  .voice-no .voice-quote { color: var(--terra-700); text-decoration: line-through; opacity: 0.7; }
+
+  /* Footer */
+  footer {
+    padding: 60px 32px;
+    background: var(--sage-900);
+    color: var(--cream-200);
+    text-align: center;
+  }
+  .footer-logo {
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    color: var(--cream-100);
+    margin-bottom: 12px;
+    font-weight: 400;
+  }
+  .footer-logo .and { font-style: italic; color: var(--terra-300); font-weight: 300; }
+  .footer-text {
+    font-size: 13px;
+    color: var(--sage-300);
+    letter-spacing: 0.5px;
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Brand Identity · 2026</div>
+    <h1 class="logotype">paw <span class="and">and</span> sage</h1>
+    <p class="tagline">A calm, considered guide to understanding the cat in your home.</p>
+    <span class="domain-pill">pawandsage.com</span>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="section-label">01 — Logotype</div>
+    <h2 class="section-title">The mark, four ways.</h2>
+    <p class="section-subtitle">A wordmark in Fraunces — a contemporary serif with literary warmth. The italic <em>and</em> in terracotta carries the brand's quiet personality.</p>
+
+    <div class="logo-grid">
+      <div class="logo-card cream">
+        <span class="logo-label">Primary · Cream</span>
+        <div class="logo-mark">paw <span class="and">and</span> sage</div>
+      </div>
+      <div class="logo-card sage">
+        <span class="logo-label">Inverse · Sage</span>
+        <div class="logo-mark">paw <span class="and">and</span> sage</div>
+      </div>
+      <div class="logo-card terra">
+        <span class="logo-label">Accent · Terracotta</span>
+        <div class="logo-mark">paw <span class="and">and</span> sage</div>
+      </div>
+      <div class="logo-card cream-alt">
+        <span class="logo-label">Stacked · Square Use</span>
+        <div class="logo-stacked">
+          <span class="top">paw</span>
+          <span class="and">and</span>
+          <span class="bottom">sage</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-label">02 — Color System</div>
+    <h2 class="section-title">Sage. Cream. Terracotta.</h2>
+    <p class="section-subtitle">A palette pulled from a quiet morning kitchen — one cat dozing in a sunbeam. Each color earns its place.</p>
+
+    <div class="palette">
+      <div class="swatch">
+        <div class="swatch-color" style="background:#3d4a3d"></div>
+        <div class="swatch-info">
+          <div class="swatch-name">Sage Deep</div>
+          <div class="swatch-hex">#3D4A3D</div>
+          <div class="swatch-role">Primary · Headlines</div>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#8a9a83"></div>
+        <div class="swatch-info">
+          <div class="swatch-name">Sage</div>
+          <div class="swatch-hex">#8A9A83</div>
+          <div class="swatch-role">Secondary · Brand</div>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#dde4d8"></div>
+        <div class="swatch-info">
+          <div class="swatch-name">Sage Mist</div>
+          <div class="swatch-hex">#DDE4D8</div>
+          <div class="swatch-role">Background · Soft</div>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#faf6ef"></div>
+        <div class="swatch-info">
+          <div class="swatch-name">Cream</div>
+          <div class="swatch-hex">#FAF6EF</div>
+          <div class="swatch-role">Background · Primary</div>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#f3ece0"></div>
+        <div class="swatch-info">
+          <div class="swatch-name">Cream Warm</div>
+          <div class="swatch-hex">#F3ECE0</div>
+          <div class="swatch-role">Card · Section</div>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#c46a45"></div>
+        <div class="swatch-info">
+          <div class="swatch-name">Terracotta</div>
+          <div class="swatch-hex">#C46A45</div>
+          <div class="swatch-role">Accent · CTA</div>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#e0a085"></div>
+        <div class="swatch-info">
+          <div class="swatch-name">Terracotta Soft</div>
+          <div class="swatch-hex">#E0A085</div>
+          <div class="swatch-role">Highlight · Tag</div>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#2a2724"></div>
+        <div class="swatch-info">
+          <div class="swatch-name">Ink</div>
+          <div class="swatch-hex">#2A2724</div>
+          <div class="swatch-role">Body Text</div>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="font-family:'Fraunces';font-size:24px;color:var(--sage-900);margin:60px 0 20px;font-weight:500;">Use ratio — the 60-30-10 rule</h3>
+    <div class="usage-bar">
+      <div class="usage-segment" style="width:60%;background:#faf6ef;color:#5a544e;">60% Cream</div>
+      <div class="usage-segment" style="width:30%;background:#3d4a3d;color:#faf6ef;">30% Sage</div>
+      <div class="usage-segment" style="width:10%;background:#c46a45;color:#faf6ef;">10% Terra</div>
+    </div>
+    <div class="usage-legend">
+      <span><span class="legend-dot" style="background:#faf6ef;border:1px solid #d8d2c4;"></span>Backgrounds & space</span>
+      <span><span class="legend-dot" style="background:#3d4a3d;"></span>Headlines & structure</span>
+      <span><span class="legend-dot" style="background:#c46a45;"></span>Accents & CTAs only</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-label">03 — Typography</div>
+    <h2 class="section-title">Two voices, one feeling.</h2>
+    <p class="section-subtitle">Fraunces brings the warmth of an old book; Inter brings the clarity of a modern guide. A handwritten note in Caveat, used sparingly, signs every quiet moment.</p>
+
+    <div class="type-spec">
+      <div class="type-meta">
+        <span>Display · Fraunces</span>
+        <span>56 / 64 · -1.5 tracking</span>
+      </div>
+      <div class="type-display">Why does my cat <span class="italic">do that</span>?</div>
+    </div>
+
+    <div class="type-spec">
+      <div class="type-meta">
+        <span>Heading · Fraunces 500</span>
+        <span>32 / 40 · -0.5 tracking</span>
+      </div>
+      <div class="type-h2">The seven cat tail positions, decoded</div>
+    </div>
+
+    <div class="type-spec">
+      <div class="type-meta">
+        <span>Body · Inter 400</span>
+        <span>16 / 27 · 0 tracking</span>
+      </div>
+      <div class="type-body">A flicking tail does not always mean what you think it means. In the right context — bright eyes, a low crouch, a soft chirp — it is the start of a hunt that has no prey. Reading your cat begins with reading the whole picture, not just one signal at a time.</div>
+    </div>
+
+    <div class="type-spec">
+      <div class="type-meta">
+        <span>Meta · Inter 500</span>
+        <span>11 / 16 · 2.5 tracking · UPPER</span>
+      </div>
+      <div class="type-meta-text">Filed under · Behavior · Reading List · 7 min</div>
+    </div>
+
+    <div class="type-spec">
+      <div class="type-meta">
+        <span>Script · Caveat (sparingly)</span>
+        <span>28 / 34 · For signatures & margin notes</span>
+      </div>
+      <div class="type-script">— a quiet note from Pascal &amp; the cats</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-label">04 — Pinterest Pin Templates</div>
+    <h2 class="section-title">Three formats, one voice.</h2>
+    <p class="section-subtitle">Templates designed for the Pinterest feed at 1000×1500. Each pin holds the brand without shouting it.</p>
+
+    <div class="pins">
+      <div class="pin pin-1">
+        <span class="pin-tag">Behavior</span>
+        <div class="pin-headline">15 cat behaviors, <span class="italic">decoded</span>.</div>
+        <div class="pin-footer">pawandsage.com</div>
+      </div>
+      <div class="pin pin-2">
+        <span class="pin-tag">New Cat</span>
+        <div class="pin-headline">The new kitten checklist <span class="italic">— save this.</span></div>
+        <div class="pin-footer">pawandsage.com</div>
+      </div>
+      <div class="pin pin-3">
+        <span class="pin-tag">Enrichment</span>
+        <div class="pin-headline">20 indoor cat ideas <span class="italic">that actually work.</span></div>
+        <div class="pin-footer">pawandsage.com</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-label">05 — Voice & Tone</div>
+    <h2 class="section-title">How paw and sage speaks.</h2>
+    <p class="section-subtitle">Calm, observant, useful. Like a friend who has lived with cats long enough to notice things — and won't dress them up.</p>
+
+    <div class="voice-grid">
+      <div class="voice-card voice-yes">
+        <div class="voice-label">✓  We sound like</div>
+        <ul class="voice-list">
+          <li>Quietly observant</li>
+          <li>Specific over general</li>
+          <li>Useful in the first sentence</li>
+          <li>Warm without being cute</li>
+          <li>Confident, not loud</li>
+        </ul>
+        <p class="voice-quote">"A cat who finishes a bowl in thirty seconds and then stares at you is bored, not hungry."</p>
+      </div>
+      <div class="voice-card voice-no">
+        <div class="voice-label">✗  We avoid</div>
+        <ul class="voice-list">
+          <li>"Furbabies" and "purr-fect"</li>
+          <li>Cliché cat puns in headlines</li>
+          <li>Excessive emojis 🐾🐱✨</li>
+          <li>Guilt-marketing ("good cat parents…")</li>
+          <li>Generic listicle padding</li>
+        </ul>
+        <p class="voice-quote">"10 PURR-FECT toys your furbaby will go CRAZY for! 🐾🐱"</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-logo">paw <span class="and">and</span> sage</div>
+  <div class="footer-text">A calm guide to the cat in your home · pawandsage.com</div>
+</footer>
+
+</body>
+</html>

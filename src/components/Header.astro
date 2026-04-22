@@ -1,0 +1,94 @@
+---
+const navItems = [
+  { href: '/blog', label: 'Journal' },
+  { href: '/categories/behavior', label: 'Behavior' },
+  { href: '/categories/enrichment', label: 'Enrichment' },
+  { href: '/categories/new-cat', label: 'New Cat' },
+  { href: '/categories/health', label: 'Health' },
+  { href: '/about', label: 'About' },
+];
+---
+
+<header>
+  <div class="container header-inner">
+    <a href="/" class="logo">
+      paw <span class="and">and</span> sage
+    </a>
+    <nav>
+      <ul>
+        {navItems.map(item => (
+          <li><a href={item.href}>{item.label}</a></li>
+        ))}
+      </ul>
+    </nav>
+    <button class="menu-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<style>
+  header {
+    border-bottom: 1px solid var(--line);
+    background: var(--cream-100);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(8px);
+    background: rgba(250, 246, 239, 0.92);
+  }
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 1.5rem;
+  }
+  .logo {
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
+    color: var(--sage-900);
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+  }
+  .logo .and {
+    font-style: italic;
+    font-weight: 300;
+    color: var(--terra-500);
+  }
+  nav ul {
+    display: flex;
+    gap: 1.75rem;
+    list-style: none;
+  }
+  nav a {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  nav a:hover {
+    color: var(--sage-900);
+  }
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+  .menu-toggle span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: var(--sage-900);
+  }
+  @media (max-width: 768px) {
+    nav { display: none; }
+    .menu-toggle { display: flex; }
+  }
+</style>

@@ -1,0 +1,206 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import EmailCapture from '../components/EmailCapture.astro';
+import PostCard from '../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const sortedPosts = allPosts
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 6);
+---
+
+<BaseLayout title="paw and sage">
+  <section class="hero">
+    <div class="container-narrow hero-inner">
+      <span class="eyebrow">A journal for thoughtful cat people</span>
+      <h1 class="hero-title">
+        Understand the cat <span class="italic">in your home.</span>
+      </h1>
+      <p class="hero-tagline">
+        Calm, considered writing on cat behavior, indoor enrichment, and the small daily decisions that make life better for the cat — and the human.
+      </p>
+      <div class="hero-actions">
+        <a href="/blog" class="btn btn-primary">Read the journal</a>
+        <a href="/start-here" class="btn btn-outline">New here? Start here</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="categories-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Four threads</span>
+        <h2>Where to begin.</h2>
+      </div>
+      <div class="categories-grid">
+        <a href="/categories/behavior" class="category-card">
+          <h3>Behavior</h3>
+          <p>What your cat is actually telling you, and how to listen.</p>
+        </a>
+        <a href="/categories/enrichment" class="category-card">
+          <h3>Enrichment</h3>
+          <p>Small changes that turn a flat indoor life into a rich one.</p>
+        </a>
+        <a href="/categories/new-cat" class="category-card">
+          <h3>New Cat</h3>
+          <p>Everything you wish someone had told you in the first week.</p>
+        </a>
+        <a href="/categories/health" class="category-card">
+          <h3>Health</h3>
+          <p>The subtle signals worth noticing — and when to call the vet.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  {sortedPosts.length > 0 && (
+    <section class="recent-posts">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Latest from the journal</span>
+          <h2>Recent reading.</h2>
+        </div>
+        <div class="posts-grid">
+          {sortedPosts.map(post => (
+            <PostCard
+              href={`/blog/${post.id}`}
+              title={post.data.title}
+              description={post.data.description}
+              category={post.data.category}
+              pubDate={post.data.pubDate}
+              readTime={post.data.readTime}
+              image={post.data.heroImage}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="email-section">
+    <div class="container-narrow">
+      <EmailCapture />
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    padding: 6rem 0 5rem;
+    background: var(--cream-100);
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -100px; right: -100px;
+    width: 400px; height: 400px;
+    background: radial-gradient(circle, var(--sage-100) 0%, transparent 70%);
+    opacity: 0.6;
+    pointer-events: none;
+  }
+  .hero::after {
+    content: '';
+    position: absolute;
+    bottom: -150px; left: -100px;
+    width: 350px; height: 350px;
+    background: radial-gradient(circle, var(--terra-100) 0%, transparent 70%);
+    opacity: 0.4;
+    pointer-events: none;
+  }
+  .hero-inner {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  .hero .eyebrow {
+    display: block;
+    margin-bottom: 1.5rem;
+  }
+  .hero-title {
+    margin-bottom: 1.5rem;
+  }
+  .hero-tagline {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: var(--ink-soft);
+    line-height: 1.5;
+    max-width: 560px;
+    margin: 0 auto 2.5rem;
+  }
+  .hero-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .categories-section, .recent-posts {
+    padding: 5rem 0;
+  }
+  .section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .section-header .eyebrow {
+    display: block;
+    margin-bottom: 0.75rem;
+  }
+  .section-header h2 {
+    margin: 0;
+  }
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  .category-card {
+    padding: 2rem 1.5rem;
+    background: var(--cream-200);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--ink);
+    transition: all 0.2s ease;
+    text-align: center;
+    border: 1px solid transparent;
+  }
+  .category-card:hover {
+    background: var(--sage-50);
+    border-color: var(--sage-300);
+    transform: translateY(-2px);
+    color: var(--ink);
+  }
+  .category-card h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.25rem;
+  }
+  .category-card p {
+    color: var(--ink-soft);
+    font-size: 0.85rem;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  .email-section {
+    padding: 3rem 0 5rem;
+  }
+
+  @media (max-width: 900px) {
+    .categories-grid { grid-template-columns: repeat(2, 1fr); }
+    .posts-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 600px) {
+    .categories-grid { grid-template-columns: 1fr; }
+    .posts-grid { grid-template-columns: 1fr; }
+  }
+</style>

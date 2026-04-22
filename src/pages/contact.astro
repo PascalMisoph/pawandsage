@@ -1,0 +1,65 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Contact" description="Get in touch with paw and sage.">
+  <section class="page-header">
+    <div class="container-narrow">
+      <span class="eyebrow">Contact</span>
+      <h1>Say hello.</h1>
+      <p class="lede">Questions, feedback, a story about your cat — all welcome.</p>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container-narrow">
+      <div class="contact-card">
+        <h3>Email</h3>
+        <p><a href="mailto:hello@pawandsage.com">hello@pawandsage.com</a></p>
+        <p class="note">I read every email. Replies usually come within a few days, sometimes longer.</p>
+      </div>
+
+      <div class="contact-card">
+        <h3>Pinterest</h3>
+        <p><a href="https://pinterest.com/pawandsage" target="_blank" rel="noopener">@pawandsage on Pinterest</a></p>
+      </div>
+
+      <div class="contact-card">
+        <h3>Brand & affiliate inquiries</h3>
+        <p>For partnership requests, please email with "Partnership" in the subject line. We're selective — only products we'd genuinely use ourselves.</p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header { padding: 5rem 0 2rem; text-align: center; }
+  .page-header .eyebrow { display: block; margin-bottom: 1rem; }
+  .lede {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.15rem;
+    color: var(--ink-soft);
+    margin: 1rem auto 0;
+  }
+  .content-section { padding: 2rem 0 5rem; }
+  .contact-card {
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .contact-card:last-of-type { border-bottom: none; }
+  .contact-card h3 {
+    font-size: 1.25rem;
+    margin: 0 0 0.5rem;
+  }
+  .contact-card p {
+    margin: 0.25rem 0;
+    color: var(--ink-soft);
+  }
+  .note {
+    font-size: 0.85rem;
+    font-style: italic;
+    margin-top: 0.5rem;
+  }
+</style>

@@ -1,0 +1,93 @@
+---
+export interface Props {
+  variant?: 'inline' | 'box';
+  title?: string;
+  description?: string;
+}
+
+const {
+  variant = 'box',
+  title = "The Cat Behavior Decoder",
+  description = "A free 12-page PDF: 25 cat behaviors decoded, with what to do about each one. Sent straight to your inbox."
+} = Astro.props;
+---
+
+<div class={`email-capture email-capture-${variant}`}>
+  <div class="email-capture-content">
+    <span class="eyebrow">Free download</span>
+    <h3>{title}</h3>
+    <p>{description}</p>
+    <!-- Replace action with your MailerLite/ConvertKit form endpoint -->
+    <form action="https://YOUR-MAILERLITE-FORM-URL" method="post" class="email-form">
+      <input
+        type="email"
+        name="email"
+        placeholder="your@email.com"
+        required
+        aria-label="Email address"
+      />
+      <button type="submit" class="btn btn-accent">Send me the PDF</button>
+    </form>
+    <p class="email-fineprint">No spam. Unsubscribe anytime. We respect your inbox.</p>
+  </div>
+</div>
+
+<style>
+  .email-capture {
+    margin: 3rem 0;
+  }
+  .email-capture-box .email-capture-content {
+    background: var(--sage-50);
+    border: 1px solid var(--sage-300);
+    border-radius: 12px;
+    padding: 2.5rem 2rem;
+    text-align: center;
+  }
+  .email-capture-inline {
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    padding: 2.5rem 0;
+  }
+  .email-capture h3 {
+    font-size: 1.75rem;
+    margin: 0.75rem 0 0.5rem;
+    color: var(--sage-900);
+  }
+  .email-capture p {
+    color: var(--ink-soft);
+    margin-bottom: 1.5rem;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .email-form {
+    display: flex;
+    gap: 0.5rem;
+    max-width: 480px;
+    margin: 0 auto 0.75rem;
+  }
+  .email-form input {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--line);
+    background: var(--cream-100);
+    border-radius: 100px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    color: var(--ink);
+  }
+  .email-form input:focus {
+    outline: none;
+    border-color: var(--sage-700);
+  }
+  .email-fineprint {
+    font-size: 0.75rem;
+    color: var(--ink-soft);
+    margin-top: 0.5rem;
+  }
+  @media (max-width: 600px) {
+    .email-form {
+      flex-direction: column;
+    }
+  }
+</style>

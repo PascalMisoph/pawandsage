@@ -1,0 +1,71 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="About" description="The story behind paw and sage.">
+  <section class="page-header">
+    <div class="container-narrow">
+      <span class="eyebrow">About</span>
+      <h1>Why paw and sage exists.</h1>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container-narrow prose">
+      <p class="lede">
+        Most of what's written about cats online falls into two camps — the cute and the clinical. Endless aesthetic photos with no substance, or veterinary articles written for people who already know what they're looking for.
+      </p>
+
+      <p>
+        paw and sage sits in between. It's for people who want to actually <em>understand</em> the cat in their home — what their behavior means, how to make their life richer, when something is off and worth a vet visit, and what to buy without overspending on things that won't matter.
+      </p>
+
+      <h2>What you'll find here</h2>
+      <p>
+        Articles organized into four threads: <a href="/categories/behavior">Behavior</a> (decoding what your cat is telling you), <a href="/categories/enrichment">Enrichment</a> (small changes that make indoor life better), <a href="/categories/new-cat">New Cat</a> (everything for the first weeks), and <a href="/categories/health">Health</a> (the signals worth noticing).
+      </p>
+      <p>
+        Every article is written to be useful in the first paragraph, not the seventh. Most include specific product recommendations — through affiliate links that don't cost you anything but help support the work here. We only recommend things we'd use ourselves.
+      </p>
+
+      <h2>About the author</h2>
+      <p>
+        I'm Pascal. I write paw and sage in the early mornings before my day job, with a strong opinion that cats deserve more thoughtful attention than the internet usually gives them.
+      </p>
+      <p>
+        I also build <a href="/catplay">CatPlay</a>, a small iOS app for tracking cat behavior — a natural extension of the same belief that paying attention is the foundation of good care.
+      </p>
+
+      <h2>How to support this work</h2>
+      <p>
+        Three ways: read the articles and use what helps you, share posts with cat people in your life, and — when you buy something we've recommended — use the affiliate links. None of it costs you anything. All of it makes it possible to keep writing.
+      </p>
+
+      <p class="signoff">
+        — Pascal &amp; the cats
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header { padding: 5rem 0 2rem; text-align: center; }
+  .page-header .eyebrow { display: block; margin-bottom: 1rem; }
+  .content-section { padding: 2rem 0 5rem; }
+  .prose { font-size: 1.05rem; line-height: 1.75; }
+  .lede {
+    font-family: 'Fraunces', serif;
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--ink-soft);
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  .signoff {
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+    color: var(--terra-500);
+    margin-top: 3rem;
+  }
+</style>

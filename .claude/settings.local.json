@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash /c/Users/pasca/Downloads/bootstrap-vault.sh)"
+    ]
+  }
+}

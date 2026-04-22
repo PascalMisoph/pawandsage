@@ -1,0 +1,58 @@
+---
+// Use this component to softly promote CatPlay across the blog.
+// Once CatPlay launches, swap the link to the App Store URL.
+---
+
+<aside class="catplay-cta">
+  <div class="catplay-content">
+    <span class="catplay-eyebrow">Coming soon</span>
+    <h3>CatPlay — track your cat's behavior</h3>
+    <p>An iOS app from the team behind paw and sage. Notice patterns. Spot changes. Understand your cat better.</p>
+    <a href="/catplay" class="btn btn-outline">Join the waitlist</a>
+  </div>
+</aside>
+
+<style>
+  .catplay-cta {
+    margin: 3rem 0;
+    padding: 2rem;
+    background: linear-gradient(135deg, var(--cream-200) 0%, var(--sage-50) 100%);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+  }
+  .catplay-cta::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, var(--terra-100) 0%, transparent 70%);
+    opacity: 0.5;
+  }
+  .catplay-content {
+    position: relative;
+    z-index: 1;
+  }
+  .catplay-eyebrow {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: var(--terra-700);
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .catplay-cta h3 {
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem;
+  }
+  .catplay-cta p {
+    color: var(--ink-soft);
+    margin-bottom: 1.25rem;
+    max-width: 480px;
+  }
+</style>

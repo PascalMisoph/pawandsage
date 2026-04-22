@@ -1,0 +1,237 @@
+/* paw and sage — Global Design System */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=Caveat:wght@400;500&display=swap');
+
+:root {
+  /* Sage Family */
+  --sage-900: #3d4a3d;
+  --sage-700: #5a6b58;
+  --sage-500: #8a9a83;
+  --sage-300: #b8c5b1;
+  --sage-100: #dde4d8;
+  --sage-50:  #eef2eb;
+
+  /* Cream Family */
+  --cream-100: #faf6ef;
+  --cream-200: #f3ece0;
+  --cream-300: #e8dfce;
+
+  /* Terracotta Accent */
+  --terra-700: #a04e2f;
+  --terra-500: #c46a45;
+  --terra-300: #e0a085;
+  --terra-100: #f2d9cb;
+
+  /* Neutral */
+  --ink: #2a2724;
+  --ink-soft: #5a544e;
+  --line: #d8d2c4;
+
+  /* Spacing */
+  --container: 1100px;
+  --container-narrow: 720px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--cream-100);
+  color: var(--ink);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography */
+h1, h2, h3, h4 {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  color: var(--sage-900);
+  letter-spacing: -0.5px;
+  line-height: 1.15;
+}
+
+h1 { font-size: clamp(2.5rem, 5vw, 3.75rem); font-weight: 400; letter-spacing: -1.5px; }
+h2 { font-size: clamp(1.75rem, 3vw, 2.25rem); margin: 2.5rem 0 1rem; }
+h3 { font-size: 1.375rem; margin: 2rem 0 0.75rem; }
+
+p { margin-bottom: 1.25rem; }
+
+a {
+  color: var(--terra-700);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+a:hover { color: var(--terra-500); }
+
+em, .italic {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 300;
+}
+
+/* Containers */
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.container-narrow {
+  max-width: var(--container-narrow);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.875rem 1.75rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 100px;
+  transition: all 0.2s ease;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary {
+  background: var(--sage-900);
+  color: var(--cream-100);
+}
+.btn-primary:hover {
+  background: var(--sage-700);
+  color: var(--cream-100);
+}
+
+.btn-accent {
+  background: var(--terra-500);
+  color: var(--cream-100);
+}
+.btn-accent:hover {
+  background: var(--terra-700);
+  color: var(--cream-100);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--sage-900);
+  border: 1px solid var(--sage-900);
+}
+.btn-outline:hover {
+  background: var(--sage-900);
+  color: var(--cream-100);
+}
+
+/* Eyebrow / Meta text */
+.eyebrow {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: var(--terra-700);
+  font-weight: 500;
+}
+
+/* Disclosure box */
+.disclosure {
+  padding: 1rem 1.25rem;
+  background: var(--sage-50);
+  border-left: 3px solid var(--sage-500);
+  border-radius: 4px;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  margin: 1.5rem 0;
+  font-style: italic;
+}
+
+/* TL;DR box */
+.tldr {
+  padding: 1.5rem 1.75rem;
+  background: var(--cream-200);
+  border-radius: 8px;
+  margin: 2rem 0;
+  border: 1px solid var(--line);
+}
+.tldr-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--terra-700);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* Lists in posts */
+.prose ul, .prose ol {
+  margin: 0 0 1.5rem 1.5rem;
+}
+.prose li {
+  margin-bottom: 0.5rem;
+}
+.prose img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+.prose blockquote {
+  border-left: 3px solid var(--terra-500);
+  padding-left: 1.25rem;
+  margin: 1.5rem 0;
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 1.1rem;
+}
+
+/* Affiliate link card */
+.affiliate-card {
+  display: block;
+  padding: 1.25rem 1.5rem;
+  background: var(--cream-200);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  text-decoration: none;
+  color: var(--ink);
+  transition: all 0.2s ease;
+}
+.affiliate-card:hover {
+  background: var(--sage-50);
+  border-color: var(--sage-300);
+  color: var(--ink);
+}
+.affiliate-card-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--terra-700);
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+.affiliate-card-title {
+  font-family: 'Fraunces', serif;
+  font-size: 1.1rem;
+  color: var(--sage-900);
+  margin-bottom: 0.25rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container, .container-narrow {
+    padding: 0 1.25rem;
+  }
+}

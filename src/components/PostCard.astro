@@ -1,0 +1,92 @@
+---
+export interface Props {
+  href: string;
+  title: string;
+  description: string;
+  category: string;
+  pubDate: Date;
+  readTime?: string;
+  image?: string;
+}
+
+const { href, title, description, category, pubDate, readTime, image } = Astro.props;
+
+const formattedDate = pubDate.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<a href={href} class="post-card">
+  {image && (
+    <div class="post-card-image">
+      <img src={image} alt={title} loading="lazy" />
+    </div>
+  )}
+  <div class="post-card-content">
+    <span class="eyebrow post-card-category">{category}</span>
+    <h3 class="post-card-title">{title}</h3>
+    <p class="post-card-desc">{description}</p>
+    <div class="post-card-meta">
+      <time>{formattedDate}</time>
+      {readTime && <span>· {readTime}</span>}
+    </div>
+  </div>
+</a>
+
+<style>
+  .post-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--cream-100);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    color: var(--ink);
+    transition: all 0.2s ease;
+  }
+  .post-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    color: var(--ink);
+  }
+  .post-card-image {
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    background: var(--sage-50);
+  }
+  .post-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .post-card-content {
+    padding: 1.5rem;
+  }
+  .post-card-category {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .post-card-title {
+    font-family: 'Fraunces', serif;
+    font-size: 1.25rem;
+    color: var(--sage-900);
+    margin: 0 0 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .post-card-desc {
+    color: var(--ink-soft);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+  .post-card-meta {
+    font-size: 0.75rem;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+</style>

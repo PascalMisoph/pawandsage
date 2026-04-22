@@ -1,0 +1,69 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Imprint" description="Legal information.">
+  <section class="page-header">
+    <div class="container-narrow">
+      <span class="eyebrow">Legal</span>
+      <h1>Imprint</h1>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container-narrow prose">
+      <p class="lede">
+        Information according to § 5 TMG (German Telemedia Act).
+      </p>
+
+      <h2>Operator</h2>
+      <p>
+        Pascal Misoph<br>
+        Bertolt-Brecht-Allee 22<br>
+        01309 Dresden<br>
+        Germany
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:hello@pawandsage.com">hello@pawandsage.com</a>
+      </p>
+
+      <h2>Responsible for content according to § 55 Abs. 2 RStV</h2>
+      <p>Pascal Misoph (address as above)</p>
+
+      <h2>Disclaimer</h2>
+      <p>
+        Despite careful content control, we assume no liability for the content of external links. The operators of the linked pages are solely responsible for their content.
+      </p>
+
+      <h2>EU dispute resolution</h2>
+      <p>
+        The European Commission provides a platform for online dispute resolution: <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener">https://ec.europa.eu/consumers/odr</a>
+      </p>
+
+      <p class="updated">Last updated: April 2026</p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header { padding: 5rem 0 2rem; text-align: center; }
+  .page-header .eyebrow { display: block; margin-bottom: 1rem; }
+  .content-section { padding: 2rem 0 5rem; }
+  .prose { font-size: 1.05rem; line-height: 1.75; }
+  .lede {
+    font-family: 'Fraunces', serif;
+    font-size: 1.15rem;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--ink-soft);
+    margin-bottom: 2rem;
+  }
+  .updated {
+    margin-top: 3rem;
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    font-style: italic;
+  }
+</style>

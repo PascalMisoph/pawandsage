@@ -1,0 +1,122 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer>
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <div class="footer-logo">paw <span class="and">and</span> sage</div>
+      <p class="footer-tagline">A calm guide to the cat in your home.</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <h4>Read</h4>
+        <ul>
+          <li><a href="/blog">Journal</a></li>
+          <li><a href="/categories/behavior">Behavior</a></li>
+          <li><a href="/categories/enrichment">Enrichment</a></li>
+          <li><a href="/categories/new-cat">New Cat</a></li>
+          <li><a href="/categories/health">Health</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/start-here">Start here</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="/disclosure">Affiliate disclosure</a></li>
+          <li><a href="/privacy">Privacy</a></li>
+          <li><a href="/imprint">Imprint</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>© {year} paw and sage · Made with care for cats and the people who love them.</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  footer {
+    background: var(--sage-900);
+    color: var(--cream-200);
+    margin-top: 5rem;
+  }
+  .footer-inner {
+    display: grid;
+    grid-template-columns: 1.2fr 2fr;
+    gap: 4rem;
+    padding: 4rem 1.5rem 3rem;
+  }
+  .footer-logo {
+    font-family: 'Fraunces', serif;
+    font-size: 1.75rem;
+    color: var(--cream-100);
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+  }
+  .footer-logo .and {
+    font-style: italic;
+    color: var(--terra-300);
+    font-weight: 300;
+  }
+  .footer-tagline {
+    color: var(--sage-300);
+    font-style: italic;
+    font-family: 'Fraunces', serif;
+    font-size: 0.95rem;
+  }
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  .footer-col h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--sage-300);
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  .footer-col ul {
+    list-style: none;
+  }
+  .footer-col li {
+    margin-bottom: 0.5rem;
+  }
+  .footer-col a {
+    color: var(--cream-200);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+  }
+  .footer-col a:hover {
+    color: var(--terra-300);
+  }
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding: 1.5rem 0;
+    font-size: 0.8rem;
+    color: var(--sage-300);
+  }
+  @media (max-width: 768px) {
+    .footer-inner {
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+    }
+    .footer-links {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
+  }
+</style>

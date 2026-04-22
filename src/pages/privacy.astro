@@ -1,0 +1,72 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Privacy Policy" description="How paw and sage handles your data.">
+  <section class="page-header">
+    <div class="container-narrow">
+      <span class="eyebrow">Legal</span>
+      <h1>Privacy Policy</h1>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container-narrow prose">
+      <p class="lede">
+        We collect as little data as we can, and we don't share what we collect.
+      </p>
+
+      <h2>What we collect</h2>
+      <p>
+        <strong>Email addresses</strong> — only when you voluntarily sign up for our newsletter or download a free resource. We use these to send you the content you requested and occasional updates.
+      </p>
+      <p>
+        <strong>Anonymous analytics</strong> — we use a privacy-respecting analytics tool (Plausible / Cloudflare Analytics) that does not use cookies and does not collect personally identifiable information.
+      </p>
+      <p>
+        <strong>Affiliate cookies</strong> — when you click an affiliate link to a partner like Amazon or Chewy, those sites may place tracking cookies on your device. This is governed by their privacy policies, not ours.
+      </p>
+
+      <h2>What we don't do</h2>
+      <ul>
+        <li>We do not sell your data to anyone, ever.</li>
+        <li>We do not run third-party advertising.</li>
+        <li>We do not use Facebook, Google, or other tracking pixels.</li>
+        <li>We do not require account creation to read the site.</li>
+      </ul>
+
+      <h2>Email service</h2>
+      <p>
+        Our email list is managed by MailerLite. When you subscribe, your email is stored on their servers in accordance with their privacy policy. You can unsubscribe at any time using the link at the bottom of every email.
+      </p>
+
+      <h2>Your rights</h2>
+      <p>
+        Under GDPR (and similar regulations), you have the right to access, correct, or delete any personal data we hold about you. Email <a href="mailto:hello@pawandsage.com">hello@pawandsage.com</a> with any request.
+      </p>
+
+      <p class="updated">Last updated: April 2026</p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header { padding: 5rem 0 2rem; text-align: center; }
+  .page-header .eyebrow { display: block; margin-bottom: 1rem; }
+  .content-section { padding: 2rem 0 5rem; }
+  .prose { font-size: 1.05rem; line-height: 1.75; }
+  .lede {
+    font-family: 'Fraunces', serif;
+    font-size: 1.15rem;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--ink-soft);
+    margin-bottom: 2rem;
+  }
+  .updated {
+    margin-top: 3rem;
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    font-style: italic;
+  }
+</style>
