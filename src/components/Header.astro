@@ -16,14 +16,20 @@ const isHome = Astro.url.pathname === '/';
     <a href="/" class="logo">
       paw <span class="and">and</span> sage
     </a>
-    <nav>
+    <nav id="site-nav">
       <ul>
         {navItems.map(item => (
           <li><a href={item.href}>{item.label}</a></li>
         ))}
       </ul>
     </nav>
-    <button class="menu-toggle" aria-label="Toggle menu">
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-label="Toggle menu"
+      aria-controls="site-nav"
+      aria-expanded="false"
+    >
       <span></span><span></span><span></span>
     </button>
   </div>
@@ -110,13 +116,90 @@ const isHome = Astro.url.pathname === '/';
     width: 20px;
     height: 2px;
     background: var(--sage-900);
+    transition: transform 0.2s ease, opacity 0.2s ease;
   }
   @media (max-width: 768px) {
     header.home-header::before {
       background: rgba(250, 246, 239, 0.78);
       backdrop-filter: blur(8px);
     }
-    nav { display: none; }
+    nav {
+      display: block;
+      position: absolute;
+      top: calc(100% + 0.5rem);
+      left: 1.25rem;
+      right: 1.25rem;
+      padding: 0.85rem 1rem;
+      border: 1px solid rgba(90, 84, 78, 0.12);
+      border-radius: 1rem;
+      background: rgba(250, 246, 239, 0.96);
+      backdrop-filter: blur(12px);
+      box-shadow: 0 18px 40px rgba(42, 39, 36, 0.1);
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-0.35rem);
+      transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+    }
+    nav ul {
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+    nav a {
+      display: block;
+      padding: 0.7rem 0.25rem;
+    }
+    header.menu-open nav {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+    header.menu-open .menu-toggle span:nth-child(1) {
+      transform: translateY(6px) rotate(45deg);
+    }
+    header.menu-open .menu-toggle span:nth-child(2) {
+      opacity: 0;
+    }
+    header.menu-open .menu-toggle span:nth-child(3) {
+      transform: translateY(-6px) rotate(-45deg);
+    }
     .menu-toggle { display: flex; }
   }
 </style>
+
+<script>
+  const header = document.querySelector('header');
+  const toggle = header?.querySelector('.menu-toggle');
+  const nav = header?.querySelector('#site-nav');
+  const navLinks = nav?.querySelectorAll('a') ?? [];
+
+  const closeMenu = () => {
+    if (!header || !toggle) return;
+    header.classList.remove('menu-open');
+    toggle.setAttribute('aria-expanded', 'false');
+  };
+
+  toggle?.addEventListener('click', () => {
+    if (!header || !toggle) return;
+    const isOpen = header.classList.toggle('menu-open');
+    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+
+  navLinks.forEach((link) => {
+    link.addEventListener('click', closeMenu);
+  });
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 768) {
+      closeMenu();
+    }
+  });
+
+  document.addEventListener('click', (event) => {
+    if (!header || !toggle) return;
+    if (!header.classList.contains('menu-open')) return;
+    const target = event.target;
+    if (target instanceof Node && !header.contains(target)) {
+      closeMenu();
+    }
+  });
+</script>

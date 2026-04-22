@@ -321,55 +321,71 @@ const sortedPosts = allPosts
 
   @media (max-width: 900px) {
     .hero {
-      min-height: auto;
-      padding-top: 3.25rem;
-      padding-bottom: 3rem;
+      min-height: clamp(40rem, 100svh, 52rem);
+      padding: 0;
     }
 
     .hero-grid {
-      min-height: auto;
+      min-height: inherit;
       padding-right: 1.25rem;
       padding-left: 1.25rem;
-      padding-right: 1.25rem;
     }
 
     .hero-copy {
       max-width: 100%;
-      width: 100%;
-      text-align: center;
-      padding: 0;
-      min-height: auto;
+      width: min(28rem, calc(100vw - 2.5rem));
+      text-align: left;
+      padding: clamp(6.75rem, 18vw, 8rem) 0 2.75rem;
+      min-height: inherit;
     }
 
     .hero-title,
     .hero-tagline,
     .hero-note {
-      margin-left: auto;
-      margin-right: auto;
+      margin-left: 0;
+      margin-right: 0;
     }
 
     .hero-actions {
-      justify-content: center;
+      justify-content: flex-start;
     }
 
     .hero-note {
-      width: 100%;
+      width: fit-content;
     }
 
     .hero-visual-wrap {
-      min-height: auto;
-      position: relative;
-      inset: auto;
-      border-radius: 1.8rem;
-      margin-top: 2rem;
-      z-index: auto;
+      position: absolute;
+      inset: 0;
+      min-height: inherit;
+      border-radius: 0;
+      margin-top: 0;
+      z-index: 0;
+    }
+
+    .hero-visual-wrap::before {
+      background: linear-gradient(
+        180deg,
+        rgba(246, 239, 227, 0.48) 0%,
+        rgba(246, 239, 227, 0.16) 18%,
+        rgba(246, 239, 227, 0.92) 100%
+      ),
+      linear-gradient(
+        90deg,
+        rgba(246, 239, 227, 0.99) 0%,
+        rgba(246, 239, 227, 0.95) 28%,
+        rgba(246, 239, 227, 0.75) 46%,
+        rgba(246, 239, 227, 0.32) 62%,
+        rgba(246, 239, 227, 0.08) 76%,
+        transparent 92%
+      );
     }
 
     .hero-visual {
-      min-height: clamp(24rem, 60vw, 34rem);
-      height: auto;
-      border-radius: inherit;
-      object-position: 64% center;
+      min-height: inherit;
+      height: 100%;
+      border-radius: 0;
+      object-position: 68% center;
     }
 
     .categories-grid {
@@ -383,7 +399,7 @@ const sortedPosts = allPosts
 
   @media (max-width: 600px) {
     .hero {
-      padding-top: 2.75rem;
+      min-height: 38rem;
     }
 
     .hero-grid {
@@ -391,8 +407,14 @@ const sortedPosts = allPosts
       padding-right: 1rem;
     }
 
+    .hero-copy {
+      width: min(24rem, calc(100vw - 2rem));
+      padding-top: 6.25rem;
+      padding-bottom: 2.5rem;
+    }
+
     .hero-visual {
-      min-height: 22rem;
+      object-position: 71% center;
     }
 
     .categories-grid {
