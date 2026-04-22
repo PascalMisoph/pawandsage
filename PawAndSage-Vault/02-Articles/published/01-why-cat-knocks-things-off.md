@@ -23,7 +23,7 @@ When your cat nudges a pen, a remote, or a glass on your nightstand, they're run
 
 Small, lightweight objects are especially irresistible. Pens, hair ties, bottle caps — anything that rolls or bounces after it falls becomes an instant toy.
 
-**What helps:** Give your cat an outlet for that prey drive. [Interactive wand toys](https://amazon.com/dp/XXXXX?tag=pawandsage21-20) that mimic the movement of birds or mice are one of the most effective ways to satisfy this instinct. Even 10–15 minutes of active wand play per day can make a noticeable difference.
+**What helps:** Give your cat an outlet for that prey drive. [Interactive wand toys](https://amazon.com/dp/B07F45GGPT?tag=pawandsage21-20) that mimic the movement of birds or mice are one of the most effective ways to satisfy this instinct. Even 10–15 minutes of active wand play per day can make a noticeable difference.
 
 ## 2. Your Cat Is Bored
 
@@ -31,9 +31,9 @@ This is the big one. A cat with nothing to do will create their own entertainmen
 
 Indoor cats especially need mental stimulation. Without it, they'll turn to whatever's available: pushing things off shelves, shredding toilet paper, or yowling at 3 AM.
 
-**What helps:** [Puzzle feeders](https://amazon.com/dp/XXXXX?tag=pawandsage21-20) are a game-changer here. Instead of dumping kibble in a bowl, these force your cat to work for their food — which engages their brain and burns energy at the same time. The [Catit Senses Digger](https://amazon.com/dp/XXXXX?tag=pawandsage21-20) is a popular option that most cats take to immediately.
+**What helps:** [Puzzle feeders](https://amazon.com/dp/B009R3SFBC?tag=pawandsage21-20) are a game-changer here. Instead of dumping kibble in a bowl, these force your cat to work for their food — which engages their brain and burns energy at the same time. The [Catit Senses Digger](https://amazon.com/dp/B015P13QMM?tag=pawandsage21-20) is a popular option that most cats take to immediately.
 
-A [multi-level cat tree](https://amazon.com/dp/XXXXX?tag=pawandsage21-20) near a window also works wonders. It gives your cat a vantage point to watch birds and survey their territory — which is basically cat Netflix.
+A [multi-level cat tree](https://amazon.com/dp/B078HB646M?tag=pawandsage21-20) near a window also works wonders. It gives your cat a vantage point to watch birds and survey their territory — which is basically cat Netflix.
 
 [See our full guide to indoor cat enrichment ideas →](/blog/indoor-cat-enrichment-ideas)
 
@@ -57,7 +57,7 @@ A new book on the coffee table? Your cat isn't trying to destroy it. They're gat
 
 This is especially common when you bring something new into the home. New items are basically cat magnets.
 
-**What helps:** Give your cat safe things to investigate and manipulate. [Treat-dispensing balls](https://amazon.com/dp/XXXXX?tag=pawandsage21-20) let them bat, push, and roll something that actually rewards their curiosity — instead of your coffee mug.
+**What helps:** Give your cat safe things to investigate and manipulate. [Treat-dispensing balls](https://amazon.com/dp/B0018CE8LG?tag=pawandsage21-20) let them bat, push, and roll something that actually rewards their curiosity — instead of your coffee mug.
 
 ## 5. They Want a High Vantage Point (And Your Stuff Is in the Way)
 
@@ -65,9 +65,9 @@ Cats are vertical creatures. They feel safest when they can survey their territo
 
 The objects up there? Just obstacles in their territory. They're not being vindictive. They're just clearing the deck.
 
-**What helps:** Give them their *own* high spot. A tall [cat tree](https://amazon.com/dp/XXXXX?tag=pawandsage21-20) (at least 40 inches, ideally 60+) with wide, sturdy platforms gives large cats the elevation they crave without turning your furniture into a war zone.
+**What helps:** Give them their *own* high spot. A tall [cat tree](https://amazon.com/dp/B078HB646M?tag=pawandsage21-20) (at least 40 inches, ideally 60+) with wide, sturdy platforms gives large cats the elevation they crave without turning your furniture into a war zone.
 
-For items you can't move, [museum putty](https://amazon.com/dp/XXXXX?tag=pawandsage21-20) is an underrated trick — a small dab keeps vases, picture frames, and decorative objects anchored to the surface. Invisible, removable, and surprisingly effective.
+For items you can't move, [museum putty](https://amazon.com/dp/B0002VA9NA?tag=pawandsage21-20) is an underrated trick — a small dab keeps vases, picture frames, and decorative objects anchored to the surface. Invisible, removable, and surprisingly effective.
 
 ## The Bottom Line
 
