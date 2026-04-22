@@ -25,6 +25,9 @@ const sortedPosts = allPosts
           <a href="/blog" class="btn btn-primary">Read the journal</a>
           <a href="/start-here" class="btn btn-outline">New here? Start here</a>
         </div>
+        <p class="hero-note">
+          Warm, science-informed guidance for the quiet cues that shape a richer indoor life.
+        </p>
       </div>
 
       <figure class="hero-visual-wrap">
@@ -188,6 +191,20 @@ const sortedPosts = allPosts
     margin-bottom: 1.4rem;
   }
 
+  .hero-note {
+    width: fit-content;
+    max-width: 29rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(90, 84, 78, 0.14);
+    color: var(--sage-700);
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    line-height: 1.6;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
   .hero-visual-wrap {
     margin: 0;
     position: absolute;
@@ -323,13 +340,18 @@ const sortedPosts = allPosts
     }
 
     .hero-title,
-    .hero-tagline {
+    .hero-tagline,
+    .hero-note {
       margin-left: 0;
       margin-right: 0;
     }
 
     .hero-actions {
       justify-content: flex-start;
+    }
+
+    .hero-note {
+      width: fit-content;
     }
 
     .hero-visual-wrap {
