@@ -8,7 +8,7 @@
 | # | Category | Title | Primary Keyword | Status |
 |---|----------|-------|-----------------|--------|
 | 1 | Behavior | Why Does My Cat Knock Things Off Tables? (5 Reasons + How to Stop It) | why does my cat knock things off tables | ✅ Written |
-| 2 | Product | 7 Best Interactive Toys for Indoor Cats (Tested & Reviewed) | best interactive cat toys | ⬜ |
+| 2 | Product | 7 Best Interactive Toys for Indoor Cats (Tested & Reviewed) | best interactive cat toys | ✅ Written |
 
 ### Week 2
 | # | Category | Title | Primary Keyword | Status |
