@@ -5,6 +5,7 @@ pubDate: 2026-04-23
 category: "behavior"
 tags: ["behavior", "body language", "indoor cats", "bonding"]
 readTime: "6 min read"
+heroImage: "/blog/why-cat-stares-at-me.png"
 draft: false
 ---
 
