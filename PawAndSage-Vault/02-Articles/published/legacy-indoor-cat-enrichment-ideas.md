@@ -1,15 +1,33 @@
 ---
 title: "20 Indoor Cat Enrichment Ideas That Take 5 Minutes to Set Up"
-description: "Real, practical ways to make your indoor cat's life less boring — from things you already have at home to small purchases under $30."
+status: published
 pubDate: 2026-04-12
-category: "enrichment"
-tags: ["enrichment", "indoor cat", "boredom", "diy"]
-readTime: "10 min read"
-heroImage: "/blog/enrichment-hero.png"
-draft: false
+category: enrichment
+primaryKeyword: "indoor cat enrichment ideas"
+legacyArticleId: L2
+liveUrl: "https://www.pawandsage.com/blog/indoor-cat-enrichment-ideas"
+affiliateProducts:
+  - name: Go Cat Da Bird
+    asin: B001BOVEU4
+    price: ~$13
+  - name: Catit Senses 2.0 Digger
+    asin: B015P13QMM
+    price: ~$18
+  - name: PetSafe SlimCat
+    asin: B0018CE8LG
+    price: ~$8
+  - name: Catit Flower Fountain
+    asin: B0146QXOB0
+    price: ~$30
+  - name: Feandrea 56.3-Inch Cat Tree
+    asin: B078HB646M
+    price: ~$75
+notes:
+  - "Legacy live article predating official 30-article plan."
+  - "Amazon affiliate links inserted on 2026-04-23."
 ---
 
-> **TL;DR:** Most "enrichment" advice online assumes you have unlimited time and a renovation budget. Here are 20 things you can actually do — half use what you already have, the rest cost less than $30.
+> **TL;DR:** Most "enrichment" advice online assumes you have unlimited time and a renovation budget. Here are 20 things you can actually do - half use what you already have, the rest cost less than $30.
 
 A cat who knocks a glass off the counter at 3 AM isn't always being mischievous. Often, they're just under-stimulated, awake, and looking for *anything* to do.
 
@@ -21,7 +39,7 @@ Here are 20 ways to deliver that, sorted by how quickly you can set them up.
 
 ### 1. Cardboard box rotation
 
-The single most underrated cat enrichment item: a plain cardboard box. Cats love them because boxes simulate the safe, enclosed spaces their wild ancestors used to ambush prey. Rotate which boxes are out — pull one from the recycling, put another back — and you've created novelty for free.
+The single most underrated cat enrichment item: a plain cardboard box. Cats love them because boxes simulate the safe, enclosed spaces their wild ancestors used to ambush prey. Rotate which boxes are out - pull one from the recycling, put another back - and you've created novelty for free.
 
 ### 2. Paper bag (handles cut off)
 
@@ -29,7 +47,7 @@ A paper grocery bag tipped on its side becomes a hunting blind. Cut the handles 
 
 ### 3. Hide treats around the house
 
-Take 5–10 pieces of dry food or a few treats and hide them in safe spots — on top of the scratching post, behind a chair leg, on a low shelf. Your cat goes from passive eater to active forager.
+Take 5-10 pieces of dry food or a few treats and hide them in safe spots - on top of the scratching post, behind a chair leg, on a low shelf. Your cat goes from passive eater to active forager.
 
 ### 4. Move the food bowl
 
@@ -43,8 +61,7 @@ Cats spend more time at windows than almost anywhere else. If you keep curtains 
 
 ### 6. A wand toy with a feather end
 
-Spend $10–15 on a quality wand toy and play with your cat for 10 minutes a day. This single change resolves the majority of "my cat is bored and acting out" problems.
-The [Go Cat Da Bird](https://amazon.com/dp/B001BOVEU4?tag=pawandsage21-20) is still the easiest recommendation here because the spinning feather motion reads like actual prey.
+Spend $10-15 on a quality wand toy and play with your cat for 10 minutes a day. This single change resolves the majority of "my cat is bored and acting out" problems. The [Go Cat Da Bird](https://amazon.com/dp/B001BOVEU4?tag=pawandsage21-20) is still the easiest recommendation here because the spinning feather motion reads like actual prey.
 
 ### 7. A puzzle feeder
 
@@ -60,13 +77,13 @@ If you don't have furniture by a window, a suction-cup window perch is around $2
 
 ### 10. Catnip toys (rotated)
 
-Buy 3–4 small catnip toys, but only put one out at a time. Rotate weekly. The same toy, after two weeks in a drawer, becomes "new" again.
+Buy 3-4 small catnip toys, but only put one out at a time. Rotate weekly. The same toy, after two weeks in a drawer, becomes "new" again.
 
 ## Slightly bigger investments (under $80)
 
 ### 11. A second scratching surface
 
-Most homes have one scratching post. Adding a second — ideally horizontal (a flat scratch pad) — gives your cat a choice and reduces furniture scratching dramatically.
+Most homes have one scratching post. Adding a second - ideally horizontal (a flat scratch pad) - gives your cat a choice and reduces furniture scratching dramatically.
 
 ### 12. A small cat tunnel
 
@@ -78,11 +95,11 @@ Mount a bird feeder where your cat can see it. The first week you do this, you'l
 
 ### 14. A small water fountain
 
-Around $30. Many cats drink more from running water — and a hydrated cat has fewer urinary issues, less constipation, and a better coat. The [Catit Flower Fountain](https://amazon.com/dp/B0146QXOB0?tag=pawandsage21-20) is a reliable starter pick with multiple flow settings.
+Around $30. Many cats drink more from running water - and a hydrated cat has fewer urinary issues, less constipation, and a better coat. The [Catit Flower Fountain](https://amazon.com/dp/B0146QXOB0?tag=pawandsage21-20) is a reliable starter pick with multiple flow settings.
 
 ### 15. Vertical space (a single cat shelf)
 
-A wall-mounted cat shelf adds a vertical perch for around $40. Cats live in three dimensions — adding height is the single best spatial change you can make. If you don't want to drill into the wall, a [Feandrea 56.3" Cat Tree](https://amazon.com/dp/B078HB646M?tag=pawandsage21-20) by a window gets you most of the same payoff.
+A wall-mounted cat shelf adds a vertical perch for around $40. Cats live in three dimensions - adding height is the single best spatial change you can make. If you don't want to drill into the wall, a [Feandrea 56.3" Cat Tree](https://amazon.com/dp/B078HB646M?tag=pawandsage21-20) by a window gets you most of the same payoff.
 
 ## Daily routines that cost nothing
 
@@ -92,7 +109,7 @@ Morning and evening, ideally before meals (mimicking the natural hunt-eat-groom-
 
 ### 17. Talk to your cat
 
-Cats develop specific vocabularies with their owners. Talking to them — even narrating what you're doing — strengthens the bond and gives them social engagement.
+Cats develop specific vocabularies with their owners. Talking to them - even narrating what you're doing - strengthens the bond and gives them social engagement.
 
 ### 18. Brush them (if they like it)
 
@@ -104,7 +121,7 @@ Yes, you can clicker-train a cat. "Sit," "high five," and "come" are all achieva
 
 ### 20. Watch them. Actually watch them.
 
-The most overlooked enrichment is paying attention. Notice which corner they avoid, which time of day they're most active, what makes them perk up. Cats are constantly telling you what they want — most owners just aren't watching.
+The most overlooked enrichment is paying attention. Notice which corner they avoid, which time of day they're most active, what makes them perk up. Cats are constantly telling you what they want - most owners just aren't watching.
 
 ---
 

@@ -27,7 +27,7 @@ If your cat eats dinner at 6 PM, they're done digesting by 11 PM and entering th
 
 **The fix:** Move the largest meal of the day to right before bed. This triggers the natural post-meal grooming and sleep cycle at the time you actually want them to sleep.
 
-If your cat free-feeds (food always available), this is harder to manage. Switch to scheduled meals — two a day, with the second meal as late as possible.
+If your cat free-feeds (food always available), this is harder to manage. Switch to scheduled meals — two a day, with the second meal as late as possible. If you're feeding dry food, a [PetSafe SlimCat](https://amazon.com/dp/B0018CE8LG?tag=pawandsage21-20) can turn part of that bedtime meal into a short forage session instead of a 30-second inhale.
 
 ## Reason 2: They're under-stimulated
 
@@ -35,7 +35,7 @@ A cat who has been alone all day, with no real play and no novelty, has a full t
 
 This is the most common cause, and the easiest to fix.
 
-**The fix:** A 10–15 minute structured play session in the evening, ideally 30–60 minutes before bedtime. Use a wand toy. Make them actually run, stalk, and pounce. The goal is to *exhaust* them, not just entertain them.
+**The fix:** A 10–15 minute structured play session in the evening, ideally 30–60 minutes before bedtime. Use a wand toy. Make them actually run, stalk, and pounce. The goal is to *exhaust* them, not just entertain them. [Go Cat Da Bird](https://amazon.com/dp/B001BOVEU4?tag=pawandsage21-20) is still one of the best options for getting a genuine chase session instead of half-hearted batting.
 
 After the play session, feed them. This recreates the natural hunt-eat-sleep sequence.
 

@@ -20,7 +20,7 @@ Pascal's FI model is a portfolio of 3-4 digital revenue streams:
 
 ## Paw & Sage Business Model
 - **Traffic Sources**: Pinterest (primary, months 1-6), Google SEO (secondary, builds over time), Short-form video (TikTok/Reels/Shorts, from month 3)
-- **Monetization**: Amazon Associates affiliate links (4% commission), Chewy affiliate, Display ads (Ezoic from ~month 4), Email list (ConvertKit, from month 3)
+- **Monetization**: Amazon Associates affiliate links (4% commission, currently the only active affiliate program), Display ads (Ezoic from ~month 4), Email list (ConvertKit, from month 3)
 - **Content Volume**: 2 articles/week, 4 Pinterest pins per article, 5 videos/week from month 3
 - **6-Month Target**: 48 articles, 192 pins, 80 videos, $800-1,800/month revenue
 
@@ -51,7 +51,7 @@ Pascal's FI model is a portfolio of 3-4 digital revenue streams:
 - "Status" → Overview of all streams: articles written, pins created, videos produced, revenue
 
 ## Current State
-- Article #1 is written (why-cat-knocks-things-off)
+- Official plan articles #1 and #2 are written, and legacy live posts also exist outside the numbered plan
 - Pinterest Business Profile exists but needs: domain verification, Rich Pins, board creation
 - CatPlay is in development (MVP phase)
 - Video production starts Month 3 (July 2026)

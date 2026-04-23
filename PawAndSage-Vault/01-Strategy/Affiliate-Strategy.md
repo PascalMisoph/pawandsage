@@ -1,12 +1,15 @@
-# Affiliate Strategy — Paw & Sage
+# Affiliate Strategy - Paw & Sage
 
 ## Programs
-1. **Amazon Associates** — 4% commission on pet supplies. Primary program.
-2. **Chewy Affiliate** (via Partnerize) — Apply when traffic justifies. Better commissions on pet products.
-3. **Display Ads** — Ezoic (low threshold) from month 4, Mediavine (50k sessions) long-term goal.
+Current status: Amazon Associates is the only active affiliate program for Paw & Sage right now.
+Do not use Chewy links in drafts or published posts until that program is explicitly approved and activated.
+
+1. **Amazon Associates** - 4% commission on pet supplies. Primary and only active affiliate program.
+2. **Chewy Affiliate** (via Partnerize) - Future option only. Not active yet.
+3. **Display Ads** - Ezoic (low threshold) from month 4, Mediavine (50k sessions) long-term goal.
 
 ## Revenue Model
-- RPM (Revenue per 1,000 pageviews): €15-25 (affiliate + display combined)
+- RPM (Revenue per 1,000 pageviews): EUR15-25 (affiliate + display combined)
 - Affiliate CTR from articles: 5-8%
 - Amazon conversion rate: 3-5% of clicks
 - Average order value: $25
@@ -22,9 +25,12 @@
 | Feeding | Auto feeders, Water fountains, Slow feeders | $20-40 | #11, #12, #17 |
 
 ## Link Placement Rules
-- Affiliate links are contextual, embedded in advice (not in a list at the bottom)
-- Each product mention includes: product name, approximate price, why it solves the specific problem
+- Current rule: use Amazon Associates links only.
+- Do not use Chewy links, direct-brand affiliate links, or any other affiliate network links unless this strategy is explicitly updated first.
+- A product does not need its own brand affiliate program. If the live affiliate link is an Amazon Associates link, it is allowed.
+- Affiliate links are contextual, embedded in advice (not in a list at the bottom).
+- Each product mention includes product name, approximate price, and why it solves the specific problem.
 - Mark in drafts as: `[AFFILIATE: Product Name ($XX)]`
-- Replace with actual affiliate links before publishing
-- Never more than 5 affiliate links per article
-- Amazon disclaimer in footer of every article
+- Replace placeholders with actual Amazon Associates links before publishing.
+- Never more than 5 affiliate links per article.
+- Amazon disclaimer in footer of every article.

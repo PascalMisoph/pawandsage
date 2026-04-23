@@ -26,8 +26,6 @@ A single litter box for one kitten, two if you have a multi-floor home. Get one 
 
 For litter, start with **unscented clumping clay** in the first weeks. Kittens occasionally taste their litter, and unscented is safer. You can experiment with alternative litters (pine, paper, walnut) once they're settled.
 
-[Browse cat litter on Chewy →](https://www.chewy.com/s?query=unscented+clumping+litter)
-
 ### 2. Food (the same brand the kitten was already eating)
 
 This is the most important rule of the first week: **don't change the food.** Whatever the breeder, shelter, or previous owner was feeding, get the same exact brand and formula for at least the first two weeks. Stomach upset from a sudden food change is the most common avoidable problem in the first week.
@@ -36,7 +34,7 @@ If you want to switch food later, do it gradually over 7–10 days, mixing incre
 
 ### 3. Water bowl (or a small fountain)
 
-A wide, shallow ceramic bowl is fine. Many cats prefer running water — if your kitten ignores the bowl, a small pet fountain often solves it. Plastic bowls can cause chin acne over time and aren't recommended.
+A wide, shallow ceramic bowl is fine. Many cats prefer running water — if your kitten ignores the bowl, the [Catit Flower Fountain](https://amazon.com/dp/B0146QXOB0?tag=pawandsage21-20) is a reliable starter option that's easy to clean. Plastic bowls can cause chin acne over time and aren't recommended.
 
 ### 4. A safe room
 
@@ -46,17 +44,17 @@ Not a thing to buy — a setup. Pick one quiet room (often a bathroom or guest r
 
 ### 5. A scratching post (vertical, tall, sturdy)
 
-Get a vertical post that's taller than your kitten when fully stretched — for a kitten this means at least 28 inches, ideally 32+. Sisal rope is the standard surface and what most cats prefer.
+Get a vertical post that's taller than your kitten when fully stretched — for a kitten this means at least 28 inches, ideally 32+. Sisal rope is the standard surface and what most cats prefer. The [SmartCat Ultimate Scratching Post](https://amazon.com/dp/B000634MH8?tag=pawandsage21-20) is one of the few that is actually tall and stable enough to stay useful after the kitten stage.
 
 The biggest mistake new owners make: buying a small, decorative scratching post. Cats want to scratch with their full body weight extended. A wobbly 18-inch post will be ignored, and they'll go for your sofa instead.
 
 ### 6. A carrier (hard-sided, top-loading)
 
-You'll need this within the first two weeks for the first vet visit. Hard-sided top-loading carriers are far easier to get a reluctant cat into than soft front-loaders. Spend $30–50 here — it's a 15-year purchase.
+You'll need this within the first two weeks for the first vet visit. Hard-sided top-loading carriers are far easier to get a reluctant cat into than soft front-loaders. The [Petmate Two-Door Top-Load Carrier](https://amazon.com/dp/B0062JFGM0?tag=pawandsage21-20) is a good example of the format to look for. Spend $30–50 here — it's a 15-year purchase.
 
 ### 7. A simple wand toy
 
-One wand toy with feathers or a small fabric mouse. That's it. You don't need a basket of toys yet — kittens will tell you what they like, and overspending here is wasted money. Spend $10 and observe what they actually engage with.
+One wand toy with feathers or a small fabric mouse. That's it. You don't need a basket of toys yet — kittens will tell you what they like, and overspending here is wasted money. [Go Cat Da Bird](https://amazon.com/dp/B001BOVEU4?tag=pawandsage21-20) is still one of the best first toys because the movement is believable enough to trigger real chase behavior.
 
 ## Week 1: The "now you can buy these" list
 
@@ -66,7 +64,7 @@ Once the basics are working and your kitten is eating, drinking, and using the l
 - **A grooming brush** — short-haired kittens need it weekly, long-haired daily
 - **Nail clippers** — small scissor-style or guillotine-style, not human clippers
 - **A cat bed** (optional — most kittens will sleep wherever they want anyway)
-- **A puzzle feeder** for mental enrichment as they grow
+- **A puzzle feeder** for mental enrichment as they grow — the [Cat Amazing Puzzle Feeder](https://amazon.com/dp/B009R3SFBC?tag=pawandsage21-20) is a good first step once meals and litter habits are stable.
 
 [See our full enrichment guide →](/categories/enrichment)
 

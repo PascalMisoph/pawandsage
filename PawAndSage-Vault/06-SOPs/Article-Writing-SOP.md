@@ -16,7 +16,7 @@
 4. Save as `02-Articles/drafts/XX-slug-name.md`
 
 ## After Writing
-1. Replace `[AFFILIATE: ...]` placeholders with real Amazon/Chewy links
+1. Replace `[AFFILIATE: ...]` placeholders with real Amazon Associates links only
 2. Add to Astro blog, set frontmatter (title, description, pubDate, tags)
 3. Publish and submit URL to Google Search Console
 4. Move file from `drafts/` to `published/`
