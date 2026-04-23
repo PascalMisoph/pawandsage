@@ -29,9 +29,14 @@ Cat behavior consultants consistently recommend this as the single best toy for 
 
 **Best for:** Any cat, but especially those with a strong bird-prey response. Use for 10–15 minutes before evening feeding to complete the hunt–eat–groom cycle your cat's biology expects.
 
-[See current price on Amazon →](https://amazon.com/dp/B00150VGIY?tag=pawandsage21-20)
+<a class="affiliate-card" href="https://amazon.com/dp/B001BOVEU4?tag=pawandsage21-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="View Go Cat Da Bird Wand Toy on Amazon">
+  <span class="affiliate-card-label">Best Overall</span>
+  <span class="affiliate-card-title">Go Cat Da Bird Wand Toy</span>
+  <span class="affiliate-card-meta">Bird-style motion that reliably triggers chase, leap, and pounce.</span>
+  <span class="affiliate-card-cta">View on Amazon</span>
+</a>
 
-## 2. Cat Dancer 301 — Best Budget Pick
+## 2. Cat Dancer Original — Best Budget Pick
 
 This toy costs about $4. It's a wire with rolled cardboard at the end. It is also, inexplicably, one of the most effective cat toys ever made.
 
@@ -39,7 +44,12 @@ The Cat Dancer works because the wire creates completely unpredictable, twitchy 
 
 **Best for:** Budget-conscious households and kittens. Also ideal for cats who've gone "dead" to their current toys — the movement pattern is novel enough to re-engage them.
 
-[See current price on Amazon →](https://amazon.com/dp/B000F9EGRQ?tag=pawandsage21-20)
+<a class="affiliate-card" href="https://amazon.com/dp/B0006N9I68?tag=pawandsage21-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="View Cat Dancer Original on Amazon">
+  <span class="affiliate-card-label">Budget Favorite</span>
+  <span class="affiliate-card-title">Cat Dancer Original</span>
+  <span class="affiliate-card-meta">Simple wire-and-cardboard design that stays weirdly irresistible.</span>
+  <span class="affiliate-card-cta">View on Amazon</span>
+</a>
 
 ## 3. SmartyKat Hot Pursuit — Best for Busy Owners
 
@@ -49,7 +59,12 @@ An electronic motor moves a feathered attachment under a fabric cover in randomi
 
 **Best for:** Cats who go stir-crazy while you're at work. Running a session during your commute gives them stimulation before you even get home.
 
-[See current price on Amazon →](https://amazon.com/dp/B00LKQACFK?tag=pawandsage21-20)
+<a class="affiliate-card" href="https://amazon.com/dp/B06WP7F8YC?tag=pawandsage21-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="View SmartyKat Hot Pursuit on Amazon">
+  <span class="affiliate-card-label">Busy Owner Pick</span>
+  <span class="affiliate-card-title">SmartyKat Hot Pursuit</span>
+  <span class="affiliate-card-meta">Concealed-motion toy for cats that need prey movement without your hands.</span>
+  <span class="affiliate-card-cta">View on Amazon</span>
+</a>
 
 ## 4. Petstages Tower of Tracks — Best for Solo Play
 
@@ -59,7 +74,12 @@ The Tower of Tracks stacks three levels of spinning balls in a circular track. E
 
 **Best for:** Independent cats, single-cat households, or anywhere a cat is alone for long stretches. Pairs well with a puzzle feeder for a complete enrichment setup throughout the day.
 
-[See current price on Amazon →](https://amazon.com/dp/B001J9AHM0?tag=pawandsage21-20)
+<a class="affiliate-card" href="https://amazon.com/dp/B00DT2WL26?tag=pawandsage21-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="View Petstages Tower of Tracks on Amazon">
+  <span class="affiliate-card-label">Solo Play Classic</span>
+  <span class="affiliate-card-title">Petstages Tower of Tracks</span>
+  <span class="affiliate-card-meta">A stable three-level track toy for self-directed batting and chase.</span>
+  <span class="affiliate-card-cta">View on Amazon</span>
+</a>
 
 ## 5. Potaroma Flopping Fish — Best "Prey Feel" Toy
 
@@ -69,7 +89,12 @@ The Potaroma Flopping Fish is a plush fish that activates automatically when tou
 
 **Best for:** Cats who love to bunny-kick their prey, and older or less mobile cats who can't chase an aerial wand toy as energetically as they used to.
 
-[See current price on Amazon →](https://amazon.com/dp/B07NDKBC6X?tag=pawandsage21-20)
+<a class="affiliate-card" href="https://amazon.com/dp/B083S3ZXDF?tag=pawandsage21-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="View Potaroma Flopping Fish on Amazon">
+  <span class="affiliate-card-label">Prey Feel Pick</span>
+  <span class="affiliate-card-title">Potaroma Flopping Fish</span>
+  <span class="affiliate-card-meta">Touch-activated kicker toy for cats that like to grab, bite, and bunny-kick.</span>
+  <span class="affiliate-card-cta">View on Amazon</span>
+</a>
 
 ## 6. PetFusion Ambush Electronic Toy — Best Automated Wand
 
@@ -79,17 +104,27 @@ What sets it apart from cheaper spinners is the feather itself: a natural feathe
 
 **Best for:** High-drive cats who need extended play sessions you can't always provide manually, and multi-cat households where getting two cats to share time around one wand is impossible.
 
-[See current price on Amazon →](https://amazon.com/dp/B01ENRK1O6?tag=pawandsage21-20)
+<a class="affiliate-card" href="https://amazon.com/dp/B07F391BX2?tag=pawandsage21-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="View PetFusion Ambush Electronic Toy on Amazon">
+  <span class="affiliate-card-label">Automated Wand Pick</span>
+  <span class="affiliate-card-title">PetFusion Ambush Electronic Toy</span>
+  <span class="affiliate-card-meta">Randomized feather motion that keeps fast, high-drive cats engaged.</span>
+  <span class="affiliate-card-cta">View on Amazon</span>
+</a>
 
-## 7. PetSafe Bolt Automatic Laser — Best for High-Energy Cats
+## 7. Cat Dancer Rainbow Charmer — Best for Kittens and Shy Cats
 
-Laser pointers have a mixed reputation in cat enrichment — and for good reason. A laser with no physical "catch" at the end leaves many cats frustrated because the hunting sequence never completes.
+Some cats don't want the speed or noise of motorized toys. They want something softer, slower, and easier to track.
 
-The PetSafe Bolt earns its spot by being used *alongside* a physical toy, not instead of one. Let the automated laser run for 5–10 minutes to burn energy, then close every session with a wand toy or treat toss so your cat catches something real. Randomized rotation patterns mean it doesn't need your hand to stay interesting.
+The Cat Charmer uses a flexible wand with a long fleece ribbon that snakes, glides, and bunches like a moving strip of prey. That makes it especially useful for kittens, cautious cats, and cats who get overstimulated by louder electronic toys. It's also sturdier than most feather wands, with no tiny detachable parts to burn through as fast.
 
-**Best for:** High-energy cats who need to burn serious energy before they'll settle. Always pair with a physical finish to close the hunt cycle.
+**Best for:** Kittens, shy cats, and cats who prefer low-pressure chase play over high-intensity pouncing.
 
-[See current price on Amazon →](https://amazon.com/dp/B004798TJO?tag=pawandsage21-20)
+<a class="affiliate-card" href="https://amazon.com/dp/B007VPFC8C?tag=pawandsage21-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="View Cat Dancer Rainbow Charmer on Amazon">
+  <span class="affiliate-card-label">Gentle Teaser Pick</span>
+  <span class="affiliate-card-title">Cat Dancer Rainbow Charmer</span>
+  <span class="affiliate-card-meta">Soft fleece teaser that works especially well for kittens and hesitant cats.</span>
+  <span class="affiliate-card-cta">View on Amazon</span>
+</a>
 
 ## Which Toy Should You Start With?
 

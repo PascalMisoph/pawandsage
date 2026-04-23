@@ -5,6 +5,25 @@ pubDate: 2026-04-19
 category: behavior
 primaryKeyword: "why does my cat knock things off tables"
 articleNumber: 1
+affiliateProducts:
+  - name: Go Cat Da Bird
+    asin: B001BOVEU4
+    price: ~$13
+  - name: Cat Amazing Puzzle Feeder
+    asin: B009R3SFBC
+    price: ~$25
+  - name: Catit Senses 2.0 Digger
+    asin: B015P13QMM
+    price: ~$18
+  - name: Feandrea 56.3-Inch Cat Tree
+    asin: B078HB646M
+    price: ~$75
+  - name: PetSafe SlimCat
+    asin: B0018CE8LG
+    price: ~$8
+  - name: Quakehold Museum Putty
+    asin: B0002VA9NA
+    price: ~$6
 ---
 
 You're sitting at your desk, minding your own business, when you hear it — the slow scrape of a glass being nudged toward the edge of the counter. You look up just in time to see your cat make eye contact with you, extend one deliberate paw, and send your favorite mug crashing to the floor.
@@ -23,7 +42,7 @@ When your cat nudges a pen, a remote, or a glass on your nightstand, they're run
 
 Small, lightweight objects are especially irresistible. Pens, hair ties, bottle caps — anything that rolls or bounces after it falls becomes an instant toy.
 
-**What helps:** Give your cat an outlet for that prey drive. [Interactive wand toys](https://amazon.com/dp/B07F45GGPT?tag=pawandsage21-20) that mimic the movement of birds or mice are one of the most effective ways to satisfy this instinct. Even 10–15 minutes of active wand play per day can make a noticeable difference.
+**What helps:** Give your cat an outlet for that prey drive. [Interactive wand toys](https://amazon.com/dp/B001BOVEU4?tag=pawandsage21-20) that mimic the movement of birds or mice are one of the most effective ways to satisfy this instinct. Even 10–15 minutes of active wand play per day can make a noticeable difference.
 
 ## 2. Your Cat Is Bored
 

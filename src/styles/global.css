@@ -228,6 +228,18 @@ em, .italic {
   color: var(--sage-900);
   margin-bottom: 0.25rem;
 }
+.affiliate-card-meta,
+.affiliate-card-cta {
+  display: block;
+}
+.affiliate-card-meta {
+  color: var(--ink-soft);
+  margin-bottom: 0.4rem;
+}
+.affiliate-card-cta {
+  font-weight: 600;
+  color: var(--terra-700);
+}
 
 /* Responsive */
 @media (max-width: 768px) {

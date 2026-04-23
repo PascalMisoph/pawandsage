@@ -25,7 +25,7 @@ When your cat nudges a pen, a remote, or a glass on your nightstand, they're run
 
 Small, lightweight objects are especially irresistible. Pens, hair ties, bottle caps — anything that rolls or bounces after it falls becomes an instant toy.
 
-**What helps:** Give your cat an outlet for that prey drive. [Interactive wand toys](https://amazon.com/dp/B07F45GGPT?tag=pawandsage21-20) that mimic the movement of birds or mice are one of the most effective ways to satisfy this instinct. Even 10–15 minutes of active wand play per day can make a noticeable difference.
+**What helps:** Give your cat an outlet for that prey drive. [Interactive wand toys](https://amazon.com/dp/B001BOVEU4?tag=pawandsage21-20) that mimic the movement of birds or mice are one of the most effective ways to satisfy this instinct. Even 10–15 minutes of active wand play per day can make a noticeable difference.
 
 ## 2. Your Cat Is Bored
 

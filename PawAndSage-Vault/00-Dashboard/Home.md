@@ -15,7 +15,7 @@
 2. [ ] Artikel #1 publishen (why-cat-knocks-things-off)
 3. [ ] 5 Pinterest Boards erstellen
 4. [ ] Amazon Associates Account beantragen
-5. [ ] Artikel #2 schreiben (Best Interactive Toys)
+5. [x] Artikel #2 publishen + Affiliate-Links einbetten (Best Interactive Toys)
 
 ### Revenue Streams Status
 | Stream | Status | MRR |
