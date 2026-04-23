@@ -7,29 +7,43 @@ export interface Props {
   pubDate: Date;
   readTime?: string;
   image?: string;
+  imageAlt?: string;
 }
 
-const { href, title, description, category, pubDate, readTime, image } = Astro.props;
+const { href, title, description, category, pubDate, readTime, image, imageAlt = '' } = Astro.props;
 
 const formattedDate = pubDate.toLocaleDateString('en-US', {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
 });
+
+const categoryLabels = {
+  behavior: 'Behavior',
+  enrichment: 'Enrichment',
+  'new-cat': 'New Cat',
+};
 ---
 
 <a href={href} class="post-card">
   {image && (
     <div class="post-card-image">
-      <img src={image} alt={title} loading="lazy" />
+      <img
+        src={image}
+        alt={imageAlt}
+        loading="lazy"
+        decoding="async"
+        width="800"
+        height="500"
+      />
     </div>
   )}
   <div class="post-card-content">
-    <span class="eyebrow post-card-category">{category}</span>
+    <span class="eyebrow post-card-category">{categoryLabels[category] ?? category}</span>
     <h3 class="post-card-title">{title}</h3>
     <p class="post-card-desc">{description}</p>
     <div class="post-card-meta">
-      <time>{formattedDate}</time>
+      <time datetime={pubDate.toISOString()}>{formattedDate}</time>
       {readTime && <span>· {readTime}</span>}
     </div>
   </div>
@@ -49,7 +63,7 @@ const formattedDate = pubDate.toLocaleDateString('en-US', {
   }
   .post-card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
     color: var(--ink);
   }
   .post-card-image {

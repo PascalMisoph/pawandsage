@@ -1,38 +1,37 @@
-/* paw and sage — Global Design System */
+/* paw and sage global design system */
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=Caveat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap');
 
 :root {
-  /* Sage Family */
   --sage-900: #3d4a3d;
   --sage-700: #5a6b58;
   --sage-500: #8a9a83;
   --sage-300: #b8c5b1;
   --sage-100: #dde4d8;
-  --sage-50:  #eef2eb;
+  --sage-50: #eef2eb;
 
-  /* Cream Family */
   --cream-100: #faf6ef;
   --cream-200: #f3ece0;
   --cream-300: #e8dfce;
 
-  /* Terracotta Accent */
-  --terra-700: #a04e2f;
+  --terra-700: #8a4124;
   --terra-500: #c46a45;
   --terra-300: #e0a085;
   --terra-100: #f2d9cb;
 
-  /* Neutral */
   --ink: #2a2724;
   --ink-soft: #5a544e;
   --line: #d8d2c4;
 
-  /* Spacing */
   --container: 1100px;
   --container-narrow: 720px;
 }
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 html {
   scroll-behavior: smooth;
@@ -48,8 +47,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Typography */
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Fraunces', serif;
   font-weight: 500;
   color: var(--sage-900);
@@ -57,11 +58,25 @@ h1, h2, h3, h4 {
   line-height: 1.15;
 }
 
-h1 { font-size: clamp(2.5rem, 5vw, 3.75rem); font-weight: 400; letter-spacing: -1.5px; }
-h2 { font-size: clamp(1.75rem, 3vw, 2.25rem); margin: 2.5rem 0 1rem; }
-h3 { font-size: 1.375rem; margin: 2rem 0 0.75rem; }
+h1 {
+  font-size: clamp(2.5rem, 5vw, 3.75rem);
+  font-weight: 400;
+  letter-spacing: -1.5px;
+}
 
-p { margin-bottom: 1.25rem; }
+h2 {
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  margin: 2.5rem 0 1rem;
+}
+
+h3 {
+  font-size: 1.375rem;
+  margin: 2rem 0 0.75rem;
+}
+
+p {
+  margin-bottom: 1.25rem;
+}
 
 a {
   color: var(--terra-700);
@@ -70,15 +85,39 @@ a {
   text-underline-offset: 3px;
   transition: color 0.2s ease;
 }
-a:hover { color: var(--terra-500); }
 
-em, .italic {
+a:hover {
+  color: var(--terra-700);
+}
+
+:focus-visible {
+  outline: 3px solid var(--terra-700);
+  outline-offset: 3px;
+}
+
+em,
+.italic {
   font-family: 'Fraunces', serif;
   font-style: italic;
   font-weight: 300;
 }
 
-/* Containers */
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -3rem;
+  z-index: 1000;
+  padding: 0.75rem 1rem;
+  background: var(--sage-900);
+  color: var(--cream-100);
+  border-radius: 999px;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
 .container {
   max-width: var(--container);
   margin: 0 auto;
@@ -91,7 +130,6 @@ em, .italic {
   padding: 0 1.5rem;
 }
 
-/* Buttons */
 .btn {
   display: inline-block;
   padding: 0.875rem 1.75rem;
@@ -110,17 +148,19 @@ em, .italic {
   background: var(--sage-900);
   color: var(--cream-100);
 }
+
 .btn-primary:hover {
   background: var(--sage-700);
   color: var(--cream-100);
 }
 
 .btn-accent {
-  background: var(--terra-500);
+  background: var(--terra-700);
   color: var(--cream-100);
 }
+
 .btn-accent:hover {
-  background: var(--terra-700);
+  background: var(--ink);
   color: var(--cream-100);
 }
 
@@ -129,12 +169,12 @@ em, .italic {
   color: var(--sage-900);
   border: 1px solid var(--sage-900);
 }
+
 .btn-outline:hover {
   background: var(--sage-900);
   color: var(--cream-100);
 }
 
-/* Eyebrow / Meta text */
 .eyebrow {
   font-family: 'Inter', sans-serif;
   font-size: 0.7rem;
@@ -144,7 +184,6 @@ em, .italic {
   font-weight: 500;
 }
 
-/* Disclosure box */
 .disclosure {
   padding: 1rem 1.25rem;
   background: var(--sage-50);
@@ -156,7 +195,6 @@ em, .italic {
   font-style: italic;
 }
 
-/* TL;DR box */
 .tldr {
   padding: 1.5rem 1.75rem;
   background: var(--cream-200);
@@ -164,6 +202,7 @@ em, .italic {
   margin: 2rem 0;
   border: 1px solid var(--line);
 }
+
 .tldr-label {
   font-family: 'Inter', sans-serif;
   font-size: 0.7rem;
@@ -174,19 +213,22 @@ em, .italic {
   margin-bottom: 0.5rem;
 }
 
-/* Lists in posts */
-.prose ul, .prose ol {
+.prose ul,
+.prose ol {
   margin: 0 0 1.5rem 1.5rem;
 }
+
 .prose li {
   margin-bottom: 0.5rem;
 }
+
 .prose img {
   width: 100%;
   height: auto;
   border-radius: 8px;
   margin: 1.5rem 0;
 }
+
 .prose blockquote {
   border-left: 3px solid var(--terra-500);
   padding-left: 1.25rem;
@@ -197,7 +239,6 @@ em, .italic {
   font-size: 1.1rem;
 }
 
-/* Affiliate link card */
 .affiliate-card {
   display: block;
   padding: 1.25rem 1.5rem;
@@ -209,11 +250,13 @@ em, .italic {
   color: var(--ink);
   transition: all 0.2s ease;
 }
+
 .affiliate-card:hover {
   background: var(--sage-50);
   border-color: var(--sage-300);
   color: var(--ink);
 }
+
 .affiliate-card-label {
   font-size: 0.7rem;
   text-transform: uppercase;
@@ -222,28 +265,32 @@ em, .italic {
   font-weight: 600;
   margin-bottom: 0.4rem;
 }
+
 .affiliate-card-title {
   font-family: 'Fraunces', serif;
   font-size: 1.1rem;
   color: var(--sage-900);
   margin-bottom: 0.25rem;
 }
+
 .affiliate-card-meta,
 .affiliate-card-cta {
   display: block;
 }
+
 .affiliate-card-meta {
   color: var(--ink-soft);
   margin-bottom: 0.4rem;
 }
+
 .affiliate-card-cta {
   font-weight: 600;
   color: var(--terra-700);
 }
 
-/* Responsive */
 @media (max-width: 768px) {
-  .container, .container-narrow {
+  .container,
+  .container-narrow {
     padding: 0 1.25rem;
   }
 }

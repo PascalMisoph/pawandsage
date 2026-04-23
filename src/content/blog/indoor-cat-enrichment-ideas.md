@@ -2,10 +2,22 @@
 title: "20 Indoor Cat Enrichment Ideas That Take 5 Minutes to Set Up"
 description: "Real, practical ways to make your indoor cat's life less boring — from things you already have at home to small purchases under $30."
 pubDate: 2026-04-12
+updatedDate: 2026-04-23
 category: "enrichment"
 tags: ["enrichment", "indoor cat", "boredom", "diy"]
 readTime: "10 min read"
 heroImage: "/blog/enrichment-hero.png"
+heroAlt: "A gray cat peers out of a cardboard box beside a scratching post and window perch in a warm living room."
+sources:
+  - title: "2025 Meeting the Physical and Emotional Needs of Indoor Cats"
+    url: "https://catvets.com/resource/2025-meeting-the-physical-and-emotional-needs-of-indoor-cats/"
+    publisher: "FelineVMA"
+  - title: "What Your Cat Needs to Feel Secure"
+    url: "https://catfriendly.com/cat-friendly-homes/what-your-cat-needs-to-feel-secure/"
+    publisher: "Cat Friendly Homes"
+  - title: "General Principles of Feline Well-being"
+    url: "https://catvets.com/resource/general-principles-of-feline-well-being-position-statement/"
+    publisher: "FelineVMA"
 draft: false
 ---
 
@@ -43,7 +55,7 @@ Cats spend more time at windows than almost anywhere else. If you keep curtains 
 
 ### 6. A wand toy with a feather end
 
-Spend $10–15 on a quality wand toy and play with your cat for 10 minutes a day. This single change resolves the majority of "my cat is bored and acting out" problems.
+Spend $10–15 on a quality wand toy and play with your cat for 10 minutes a day. This single change helps many cats that are bored and acting out.
 The [Go Cat Da Bird](https://amazon.com/dp/B001BOVEU4?tag=pawandsage21-20) is still the easiest recommendation here because the spinning feather motion reads like actual prey.
 
 ### 7. A puzzle feeder

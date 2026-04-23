@@ -2,10 +2,22 @@
 title: "Why Does My Cat Stare at Me? (7 Reasons Decoded)"
 description: "Sometimes your cat wants dinner. Sometimes they're reading the room. Here are 7 common reasons cats stare at their humans, and how to tell which one you're looking at."
 pubDate: 2026-04-23
+updatedDate: 2026-04-23
 category: "behavior"
 tags: ["behavior", "body language", "indoor cats", "bonding"]
 readTime: "6 min read"
 heroImage: "/blog/why-cat-stares-at-me.png"
+heroAlt: "A brown tabby cat sits upright in a softly lit living room, looking directly toward the camera."
+sources:
+  - title: "Setting Up the Environment for Success"
+    url: "https://catvets.com/resource/setting-up-for-success/"
+    publisher: "FelineVMA"
+  - title: "What Your Cat Needs to Feel Secure"
+    url: "https://catfriendly.com/cat-friendly-homes/what-your-cat-needs-to-feel-secure/"
+    publisher: "Cat Friendly Homes"
+  - title: "How Cats Learn"
+    url: "https://catvets.com/resource/how-cats-learn/"
+    publisher: "FelineVMA"
 draft: false
 ---
 

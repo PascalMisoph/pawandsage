@@ -1,12 +1,24 @@
 ---
 title: "The Complete New Kitten Checklist: Everything You Need in the First Week"
-description: "A no-fluff list of what to actually buy when you bring home a new kitten — in the order you'll need it. Tested, vet-approved, and budget-friendly."
+description: "A no-fluff list of what to actually buy when you bring home a new kitten, in the order you'll need it."
 pubDate: 2026-04-15
+updatedDate: 2026-04-23
 category: "new-cat"
 tags: ["kitten", "new cat", "checklist", "essentials"]
 readTime: "8 min read"
 heroImage: "/blog/kitten-checklist-hero.png"
 pinImage: "/blog/kitten-checklist-pin.jpg"
+heroAlt: "A small orange kitten sits beside a litter box, food bowl, and soft blanket in a calm starter room."
+sources:
+  - title: "Adopting A Cat"
+    url: "https://catfriendly.com/be-a-cat-friendly-caregiver/adopting-a-cat/"
+    publisher: "Cat Friendly Homes"
+  - title: "What Your Cat Needs to Feel Secure"
+    url: "https://catfriendly.com/cat-friendly-homes/what-your-cat-needs-to-feel-secure/"
+    publisher: "Cat Friendly Homes"
+  - title: "2025 Socialization of Feral Kittens"
+    url: "https://catvets.com/resource/2025-socialization-of-feral-kittens/"
+    publisher: "FelineVMA"
 draft: false
 ---
 
@@ -34,7 +46,7 @@ If you want to switch food later, do it gradually over 7–10 days, mixing incre
 
 ### 3. Water bowl (or a small fountain)
 
-A wide, shallow ceramic bowl is fine. Many cats prefer running water — if your kitten ignores the bowl, the [Catit Flower Fountain](https://amazon.com/dp/B0146QXOB0?tag=pawandsage21-20) is a reliable starter option that's easy to clean. Plastic bowls can cause chin acne over time and aren't recommended.
+A wide, shallow ceramic bowl is fine. Many cats prefer running water. If your kitten ignores the bowl, the [Catit Flower Fountain](https://amazon.com/dp/B0146QXOB0?tag=pawandsage21-20) is a practical starter option that's easy to clean. Plastic bowls can cause chin acne over time and aren't recommended.
 
 ### 4. A safe room
 
@@ -78,7 +90,7 @@ Once the basics are working and your kitten is eating, drinking, and using the l
 
 ## The total budget
 
-For a thoughtful, vet-approved setup with quality basics: **$150–$250.**
+For a thoughtful setup with quality basics: **$150–$250.**
 
 You'll see lists online suggesting $500+. Most of that is upselling. The list above is the honest minimum to give your kitten a healthy, comfortable first month. You can always add more later — once you've watched your specific cat for a few weeks and learned what they actually want.
 

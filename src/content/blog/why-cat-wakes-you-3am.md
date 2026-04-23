@@ -2,10 +2,22 @@
 title: "Why Your Cat Wakes You Up at 3 AM (And How to Stop It)"
 description: "It's not random, and it's not malice. Cats wake their humans at night for three specific reasons — each with a fix that doesn't involve closing them out of the bedroom."
 pubDate: 2026-04-10
+updatedDate: 2026-04-23
 category: "behavior"
 tags: ["behavior", "sleep", "night activity", "training"]
 readTime: "6 min read"
 heroImage: "/blog/3am-cat-hero.png"
+heroAlt: "A cat stands alert at the edge of a bed in a dim bedroom lit by early morning blue light."
+sources:
+  - title: "How Cats Learn"
+    url: "https://catvets.com/resource/how-cats-learn/"
+    publisher: "FelineVMA"
+  - title: "2025 Meeting the Physical and Emotional Needs of Indoor Cats"
+    url: "https://catvets.com/resource/2025-meeting-the-physical-and-emotional-needs-of-indoor-cats/"
+    publisher: "FelineVMA"
+  - title: "What Your Cat Needs to Feel Secure"
+    url: "https://catfriendly.com/cat-friendly-homes/what-your-cat-needs-to-feel-secure/"
+    publisher: "Cat Friendly Homes"
 draft: false
 ---
 
@@ -13,7 +25,7 @@ draft: false
 
 If you've ever been startled awake at 3 AM by a paw on your face, a sprint across the bed, or the sound of something being deliberately knocked off a shelf — you're not alone. Night activity is one of the most common complaints from indoor cat owners.
 
-It's also one of the most fixable. Once you understand what's actually driving it.
+It's also one of the most fixable behaviors once you understand what's actually driving it.
 
 ## The biology your cat is operating on
 

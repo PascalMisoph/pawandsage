@@ -1,10 +1,22 @@
 ---
 title: "Why Does My Cat Knock Things Off Tables? (5 Reasons + How to Stop It)"
-description: "Your cat isn't being a jerk — there's real science behind why cats push things off tables. Here are 5 reasons and practical solutions that actually work."
+description: "Your cat isn't being a jerk. There are real behavior patterns behind why cats push things off tables. Here are 5 reasons and practical solutions that actually help."
 pubDate: 2026-04-19
+updatedDate: 2026-04-23
 category: "behavior"
 tags: ["behavior", "enrichment", "indoor cats", "training"]
 heroImage: "/blog/cat-knocking-things-off.png"
+heroAlt: "A gray cat extends one paw toward a glass at the edge of a wooden side table."
+sources:
+  - title: "How Cats Learn"
+    url: "https://catvets.com/resource/how-cats-learn/"
+    publisher: "FelineVMA"
+  - title: "2025 Meeting the Physical and Emotional Needs of Indoor Cats"
+    url: "https://catvets.com/resource/2025-meeting-the-physical-and-emotional-needs-of-indoor-cats/"
+    publisher: "FelineVMA"
+  - title: "What Your Cat Needs to Feel Secure"
+    url: "https://catfriendly.com/cat-friendly-homes/what-your-cat-needs-to-feel-secure/"
+    publisher: "Cat Friendly Homes"
 readTime: "5 min read"
 draft: false
 ---
@@ -25,7 +37,7 @@ When your cat nudges a pen, a remote, or a glass on your nightstand, they're run
 
 Small, lightweight objects are especially irresistible. Pens, hair ties, bottle caps — anything that rolls or bounces after it falls becomes an instant toy.
 
-**What helps:** Give your cat an outlet for that prey drive. [Interactive wand toys](https://amazon.com/dp/B001BOVEU4?tag=pawandsage21-20) that mimic the movement of birds or mice are one of the most effective ways to satisfy this instinct. Even 10–15 minutes of active wand play per day can make a noticeable difference.
+**What helps:** Give your cat an outlet for that prey drive. [Interactive wand toys](https://amazon.com/dp/B001BOVEU4?tag=pawandsage21-20) that mimic the movement of birds or mice are a strong way to satisfy this instinct. Even 10–15 minutes of active wand play per day can make a noticeable difference.
 
 ## 2. Your Cat Is Bored
 
@@ -79,7 +91,7 @@ The pattern behind almost every case of table-clearing is the same: not enough s
 
 The fix isn't punishment (which doesn't work and damages trust). It's giving your cat better options: daily interactive play, puzzle feeders for mental stimulation, vertical space to climb, and ignoring the behavior when it happens.
 
-Most cat owners who add just 15 minutes of structured play per day report a significant drop in destructive behavior within a week or two. Your mug collection will thank you.
+For many cats, adding 15 minutes of structured play per day can reduce this behavior within a week or two. Your mug collection will thank you.
 
 ---
 

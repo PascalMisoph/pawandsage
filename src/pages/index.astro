@@ -26,7 +26,7 @@ const sortedPosts = allPosts
           <a href="/start-here" class="btn btn-outline">New here? Start here</a>
         </div>
         <p class="hero-note">
-          Warm, science-informed guidance for the quiet cues that shape a richer indoor life.
+          Warm, research-aware guidance for the quiet cues that shape a richer indoor life.
         </p>
       </div>
 
@@ -48,7 +48,7 @@ const sortedPosts = allPosts
   <section class="categories-section">
     <div class="container">
       <div class="section-header">
-        <span class="eyebrow">Four threads</span>
+        <span class="eyebrow">Three threads</span>
         <h2>Where to begin.</h2>
       </div>
       <div class="categories-grid">
@@ -63,10 +63,6 @@ const sortedPosts = allPosts
         <a href="/categories/new-cat" class="category-card">
           <h3>New Cat</h3>
           <p>Everything you wish someone had told you in the first week.</p>
-        </a>
-        <a href="/categories/health" class="category-card">
-          <h3>Health</h3>
-          <p>The subtle signals worth noticing, and when to call the vet.</p>
         </a>
       </div>
     </div>
@@ -89,6 +85,7 @@ const sortedPosts = allPosts
               pubDate={post.data.pubDate}
               readTime={post.data.readTime}
               image={post.data.heroImage}
+              imageAlt={post.data.heroAlt}
             />
           ))}
         </div>
@@ -275,7 +272,7 @@ const sortedPosts = allPosts
 
   .categories-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
   }
 

@@ -4,9 +4,7 @@ import PostCard from '../../components/PostCard.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
-const sortedPosts = allPosts.sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
+const sortedPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
 <BaseLayout title="Journal" description="Calm, considered writing about cats and the people who live with them.">
@@ -15,8 +13,33 @@ const sortedPosts = allPosts.sort(
       <span class="eyebrow">The Journal</span>
       <h1>Everything we've written.</h1>
       <p class="page-description">
-        Articles on cat behavior, indoor enrichment, new cat care, and health signals — written for people who want to understand, not just entertain.
+        Articles on cat behavior, indoor enrichment, and new cat care for people who want to understand, not just entertain.
       </p>
+      <p class="page-intro">
+        Start with the cluster that best matches your current problem, then move sideways through related guides to build a clearer picture.
+      </p>
+    </div>
+  </section>
+
+  <section class="cluster-links">
+    <div class="container">
+      <div class="cluster-grid">
+        <a href="/categories/behavior" class="cluster-card">
+          <span class="eyebrow">Cluster</span>
+          <h2>Behavior</h2>
+          <p>Decode staring, night waking, attention habits, and the patterns behind common cat behavior questions.</p>
+        </a>
+        <a href="/categories/enrichment" class="cluster-card">
+          <span class="eyebrow">Cluster</span>
+          <h2>Enrichment</h2>
+          <p>Build a richer indoor routine with play structure, boredom prevention, and practical product choices.</p>
+        </a>
+        <a href="/categories/new-cat" class="cluster-card">
+          <span class="eyebrow">Cluster</span>
+          <h2>New Cat</h2>
+          <p>Focus on first week setup, essential purchases, and the calm routines that help a new cat settle in.</p>
+        </a>
+      </div>
     </div>
   </section>
 
@@ -24,7 +47,7 @@ const sortedPosts = allPosts.sort(
     <div class="container">
       {sortedPosts.length > 0 ? (
         <div class="posts-grid">
-          {sortedPosts.map(post => (
+          {sortedPosts.map((post) => (
             <PostCard
               href={`/blog/${post.id}`}
               title={post.data.title}
@@ -33,11 +56,12 @@ const sortedPosts = allPosts.sort(
               pubDate={post.data.pubDate}
               readTime={post.data.readTime}
               image={post.data.heroImage}
+              imageAlt={post.data.heroAlt}
             />
           ))}
         </div>
       ) : (
-        <p class="empty">No posts yet — coming soon.</p>
+        <p class="empty">No posts yet.</p>
       )}
     </div>
   </section>
@@ -52,15 +76,37 @@ const sortedPosts = allPosts.sort(
     display: block;
     margin-bottom: 1rem;
   }
-  .page-description {
+  .page-description,
+  .page-intro {
     font-family: 'Fraunces', serif;
     font-style: italic;
     font-weight: 300;
-    font-size: 1.15rem;
     color: var(--ink-soft);
-    max-width: 560px;
-    margin: 1rem auto 0;
+    max-width: 620px;
     line-height: 1.5;
+    margin: 1rem auto 0;
+  }
+  .page-description { font-size: 1.15rem; }
+  .page-intro { font-size: 1rem; }
+  .cluster-links { padding: 0 0 2rem; }
+  .cluster-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .cluster-card {
+    background: var(--cream-200);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-decoration: none;
+  }
+  .cluster-card h2 {
+    margin: 0.75rem 0 0.5rem;
+  }
+  .cluster-card p {
+    margin: 0;
+    color: var(--ink-soft);
   }
   .posts-section {
     padding: 2rem 0 5rem;
@@ -75,6 +121,12 @@ const sortedPosts = allPosts.sort(
     color: var(--ink-soft);
     padding: 3rem 0;
   }
-  @media (max-width: 900px) { .posts-grid { grid-template-columns: repeat(2, 1fr); } }
-  @media (max-width: 600px) { .posts-grid { grid-template-columns: 1fr; } }
+  @media (max-width: 900px) {
+    .cluster-grid,
+    .posts-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 600px) {
+    .cluster-grid,
+    .posts-grid { grid-template-columns: 1fr; }
+  }
 </style>

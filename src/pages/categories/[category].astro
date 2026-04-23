@@ -4,37 +4,88 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import PostCard from '../../components/PostCard.astro';
 
 export async function getStaticPaths() {
-  const categories = [
+  const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+  const categoryEntries = [
     {
       slug: 'behavior',
       title: 'Behavior',
       description: 'What your cat is actually telling you, and how to listen.',
+      intro:
+        'Behavior articles help you decode the signals behind attention-seeking, staring, night waking, overstimulation, and other common patterns that can feel random until you see the logic underneath them.',
+      featured: '/blog/why-cat-stares-at-me',
+      featuredTitle: 'Why does my cat stare at me?',
+      featuredLabel: 'Start with this guide',
+      nextReads: [
+        { href: '/blog/why-cat-wakes-you-3am', label: 'Why your cat wakes you up at 3 AM' },
+        { href: '/blog/why-cat-knocks-things-off-tables', label: 'Why cats knock things off tables' },
+      ],
+      faq: [
+        {
+          question: 'What should I read first if my cat is doing something strange?',
+          answer: 'Start with the article that best matches the specific behavior, then read laterally within the behavior cluster for the deeper pattern behind it.',
+        },
+        {
+          question: 'Are these articles a substitute for a vet?',
+          answer: 'No. They are meant to help you understand common behavior and notice when a pattern may need veterinary attention.',
+        },
+      ],
     },
     {
       slug: 'enrichment',
       title: 'Enrichment',
       description: 'Small changes that turn a flat indoor life into a rich one.',
+      intro:
+        'The enrichment section focuses on boredom prevention, play structure, hunting outlets, and environmental upgrades that make indoor life more satisfying for cats and easier for owners.',
+      featured: '/blog/indoor-cat-enrichment-ideas',
+      featuredTitle: '20 indoor cat enrichment ideas',
+      featuredLabel: 'Start with this guide',
+      nextReads: [
+        { href: '/blog/best-interactive-cat-toys', label: 'Best interactive toys for indoor cats' },
+        { href: '/blog/why-cat-knocks-things-off-tables', label: 'Why cats knock things off tables' },
+      ],
+      faq: [
+        {
+          question: 'What is the fastest enrichment upgrade?',
+          answer: 'A short structured play session before the evening meal is usually the highest impact change for indoor cats.',
+        },
+        {
+          question: 'Do I need expensive gear to enrich an indoor cat?',
+          answer: 'No. Many effective upgrades are routine changes, food puzzles, cardboard rotation, and better use of vertical space.',
+        },
+      ],
     },
     {
       slug: 'new-cat',
       title: 'New Cat',
       description: 'Everything you wish someone had told you in the first week.',
+      intro:
+        'The new cat section is built for the first days and weeks after bringing a cat home, with an emphasis on calm setup, fewer unnecessary purchases, and routines that reduce stress fast.',
+      featured: '/blog/new-kitten-checklist',
+      featuredTitle: 'The complete new kitten checklist',
+      featuredLabel: 'Start with this checklist',
+      nextReads: [
+        { href: '/blog/indoor-cat-enrichment-ideas', label: 'Indoor cat enrichment ideas' },
+        { href: '/blog/why-cat-stares-at-me', label: 'Why your cat stares at you' },
+      ],
+      faq: [
+        {
+          question: 'What should I buy before bringing a kitten home?',
+          answer: 'Focus on litter setup, the same food the kitten is already eating, water, a safe room, and a carrier before you buy extras.',
+        },
+        {
+          question: 'What can wait until after the first week?',
+          answer: 'Most optional accessories can wait until you have seen how your specific cat uses the space and what kinds of play or rest they prefer.',
+        },
+      ],
     },
-    {
-      slug: 'health',
-      title: 'Health',
-      description: 'The subtle signals worth noticing — and when to call the vet.',
-    },
-  ];
+  ] as const;
 
-  const allPosts = await getCollection('blog', ({ data }) => !data.draft);
-
-  return categories.map(cat => ({
-    params: { category: cat.slug },
+  return categoryEntries.map((category) => ({
+    params: { category: category.slug },
     props: {
-      category: cat,
+      category,
       posts: allPosts
-        .filter(post => post.data.category === cat.slug)
+        .filter((post) => post.data.category === category.slug)
         .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()),
     },
   }));
@@ -43,12 +94,34 @@ export async function getStaticPaths() {
 const { category, posts } = Astro.props;
 ---
 
-<BaseLayout title={category.title} description={category.description}>
+<BaseLayout title={`${category.title} for cat owners`} description={category.description}>
   <section class="page-header">
     <div class="container-narrow">
       <span class="eyebrow">Category</span>
       <h1>{category.title}</h1>
       <p class="page-description">{category.description}</p>
+      <p class="hub-intro">{category.intro}</p>
+    </div>
+  </section>
+
+  <section class="hub-section">
+    <div class="container">
+      <div class="hub-grid">
+        <aside class="hub-card">
+          <span class="eyebrow">{category.featuredLabel}</span>
+          <h2><a href={category.featured}>{category.featuredTitle}</a></h2>
+          <p>Use this as the first stop before branching into the rest of the cluster.</p>
+        </aside>
+
+        <aside class="hub-card">
+          <span class="eyebrow">Next reads</span>
+          <ul class="hub-links">
+            {category.nextReads.map((item) => (
+              <li><a href={item.href}>{item.label}</a></li>
+            ))}
+          </ul>
+        </aside>
+      </div>
     </div>
   </section>
 
@@ -56,7 +129,7 @@ const { category, posts } = Astro.props;
     <div class="container">
       {posts.length > 0 ? (
         <div class="posts-grid">
-          {posts.map(post => (
+          {posts.map((post) => (
             <PostCard
               href={`/blog/${post.id}`}
               title={post.data.title}
@@ -65,40 +138,109 @@ const { category, posts } = Astro.props;
               pubDate={post.data.pubDate}
               readTime={post.data.readTime}
               image={post.data.heroImage}
+              imageAlt={post.data.heroAlt}
             />
           ))}
         </div>
       ) : (
-        <p class="empty">No posts in this category yet — coming soon.</p>
+        <p class="empty">No posts in this category yet.</p>
       )}
+    </div>
+  </section>
+
+  <section class="faq-section">
+    <div class="container-narrow">
+      <span class="eyebrow">FAQ</span>
+      <h2>What this section covers.</h2>
+      <div class="faq-list">
+        {category.faq.map((item) => (
+          <details>
+            <summary>{item.question}</summary>
+            <p>{item.answer}</p>
+          </details>
+        ))}
+      </div>
     </div>
   </section>
 </BaseLayout>
 
 <style>
-  .page-header { padding: 5rem 0 3rem; text-align: center; }
+  .page-header { padding: 5rem 0 2rem; text-align: center; }
   .page-header .eyebrow { display: block; margin-bottom: 1rem; }
-  .page-description {
+  .page-description,
+  .hub-intro {
     font-family: 'Fraunces', serif;
     font-style: italic;
     font-weight: 300;
-    font-size: 1.15rem;
     color: var(--ink-soft);
-    max-width: 560px;
+    line-height: 1.55;
+    max-width: 640px;
     margin: 1rem auto 0;
-    line-height: 1.5;
   }
-  .posts-section { padding: 2rem 0 5rem; }
+  .page-description { font-size: 1.15rem; }
+  .hub-intro { font-size: 1rem; }
+  .hub-section { padding: 1rem 0 2rem; }
+  .hub-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  .hub-card {
+    background: var(--cream-200);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 1.75rem;
+  }
+  .hub-card h2 {
+    margin: 0.75rem 0;
+    font-size: 1.45rem;
+  }
+  .hub-card p,
+  .hub-links {
+    color: var(--ink-soft);
+  }
+  .hub-links {
+    list-style: none;
+    margin: 0;
+  }
+  .hub-links li + li {
+    margin-top: 0.75rem;
+  }
+  .posts-section { padding: 2rem 0 4rem; }
   .posts-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
+  }
+  .faq-section { padding: 0 0 5rem; }
+  .faq-list details {
+    border-top: 1px solid var(--line);
+    padding: 1rem 0;
+  }
+  .faq-list summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--sage-900);
+  }
+  .faq-list p {
+    margin: 0.75rem 0 0;
+    color: var(--ink-soft);
   }
   .empty {
     text-align: center;
     color: var(--ink-soft);
     padding: 3rem 0;
   }
-  @media (max-width: 900px) { .posts-grid { grid-template-columns: repeat(2, 1fr); } }
-  @media (max-width: 600px) { .posts-grid { grid-template-columns: 1fr; } }
+  @media (max-width: 900px) {
+    .hub-grid,
+    .posts-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (max-width: 600px) {
+    .hub-grid,
+    .posts-grid {
+      grid-template-columns: 1fr;
+    }
+  }
 </style>

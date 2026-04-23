@@ -8,37 +8,38 @@ import EmailCapture from '../components/EmailCapture.astro';
     <div class="container-narrow">
       <span class="eyebrow">Welcome</span>
       <h1>Start here.</h1>
-      <p class="lede">If you're new to paw and sage, these are the best places to begin — depending on what brought you here.</p>
+      <p class="lede">If you are new to paw and sage, these are the best places to begin depending on what brought you here.</p>
     </div>
   </section>
 
   <section class="paths-section">
     <div class="container-narrow">
-
       <div class="path">
         <h2>I just got a new cat or kitten</h2>
-        <p>Start with our <a href="/categories/new-cat">New Cat thread</a>. The most useful first read is <a href="/blog">our complete kitten checklist</a> (coming soon) — everything you actually need in the first week, in the order you'll need it.</p>
+        <p>Start with <a href="/blog/new-kitten-checklist">our complete kitten checklist</a>, then browse the <a href="/categories/new-cat">New Cat</a> section for first week questions and setup basics.</p>
       </div>
 
       <div class="path">
         <h2>My cat is doing something weird</h2>
-        <p>Head to <a href="/categories/behavior">Behavior</a>. Cats communicate constantly — most "weird" behavior has a clear explanation once you know what to look for.</p>
+        <p>Start with <a href="/blog/why-cat-stares-at-me">Why does my cat stare at me?</a> or go straight to <a href="/categories/behavior">Behavior</a> for the full cluster.</p>
       </div>
 
       <div class="path">
         <h2>My indoor cat seems bored</h2>
-        <p>You're probably right. <a href="/categories/enrichment">Enrichment</a> is our largest section, with practical ideas that take five minutes to set up — most under $30.</p>
+        <p>Start with <a href="/blog/indoor-cat-enrichment-ideas">20 indoor cat enrichment ideas</a>, then continue into <a href="/blog/best-interactive-cat-toys">interactive toys that actually work</a>.</p>
       </div>
 
       <div class="path">
-        <h2>I'm worried about my cat's health</h2>
-        <p>Our <a href="/categories/health">Health thread</a> covers the signals worth noticing. Important: nothing here replaces a vet. We'll always tell you when to call one.</p>
+        <h2>My cat keeps waking me up or knocking things over</h2>
+        <p>Read <a href="/blog/why-cat-wakes-you-3am">why your cat wakes you up at 3 AM</a> and <a href="/blog/why-cat-knocks-things-off-tables">why cats knock things off tables</a> for the quickest fixes.</p>
       </div>
 
       <div class="email-section">
-        <EmailCapture />
+        <EmailCapture
+          title="The Cat Behavior Decoder"
+          description="A free PDF with the body language cues and behavior patterns worth noticing first."
+        />
       </div>
-
     </div>
   </section>
 </BaseLayout>

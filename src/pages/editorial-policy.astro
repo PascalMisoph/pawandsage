@@ -1,0 +1,66 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Editorial Policy" description="How Paw & Sage researches, updates, and reviews content.">
+  <section class="page-header">
+    <div class="container-narrow">
+      <span class="eyebrow">Standards</span>
+      <h1>Editorial policy.</h1>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container-narrow prose">
+      <p class="lede">
+        Paw & Sage publishes practical cat care content designed to be calm, useful, and easy to act on.
+      </p>
+
+      <h2>Who writes the content</h2>
+      <p>
+        The site is written and edited by Pascal Misoph. Articles are based on a combination of published veterinary and feline welfare guidance, product research, and real world cat owner experience.
+      </p>
+
+      <h2>How we research articles</h2>
+      <p>
+        We prioritize veterinary organizations, feline welfare groups, university resources, and manufacturer documentation when it is relevant. Where a topic is experience based or product specific, we say so plainly rather than presenting it as settled science.
+      </p>
+
+      <h2>How we handle product recommendations</h2>
+      <p>
+        Product recommendations are chosen for fit, practicality, and value. Some links are affiliate links, but affiliate relationships do not determine which products we recommend. If a claim is based on product specs, we rely on the manufacturer. If a claim is based on our judgment, we present it as judgment.
+      </p>
+
+      <h2>How we update content</h2>
+      <p>
+        We update articles when factual details change, when better supporting sources become available, or when internal links and product recommendations need revision. When a page has been materially revised, the updated date should reflect that change.
+      </p>
+
+      <h2>Medical and behavioral guidance</h2>
+      <p>
+        Paw & Sage is not a substitute for veterinary care. We aim to help owners notice patterns, understand common behavior, and know when a concern has crossed the line into something that needs a vet.
+      </p>
+
+      <h2>Corrections</h2>
+      <p>
+        If you notice something inaccurate, outdated, or unclear, email <a href="mailto:hello@pawandsage.com">hello@pawandsage.com</a>. We would rather correct a page quickly than leave a weak claim in place.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header { padding: 5rem 0 2rem; text-align: center; }
+  .page-header .eyebrow { display: block; margin-bottom: 1rem; }
+  .content-section { padding: 2rem 0 5rem; }
+  .prose { font-size: 1.05rem; line-height: 1.75; }
+  .lede {
+    font-family: 'Fraunces', serif;
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--ink-soft);
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+</style>
