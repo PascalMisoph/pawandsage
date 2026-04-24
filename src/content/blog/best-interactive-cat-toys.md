@@ -17,6 +17,13 @@ sources:
   - title: "General Principles of Feline Well-being"
     url: "https://catvets.com/resource/general-principles-of-feline-well-being-position-statement/"
     publisher: "FelineVMA"
+faq:
+  - question: "What kind of toy is best for an indoor cat?"
+    answer: "The best toy depends on how your cat likes to hunt. Many indoor cats do best with at least one human-led wand toy and one solo toy that creates movement when you are busy."
+  - question: "Are interactive toys better than regular cat toys?"
+    answer: "Usually yes, because movement is what keeps many cats engaged. A toy that mimics prey motion is often more useful than a plush object that sits still."
+  - question: "How often should I rotate cat toys?"
+    answer: "A simple weekly rotation is enough for many cats. Keeping some toys out of sight for a while makes them feel novel again when they come back."
 readTime: "6 min read"
 draft: false
 ---

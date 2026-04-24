@@ -18,6 +18,13 @@ sources:
   - title: "What Your Cat Needs to Feel Secure"
     url: "https://catfriendly.com/cat-friendly-homes/what-your-cat-needs-to-feel-secure/"
     publisher: "Cat Friendly Homes"
+faq:
+  - question: "Why does my cat wake me up at 3 AM every night?"
+    answer: "The usual reasons are a mismatched food schedule, too little stimulation during the day, or night waking that has been reinforced by attention, food, or door opening."
+  - question: "Should I ignore my cat when they wake me up at night?"
+    answer: "If the pattern is behavioral and your cat is otherwise healthy, consistency matters. Responding sometimes can keep the behavior going, so ignoring it works best when paired with better evening play and feeding routines."
+  - question: "When is night waking a vet issue?"
+    answer: "A sudden change, especially in an older cat or alongside increased vocalization, appetite changes, confusion, or restlessness, is a reason to call your vet."
 draft: false
 ---
 

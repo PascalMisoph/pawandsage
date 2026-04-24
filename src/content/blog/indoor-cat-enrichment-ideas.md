@@ -18,6 +18,13 @@ sources:
   - title: "General Principles of Feline Well-being"
     url: "https://catvets.com/resource/general-principles-of-feline-well-being-position-statement/"
     publisher: "FelineVMA"
+faq:
+  - question: "How can I enrich my indoor cat without spending much money?"
+    answer: "Boxes, paper bags with handles removed, treat hunts, moved food locations, window access, and short wand sessions are all low-cost ways to make indoor life more stimulating."
+  - question: "How much enrichment does an indoor cat need each day?"
+    answer: "There is no perfect number, but most indoor cats benefit from at least one or two short periods of active play plus chances to climb, watch, forage, and explore during the day."
+  - question: "What are signs my indoor cat is bored?"
+    answer: "Common signs include night waking, destructive play, knocking things over, pacing, overgrooming, and repeated attention-seeking at predictable times."
 draft: false
 ---
 

@@ -18,6 +18,13 @@ sources:
   - title: "How Cats Learn"
     url: "https://catvets.com/resource/how-cats-learn/"
     publisher: "FelineVMA"
+faq:
+  - question: "Is it normal for a cat to stare at you without blinking?"
+    answer: "Usually yes. Many cats stare because they are waiting for food, attention, play, or simply watching a trusted person. The rest of the body language matters more than the eyes alone."
+  - question: "When should I worry about my cat staring?"
+    answer: "Worry more when the staring is sudden, hard to interrupt, paired with disorientation, appetite changes, mobility changes, or other new behavior shifts. That combination is worth a vet check."
+  - question: "What does a relaxed cat stare look like?"
+    answer: "A relaxed stare usually comes with soft eyes, slow blinks, neutral ears, and a loose body. A tense stare is more likely to come with wide pupils, stiff posture, or tail twitching."
 draft: false
 ---
 

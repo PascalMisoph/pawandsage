@@ -4,6 +4,7 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import EmailCapture from '../components/EmailCapture.astro';
 import CatPlayCTA from '../components/CatPlayCTA.astro';
 import ResponsiveImage from '../components/ResponsiveImage.astro';
+import { buildFAQPageSchema } from '../lib/schema';
 import { ORGANIZATION, PERSON, SITE_URL } from '../lib/site';
 
 export interface RelatedPost {
@@ -23,11 +24,12 @@ const { frontmatter, relatedPosts = [] } = Astro.props as {
     heroAlt?: string;
     tags?: string[];
     sources?: { title: string; url: string; publisher?: string }[];
+    faq?: { question: string; answer: string }[];
   };
   relatedPosts?: RelatedPost[];
 };
 
-const { title, description, pubDate, updatedDate, category, readTime, heroImage, heroAlt = '', tags = [], sources = [] } = frontmatter;
+const { title, description, pubDate, updatedDate, category, readTime, heroImage, heroAlt = '', tags = [], sources = [], faq = [] } = frontmatter;
 
 const formattedDate = new Date(pubDate).toLocaleDateString('en-US', {
   year: 'numeric',
@@ -73,8 +75,7 @@ const breadcrumbs = [
   { name: title, path: Astro.url.pathname },
 ];
 
-const schema = [
-  {
+const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
     headline: title,
@@ -97,7 +98,12 @@ const schema = [
       url: ORGANIZATION.url,
     },
     citation: sources.length > 0 ? sources.map((source) => source.url) : undefined,
-  },
+    isAccessibleForFree: true,
+  };
+
+const schema = [
+  articleSchema,
+  ...(faq.length > 0 ? [buildFAQPageSchema(faq)] : []),
 ];
 ---
 
@@ -136,6 +142,7 @@ const schema = [
           {formattedUpdatedDate && (
             <span class="post-updated">Updated {formattedUpdatedDate}</span>
           )}
+          {sources.length > 0 && <span class="post-sources">{sources.length} sources reviewed</span>}
         </div>
         <h1 class="post-title">{title}</h1>
         <p class="post-description">{description}</p>
@@ -162,6 +169,9 @@ const schema = [
         <p>
           Written by <a href="/about">Pascal Misoph</a>. Read our <a href="/editorial-policy">editorial policy</a> for how articles are researched, updated, and reviewed.
         </p>
+        <p class="author-box-meta">
+          Published {formattedDate}{formattedUpdatedDate ? ` · Updated ${formattedUpdatedDate}` : ''}{sources.length > 0 ? ` · ${sources.length} source${sources.length === 1 ? '' : 's'} linked below` : ''}.
+        </p>
       </div>
 
       <div class="disclosure">
@@ -183,6 +193,21 @@ const schema = [
               </li>
             ))}
           </ul>
+        </section>
+      )}
+
+      {faq.length > 0 && (
+        <section class="faq-section" aria-labelledby="article-faq-title">
+          <span class="eyebrow">FAQ</span>
+          <h2 id="article-faq-title">Common questions</h2>
+          <div class="faq-list">
+            {faq.map((item) => (
+              <details>
+                <summary>{item.question}</summary>
+                <p>{item.answer}</p>
+              </details>
+            ))}
+          </div>
         </section>
       )}
 
@@ -271,6 +296,10 @@ const schema = [
     margin: 0;
     color: var(--ink-soft);
   }
+  .author-box-meta {
+    margin-top: 0.5rem !important;
+    font-size: 0.9rem;
+  }
   .prose {
     font-size: 1.05rem;
     line-height: 1.75;
@@ -283,6 +312,7 @@ const schema = [
     margin-top: 2.5rem;
   }
   .sources,
+  .faq-section,
   .related-posts {
     margin-top: 3rem;
     padding-top: 1.5rem;
@@ -291,5 +321,25 @@ const schema = [
   .sources ul,
   .related-posts ul {
     margin-top: 1rem;
+  }
+  .faq-list {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .faq-list details {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--cream-200);
+    padding: 1rem 1.125rem;
+  }
+  .faq-list summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--sage-900);
+  }
+  .faq-list p {
+    margin: 0.75rem 0 0;
+    color: var(--ink-soft);
   }
 </style>

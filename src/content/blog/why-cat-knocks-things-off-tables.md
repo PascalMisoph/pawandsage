@@ -17,6 +17,13 @@ sources:
   - title: "What Your Cat Needs to Feel Secure"
     url: "https://catfriendly.com/cat-friendly-homes/what-your-cat-needs-to-feel-secure/"
     publisher: "Cat Friendly Homes"
+faq:
+  - question: "Why does my cat knock things off the table while looking at me?"
+    answer: "Often because the behavior gets a reaction. If your cat has learned that pushing an object makes you look, speak, or get up, the table becomes a reliable way to get attention."
+  - question: "Do cats knock things over out of spite?"
+    answer: "No. The more common drivers are prey play, boredom, curiosity, attention seeking, and the desire to clear space on a preferred perch."
+  - question: "What is the fastest way to reduce this behavior?"
+    answer: "Daily interactive play, more climbing space, and less reinforcement when it happens usually matter most. The goal is to make the behavior less rewarding and give the cat better outlets."
 readTime: "5 min read"
 draft: false
 ---

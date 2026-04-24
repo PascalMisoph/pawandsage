@@ -1,10 +1,25 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { buildPageSchema } from '../lib/schema';
+
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Imprint', path: '/imprint' },
+];
+
+const schema = buildPageSchema({
+  name: 'Imprint',
+  description: 'Legal publishing and contact information for Paw & Sage.',
+  path: '/imprint',
+  about: 'Legal notice, operator information, and publishing responsibility',
+});
 ---
 
-<BaseLayout title="Imprint" description="Legal information.">
+<BaseLayout title="Imprint" description="Legal information." breadcrumbs={breadcrumbs} schema={[schema]}>
   <section class="page-header">
     <div class="container-narrow">
+      <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: 'Imprint' }]} />
       <span class="eyebrow">Legal</span>
       <h1>Imprint</h1>
     </div>
@@ -48,7 +63,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 </BaseLayout>
 
 <style>
-  .page-header { padding: 5rem 0 2rem; text-align: center; }
+  .page-header { padding: 3rem 0 2rem; text-align: center; }
   .page-header .eyebrow { display: block; margin-bottom: 1rem; }
   .content-section { padding: 2rem 0 5rem; }
   .prose { font-size: 1.05rem; line-height: 1.75; }

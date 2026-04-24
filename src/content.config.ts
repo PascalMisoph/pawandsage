@@ -19,6 +19,10 @@ const blog = defineCollection({
       url: z.string().url(),
       publisher: z.string().optional(),
     })).optional(),
+    faq: z.array(z.object({
+      question: z.string(),
+      answer: z.string(),
+    })).optional(),
     readTime: z.string().optional(),
     draft: z.boolean().default(false),
   }),

@@ -19,6 +19,13 @@ sources:
   - title: "2025 Socialization of Feral Kittens"
     url: "https://catvets.com/resource/2025-socialization-of-feral-kittens/"
     publisher: "FelineVMA"
+faq:
+  - question: "What do I need before bringing a new kitten home?"
+    answer: "Start with the basics that matter in the first hours: litter setup, the same food the kitten is already eating, a water bowl or fountain, and a quiet starter room."
+  - question: "How much should a first week kitten setup cost?"
+    answer: "A practical first setup often lands around 150 to 250 dollars, depending on the quality of the carrier, scratching post, and feeding gear you choose."
+  - question: "Should I let a new kitten roam the whole house right away?"
+    answer: "Usually no. A quiet starter room for the first day or two helps the kitten settle in, find the litter box reliably, and build confidence before the full house opens up."
 draft: false
 ---
 
