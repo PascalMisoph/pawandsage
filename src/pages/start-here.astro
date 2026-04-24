@@ -1,11 +1,38 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
 import EmailCapture from '../components/EmailCapture.astro';
+import { buildCollectionPageSchema } from '../lib/schema';
+
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Start Here', path: '/start-here' },
+];
+const schema = buildCollectionPageSchema({
+  name: 'Start Here',
+  description: 'The best first pages to read on Paw & Sage depending on what brought you here.',
+  path: '/start-here',
+  about: 'How to navigate Paw & Sage',
+  significantLinks: ['/blog/new-kitten-checklist', '/blog/why-cat-stares-at-me', '/blog/indoor-cat-enrichment-ideas'],
+  hasPart: [
+    '/blog/new-kitten-checklist',
+    '/blog/why-cat-stares-at-me',
+    '/blog/indoor-cat-enrichment-ideas',
+    '/blog/why-cat-wakes-you-3am',
+    '/blog/why-cat-knocks-things-off-tables',
+  ],
+});
 ---
 
-<BaseLayout title="Start here" description="New to paw and sage? Begin here.">
+<BaseLayout
+  title="Start here"
+  description="New to paw and sage? Begin here."
+  breadcrumbs={breadcrumbs}
+  schema={schema}
+>
   <section class="page-header">
     <div class="container-narrow">
+      <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: 'Start Here' }]} />
       <span class="eyebrow">Welcome</span>
       <h1>Start here.</h1>
       <p class="lede">If you are new to paw and sage, these are the best places to begin depending on what brought you here.</p>

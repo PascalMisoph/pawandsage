@@ -1,13 +1,27 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { buildContactPageSchema } from '../lib/schema';
+
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Contact', path: '/contact' },
+];
+const schema = buildContactPageSchema('Contact Paw & Sage', 'Get in touch with Paw & Sage.', '/contact');
 ---
 
-<BaseLayout title="Contact" description="Get in touch with paw and sage.">
+<BaseLayout
+  title="Contact"
+  description="Get in touch with paw and sage."
+  breadcrumbs={breadcrumbs}
+  schema={schema}
+>
   <section class="page-header">
     <div class="container-narrow">
+      <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: 'Contact' }]} />
       <span class="eyebrow">Contact</span>
       <h1>Say hello.</h1>
-      <p class="lede">Questions, feedback, a story about your cat — all welcome.</p>
+      <p class="lede">Questions, feedback, or a story about your cat are all welcome.</p>
     </div>
   </section>
 
@@ -26,7 +40,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
       <div class="contact-card">
         <h2>Brand & affiliate inquiries</h2>
-        <p>For partnership requests, please email with "Partnership" in the subject line. We're selective — only products we'd genuinely use ourselves.</p>
+        <p>For partnership requests, please email with "Partnership" in the subject line. We're selective and only consider products we'd genuinely use ourselves.</p>
       </div>
     </div>
   </section>

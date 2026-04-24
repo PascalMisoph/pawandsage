@@ -1,10 +1,38 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { buildPageSchema } from '../lib/schema';
+
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'About', path: '/about' },
+  { name: 'Editorial Policy', path: '/editorial-policy' },
+];
+const schema = buildPageSchema({
+  type: 'WebPage',
+  name: 'Editorial Policy',
+  description: 'How Paw & Sage researches, updates, and reviews content.',
+  path: '/editorial-policy',
+  about: 'Editorial standards for Paw & Sage',
+  significantLinks: ['/about', '/contact'],
+});
 ---
 
-<BaseLayout title="Editorial Policy" description="How Paw & Sage researches, updates, and reviews content.">
+<BaseLayout
+  title="Editorial Policy"
+  description="How Paw & Sage researches, updates, and reviews content."
+  breadcrumbs={breadcrumbs}
+  schema={schema}
+>
   <section class="page-header">
     <div class="container-narrow">
+      <Breadcrumbs
+        items={[
+          { name: 'Home', href: '/' },
+          { name: 'About', href: '/about' },
+          { name: 'Editorial Policy' },
+        ]}
+      />
       <span class="eyebrow">Standards</span>
       <h1>Editorial policy.</h1>
     </div>

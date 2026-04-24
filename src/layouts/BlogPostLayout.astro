@@ -1,5 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
 import EmailCapture from '../components/EmailCapture.astro';
 import CatPlayCTA from '../components/CatPlayCTA.astro';
 import { ORGANIZATION, PERSON, SITE_URL } from '../lib/site';
@@ -64,38 +65,14 @@ const leadMagnetByCategory = {
 
 const showCatPlay = category === 'behavior' || category === 'enrichment';
 const canonical = `${SITE_URL}${Astro.url.pathname}`;
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Journal', path: '/blog' },
+  { name: categoryLabels[category], path: `/categories/${category}` },
+  { name: title, path: Astro.url.pathname },
+];
 
 const schema = [
-  {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      {
-        '@type': 'ListItem',
-        position: 1,
-        name: 'Home',
-        item: SITE_URL,
-      },
-      {
-        '@type': 'ListItem',
-        position: 2,
-        name: 'Journal',
-        item: `${SITE_URL}/blog`,
-      },
-      {
-        '@type': 'ListItem',
-        position: 3,
-        name: categoryLabels[category],
-        item: `${SITE_URL}/categories/${category}`,
-      },
-      {
-        '@type': 'ListItem',
-        position: 4,
-        name: title,
-        item: canonical,
-      },
-    ],
-  },
   {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
@@ -111,12 +88,14 @@ const schema = [
       '@type': 'Person',
       name: PERSON.name,
       url: PERSON.url,
+      jobTitle: PERSON.jobTitle,
     },
     publisher: {
       '@type': 'Organization',
       name: ORGANIZATION.name,
       url: ORGANIZATION.url,
     },
+    citation: sources.length > 0 ? sources.map((source) => source.url) : undefined,
   },
 ];
 ---
@@ -130,17 +109,19 @@ const schema = [
   modifiedTime={(updatedDate ?? pubDate).toISOString()}
   section={categoryLabels[category]}
   tags={tags}
+  breadcrumbs={breadcrumbs}
   schema={schema}
 >
   <article>
     <div class="container-narrow">
-      <nav class="breadcrumbs" aria-label="Breadcrumb">
-        <a href="/">Home</a>
-        <span>/</span>
-        <a href="/blog">Journal</a>
-        <span>/</span>
-        <a href={`/categories/${category}`}>{categoryLabels[category]}</a>
-      </nav>
+      <Breadcrumbs
+        items={[
+          { name: 'Home', href: '/' },
+          { name: 'Journal', href: '/blog' },
+          { name: categoryLabels[category], href: `/categories/${category}` },
+          { name: title },
+        ]}
+      />
     </div>
 
     <header class="post-header">
@@ -226,17 +207,6 @@ const schema = [
 </BaseLayout>
 
 <style>
-  .breadcrumbs {
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-    padding-top: 2rem;
-    font-size: 0.8rem;
-    color: var(--ink-soft);
-  }
-  .breadcrumbs a {
-    text-decoration: none;
-  }
   .post-header {
     padding: 2rem 0 3rem;
     text-align: center;

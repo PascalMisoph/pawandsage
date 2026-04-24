@@ -3,14 +3,28 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import EmailCapture from '../components/EmailCapture.astro';
 import PostCard from '../components/PostCard.astro';
 import { getCollection } from 'astro:content';
+import { buildPageSchema } from '../lib/schema';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
 const sortedPosts = allPosts
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, 6);
+const schema = buildPageSchema({
+  name: 'Paw & Sage',
+  description: 'Calm, considered writing on cat behavior, indoor enrichment, and new cat care.',
+  path: '/',
+  image: '/home-header-premium-wide.png',
+  about: 'Cat behavior, indoor enrichment, and new cat care',
+  significantLinks: ['/blog', '/start-here', '/categories/behavior', '/categories/enrichment', '/categories/new-cat'],
+});
 ---
 
-<BaseLayout title="paw and sage" image="/home-header-premium-wide.png">
+<BaseLayout
+  title="paw and sage"
+  description="Calm, considered writing on cat behavior, indoor enrichment, and new cat care."
+  image="/home-header-premium-wide.png"
+  schema={schema}
+>
   <section class="hero">
     <div class="hero-grid">
       <div class="hero-copy">

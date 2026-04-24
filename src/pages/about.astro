@@ -1,10 +1,28 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { buildAboutPageSchema } from '../lib/schema';
+
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'About', path: '/about' },
+];
+const schema = buildAboutPageSchema(
+  'About Paw & Sage',
+  'The story behind Paw & Sage and how the site approaches cat content.',
+  '/about'
+);
 ---
 
-<BaseLayout title="About" description="The story behind paw and sage.">
+<BaseLayout
+  title="About"
+  description="The story behind paw and sage."
+  breadcrumbs={breadcrumbs}
+  schema={schema}
+>
   <section class="page-header">
     <div class="container-narrow">
+      <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: 'About' }]} />
       <span class="eyebrow">About</span>
       <h1>Why paw and sage exists.</h1>
     </div>

@@ -1,15 +1,35 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import PostCard from '../../components/PostCard.astro';
 import { getCollection } from 'astro:content';
+import { buildCollectionPageSchema } from '../../lib/schema';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
 const sortedPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Journal', path: '/blog' },
+];
+const schema = buildCollectionPageSchema({
+  name: 'Paw & Sage Journal',
+  description: 'Calm, considered writing about cats and the people who live with them.',
+  path: '/blog',
+  about: 'Cat behavior, indoor enrichment, and new cat care',
+  significantLinks: ['/categories/behavior', '/categories/enrichment', '/categories/new-cat'],
+  hasPart: sortedPosts.map((post) => `/blog/${post.id}`),
+});
 ---
 
-<BaseLayout title="Journal" description="Calm, considered writing about cats and the people who live with them.">
+<BaseLayout
+  title="Journal"
+  description="Calm, considered writing about cats and the people who live with them."
+  breadcrumbs={breadcrumbs}
+  schema={schema}
+>
   <section class="page-header">
     <div class="container-narrow">
+      <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: 'Journal' }]} />
       <span class="eyebrow">The Journal</span>
       <h1>Everything we've written.</h1>
       <p class="page-description">

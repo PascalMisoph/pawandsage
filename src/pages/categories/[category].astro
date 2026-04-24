@@ -1,7 +1,9 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import PostCard from '../../components/PostCard.astro';
+import { buildCollectionPageSchema, buildFAQPageSchema } from '../../lib/schema';
 
 export async function getStaticPaths() {
   const allPosts = await getCollection('blog', ({ data }) => !data.draft);
@@ -92,11 +94,39 @@ export async function getStaticPaths() {
 }
 
 const { category, posts } = Astro.props;
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Journal', path: '/blog' },
+  { name: category.title, path: `/categories/${category.slug}` },
+];
+const schema = [
+  buildCollectionPageSchema({
+    name: `${category.title} on Paw & Sage`,
+    description: category.description,
+    path: `/categories/${category.slug}`,
+    about: `${category.title} advice for cat owners`,
+    significantLinks: category.nextReads.map((item) => item.href),
+    hasPart: posts.map((post) => `/blog/${post.id}`),
+  }),
+  buildFAQPageSchema(category.faq),
+];
 ---
 
-<BaseLayout title={`${category.title} for cat owners`} description={category.description}>
+<BaseLayout
+  title={`${category.title} for cat owners`}
+  description={category.description}
+  breadcrumbs={breadcrumbs}
+  schema={schema}
+>
   <section class="page-header">
     <div class="container-narrow">
+      <Breadcrumbs
+        items={[
+          { name: 'Home', href: '/' },
+          { name: 'Journal', href: '/blog' },
+          { name: category.title },
+        ]}
+      />
       <span class="eyebrow">Category</span>
       <h1>{category.title}</h1>
       <p class="page-description">{category.description}</p>
