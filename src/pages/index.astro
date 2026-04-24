@@ -362,14 +362,17 @@ const schema = [
     object-position: 60% center;
   }
 
-  .categories-section,
+  .categories-section {
+    padding: 4rem 0 2.75rem;
+  }
+
   .recent-posts {
-    padding: 5rem 0;
+    padding: 2.75rem 0 3.5rem;
   }
 
   .section-header {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2.25rem;
   }
 
   .section-header .eyebrow {
@@ -425,7 +428,7 @@ const schema = [
 
   .trust-section,
   .faq-section {
-    padding: 0 0 5rem;
+    padding: 0 0 3.25rem;
   }
 
   .trust-grid {
@@ -488,7 +491,11 @@ const schema = [
   }
 
   .email-section {
-    padding: 3rem 0 5rem;
+    padding: 0.75rem 0 2.5rem;
+  }
+
+  .email-section :global(.email-capture) {
+    margin: 0;
   }
 
   @media (max-width: 900px) {
@@ -571,6 +578,23 @@ const schema = [
     .trust-grid {
       grid-template-columns: 1fr;
     }
+
+    .categories-section {
+      padding: 3.5rem 0 2.25rem;
+    }
+
+    .recent-posts {
+      padding: 2.25rem 0 3rem;
+    }
+
+    .trust-section,
+    .faq-section {
+      padding: 0 0 2.75rem;
+    }
+
+    .email-section {
+      padding: 0.5rem 0 2.25rem;
+    }
   }
 
   @media (max-width: 600px) {
@@ -599,6 +623,27 @@ const schema = [
 
     .posts-grid {
       grid-template-columns: 1fr;
+    }
+
+    .section-header {
+      margin-bottom: 1.75rem;
+    }
+
+    .categories-section {
+      padding: 3rem 0 2rem;
+    }
+
+    .recent-posts {
+      padding: 2rem 0 2.5rem;
+    }
+
+    .trust-section,
+    .faq-section {
+      padding: 0 0 2.25rem;
+    }
+
+    .email-section {
+      padding: 0.25rem 0 2rem;
     }
   }
 </style>
