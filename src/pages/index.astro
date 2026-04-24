@@ -30,16 +30,17 @@ const homeFaq = [
   },
 ];
 const updatedDate = '2026-04-24';
-const heroEntry = responsiveImageManifest['/home-header-premium-wide.png'];
+const heroImage = '/home-header-premium.png';
+const heroEntry = responsiveImageManifest[heroImage];
 const heroJpegVariants = heroEntry.variants.jpeg;
 const heroPreloadSrcset = heroJpegVariants.map((variant) => `${variant.src} ${variant.width}w`).join(', ');
-const heroPreloadHref = heroJpegVariants[heroJpegVariants.length - 1]?.src ?? '/home-header-premium-wide.png';
+const heroPreloadHref = heroJpegVariants[heroJpegVariants.length - 1]?.src ?? heroImage;
 const schema = [
   buildPageSchema({
     name: 'Paw & Sage',
     description: 'Calm, considered writing on cat behavior, indoor enrichment, and new cat care.',
     path: '/',
-    image: '/home-header-premium-wide.png',
+    image: heroImage,
     about: 'Cat behavior, indoor enrichment, and new cat care',
     significantLinks: ['/blog', '/start-here', '/categories/behavior', '/categories/enrichment', '/categories/new-cat'],
   }),
@@ -63,7 +64,7 @@ const schema = [
 <BaseLayout
   title="Cat Behavior, Enrichment & New Cat Care"
   description="Practical guidance on cat behavior, indoor enrichment, and new cat care for people who want a calmer home and a better-read cat."
-  image="/home-header-premium-wide.png"
+  image={heroImage}
   breadcrumbs={[{ name: 'Home', path: '/' }]}
   schema={schema}
   resourceHints={[
@@ -100,7 +101,7 @@ const schema = [
 
       <figure class="hero-visual-wrap">
         <ResponsiveImage
-          src="/home-header-premium-wide.png"
+          src={heroImage}
           alt="A wide sunlit home interior with a cat seated by a window in a calm editorial setting."
           sizes="100vw"
           loading="eager"
