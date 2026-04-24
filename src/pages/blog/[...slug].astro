@@ -1,11 +1,25 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
+import { clusterConfigBySlug } from '../../lib/clusters';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => !data.draft);
+  const postMap = new Map(posts.map((post) => [post.id, post]));
 
   return posts.map((post) => {
+    const cluster = clusterConfigBySlug[post.data.category];
+    const orderedClusterPosts = cluster.orderedPosts
+      .map((slug) => postMap.get(slug))
+      .filter(Boolean);
+    const currentIndex = orderedClusterPosts.findIndex((candidate) => candidate?.id === post.id);
+    const previousPost = currentIndex > 0 ? orderedClusterPosts[currentIndex - 1] : null;
+    const nextPost = currentIndex >= 0 ? orderedClusterPosts[currentIndex + 1] : null;
+    const clusterPosts = orderedClusterPosts.map((candidate) => ({
+      href: `/blog/${candidate!.id}`,
+      title: candidate!.data.title,
+      current: candidate!.id === post.id,
+    }));
     const relatedPosts = posts
       .filter((candidate) => candidate.id !== post.id)
       .map((candidate) => {
@@ -23,15 +37,32 @@ export async function getStaticPaths() {
 
     return {
       params: { slug: post.id },
-      props: { post, relatedPosts },
+      props: {
+        post,
+        relatedPosts,
+        clusterContext: {
+          title: cluster.title,
+          hubHref: `/categories/${cluster.slug}`,
+          hubTitle: `${cluster.title} hub`,
+          featuredHref: cluster.featured,
+          featuredTitle: cluster.featuredTitle,
+          clusterPosts,
+          previousPost: previousPost
+            ? { href: `/blog/${previousPost.id}`, title: previousPost.data.title }
+            : null,
+          nextPost: nextPost
+            ? { href: `/blog/${nextPost.id}`, title: nextPost.data.title }
+            : null,
+        },
+      },
     };
   });
 }
 
-const { post, relatedPosts } = Astro.props;
+const { post, relatedPosts, clusterContext } = Astro.props;
 const { Content } = await render(post);
 ---
 
-<BlogPostLayout frontmatter={post.data} relatedPosts={relatedPosts}>
+<BlogPostLayout frontmatter={post.data} relatedPosts={relatedPosts} clusterContext={clusterContext}>
   <Content />
 </BlogPostLayout>

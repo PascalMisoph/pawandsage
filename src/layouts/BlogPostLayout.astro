@@ -12,6 +12,21 @@ export interface RelatedPost {
   title: string;
 }
 
+export interface ClusterPostLink extends RelatedPost {
+  current?: boolean;
+}
+
+export interface ClusterContext {
+  title: string;
+  hubHref: string;
+  hubTitle: string;
+  featuredHref: string;
+  featuredTitle: string;
+  clusterPosts: ClusterPostLink[];
+  previousPost?: RelatedPost | null;
+  nextPost?: RelatedPost | null;
+}
+
 const { frontmatter, relatedPosts = [] } = Astro.props as {
   frontmatter: {
     title: string;
@@ -27,8 +42,10 @@ const { frontmatter, relatedPosts = [] } = Astro.props as {
     faq?: { question: string; answer: string }[];
   };
   relatedPosts?: RelatedPost[];
+  clusterContext?: ClusterContext;
 };
 
+const { clusterContext } = Astro.props as { clusterContext?: ClusterContext };
 const { title, description, pubDate, updatedDate, category, readTime, heroImage, heroAlt = '', tags = [], sources = [], faq = [] } = frontmatter;
 
 const formattedDate = new Date(pubDate).toLocaleDateString('en-US', {
@@ -178,6 +195,42 @@ const schema = [
         This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you. I only recommend products I would use for my own cat.
       </div>
 
+      {clusterContext && (
+        <aside class="cluster-map">
+          <span class="eyebrow">Topic hub</span>
+          <h2>Part of the {clusterContext.title} cluster.</h2>
+          <p>
+            Start with the <a href={clusterContext.hubHref}>{clusterContext.hubTitle}</a> or the
+            foundational guide <a href={clusterContext.featuredHref}>{clusterContext.featuredTitle}</a>, then work through the related pages below.
+          </p>
+          <ul class="cluster-links">
+            {clusterContext.clusterPosts.map((post) => (
+              <li class:list={{ current: post.current }}>
+                {post.current ? (
+                  <span aria-current="page">{post.title}</span>
+                ) : (
+                  <a href={post.href}>{post.title}</a>
+                )}
+              </li>
+            ))}
+          </ul>
+          {(clusterContext.previousPost || clusterContext.nextPost) && (
+            <div class="cluster-nav">
+              {clusterContext.previousPost ? (
+                <a href={clusterContext.previousPost.href}>Previous: {clusterContext.previousPost.title}</a>
+              ) : (
+                <span />
+              )}
+              {clusterContext.nextPost ? (
+                <a href={clusterContext.nextPost.href}>Next: {clusterContext.nextPost.title}</a>
+              ) : (
+                <span />
+              )}
+            </div>
+          )}
+        </aside>
+      )}
+
       <div class="prose">
         <slot />
       </div>
@@ -311,12 +364,53 @@ const schema = [
   .prose :global(h3) {
     margin-top: 2.5rem;
   }
+  .cluster-map,
   .sources,
   .faq-section,
   .related-posts {
     margin-top: 3rem;
     padding-top: 1.5rem;
     border-top: 1px solid var(--line);
+  }
+  .cluster-map p {
+    color: var(--ink-soft);
+    max-width: 60ch;
+  }
+  .cluster-links {
+    display: grid;
+    gap: 0.75rem;
+    list-style: none;
+    margin: 1rem 0 0;
+    padding: 0;
+  }
+  .cluster-links li {
+    padding: 0.875rem 1rem;
+    background: var(--cream-200);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+  }
+  .cluster-links li.current {
+    background: var(--sage-50);
+    border-color: var(--sage-300);
+  }
+  .cluster-links li.current span {
+    color: var(--sage-900);
+    font-weight: 600;
+  }
+  .cluster-nav {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .cluster-nav a,
+  .cluster-nav span {
+    display: block;
+    padding: 0.875rem 1rem;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--cream-100);
+    min-height: 100%;
   }
   .sources ul,
   .related-posts ul {
@@ -341,5 +435,10 @@ const schema = [
   .faq-list p {
     margin: 0.75rem 0 0;
     color: var(--ink-soft);
+  }
+  @media (max-width: 700px) {
+    .cluster-nav {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
