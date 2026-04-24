@@ -4,8 +4,9 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import EmailCapture from '../components/EmailCapture.astro';
 import CatPlayCTA from '../components/CatPlayCTA.astro';
 import ResponsiveImage from '../components/ResponsiveImage.astro';
+import { buildImageObject, buildImagePreloadHint } from '../lib/images';
 import { buildFAQPageSchema } from '../lib/schema';
-import { ORGANIZATION, PERSON, SITE_URL } from '../lib/site';
+import { ORGANIZATION, PERSON, SITE_LANGUAGE, SITE_URL } from '../lib/site';
 
 export interface RelatedPost {
   href: string;
@@ -85,6 +86,8 @@ const leadMagnetByCategory = {
 
 const showCatPlay = category === 'behavior' || category === 'enrichment';
 const canonical = `${SITE_URL}${Astro.url.pathname}`;
+const heroImageObject = buildImageObject(heroImage);
+const heroResourceHint = heroImage ? buildImagePreloadHint(heroImage, '(min-width: 1132px) 1100px, calc(100vw - 3rem)') : null;
 const breadcrumbs = [
   { name: 'Home', path: '/' },
   { name: 'Journal', path: '/blog' },
@@ -97,11 +100,20 @@ const articleSchema = {
     '@type': 'BlogPosting',
     headline: title,
     description,
-    image: heroImage ? `${SITE_URL}${heroImage}` : undefined,
+    image: heroImageObject
+      ? {
+          ...heroImageObject,
+          url: `${SITE_URL}${heroImage}`,
+        }
+      : undefined,
     mainEntityOfPage: canonical,
     datePublished: pubDate.toISOString(),
     dateModified: (updatedDate ?? pubDate).toISOString(),
     articleSection: categoryLabels[category],
+    inLanguage: SITE_LANGUAGE,
+    isPartOf: {
+      '@id': `${SITE_URL}#website`,
+    },
     keywords: tags.join(', '),
     author: {
       '@type': 'Person',
@@ -113,6 +125,10 @@ const articleSchema = {
       '@type': 'Organization',
       name: ORGANIZATION.name,
       url: ORGANIZATION.url,
+      logo: {
+        '@type': 'ImageObject',
+        url: ORGANIZATION.logo,
+      },
     },
     citation: sources.length > 0 ? sources.map((source) => source.url) : undefined,
     isAccessibleForFree: true,
@@ -129,12 +145,14 @@ const schema = [
   description={description}
   type="article"
   image={heroImage}
+  imageAlt={heroAlt}
   publishedTime={pubDate.toISOString()}
   modifiedTime={(updatedDate ?? pubDate).toISOString()}
   section={categoryLabels[category]}
   tags={tags}
   breadcrumbs={breadcrumbs}
   schema={schema}
+  resourceHints={heroResourceHint ? [heroResourceHint] : []}
 >
   <article>
     <div class="container-narrow">
