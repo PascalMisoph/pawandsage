@@ -455,9 +455,17 @@ const schema = [
     margin-top: 0;
   }
 
+  .trust-copy h2 {
+    margin-bottom: 0.9rem;
+  }
+
   .trust-copy p:last-child,
   .trust-sources ul {
     margin-bottom: 0;
+  }
+
+  .trust-copy p + p {
+    margin-top: 0.9rem;
   }
 
   .trust-meta {
@@ -577,6 +585,7 @@ const schema = [
 
     .trust-grid {
       grid-template-columns: 1fr;
+      gap: 1.1rem;
     }
 
     .categories-section {
@@ -594,6 +603,25 @@ const schema = [
 
     .email-section {
       padding: 0.5rem 0 2.25rem;
+    }
+
+    .trust-copy,
+    .trust-sources {
+      padding: 1.5rem;
+    }
+
+    .trust-copy h2 {
+      font-size: 1.7rem;
+      line-height: 1.08;
+    }
+
+    .trust-sources h3 {
+      font-size: 1.25rem;
+      margin-bottom: 0.85rem;
+    }
+
+    .faq-list details {
+      padding: 1rem;
     }
   }
 
@@ -644,6 +672,67 @@ const schema = [
 
     .email-section {
       padding: 0.25rem 0 2rem;
+    }
+
+    .trust-section {
+      padding-bottom: 2.5rem;
+    }
+
+    .faq-section {
+      padding-bottom: 2.5rem;
+    }
+
+    .trust-grid {
+      gap: 0.9rem;
+    }
+
+    .trust-copy,
+    .trust-sources {
+      padding: 1.25rem;
+      border-radius: 10px;
+    }
+
+    .trust-copy h2 {
+      font-size: 1.45rem;
+      line-height: 1.12;
+      margin-bottom: 0.8rem;
+    }
+
+    .trust-copy p {
+      font-size: 0.97rem;
+      line-height: 1.65;
+    }
+
+    .trust-meta {
+      font-size: 0.88rem;
+    }
+
+    .trust-sources h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .trust-sources ul {
+      padding-left: 1rem;
+    }
+
+    .faq-list {
+      gap: 0.85rem;
+    }
+
+    .faq-list details {
+      padding: 0.95rem 0.95rem 1rem;
+      border-radius: 10px;
+    }
+
+    .faq-list summary {
+      font-size: 0.98rem;
+      line-height: 1.45;
+    }
+
+    .faq-list p {
+      font-size: 0.95rem;
+      line-height: 1.62;
     }
   }
 </style>
