@@ -6,7 +6,7 @@ const projectRoot = process.cwd();
 const contentDir = path.join(projectRoot, 'src', 'content', 'blog');
 const outputDir = path.join(projectRoot, 'public', 'optimized');
 const manifestPath = path.join(projectRoot, 'src', 'generated', 'responsive-image-manifest.json');
-const homepageHeroes = ['/home-header-premium.png', '/home-header-premium-wide.png'];
+const homepageHero = '/home-header-premium-wide.png';
 const blogWidths = [360, 540, 720, 960, 1280, 1586];
 const homepageWidths = [480, 720, 960, 1280, 1600, 1822];
 
@@ -22,7 +22,7 @@ async function ensureDir(dirPath) {
 
 async function readHeroImages() {
   const entries = await fs.readdir(contentDir, { withFileTypes: true });
-  const images = new Set(homepageHeroes);
+  const images = new Set([homepageHero]);
 
   for (const entry of entries) {
     if (!entry.isFile()) continue;
@@ -36,7 +36,7 @@ async function readHeroImages() {
 }
 
 function getWidthsForImage(imagePath) {
-  return homepageHeroes.includes(imagePath) ? homepageWidths : blogWidths;
+  return imagePath === homepageHero ? homepageWidths : blogWidths;
 }
 
 function buildOutputName(imagePath, width, extension) {
