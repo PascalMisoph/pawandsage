@@ -35,7 +35,7 @@ const intrinsicHeight = height ?? manifestEntry?.height;
 ---
 
 {manifestEntry ? (
-  <picture>
+  <picture data-responsive-image>
     {avifSrcSet && <source type="image/avif" srcset={avifSrcSet} sizes={sizes} />}
     {webpSrcSet && <source type="image/webp" srcset={webpSrcSet} sizes={sizes} />}
     {jpegSrcSet && <source type="image/jpeg" srcset={jpegSrcSet} sizes={sizes} />}
@@ -63,3 +63,17 @@ const intrinsicHeight = height ?? manifestEntry?.height;
     class={imgClass}
   />
 )}
+
+<style>
+  picture[data-responsive-image] {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  picture[data-responsive-image] img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+</style>
