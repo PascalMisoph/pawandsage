@@ -151,6 +151,8 @@ const schema = [
           loading="eager"
           decoding="async"
           fetchpriority="high"
+          pictureClass="post-hero-picture"
+          imgClass="post-hero-image"
         />
       </div>
     )}
@@ -246,12 +248,17 @@ const schema = [
     margin: 0 auto 3rem;
     padding: 0 1.5rem;
   }
-  .post-hero img {
+  .post-hero :global(.post-hero-picture) {
+    display: block;
+    width: 100%;
+  }
+  .post-hero :global(.post-hero-image) {
     width: 100%;
     height: auto;
     border-radius: 12px;
     aspect-ratio: 16/9;
     object-fit: cover;
+    object-position: center;
   }
   .author-box {
     padding: 1rem 1.25rem;

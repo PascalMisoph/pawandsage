@@ -53,6 +53,7 @@ const schema = buildPageSchema({
           loading="eager"
           decoding="async"
           fetchpriority="high"
+          pictureClass="hero-visual-picture"
           imgClass="hero-visual"
         />
       </figure>
@@ -255,7 +256,12 @@ const schema = buildPageSchema({
     pointer-events: none;
   }
 
-  .hero-visual {
+  .hero-visual-wrap :global(.hero-visual-picture) {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-visual-wrap :global(.hero-visual) {
     display: block;
     width: 100%;
     height: 100%;
@@ -392,7 +398,7 @@ const schema = buildPageSchema({
       );
     }
 
-    .hero-visual {
+    .hero-visual-wrap :global(.hero-visual) {
       min-height: inherit;
       height: 100%;
       border-radius: 0;
@@ -424,7 +430,7 @@ const schema = buildPageSchema({
       padding-bottom: 2.5rem;
     }
 
-    .hero-visual {
+    .hero-visual-wrap :global(.hero-visual) {
       object-position: 71% center;
     }
 
