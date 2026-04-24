@@ -96,43 +96,43 @@ const breadcrumbs = [
 ];
 
 const articleSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'BlogPosting',
-    headline: title,
-    description,
-    image: heroImageObject
-      ? {
-          ...heroImageObject,
-          url: `${SITE_URL}${heroImage}`,
-        }
-      : undefined,
-    mainEntityOfPage: canonical,
-    datePublished: pubDate.toISOString(),
-    dateModified: (updatedDate ?? pubDate).toISOString(),
-    articleSection: categoryLabels[category],
-    inLanguage: SITE_LANGUAGE,
-    isPartOf: {
-      '@id': `${SITE_URL}#website`,
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: title,
+  description,
+  image: heroImageObject
+    ? {
+        ...heroImageObject,
+        url: `${SITE_URL}${heroImage}`,
+      }
+    : undefined,
+  mainEntityOfPage: canonical,
+  datePublished: pubDate.toISOString(),
+  dateModified: (updatedDate ?? pubDate).toISOString(),
+  articleSection: categoryLabels[category],
+  inLanguage: SITE_LANGUAGE,
+  isPartOf: {
+    '@id': `${SITE_URL}#website`,
+  },
+  keywords: tags.join(', '),
+  author: {
+    '@type': 'Person',
+    name: PERSON.name,
+    url: PERSON.url,
+    jobTitle: PERSON.jobTitle,
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: ORGANIZATION.name,
+    url: ORGANIZATION.url,
+    logo: {
+      '@type': 'ImageObject',
+      url: ORGANIZATION.logo,
     },
-    keywords: tags.join(', '),
-    author: {
-      '@type': 'Person',
-      name: PERSON.name,
-      url: PERSON.url,
-      jobTitle: PERSON.jobTitle,
-    },
-    publisher: {
-      '@type': 'Organization',
-      name: ORGANIZATION.name,
-      url: ORGANIZATION.url,
-      logo: {
-        '@type': 'ImageObject',
-        url: ORGANIZATION.logo,
-      },
-    },
-    citation: sources.length > 0 ? sources.map((source) => source.url) : undefined,
-    isAccessibleForFree: true,
-  };
+  },
+  citation: sources.length > 0 ? sources.map((source) => source.url) : undefined,
+  isAccessibleForFree: true,
+};
 
 const schema = [
   articleSchema,
@@ -173,11 +173,7 @@ const schema = [
             {categoryLabels[category]}
           </a>
           <time class="post-date" datetime={pubDate.toISOString()}>{formattedDate}</time>
-          {readTime && <span class="post-readtime">· {readTime}</span>}
-          {formattedUpdatedDate && (
-            <span class="post-updated">Updated {formattedUpdatedDate}</span>
-          )}
-          {sources.length > 0 && <span class="post-sources">{sources.length} sources reviewed</span>}
+          {readTime && <span class="post-readtime">{readTime}</span>}
         </div>
         <h1 class="post-title">{title}</h1>
         <p class="post-description">{description}</p>
@@ -200,18 +196,41 @@ const schema = [
     )}
 
     <div class="container-narrow">
-      <div class="author-box">
-        <p>
-          Written by <a href="/about">Pascal Misoph</a>. Read our <a href="/editorial-policy">editorial policy</a> for how articles are researched, updated, and reviewed.
-        </p>
-        <p class="author-box-meta">
-          Published {formattedDate}{formattedUpdatedDate ? ` · Updated ${formattedUpdatedDate}` : ''}{sources.length > 0 ? ` · ${sources.length} source${sources.length === 1 ? '' : 's'} linked below` : ''}.
-        </p>
+      <div class="post-byline">
+        <p>Written by <a href="/about">Pascal Misoph</a></p>
+        {formattedUpdatedDate && <p class="post-byline-meta">Updated {formattedUpdatedDate}</p>}
       </div>
 
-      <div class="disclosure">
-        This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you. I only recommend products I would use for my own cat.
+      <div class="prose">
+        <slot />
       </div>
+
+      {sources.length > 0 && (
+        <section class="sources">
+          <h2>Sources</h2>
+          <p class="sources-note">
+            This article cites {sources.length} source{sources.length === 1 ? '' : 's'} in the text. They are linked below.
+          </p>
+          <ul>
+            {sources.map((source) => (
+              <li>
+                <a href={source.url} target="_blank" rel="noopener noreferrer">{source.title}</a>
+                {source.publisher && <span> ({source.publisher})</span>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      <section class="post-footer-notes">
+        <p class="editorial-note">
+          For how articles are researched, updated, and reviewed, read our <a href="/editorial-policy">editorial policy</a>.
+        </p>
+
+        <div class="disclosure">
+          This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you. I only recommend products I would use for my own cat.
+        </div>
+      </section>
 
       {clusterContext && (
         <aside class="cluster-map">
@@ -247,24 +266,6 @@ const schema = [
             </div>
           )}
         </aside>
-      )}
-
-      <div class="prose">
-        <slot />
-      </div>
-
-      {sources.length > 0 && (
-        <section class="sources">
-          <h2>Sources</h2>
-          <ul>
-            {sources.map((source) => (
-              <li>
-                <a href={source.url} target="_blank" rel="noopener noreferrer">{source.title}</a>
-                {source.publisher && <span> ({source.publisher})</span>}
-              </li>
-            ))}
-          </ul>
-        </section>
       )}
 
       {faq.length > 0 && (
@@ -309,6 +310,7 @@ const schema = [
     padding: 2rem 0 3rem;
     text-align: center;
   }
+
   .post-meta {
     display: flex;
     justify-content: center;
@@ -321,14 +323,17 @@ const schema = [
     color: var(--ink-soft);
     flex-wrap: wrap;
   }
+
   .post-category {
     color: var(--terra-700);
     font-weight: 600;
     text-decoration: none;
   }
+
   .post-title {
     margin-bottom: 1.25rem;
   }
+
   .post-description {
     font-family: 'Fraunces Variable', 'Fraunces', serif;
     font-style: italic;
@@ -339,15 +344,18 @@ const schema = [
     max-width: 580px;
     margin: 0 auto;
   }
+
   .post-hero {
     max-width: 1100px;
     margin: 0 auto 3rem;
     padding: 0 1.5rem;
   }
+
   .post-hero :global(.post-hero-picture) {
     display: block;
     width: 100%;
   }
+
   .post-hero :global(.post-hero-image) {
     width: 100%;
     height: auto;
@@ -356,32 +364,44 @@ const schema = [
     object-fit: cover;
     object-position: center;
   }
-  .author-box {
-    padding: 1rem 1.25rem;
-    border: 1px solid var(--line);
-    border-radius: 10px;
-    background: var(--cream-200);
-    margin-bottom: 1.5rem;
-  }
-  .author-box p {
-    margin: 0;
+
+  .post-byline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem 1rem;
+    margin: 0 0 1.75rem;
+    padding-bottom: 0.9rem;
+    border-bottom: 1px solid var(--line);
     color: var(--ink-soft);
+    font-size: 0.86rem;
   }
-  .author-box-meta {
-    margin-top: 0.5rem !important;
-    font-size: 0.9rem;
+
+  .post-byline p {
+    margin: 0;
   }
+
+  .post-byline-meta {
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
   .prose {
     font-size: 1.05rem;
     line-height: 1.75;
     color: var(--ink);
   }
+
   .prose :global(h2) {
     margin-top: 3rem;
   }
+
   .prose :global(h3) {
     margin-top: 2.5rem;
   }
+
+  .post-footer-notes,
   .cluster-map,
   .sources,
   .faq-section,
@@ -390,10 +410,17 @@ const schema = [
     padding-top: 1.5rem;
     border-top: 1px solid var(--line);
   }
+
+  .editorial-note {
+    color: var(--ink-soft);
+    margin-bottom: 1rem;
+  }
+
   .cluster-map p {
     color: var(--ink-soft);
     max-width: 60ch;
   }
+
   .cluster-links {
     display: grid;
     gap: 0.75rem;
@@ -401,26 +428,31 @@ const schema = [
     margin: 1rem 0 0;
     padding: 0;
   }
+
   .cluster-links li {
     padding: 0.875rem 1rem;
     background: var(--cream-200);
     border: 1px solid var(--line);
     border-radius: 10px;
   }
+
   .cluster-links li.current {
     background: var(--sage-50);
     border-color: var(--sage-300);
   }
+
   .cluster-links li.current span {
     color: var(--sage-900);
     font-weight: 600;
   }
+
   .cluster-nav {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
     margin-top: 1rem;
   }
+
   .cluster-nav a,
   .cluster-nav span {
     display: block;
@@ -430,31 +462,99 @@ const schema = [
     background: var(--cream-100);
     min-height: 100%;
   }
+
+  .sources-note {
+    color: var(--ink-soft);
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+  }
+
   .sources ul,
   .related-posts ul {
     margin-top: 1rem;
   }
+
   .faq-list {
     display: grid;
     gap: 1rem;
     margin-top: 1rem;
   }
+
   .faq-list details {
     border: 1px solid var(--line);
     border-radius: 10px;
     background: var(--cream-200);
     padding: 1rem 1.125rem;
   }
+
   .faq-list summary {
     cursor: pointer;
     font-weight: 600;
     color: var(--sage-900);
   }
+
   .faq-list p {
     margin: 0.75rem 0 0;
     color: var(--ink-soft);
   }
+
   @media (max-width: 700px) {
+    .post-header {
+      padding: 1.25rem 0 2rem;
+      text-align: left;
+    }
+
+    .post-meta {
+      justify-content: flex-start;
+      gap: 0.4rem 0.7rem;
+      margin-bottom: 0.85rem;
+      font-size: 0.62rem;
+      letter-spacing: 0.12em;
+    }
+
+    .post-title {
+      margin-bottom: 0.85rem;
+    }
+
+    .post-description {
+      font-size: 1rem;
+      line-height: 1.55;
+      margin: 0;
+    }
+
+    .post-hero {
+      margin-bottom: 1.5rem;
+      padding: 0 1rem;
+    }
+
+    .post-hero :global(.post-hero-image) {
+      border-radius: 10px;
+    }
+
+    .post-byline {
+      display: block;
+      margin-bottom: 1.35rem;
+      padding-bottom: 0.8rem;
+      font-size: 0.82rem;
+    }
+
+    .post-byline-meta {
+      margin-top: 0.3rem !important;
+      font-size: 0.66rem;
+    }
+
+    .prose {
+      font-size: 1rem;
+      line-height: 1.7;
+    }
+
+    .editorial-note,
+    .sources-note,
+    .cluster-map p {
+      font-size: 0.95rem;
+      line-height: 1.65;
+    }
+
     .cluster-nav {
       grid-template-columns: 1fr;
     }
