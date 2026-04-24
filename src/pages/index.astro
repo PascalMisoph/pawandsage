@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import EmailCapture from '../components/EmailCapture.astro';
 import PostCard from '../components/PostCard.astro';
+import ResponsiveImage from '../components/ResponsiveImage.astro';
 import { getCollection } from 'astro:content';
 import { buildPageSchema } from '../lib/schema';
 
@@ -45,15 +46,14 @@ const schema = buildPageSchema({
       </div>
 
       <figure class="hero-visual-wrap">
-        <img
-          class="hero-visual"
+        <ResponsiveImage
           src="/home-header-premium-wide.png"
           alt="A wide sunlit home interior with a cat seated by a window in a calm editorial setting."
-          width="1600"
-          height="1000"
+          sizes="100vw"
           loading="eager"
           decoding="async"
           fetchpriority="high"
+          imgClass="hero-visual"
         />
       </figure>
     </div>

@@ -1,4 +1,6 @@
 ---
+import ResponsiveImage from './ResponsiveImage.astro';
+
 export interface Props {
   href: string;
   title: string;
@@ -28,13 +30,12 @@ const categoryLabels = {
 <a href={href} class="post-card">
   {image && (
     <div class="post-card-image">
-      <img
+      <ResponsiveImage
         src={image}
         alt={imageAlt}
+        sizes="(min-width: 901px) 350px, (min-width: 601px) 50vw, 100vw"
         loading="lazy"
         decoding="async"
-        width="800"
-        height="500"
       />
     </div>
   )}

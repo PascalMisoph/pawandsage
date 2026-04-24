@@ -3,8 +3,12 @@
   "type": "module",
   "version": "0.1.0",
   "scripts": {
+    "predev": "npm run images:generate",
+    "prestart": "npm run images:generate",
+    "prebuild": "npm run images:generate",
     "dev": "astro dev",
     "start": "astro dev",
+    "images:generate": "node scripts/generate-responsive-images.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"

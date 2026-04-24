@@ -22,3 +22,7 @@ npm-debug.log*
 
 # astro
 .astro/
+
+# generated responsive images
+public/optimized/
+src/generated/

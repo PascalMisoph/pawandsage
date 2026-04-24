@@ -1,0 +1,65 @@
+---
+import imageManifest from '../generated/responsive-image-manifest.json';
+
+export interface Props {
+  src: string;
+  alt: string;
+  sizes: string;
+  loading?: 'lazy' | 'eager';
+  decoding?: 'async' | 'sync' | 'auto';
+  fetchpriority?: 'high' | 'low' | 'auto';
+  width?: number;
+  height?: number;
+  imgClass?: string;
+}
+
+const {
+  src,
+  alt,
+  sizes,
+  loading = 'lazy',
+  decoding = 'async',
+  fetchpriority,
+  width,
+  height,
+  imgClass,
+} = Astro.props;
+
+const manifestEntry = imageManifest[src];
+const avifSrcSet = manifestEntry?.variants?.avif?.map((item) => `${item.src} ${item.width}w`).join(', ');
+const webpSrcSet = manifestEntry?.variants?.webp?.map((item) => `${item.src} ${item.width}w`).join(', ');
+const jpegSrcSet = manifestEntry?.variants?.jpeg?.map((item) => `${item.src} ${item.width}w`).join(', ');
+const fallbackSrc = manifestEntry?.variants?.jpeg?.at(-1)?.src ?? src;
+const intrinsicWidth = width ?? manifestEntry?.width;
+const intrinsicHeight = height ?? manifestEntry?.height;
+---
+
+{manifestEntry ? (
+  <picture>
+    {avifSrcSet && <source type="image/avif" srcset={avifSrcSet} sizes={sizes} />}
+    {webpSrcSet && <source type="image/webp" srcset={webpSrcSet} sizes={sizes} />}
+    {jpegSrcSet && <source type="image/jpeg" srcset={jpegSrcSet} sizes={sizes} />}
+    <img
+      src={fallbackSrc}
+      alt={alt}
+      sizes={sizes}
+      loading={loading}
+      decoding={decoding}
+      fetchpriority={fetchpriority}
+      width={intrinsicWidth}
+      height={intrinsicHeight}
+      class={imgClass}
+    />
+  </picture>
+) : (
+  <img
+    src={src}
+    alt={alt}
+    loading={loading}
+    decoding={decoding}
+    fetchpriority={fetchpriority}
+    width={width}
+    height={height}
+    class={imgClass}
+  />
+)}

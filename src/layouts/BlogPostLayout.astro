@@ -3,6 +3,7 @@ import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import EmailCapture from '../components/EmailCapture.astro';
 import CatPlayCTA from '../components/CatPlayCTA.astro';
+import ResponsiveImage from '../components/ResponsiveImage.astro';
 import { ORGANIZATION, PERSON, SITE_URL } from '../lib/site';
 
 export interface RelatedPost {
@@ -143,11 +144,10 @@ const schema = [
 
     {heroImage && (
       <div class="post-hero">
-        <img
+        <ResponsiveImage
           src={heroImage}
           alt={heroAlt}
-          width="1200"
-          height="675"
+          sizes="(min-width: 1132px) 1100px, calc(100vw - 3rem)"
           loading="eager"
           decoding="async"
           fetchpriority="high"
