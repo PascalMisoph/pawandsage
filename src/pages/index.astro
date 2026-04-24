@@ -4,27 +4,80 @@ import EmailCapture from '../components/EmailCapture.astro';
 import PostCard from '../components/PostCard.astro';
 import ResponsiveImage from '../components/ResponsiveImage.astro';
 import { getCollection } from 'astro:content';
-import { buildPageSchema } from '../lib/schema';
+import responsiveImageManifest from '../generated/responsive-image-manifest.json';
+import { PERSON, SITE_URL } from '../lib/site';
+import { buildFAQPageSchema, buildPageSchema } from '../lib/schema';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
 const sortedPosts = allPosts
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, 6);
-const schema = buildPageSchema({
-  name: 'Paw & Sage',
-  description: 'Calm, considered writing on cat behavior, indoor enrichment, and new cat care.',
-  path: '/',
-  image: '/home-header-premium-wide.png',
-  about: 'Cat behavior, indoor enrichment, and new cat care',
-  significantLinks: ['/blog', '/start-here', '/categories/behavior', '/categories/enrichment', '/categories/new-cat'],
-});
+const homeFaq = [
+  {
+    question: 'What kind of cat advice does Paw & Sage cover?',
+    answer:
+      'Paw & Sage focuses on cat behavior, indoor enrichment, and the first weeks with a new cat, with an emphasis on practical routines that work in real homes.',
+  },
+  {
+    question: 'Who writes Paw & Sage?',
+    answer:
+      'The site is written and edited by Pascal Misoph, with articles shaped by published feline welfare guidance, veterinary behavior resources, and careful product research where relevant.',
+  },
+  {
+    question: 'Where should I start if I am new here?',
+    answer:
+      'Start with the journal if you want the latest articles, or go straight to Start Here if you want the best first reads for behavior, enrichment, and new cat care.',
+  },
+];
+const updatedDate = '2026-04-24';
+const heroEntry = responsiveImageManifest['/home-header-premium-wide.png'];
+const heroJpegVariants = heroEntry.variants.jpeg;
+const heroPreloadSrcset = heroJpegVariants.map((variant) => `${variant.src} ${variant.width}w`).join(', ');
+const heroPreloadHref = heroJpegVariants[heroJpegVariants.length - 1]?.src ?? '/home-header-premium-wide.png';
+const schema = [
+  buildPageSchema({
+    name: 'Paw & Sage',
+    description: 'Calm, considered writing on cat behavior, indoor enrichment, and new cat care.',
+    path: '/',
+    image: '/home-header-premium-wide.png',
+    about: 'Cat behavior, indoor enrichment, and new cat care',
+    significantLinks: ['/blog', '/start-here', '/categories/behavior', '/categories/enrichment', '/categories/new-cat'],
+  }),
+  buildFAQPageSchema(homeFaq),
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: PERSON.name,
+    url: PERSON.url,
+    description: PERSON.description,
+    jobTitle: PERSON.jobTitle,
+    worksFor: {
+      '@type': 'Organization',
+      name: 'Paw & Sage',
+      url: SITE_URL,
+    },
+  },
+];
 ---
 
 <BaseLayout
   title="paw and sage"
   description="Calm, considered writing on cat behavior, indoor enrichment, and new cat care."
   image="/home-header-premium-wide.png"
+  breadcrumbs={[{ name: 'Home', path: '/' }]}
   schema={schema}
+  resourceHints={[
+    { rel: 'dns-prefetch', href: '//pawandsage.com' },
+    { rel: 'preconnect', href: SITE_URL, crossorigin: 'anonymous' },
+    {
+      rel: 'preload',
+      href: heroPreloadHref,
+      as: 'image',
+      imagesrcset: heroPreloadSrcset,
+      imagesizes: '100vw',
+      type: 'image/jpeg',
+    },
+  ]}
 >
   <section class="hero">
     <div class="hero-grid">
@@ -107,6 +160,44 @@ const schema = buildPageSchema({
       </div>
     </section>
   )}
+
+  <section class="trust-section">
+    <div class="container trust-grid">
+      <div class="trust-copy">
+        <span class="eyebrow">Why trust this journal</span>
+        <h2>Clear guidance, visible sources, and real editorial standards.</h2>
+        <p>
+          Paw & Sage is written and edited by <a href="/about">Pascal Misoph</a> and built around published feline welfare guidance, veterinary behavior resources, and practical home routines that are actually usable.
+        </p>
+        <p class="trust-meta">
+          Updated {updatedDate} · Read the <a href="/editorial-policy">editorial policy</a>
+        </p>
+      </div>
+      <div class="trust-sources">
+        <h3>Sources that shape the site</h3>
+        <ul>
+          <li><a href="https://catvets.com/" target="_blank" rel="noopener noreferrer">Feline Veterinary Medical Association</a></li>
+          <li><a href="https://catfriendly.com/" target="_blank" rel="noopener noreferrer">Cat Friendly Homes</a></li>
+          <li><a href="/about">Author profile and publishing context</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq-section" aria-labelledby="home-faq-title">
+    <div class="container-narrow">
+      <span class="eyebrow">FAQ</span>
+      <h2 id="home-faq-title">Common questions about Paw & Sage.</h2>
+      <div class="faq-list">
+        {homeFaq.map((item) => (
+          <details>
+            <summary>{item.question}</summary>
+            <p>{item.answer}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
 
   <section class="email-section">
     <div class="container-narrow">
@@ -332,6 +423,70 @@ const schema = buildPageSchema({
     gap: 1.5rem;
   }
 
+  .trust-section,
+  .faq-section {
+    padding: 0 0 5rem;
+  }
+
+  .trust-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 1.5rem;
+  }
+
+  .trust-copy,
+  .trust-sources,
+  .faq-list details {
+    background: var(--cream-200);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+  }
+
+  .trust-copy,
+  .trust-sources {
+    padding: 2rem;
+  }
+
+  .trust-copy h2,
+  .trust-sources h3 {
+    margin-top: 0;
+  }
+
+  .trust-copy p:last-child,
+  .trust-sources ul {
+    margin-bottom: 0;
+  }
+
+  .trust-meta {
+    color: var(--ink-soft);
+    font-size: 0.92rem;
+  }
+
+  .trust-sources ul {
+    padding-left: 1.1rem;
+  }
+
+  .faq-list {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .faq-list details {
+    padding: 1rem 1.125rem;
+  }
+
+  .faq-list summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--sage-900);
+  }
+
+  .faq-list p {
+    margin: 0.75rem 0 0;
+    color: var(--ink-soft);
+  }
+
   .email-section {
     padding: 3rem 0 5rem;
   }
@@ -411,6 +566,10 @@ const schema = buildPageSchema({
 
     .posts-grid {
       grid-template-columns: repeat(2, 1fr);
+    }
+
+    .trust-grid {
+      grid-template-columns: 1fr;
     }
   }
 

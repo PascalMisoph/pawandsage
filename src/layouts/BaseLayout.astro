@@ -20,6 +20,15 @@ export interface Props {
   tags?: string[];
   breadcrumbs?: BreadcrumbItem[];
   schema?: Record<string, unknown> | Array<Record<string, unknown>>;
+  resourceHints?: Array<{
+    rel: string;
+    href: string;
+    as?: string;
+    type?: string;
+    imagesrcset?: string;
+    imagesizes?: string;
+    crossorigin?: string;
+  }>;
 }
 
 const {
@@ -34,6 +43,7 @@ const {
   tags = [],
   breadcrumbs = [],
   schema = [],
+  resourceHints = [],
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? SITE_URL);
@@ -105,6 +115,7 @@ const siteSchemas = [
     <meta name="author" content={PERSON.name} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href={canonicalURL} />
+    {resourceHints.map((hint) => <link {...hint} />)}
     {noindex && <meta name="robots" content="noindex, nofollow" />}
 
     <title>{fullTitle}</title>
