@@ -51,6 +51,7 @@ export const clusterConfigs: ClusterConfig[] = [
       'why-cat-stares-at-me',
       'why-cat-wakes-you-3am',
       'why-cat-knocks-things-off-tables',
+      'how-to-stop-cat-scratching-furniture',
     ],
   },
   {
