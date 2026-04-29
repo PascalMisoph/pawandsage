@@ -27,7 +27,7 @@ Legacy article IDs:
 | Cat Amazing Puzzle Feeder | `https://amazon.com/dp/B009R3SFBC?tag=pawandsage21-20` | B009R3SFBC | ~$25 | L3, #1 |
 | Catit Senses 2.0 Digger | `https://amazon.com/dp/B015P13QMM?tag=pawandsage21-20` | B015P13QMM | ~$18 | L2, #1, #6 |
 | PetSafe SlimCat | `https://amazon.com/dp/B0018CE8LG?tag=pawandsage21-20` | B0018CE8LG | ~$8 | L1, L2, #1, #3, #6 |
-| Trixie Activity Board | `https://amazon.com/dp/XXXXX?tag=pawandsage21-20` | - | ~$15 | #6 |
+| TRIXIE Cat Activity Flip Board | `https://amazon.com/dp/B08C53X29M?tag=pawandsage21-20` | B08C53X29M | ~$13 | #6 |
 
 ## Scratching
 | Product | Amazon Link | ASIN | Price | Used In Articles |
@@ -55,4 +55,4 @@ Legacy article IDs:
 |---------|------------|------|-------|-----------------|
 | Feliway Classic Diffuser | `https://amazon.com/dp/B01AVIIFRA?tag=pawandsage21-20` | B01AVIIFRA | ~$25 | #3, #14, #15, #16 |
 
-> ASINs marked `-` still need to be looked up before those articles go live. Legacy article links and draft/product selections were checked on 2026-04-23.
+> Legacy article links and draft/product selections were checked on 2026-04-23. The former Trixie placeholder was replaced with a verified live Amazon board listing on 2026-04-29.
