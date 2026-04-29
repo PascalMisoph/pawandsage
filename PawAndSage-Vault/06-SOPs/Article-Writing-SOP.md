@@ -18,7 +18,7 @@
 ## After Writing
 1. Replace `[AFFILIATE: ...]` placeholders with real Amazon Associates links only
 2. Add to Astro blog, set frontmatter (title, description, pubDate, tags)
-3. Publish and submit URL to Google Search Console
+3. Follow `06-SOPs/Site-Deploy-SOP.md` to build, push, deploy, and verify live output
 4. Move file from `drafts/` to `published/`
 5. Update `Article-Index.md`
 6. Create 4 Pinterest pins (see Pinterest Posting SOP)
