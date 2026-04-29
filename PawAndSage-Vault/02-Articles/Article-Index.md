@@ -5,6 +5,7 @@
 |---|-------|-----------|-----------|-----------------|------|
 | 1 | Why Does My Cat Knock Things Off Tables? | 2026-04-19 | - | Links audited 2026-04-23 | 4 designed |
 | 2 | 7 Best Interactive Toys for Indoor Cats | 2026-04-23 | - | Links refreshed 2026-04-23 | - |
+| 4 | How to Stop Your Cat From Scratching Furniture (For Good) | 2026-04-29 | 3 links live | - |
 
 ## Legacy Published (Pre-Plan)
 | ID | Title | Published | Affiliate Status | Notes |

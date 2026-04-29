@@ -26,3 +26,8 @@ npm-debug.log*
 # generated responsive images
 public/optimized/
 src/generated/
+
+# large vault media files
+*.mp4
+*.mov
+*.avi

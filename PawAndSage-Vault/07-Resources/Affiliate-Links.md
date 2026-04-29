@@ -12,7 +12,7 @@ Legacy article IDs:
 ## Interactive Toys
 | Product | Amazon Link | ASIN | Price | Used In Articles |
 |---------|------------|------|-------|-----------------|
-| Go Cat Da Bird | `https://amazon.com/dp/B001BOVEU4?tag=pawandsage21-20` | B001BOVEU4 | ~$13 | L1, L2, L3, #1, #2, #20 |
+| Go Cat Da Bird | `https://amazon.com/dp/B001BOVEU4?tag=pawandsage21-20` | B001BOVEU4 | ~$13 | L1, L2, L3, #1, #2, #4, #20 |
 | Cat Dancer Original | `https://amazon.com/dp/B0006N9I68?tag=pawandsage21-20` | B0006N9I68 | ~$4 | #2 |
 | SmartyKat Hot Pursuit | `https://amazon.com/dp/B06WP7F8YC?tag=pawandsage21-20` | B06WP7F8YC | ~$25 | #2, #3, #22 |
 | Petstages Tower of Tracks | `https://amazon.com/dp/B00DT2WL26?tag=pawandsage21-20` | B00DT2WL26 | ~$12 | #2 |
@@ -32,13 +32,13 @@ Legacy article IDs:
 ## Scratching
 | Product | Amazon Link | ASIN | Price | Used In Articles |
 |---------|------------|------|-------|-----------------|
-| SmartCat Ultimate Scratching Post | `https://amazon.com/dp/B000634MH8?tag=pawandsage21-20` | B000634MH8 | ~$50 | L3, #18, #21 |
+| SmartCat Ultimate Scratching Post | `https://amazon.com/dp/B000634MH8?tag=pawandsage21-20` | B000634MH8 | ~$50 | L3, #4, #18, #21 |
 | Quakehold Museum Putty | `https://amazon.com/dp/B0002VA9NA?tag=pawandsage21-20` | B0002VA9NA | ~$6 | #1 |
 
 ## Cat Trees And Vertical Space
 | Product | Amazon Link | ASIN | Price | Used In Articles |
 |---------|------------|------|-------|-----------------|
-| Feandrea 56.3" Cat Tree | `https://amazon.com/dp/B078HB646M?tag=pawandsage21-20` | B078HB646M | ~$75 | L2, #1, #3, #10 |
+| Feandrea 56.3" Cat Tree | `https://amazon.com/dp/B078HB646M?tag=pawandsage21-20` | B078HB646M | ~$75 | L2, #1, #3, #4, #10 |
 
 ## Water And Feeding
 | Product | Amazon Link | ASIN | Price | Used In Articles |
