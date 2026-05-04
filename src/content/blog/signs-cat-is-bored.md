@@ -6,7 +6,7 @@ updatedDate: 2026-05-04
 category: "enrichment"
 tags: ["enrichment", "boredom", "indoor cats", "behavior", "play"]
 readTime: "6 min read"
-heroImage: "/blog/signs-cat-is-bored.png"
+heroImage: "/blog/signs-cat-is-bored-hero.png"
 heroAlt: "A tabby cat crouching in a living room with focused eyes."
 sources:
   - title: "Feline Environmental Needs and Enrichment"

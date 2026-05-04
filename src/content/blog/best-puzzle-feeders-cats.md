@@ -6,7 +6,7 @@ updatedDate: 2026-05-04
 category: "enrichment"
 tags: ["enrichment", "feeding", "puzzle feeders", "indoor cats", "product picks"]
 readTime: "7 min read"
-heroImage: "/blog/best-puzzle-feeders-cats.png"
+heroImage: "/blog/best-puzzle-feeders-cats-hero.png"
 heroAlt: "A tabby cat using a green slow feeder on a wooden surface."
 sources:
   - title: "Food puzzles for cats: Feeding for physical and emotional wellbeing"

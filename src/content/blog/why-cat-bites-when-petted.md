@@ -6,7 +6,7 @@ updatedDate: 2026-05-04
 category: "behavior"
 tags: ["behavior", "body language", "overstimulation", "indoor cats", "bonding"]
 readTime: "6 min read"
-heroImage: "/blog/why-cat-bites-when-petted.png"
+heroImage: "/blog/why-cat-bites-when-petted-hero.png"
 heroAlt: "A tabby cat resting on a sofa while a person gently pets the top of the cat's head."
 sources:
   - title: "Feline Behavior Problems: Aggression"
