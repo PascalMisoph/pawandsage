@@ -36,6 +36,7 @@ export const clusterConfigs: ClusterConfig[] = [
     nextReads: [
       { href: '/blog/why-cat-wakes-you-3am', label: 'Why your cat wakes you up at 3 AM' },
       { href: '/blog/why-cat-knocks-things-off-tables', label: 'Why cats knock things off tables' },
+      { href: '/blog/why-cat-bites-when-petted', label: 'Why cats bite during petting' },
     ],
     faq: [
       {
@@ -52,6 +53,7 @@ export const clusterConfigs: ClusterConfig[] = [
       'why-cat-wakes-you-3am',
       'why-cat-knocks-things-off-tables',
       'how-to-stop-cat-scratching-furniture',
+      'why-cat-bites-when-petted',
     ],
   },
   {
@@ -65,6 +67,8 @@ export const clusterConfigs: ClusterConfig[] = [
     featuredLabel: 'Start with this guide',
     nextReads: [
       { href: '/blog/best-interactive-cat-toys', label: 'Best interactive toys for indoor cats' },
+      { href: '/blog/best-puzzle-feeders-cats', label: 'Best puzzle feeders for fast eaters' },
+      { href: '/blog/signs-cat-is-bored', label: 'Signs your cat is bored' },
       { href: '/blog/why-cat-knocks-things-off-tables', label: 'Why cats knock things off tables' },
     ],
     faq: [
@@ -80,6 +84,8 @@ export const clusterConfigs: ClusterConfig[] = [
     orderedPosts: [
       'indoor-cat-enrichment-ideas',
       'best-interactive-cat-toys',
+      'best-puzzle-feeders-cats',
+      'signs-cat-is-bored',
     ],
   },
   {
