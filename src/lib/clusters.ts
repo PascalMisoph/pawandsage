@@ -54,6 +54,7 @@ export const clusterConfigs: ClusterConfig[] = [
       'why-cat-knocks-things-off-tables',
       'how-to-stop-cat-scratching-furniture',
       'why-cat-bites-when-petted',
+      'cat-bored-lonely-or-sick',
     ],
   },
   {
@@ -87,6 +88,8 @@ export const clusterConfigs: ClusterConfig[] = [
       'best-puzzle-feeders-cats',
       'signs-cat-is-bored',
       'how-to-keep-cat-busy-while-at-work',
+      'cat-wont-play-with-toys',
+      'diy-cat-enrichment',
     ],
   },
   {
