@@ -13,19 +13,19 @@
 ### Week 2
 | # | Category | Title | Primary Keyword | Status |
 |---|----------|-------|-----------------|--------|
-| 3 | Behavior | Why Does My Cat Stare at Me? (7 Reasons Decoded) | why does my cat stare at me | ⬜ |
-| 4 | Solution | How to Stop Your Cat From Scratching Furniture (For Good) | how to stop cat scratching furniture | ⬜ |
+| 3 | Behavior | Why Does My Cat Stare at Me? (7 Reasons Decoded) | why does my cat stare at me | ✅ Written |
+| 4 | Solution | How to Stop Your Cat From Scratching Furniture (For Good) | how to stop cat scratching furniture | ✅ Written |
 
 ### Week 3
 | # | Category | Title | Primary Keyword | Status |
 |---|----------|-------|-----------------|--------|
-| 5 | Behavior | Why Does My Cat Bite Me When I Pet Her? (Overstimulation Explained) | why does my cat bite when petted | ⬜ |
-| 6 | Product | Best Puzzle Feeders for Cats Who Eat Too Fast (2026 Picks) | best puzzle feeder cats | ⬜ |
+| 5 | Behavior | Why Does My Cat Bite Me When I Pet Her? (Overstimulation Explained) | why does my cat bite when petted | ✅ Written |
+| 6 | Product | Best Puzzle Feeders for Cats Who Eat Too Fast (2026 Picks) | best puzzle feeder cats | ✅ Written |
 
 ### Week 4
 | # | Category | Title | Primary Keyword | Status |
 |---|----------|-------|-----------------|--------|
-| 7 | Awareness | 7 Signs Your Cat Is Bored (And What to Do About It) | signs cat is bored | ⬜ |
+| 7 | Awareness | 7 Signs Your Cat Is Bored (And What to Do About It) | signs cat is bored | ✅ Written |
 | 8 | Solution | How to Keep Your Indoor Cat Entertained (15 Ideas) | how to keep indoor cat entertained | ⬜ |
 
 ### Week 5

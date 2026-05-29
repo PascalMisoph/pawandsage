@@ -77,7 +77,8 @@ hair across mouth, open mouth, teeth showing.
 | **Similarity** | 75 | High enough to prevent drift, low enough to allow natural variation |
 | **Style exaggeration** | 15 | Low — keeps her grounded, not theatrical |
 | **Speaker boost** | ON | |
-| **Speed** | 0.95 | Slightly slower than default — the brand voice needs breathing room |
+| **Speed (short-form: IG / TikTok / Reels)** | **1.05** | **Default for all short-form.** Pilots at 0.95 felt too slow for fast-paced feeds — viewers scroll past slow delivery on phones. |
+| **Speed (long-form: YouTube / web embed)** | 0.95 | Use only when audience is genuinely settled in for long-form (>2 min runtime). |
 
 ### Script formatting rules
 

@@ -41,6 +41,18 @@ Schedule one own pin on Monday, Tuesday, Thursday, and Friday at 15:30 Berlin ti
 | 2026-05-25 | 15:30 | Article 4, How to Stop Cat Scratching Furniture | Pin 2 | Cat Owner Hacks |
 | 2026-05-26 | 15:30 | Article 4, How to Stop Cat Scratching Furniture | Pin 3 | Indoor Cat Life |
 | 2026-05-28 | 15:30 | Article 4, How to Stop Cat Scratching Furniture | Pin 4 | Best Cat Products |
+| 2026-06-01 | 15:30 | Article 5, Why Does My Cat Bite Me When I Pet Her | Pin 1 | Cat Behavior Explained |
+| 2026-06-04 | 15:30 | Article 5, Why Does My Cat Bite Me When I Pet Her | Pin 2 | Cat Owner Hacks |
+| 2026-06-05 | 15:30 | Article 5, Why Does My Cat Bite Me When I Pet Her | Pin 3 | Indoor Cat Life |
+| 2026-06-08 | 15:30 | Article 5, Why Does My Cat Bite Me When I Pet Her | Pin 4 | Best Cat Products |
+| 2026-06-11 | 15:30 | Article 6, Best Puzzle Feeders for Cats Who Eat Too Fast | Pin 1 | Cat Behavior Explained |
+| 2026-06-12 | 15:30 | Article 6, Best Puzzle Feeders for Cats Who Eat Too Fast | Pin 2 | Cat Owner Hacks |
+| 2026-06-15 | 15:30 | Article 6, Best Puzzle Feeders for Cats Who Eat Too Fast | Pin 3 | Indoor Cat Life |
+| 2026-06-18 | 15:30 | Article 6, Best Puzzle Feeders for Cats Who Eat Too Fast | Pin 4 | Best Cat Products |
+| 2026-06-19 | 15:30 | Article 7, 7 Signs Your Cat Is Bored | Pin 1 | Cat Behavior Explained |
+| 2026-06-22 | 15:30 | Article 7, 7 Signs Your Cat Is Bored | Pin 2 | Cat Owner Hacks |
+| 2026-06-23 | 15:30 | Article 7, 7 Signs Your Cat Is Bored | Pin 3 | Indoor Cat Life |
+| 2026-06-25 | 15:30 | Article 7, 7 Signs Your Cat Is Bored | Pin 4 | Best Cat Products |
 
 ## Board Covers (Today, 2026-04-29)
 
@@ -590,3 +602,273 @@ Best Cat Products
 
 Schedule:
 2026-05-21 at 15:30
+
+## Article 5
+
+Article URL: https://www.pawandsage.com/blog/why-cat-bites-when-petted
+
+### Pin 1
+
+Prompt:
+"Create a Pinterest pin, 1000 x 1500 px, for Paw & Sage. Editorial, warm, premium pet magazine feel. Background color #FBF8F3. At the top, small uppercase text 'CAT BEHAVIOR' in #C4725A with wide letter spacing. In the center, large Playfair Display headline in #2C2C2C reading 'Why Your Cat Bites You Mid-Pet (And How to Stop It)'. Below, smaller Nunito Sans text in #666666 reading 'It is not random. It is overstimulation and it is readable.' Add a realistic tabby cat being gently petted by a human hand in a warm neutral living room, soft natural light from the side, shallow depth of field, calm and cozy interior. Subtle sage green leaf divider above the bottom bar. Full width bottom bar in #4D7C5A with white text 'pawandsage.com'. Calm, editorial, not alarming, warm."
+
+Title:
+Why Your Cat Bites You Mid-Pet (And How to Stop It)
+
+Description:
+If your cat bites you while you are petting her, it is usually overstimulation, not aggression. Learn the 7 warning signs that come before the bite and the simple routine changes that make petting sessions end better for both of you.
+
+Alt Text:
+A tabby cat is gently petted by a human hand in a warm neutral living room with the text Why Your Cat Bites You Mid-Pet and a subtitle about overstimulation being readable.
+
+Board:
+Cat Behavior Explained
+
+Schedule:
+2026-06-01 at 15:30
+
+---
+
+### Pin 2
+
+Prompt:
+"Create a Pinterest pin, 1000 x 1500 px, for Paw & Sage in the same editorial style. Warm cream background #FBF8F3. Small uppercase label at top reading 'CAT BEHAVIOR' in #C4725A. Large Playfair Display headline in #2C2C2C reading '5 Signs Your Cat Is About to Bite You'. Add a numbered preview section in sage green accents with three teaser points: '1 Tail starts lashing', '2 Skin ripples on the back', '3 Body goes stiff'. Add a close up realistic photo of a cat in a relaxed but watchful posture in warm interior light, Nunito Sans for smaller text. Full width green bottom bar #4D7C5A with white text 'pawandsage.com'. Premium, calm, editorial."
+
+Title:
+5 Signs Your Cat Is About to Bite You (Read Them in Time)
+
+Description:
+Most cats give several clear signals before they bite during petting. Most people miss them. Learning these five body language cues lets you stop the session before it turns bad, which actually builds more trust over time.
+
+Alt Text:
+A close up of a watchful cat in warm interior light beside the text 5 Signs Your Cat Is About to Bite You and three preview tips about tail lashing, skin rippling, and body stiffening.
+
+Board:
+Cat Owner Hacks
+
+Schedule:
+2026-06-04 at 15:30
+
+---
+
+### Pin 3
+
+Prompt:
+"Create a Pinterest pin, 1000 x 1500 px, for Paw & Sage with a calm editorial layout. Background #FBF8F3. Small uppercase top label 'CAT BEHAVIOR' in #C4725A. Large Playfair Display headline in #2C2C2C reading 'She Was Purring. Then She Bit You. Here Is Why.'. Below, smaller Nunito Sans text in #666666 reading 'Purring does not always mean keep going.' Add a realistic photo of a cat lying in a relaxed loaf position on a cream sofa in a warm styled living room, soft diffused window light, sage green plant in the background. Quiet and intimate composition. Full width sage bar #4D7C5A with white text 'pawandsage.com'."
+
+Title:
+She Was Purring. Then She Bit You. Here Is Why.
+
+Description:
+A purring cat can still bite. Purring means the session was good until a moment ago, not that it should keep going. This post explains petting-induced overstimulation and what to do differently so both of you enjoy the session.
+
+Alt Text:
+A cat lies in a relaxed loaf on a cream sofa in warm light beside the text She Was Purring Then She Bit You and a subtitle about purring not always meaning keep going.
+
+Board:
+Indoor Cat Life
+
+Schedule:
+2026-06-05 at 15:30
+
+---
+
+### Pin 4
+
+Prompt:
+"Create a Pinterest pin, 1000 x 1500 px, for Paw & Sage in the same editorial style. Background #FBF8F3. Small uppercase top text 'BEST CAT PRODUCTS' in #C4725A. Large Playfair Display headline in #2C2C2C reading 'The $13 Toy That Stops Petting Bites Before They Start'. Add smaller Nunito Sans text in #666666 reading 'Burn the hunt drive before the petting session, not during it.' Include a round sage green price badge reading 'ONLY $13'. Add a realistic photo of a cat fully engaged with a feather wand toy in a warm cream and sage living room, natural side light, editorial feel. Full width bottom bar #4D7C5A with white text 'pawandsage.com'."
+
+Title:
+The $13 Toy That Stops Petting Bites Before They Start
+
+Description:
+Cats that bite during petting often have excess hunt drive with nowhere to go. A short wand session before you sit down to pet her redirects that energy. This feather wand is the one most cats respond to immediately.
+
+Alt Text:
+A cat leaps toward a feather wand toy in a warm sage and cream living room beside the text The $13 Toy That Stops Petting Bites Before They Start and a green ONLY $13 badge.
+
+Board:
+Best Cat Products
+
+Schedule:
+2026-06-08 at 15:30
+
+## Article 6
+
+Article URL: https://www.pawandsage.com/blog/best-puzzle-feeders-cats
+
+### Pin 1
+
+Prompt:
+"Create a Pinterest pin, 1000 x 1500 px, for Paw & Sage. Editorial, warm, premium pet magazine feel. Background color #FBF8F3. At the top, small uppercase text 'CAT BEHAVIOR' in #C4725A with wide letter spacing. In the center, large Playfair Display headline in #2C2C2C reading 'Your Cat Eats Too Fast Because She Is Hardwired to Hunt'. Below, smaller Nunito Sans text in #666666 reading 'The bowl is not a tool. It is a mismatch.' Add a realistic tabby cat crouched over a puzzle feeder on a warm wood surface, focused and engaged, soft side lighting, minimal cream and sage interior. Subtle sage leaf divider above the bottom bar. Full width bottom bar #4D7C5A with white text 'pawandsage.com'. Calm, editorial, science-forward."
+
+Title:
+Your Cat Eats Too Fast Because She Is Hardwired to Hunt
+
+Description:
+Cats evolved to catch 8 to 12 small prey per day, not eat from a bowl in 30 seconds. Learn why fast eating causes vomiting and restlessness, and how a puzzle feeder restores the natural foraging sequence that indoor cats are missing.
+
+Alt Text:
+A tabby cat crouches over a puzzle feeder on a warm wood surface with the text Your Cat Eats Too Fast Because She Is Hardwired to Hunt.
+
+Board:
+Cat Behavior Explained
+
+Schedule:
+2026-06-11 at 15:30
+
+---
+
+### Pin 2
+
+Prompt:
+"Create a Pinterest pin, 1000 x 1500 px, for Paw & Sage in the same editorial style. Warm cream background #FBF8F3. Small uppercase label at top reading 'BEST CAT PRODUCTS' in #C4725A. Large Playfair Display headline in #2C2C2C reading '4 Puzzle Feeders That Stop the Bowl Vomit (Easiest to Hardest)'. Add a numbered preview section in sage green accents with three teaser points: '1 From $8 to $25', '2 Ranked by difficulty', '3 One for every cat'. Add a realistic editorial flat lay of two or three puzzle feeders on a cream linen surface with warm natural light and sage green accents. Nunito Sans for smaller text. Full width green bottom bar #4D7C5A with white text 'pawandsage.com'. Premium, calm, editorial."
+
+Title:
+4 Puzzle Feeders That Stop the Bowl Vomit, Ranked by Difficulty
+
+Description:
+If your cat throws up right after eating, the bowl is the problem. These 4 puzzle feeders are ranked from easiest to most challenging so you can start where your cat will actually succeed and build from there.
+
+Alt Text:
+A flat lay of puzzle feeders on cream linen with warm natural light and the text 4 Puzzle Feeders That Stop the Bowl Vomit ranked by difficulty.
+
+Board:
+Cat Owner Hacks
+
+Schedule:
+2026-06-12 at 15:30
+
+---
+
+### Pin 3
+
+Prompt:
+"Create a Pinterest pin, 1000 x 1500 px, for Paw & Sage with a calm editorial layout. Background #FBF8F3. Small uppercase top label 'INDOOR CAT LIFE' in #C4725A. Large Playfair Display headline in #2C2C2C reading 'The Bowl Was Never the Right Tool.'. Below, smaller Nunito Sans text in #666666 reading 'What your cat actually needs at mealtime and why it changes everything.' Add a realistic photo of a cat engaged with a puzzle feeder in a warm styled living room, soft natural light from a nearby window, cream and sage tones, the cat relaxed but focused. Intimate and thoughtful composition. Full width sage bar #4D7C5A with white text 'pawandsage.com'."
+
+Title:
+The Bowl Was Never the Right Tool for Your Cat
+
+Description:
+Indoor cats eat from a bowl in seconds and spend the rest of the day understimulated. A puzzle feeder does not just slow eating. It gives the brain the foraging experience it is built for. Here is what that looks like in practice.
+
+Alt Text:
+A cat works a puzzle feeder in a warm cream and sage living room beside the text The Bowl Was Never the Right Tool and a subtitle about what cats actually need at mealtime.
+
+Board:
+Indoor Cat Life
+
+Schedule:
+2026-06-15 at 15:30
+
+---
+
+### Pin 4
+
+Prompt:
+"Create a Pinterest pin, 1000 x 1500 px, for Paw & Sage in the same editorial style. Background #FBF8F3. Small uppercase top text 'BEST CAT PRODUCTS' in #C4725A. Large Playfair Display headline in #2C2C2C reading 'The $8 Fix for Cats Who Eat Too Fast'. Add smaller Nunito Sans text in #666666 reading 'Slower eating, less vomiting, and a calmer cat afterward.' Include a round sage green price badge reading 'ONLY $8'. Add a realistic photo of a cat batting at a treat ball on a warm wood floor in a neutral home interior, natural side light, the cat clearly engaged. Full width bottom bar #4D7C5A with white text 'pawandsage.com'."
+
+Title:
+The $8 Fix for Cats Who Eat Too Fast
+
+Description:
+A simple treat ball turns a 30-second bowl meal into a 10-minute foraging session. It is the lowest cost way to slow down a fast eater and give your cat the mental stimulation that a bowl never provides.
+
+Alt Text:
+A cat bats at a treat ball on a warm wood floor in a neutral home with the text The $8 Fix for Cats Who Eat Too Fast and a green ONLY $8 badge.
+
+Board:
+Best Cat Products
+
+Schedule:
+2026-06-18 at 15:30
+
+## Article 7
+
+Article URL: https://www.pawandsage.com/blog/signs-cat-is-bored
+
+### Pin 1
+
+Prompt:
+"Create a Pinterest pin, 1000 x 1500 px, for Paw & Sage. Editorial, warm, premium pet magazine feel. Background color #FBF8F3. At the top, small uppercase text 'CAT BEHAVIOR' in #C4725A with wide letter spacing. In the center, large Playfair Display headline in #2C2C2C reading 'Your Cat Is Not Being Aggressive. She Is Bored.'. Below, smaller Nunito Sans text in #666666 reading 'Why boredom looks like attitude, and what to do about it.' Add a realistic tabby cat caught mid-swat or in a crouched hunting pose on a warm neutral rug, sharp focus on the cat, soft interior light, no other animals or humans. Subtle sage leaf divider above bottom bar. Full width bottom bar #4D7C5A with white text 'pawandsage.com'. Calm but striking composition."
+
+Title:
+Your Cat Is Not Being Aggressive. She Is Bored.
+
+Description:
+Cats that bite ankles, ambush feet, or pick fights out of nowhere are usually not aggressive by nature. They have a hunt drive with nowhere to go. This post breaks down 7 boredom signs that are often mistaken for bad behavior, and what actually helps.
+
+Alt Text:
+A tabby cat in a crouched hunting pose on a warm neutral rug with the text Your Cat Is Not Being Aggressive She Is Bored.
+
+Board:
+Cat Behavior Explained
+
+Schedule:
+2026-06-19 at 15:30
+
+---
+
+### Pin 2
+
+Prompt:
+"Create a Pinterest pin, 1000 x 1500 px, for Paw & Sage in the same editorial style. Warm cream background #FBF8F3. Small uppercase label at top reading 'CAT BEHAVIOR' in #C4725A. Large Playfair Display headline in #2C2C2C reading 'Does Your Cat Do Any of These? (Boredom Checklist)'. Add a numbered preview section in sage green accents listing three teaser items: '1 Eats too fast then acts hungry', '2 Sleeps 20 hours a day', '3 Grooms the same spot repeatedly'. Add a realistic photo of a cat in a calm loaf position looking slightly watchful, warm minimal interior. Nunito Sans for smaller text. Full width green bottom bar #4D7C5A with white text 'pawandsage.com'. Premium, calm, editorial."
+
+Title:
+Does Your Cat Do Any of These? A Boredom Checklist
+
+Description:
+Boredom in cats rarely looks like boredom. It looks like overeating, aggression, overgrooming, and sleeping too much. Here are 7 signs that are easy to miss, and the small changes that make the biggest difference.
+
+Alt Text:
+A cat in a calm loaf position in a warm minimal interior beside the text Does Your Cat Do Any of These and a boredom checklist with three preview items.
+
+Board:
+Cat Owner Hacks
+
+Schedule:
+2026-06-22 at 15:30
+
+---
+
+### Pin 3
+
+Prompt:
+"Create a Pinterest pin, 1000 x 1500 px, for Paw & Sage with a calm editorial layout. Background #FBF8F3. Small uppercase top label 'CAT BEHAVIOR' in #C4725A. Large Playfair Display headline in #2C2C2C reading 'A Cat That Sleeps 20 Hours a Day Is Not Lazy. She Is Bored.'. Below, smaller Nunito Sans text in #666666 reading 'The quiet sign most cat owners never connect to understimulation.' Add a realistic photo of a cat deeply asleep on a sofa or warm surface, soft diffused light, cream and sage styling, peaceful but slightly melancholy mood. Elegant, editorial, thought-provoking composition. Full width sage bar #4D7C5A with white text 'pawandsage.com'."
+
+Title:
+A Cat That Sleeps 20 Hours a Day Is Not Lazy. She Is Bored.
+
+Description:
+Most people assume a sleeping cat is a content cat. But chronic oversleeping in indoor cats is often a sign of a brain that has nothing to do. Learn the difference between normal rest and understimulation, and the small changes that help.
+
+Alt Text:
+A cat sleeps deeply on a warm sofa in soft diffused light beside the text A Cat That Sleeps 20 Hours a Day Is Not Lazy She Is Bored.
+
+Board:
+Indoor Cat Life
+
+Schedule:
+2026-06-23 at 15:30
+
+---
+
+### Pin 4
+
+Prompt:
+"Create a Pinterest pin, 1000 x 1500 px, for Paw & Sage in the same editorial style. Background #FBF8F3. Small uppercase top text 'BEST CAT PRODUCTS' in #C4725A. Large Playfair Display headline in #2C2C2C reading 'The $30 Toy That Keeps a Bored Cat Busy While You Work'. Add smaller Nunito Sans text in #666666 reading 'No wand required. It moves on its own.' Include a round sage green price badge reading 'ONLY $30'. Add a realistic photo of a cat crouched and focused on a covered moving feather toy in a warm minimal home interior, natural side light, fully engaged posture. Full width bottom bar #4D7C5A with white text 'pawandsage.com'."
+
+Title:
+The $30 Toy That Keeps a Bored Cat Busy While You Work
+
+Description:
+If your cat is bored during the day but you are not home to play, an automatic feather toy gives her something to stalk and chase independently. This one uses unpredictable hidden-prey movement that keeps cats engaged in short bursts throughout the day.
+
+Alt Text:
+A cat crouches and focuses on a covered moving feather toy in a warm minimal home with the text The $30 Toy That Keeps a Bored Cat Busy While You Work and a green ONLY $30 badge.
+
+Board:
+Best Cat Products
+
+Schedule:
+2026-06-25 at 15:30

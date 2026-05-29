@@ -21,7 +21,7 @@ Pascal's FI model is a portfolio of 3-4 digital revenue streams:
 ## Paw & Sage Business Model
 - **Traffic Sources**: Pinterest (primary, months 1-6), Google SEO (secondary, builds over time), Short-form video (TikTok/Reels/Shorts, from month 3)
 - **Monetization**: Amazon Associates affiliate links (4% commission, currently the only active affiliate program), Display ads (Ezoic from ~month 4), Email list (ConvertKit, from month 3)
-- **Content Volume**: 2 articles/week, 4 Pinterest pins per article, 5 videos/week from month 3
+- **Content Volume**: 2 articles/week, 5 Pinterest pins per article, 5 videos/week from month 3
 - **6-Month Target**: 48 articles, 192 pins, 80 videos, $800-1,800/month revenue
 
 ## Vault Structure
@@ -39,14 +39,15 @@ Pascal's FI model is a portfolio of 3-4 digital revenue streams:
 - **Articles**: Always SEO-optimized, 800-1200 words, affiliate product slots marked as `[AFFILIATE: Product Name ($price)]`. Internal links to existing published articles where relevant.
 - **Brand Voice**: Warm, knowledgeable, never preachy. Like a friend who happens to be a cat expert. No clickbait, no fluff, no "as a cat parent you know..." filler.
 - **Language**: Articles in English, internal notes/strategy in German
-- **Every article needs**: Primary keyword, secondary keywords, 3-5 affiliate products, 4 Pinterest pin concepts, 2-3 video script ideas
+- **Every article needs**: Primary keyword, secondary keywords, 3-5 affiliate products, 5 Pinterest pin concepts (follow the 5-pin formula in `06-SOPs/Pinterest-Posting-SOP.md`), 2-3 video script ideas
 - **File naming**: `XX-slug-name.md` (e.g., `01-why-cat-knocks-things-off.md`)
+- **Pinterest + IG Reel covers**: Always create these covers through one complete image-generation prompt that renders the full finished cover in the established Paw & Sage Pinterest style. Do **not** generate only a background photo and then rebuild typography locally with system fonts. The source of truth is the existing Pinterest cover system: cream editorial text field, Playfair Display-style serif headline, Nunito Sans-style supporting text, terracotta category line, sage divider/accent, warm editorial cat photo, and sage footer bar.
 
 ## Common Commands
 - "Artikel X" or "Article X" → Write article #X from the Content Master Plan (see `01-Strategy/Content-Plan.md`)
 - "Weekly Review" → Check KPIs in `00-Dashboard/KPIs.md`, give update and next week priorities
 - "Video Scripts für Artikel X" → Create video scripts based on an article
-- "Pin Konzepte für Artikel X" → Create Pinterest pin text/concepts for an article
+- "Pin Konzepte für Artikel X" → Create 5 Pinterest pins for an article using the 5-pin formula (Problem / Listicle / Product-Price / Emotional / Save-this) in `06-SOPs/Pinterest-Posting-SOP.md`
 - "Publish Artikel X" → Move from drafts/ to published/, update Article-Index.md
 - "Status" → Overview of all streams: articles written, pins created, videos produced, revenue
 

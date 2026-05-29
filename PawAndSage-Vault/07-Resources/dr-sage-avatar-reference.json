@@ -1,0 +1,63 @@
+{
+  "name": "Dr. Sage",
+  "legacy_or_alt_name": "Dr. Paw",
+  "role": "Paw & Sage on-camera AI avatar for cat behavior and care explainers",
+  "visual_identity": {
+    "age": 32,
+    "gender_presentation": "female",
+    "profession": "veterinarian and cat-behavior expert",
+    "face": "oval, harmonious proportions, softly defined jawline, gently rounded chin, medium-height even forehead, relatively high but subtle cheekbones, warm approachable expression",
+    "eyes": "hazel-green, direct but gentle eye contact",
+    "hair": "medium to chestnut brown, warm copper and golden light reflections, natural voluminous waves, slightly past shoulder length, light side part from viewer-left, hair falling naturally around the face",
+    "wardrobe": "sage-green linen blouse (#4D7C5A) under an unbuttoned cream cardigan (#FBF8F3)",
+    "jewelry": "fine gold necklace with a small paw pendant centered on the neckline",
+    "mouth_and_lips": "friendly relaxed smile, medium balanced lip fullness, natural soft pink/nude lip color, not red lipstick; for avatar source images prefer closed lips or barely parted lips without visible teeth",
+    "skin": "light to medium warm peach undertone, smooth natural texture, fine pores, natural glow, soft warm cheek redness, gentle cheekbone shadows",
+    "avoid": [
+      "white lab coat",
+      "scrubs",
+      "stethoscope",
+      "hospital setting",
+      "heavy makeup",
+      "open mouth in source image",
+      "teeth showing",
+      "hair across mouth"
+    ]
+  },
+  "brand_world": {
+    "setting": "sunlit, plant-filled home consultation nook",
+    "lighting": "warm side light from viewer-left, highlights on the left side of face and hair, soft shadows on viewer-right",
+    "palette": {
+      "cream": "#FBF8F3",
+      "sage_green": "#4D7C5A",
+      "charcoal": "#2C2C2C",
+      "terracotta": "#C4725A",
+      "subtext_gray": "#666666"
+    },
+    "mood": "warm, trustworthy, calmly competent, editorial documentary"
+  },
+  "elevenlabs": {
+    "voice": "Matilda",
+    "model": "Eleven Multilingual v2",
+    "stability": 50,
+    "similarity": 75,
+    "style_exaggeration": 15,
+    "speaker_boost": true,
+    "speed_short_form": 1.05,
+    "speed_for_30s_reels": "1.08-1.1",
+    "export_format": "WAV 44.1 kHz preferred; MP3 192 kbps acceptable"
+  },
+  "video_generation": {
+    "tool": "Replicate kwaivgi/kling-avatar-v2",
+    "mode_test": "std",
+    "mode_publish": "pro if needed",
+    "image_requirements": "front-facing Dr. Sage still, neutral closed mouth, PNG, >=720x900, <=10MB",
+    "motion_style": "calm eye contact, natural blinks, subtle head movement, no large gestures"
+  },
+  "reference_files": {
+    "full_markdown_reference": "07-Resources/Dr-Sage-Avatar-Prompts.md",
+    "pilot_video": "04-Video/dr-sage-pilot-v1.mp4",
+    "visual_reference_folder": "04-Video/dr-sage-pilot-frames/",
+    "recommended_clean_frame": "04-Video/dr-sage-pilot-frames/frame-04-CLEAN-final.png"
+  }
+}

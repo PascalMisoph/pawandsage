@@ -20,6 +20,7 @@ Legacy article IDs:
 | PetFusion Ambush | `https://amazon.com/dp/B07F391BX2?tag=pawandsage21-20` | B07F391BX2 | ~$30 | #2 |
 | PetSafe Bolt Laser | `https://amazon.com/dp/B004798TJO?tag=pawandsage21-20` | B004798TJO | ~$20 | #20, #22 |
 | Cat Dancer Rainbow Charmer | `https://amazon.com/dp/B007VPFC8C?tag=pawandsage21-20` | B007VPFC8C | ~$7 | #2 |
+| SmartyKat Loco Motion (automatic) | `https://amazon.com/dp/B000N9W7HW?tag=pawandsage21-20` | B000N9W7HW | ~$15 | #31, #36, #40 |
 
 ## Puzzle Feeders
 | Product | Amazon Link | ASIN | Price | Used In Articles |
@@ -34,6 +35,7 @@ Legacy article IDs:
 |---------|------------|------|-------|-----------------|
 | SmartCat Ultimate Scratching Post | `https://amazon.com/dp/B000634MH8?tag=pawandsage21-20` | B000634MH8 | ~$50 | L3, #4, #18, #21 |
 | Quakehold Museum Putty | `https://amazon.com/dp/B0002VA9NA?tag=pawandsage21-20` | B0002VA9NA | ~$6 | #1 |
+| Emmy's Best Stop-the-Scratch Deterrent Spray | `https://amazon.com/dp/B07VBYLWJG?tag=pawandsage21-20` | B07VBYLWJG | ~$15 | #37 |
 
 ## Cat Trees And Vertical Space
 | Product | Amazon Link | ASIN | Price | Used In Articles |
@@ -55,4 +57,38 @@ Legacy article IDs:
 |---------|------------|------|-------|-----------------|
 | Feliway Classic Diffuser | `https://amazon.com/dp/B01AVIIFRA?tag=pawandsage21-20` | B01AVIIFRA | ~$25 | #3, #14, #15, #16 |
 
+## Lick Mats And Snuffle Mats
+| Product | Amazon Link | ASIN | Price | Used In Articles |
+|---------|------------|------|-------|-----------------|
+| LickiMat Slomo | `https://amazon.com/dp/B089DN2HY7?tag=pawandsage21-20` | B089DN2HY7 | ~$10 | #35, #42 |
+| LickiMat Felix (fish-shaped) | `https://amazon.com/dp/B089DP7M1X?tag=pawandsage21-20` | B089DP7M1X | ~$10 | #42 |
+| CiyvoLyeen Snuffle Mat | `https://amazon.com/dp/B0CBV7H8XT?tag=pawandsage21-20` | B0CBV7H8XT | ~$15 | #31, #35 |
+
+## Window Perches And Bird Feeders
+| Product | Amazon Link | ASIN | Price | Used In Articles |
+|---------|------------|------|-------|-----------------|
+| Cat Window Perch + Bird Feeder (combo) | `https://amazon.com/dp/B0G6D12FW8?tag=pawandsage21-20` | B0G6D12FW8 | ~$35 | #31, #39, #41 |
+| Nature's Hangout Window Bird Feeder | `https://amazon.com/dp/B00YSU3WG2?tag=pawandsage21-20` | B00YSU3WG2 | ~$30 | #39 |
+
+## Exercise Wheels
+| Product | Amazon Link | ASIN | Price | Used In Articles |
+|---------|------------|------|-------|-----------------|
+| One Fast Cat Exercise Wheel | `https://amazon.com/dp/B0DJDSW1K8?tag=pawandsage21-20` | B0DJDSW1K8 | ~$200 | #36, #40 |
+
+## Cameras And Remote Play
+| Product | Amazon Link | ASIN | Price | Used In Articles |
+|---------|------------|------|-------|-----------------|
+| Owlet Pet Camera + Treat Dispenser | `https://amazon.com/dp/B07ZWVGFDJ?tag=pawandsage21-20` | B07ZWVGFDJ | ~$50 | #31, #34, #40 |
+
+## Cat Grass And Greens
+| Product | Amazon Link | ASIN | Price | Used In Articles |
+|---------|------------|------|-------|-----------------|
+| Window Garden Cat Grass Kit (3-pack) | `https://amazon.com/dp/B07J5P1SNL?tag=pawandsage21-20` | B07J5P1SNL | ~$15 | #33, #37, #41 |
+
+## Catnip And Silvervine
+| Product | Amazon Link | ASIN | Price | Used In Articles |
+|---------|------------|------|-------|-----------------|
+| From The Field Ultimate Blend (2 oz tub) | `https://amazon.com/dp/B01G3IBQIC?tag=pawandsage21-20` | B01G3IBQIC | ~$12 | #32, #33, #38 |
+
 > Legacy article links and draft/product selections were checked on 2026-04-23. The former Trixie placeholder was replaced with a verified live Amazon board listing on 2026-04-29.
+> **2026-05-29:** Added 11 products (Tiers 1-3 of `01-Strategy/June-2026-Monetization-Audit.md`) for June articles #31-#42. ASINs sourced from live Amazon listings via search; links built in standard `dp/<ASIN>?tag=` format. Prices approximate — spot-check pending before publish.

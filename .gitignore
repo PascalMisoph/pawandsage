@@ -31,3 +31,6 @@ src/generated/
 *.mp4
 *.mov
 *.avi
+
+# vault temp / other-tool scratch
+PawAndSage-Vault/.codex-tmp/

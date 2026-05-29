@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Strategy/Affiliate-Strategy.md",
-                "mode": "preview",
+                "file": "blog/why-cat-knocks-things-off-tables.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Affiliate-Strategy"
+              "title": "why-cat-knocks-things-off-tables"
             }
           }
         ]
@@ -184,5 +184,10 @@
     }
   },
   "active": "186750af511d3b17",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Unbenannt.base",
+    "blog/why-cat-knocks-things-off-tables.md",
+    "blog",
+    "01-Strategy/Affiliate-Strategy.md"
+  ]
 }

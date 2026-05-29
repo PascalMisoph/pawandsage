@@ -1,6 +1,7 @@
 # 🏠 Paw & Sage — Dashboard
 
 ## Quick Links
+- [[Notion-Bridge]] - Paw&Sage Notion hub
 - [[KPIs]] — Monthly metrics
 - [[Weekly-Review]] — Sunday check-ins
 - [[Content-Plan]] — 30-article master plan
