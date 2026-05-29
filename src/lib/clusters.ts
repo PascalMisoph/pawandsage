@@ -86,6 +86,7 @@ export const clusterConfigs: ClusterConfig[] = [
       'best-interactive-cat-toys',
       'best-puzzle-feeders-cats',
       'signs-cat-is-bored',
+      'how-to-keep-cat-busy-while-at-work',
     ],
   },
   {
