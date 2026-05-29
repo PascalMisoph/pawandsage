@@ -8,6 +8,25 @@
 
 ---
 
+## 📍 Status & Handoff — Stand 2026-05-29
+
+### ✅ Eingetütet (heute erledigt / läuft automatisch)
+- **Artikel #31–#34 LIVE** auf pawandsage.com:
+  - #31 `/blog/how-to-keep-cat-busy-while-at-work/`
+  - #32 `/blog/cat-wont-play-with-toys/`
+  - #33 `/blog/diy-cat-enrichment/`
+  - #34 `/blog/cat-bored-lonely-or-sick/`
+- **20 Pins geschedult** (5 je Artikel #31–#34), gehen **30.05.–08.06.** automatisch live. Briefs: `03-Pinterest/Backlog-Pin-Briefs-Juni-2026.md`.
+
+### ⬜ AM 08.06. ZU ERSTELLEN (nächste Welle)
+- **8 neue Artikel: #35–#42** (siehe Tabelle unten) — schreiben + Hero-Bild + deployen, gleicher Workflow wie #31–#34.
+- **40 neue Pins** (5 je Artikel × 8) — briefen nach 5-Pin-Formel (`06-SOPs/Pinterest-Posting-SOP.md`), schedulen ab ~09.06.
+- **Vorher:** Pin-IDs der ersten 20 in `03-Pinterest/analytics/pin-id-map.md` eintragen (schließt Datenkreis).
+
+> **Kurzfassung für den 08.06.:** #31–#34 + ihre 20 Pins sind durch. Als Nächstes #35–#42 schreiben (8 Artikel) und 40 Pins dazu erstellen.
+
+---
+
 ## Kadenz (Push-Modus)
 
 - **Blog:** 12 neue Artikel, 3/Woche (Mo/Mi/Fr)
@@ -31,6 +50,8 @@ Kannibalisierungs-Check gegen #1–#7 + L1–L3 bestanden: alle 12 sind distinkt
 ---
 
 ## Die 12 Artikel + Publish-Kalender
+
+*Status: ✅ #31–#34 LIVE (29.05.) · ⬜ #35–#42 offen (ab 08.06. erstellen)*
 
 | # | Datum | Kat. | Titel | Primary Keyword | Hero-Produkt + Budget |
 |---|---|---|---|---|---|
@@ -81,7 +102,10 @@ Hub-Artikel = L2 „20 Enrichment Ideas" (bewährter Konverter). Alle 12 Neuen v
 ## Nächste Schritte
 - [x] Themen freigegeben (12 Stück, datengetrieben)
 - [x] Monetarisierungs-Audit + 11 Produkte ergänzt (Affiliate-Links.md)
-- [ ] ASIN-Preise stichprobenartig verifizieren (Spot-Check)
-- [ ] Artikel schreiben (3/Woche, Mo/Mi/Fr) — „Artikel 31" startet
-- [ ] 60 Pin-Briefs generieren (wochenweise) → Backlog-Pin-Briefs-Juni-2026.md
-- [ ] Tag-für-Tag-Pin-Schedule mit Daten finalisieren (Vorlage: Mai-Backlog)
+- [x] Artikel #31–#34 geschrieben + live deployed (29.05.)
+- [x] 20 Pins (#31–#34) briefed + geschedult bis 08.06.
+- [ ] Pin-IDs der ersten 20 in `analytics/pin-id-map.md` loggen (wenn live)
+- [ ] 3 neue URLs (#32–#34) bei Google Search Console einreichen
+- [ ] **Ab 08.06.: Artikel #35–#42 schreiben + deployen** (8 Artikel, 3/Woche)
+- [ ] **Ab 08.06.: 40 Pins (#35–#42) briefen + schedulen** → neue Backlog-Datei
+- [ ] Ende Juni: Monats-Export ziehen → `analytics/2026-05-29_to_2026-06-29/`

@@ -21,10 +21,10 @@
 ## Published (June Enrichment Cluster — #31–#42)
 | # | Title | Published | Live URL | Pins |
 |---|-------|-----------|----------|------|
-| 31 | How to Keep Your Cat Entertained While You're at Work | 2026-05-29 | [/blog/how-to-keep-cat-busy-while-at-work](https://www.pawandsage.com/blog/how-to-keep-cat-busy-while-at-work/) | ⬜ pending |
-| 32 | Why Your Cat Won't Play With Toys | 2026-05-29 | [/blog/cat-wont-play-with-toys](https://www.pawandsage.com/blog/cat-wont-play-with-toys/) | ⬜ pending |
-| 33 | DIY Cat Enrichment: 15 Toys & Games | 2026-05-29 | [/blog/diy-cat-enrichment](https://www.pawandsage.com/blog/diy-cat-enrichment/) | ⬜ pending |
-| 34 | Bored, Lonely, or Sick? | 2026-05-29 | [/blog/cat-bored-lonely-or-sick](https://www.pawandsage.com/blog/cat-bored-lonely-or-sick/) | ⬜ pending |
+| 31 | How to Keep Your Cat Entertained While You're at Work | 2026-05-29 | [/blog/how-to-keep-cat-busy-while-at-work](https://www.pawandsage.com/blog/how-to-keep-cat-busy-while-at-work/) | 5 scheduled →08.06. |
+| 32 | Why Your Cat Won't Play With Toys | 2026-05-29 | [/blog/cat-wont-play-with-toys](https://www.pawandsage.com/blog/cat-wont-play-with-toys/) | 5 scheduled →08.06. |
+| 33 | DIY Cat Enrichment: 15 Toys & Games | 2026-05-29 | [/blog/diy-cat-enrichment](https://www.pawandsage.com/blog/diy-cat-enrichment/) | 5 scheduled →08.06. |
+| 34 | Bored, Lonely, or Sick? | 2026-05-29 | [/blog/cat-bored-lonely-or-sick](https://www.pawandsage.com/blog/cat-bored-lonely-or-sick/) | 5 scheduled →08.06. |
 
 *Plan: `01-Strategy/June-2026-Content-Plan.md` · Monetization: `01-Strategy/June-2026-Monetization-Audit.md`*
 
