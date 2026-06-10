@@ -8,6 +8,30 @@
 
 ---
 
+## 📍 Status & Handoff — Stand 2026-06-10 (Wave 2 LIVE)
+
+### ✅ Wave 2 eingetütet (2026-06-10)
+- **Artikel #35–#42 LIVE** auf pawandsage.com (alle 8, Build + Vercel-Deploy verifiziert, je 200):
+  - #35 `/blog/mental-stimulation-for-cats/`
+  - #36 `/blog/how-to-tire-out-a-cat/`
+  - #37 `/blog/cat-destroying-everything/`
+  - #38 `/blog/do-cats-get-bored-of-their-toys/`
+  - #39 `/blog/cat-window-perch/`
+  - #40 `/blog/do-single-cats-get-lonely/`
+  - #41 `/blog/indoor-cat-depression/`
+  - #42 `/blog/cat-puzzle-feeder-wet-food/`
+- In `src/lib/clusters.ts` verlinkt · Hero-Bilder live · Affiliate-Tags + Disclosure auf Seite geprüft.
+- **40 Pin-Briefs** in `03-Pinterest/Backlog-Pin-Briefs-Juni-2026-Wave2.md` — **NEUE Kadenz 3 Pins/Tag** (10:00/13:30/16:30), 11.06.–24.06. Noch in Pinterest zu schedulen.
+- Commit `04f41bd`.
+
+### ⬜ Offen (nach Wave-2-Deploy)
+- 40 Wave-2-Pins in Pinterest einplanen (Schedule-Tabelle in der Brief-Datei).
+- Pin-IDs (Wave 1 + 2) in `analytics/pin-id-map.md` loggen.
+- 8 neue URLs (#35–#42) bei Google Search Console einreichen.
+- Hinweis SEO: alle 8 gingen in EINEM Deploy live (kein Future-Date-Filter im Blog-Index) — bei der nächsten Welle ggf. gestaffelt deployen.
+
+---
+
 ## 📍 Status & Handoff — Stand 2026-05-29
 
 ### ✅ Eingetütet (heute erledigt / läuft automatisch)
