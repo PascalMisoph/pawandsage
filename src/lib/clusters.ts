@@ -55,6 +55,8 @@ export const clusterConfigs: ClusterConfig[] = [
       'how-to-stop-cat-scratching-furniture',
       'why-cat-bites-when-petted',
       'cat-bored-lonely-or-sick',
+      'cat-destroying-everything',
+      'indoor-cat-depression',
     ],
   },
   {
@@ -90,6 +92,12 @@ export const clusterConfigs: ClusterConfig[] = [
       'how-to-keep-cat-busy-while-at-work',
       'cat-wont-play-with-toys',
       'diy-cat-enrichment',
+      'mental-stimulation-for-cats',
+      'how-to-tire-out-a-cat',
+      'do-cats-get-bored-of-their-toys',
+      'cat-window-perch',
+      'do-single-cats-get-lonely',
+      'cat-puzzle-feeder-wet-food',
     ],
   },
   {

@@ -25,6 +25,16 @@
 | 32 | Why Your Cat Won't Play With Toys | 2026-05-29 | [/blog/cat-wont-play-with-toys](https://www.pawandsage.com/blog/cat-wont-play-with-toys/) | 5 scheduled →08.06. |
 | 33 | DIY Cat Enrichment: 15 Toys & Games | 2026-05-29 | [/blog/diy-cat-enrichment](https://www.pawandsage.com/blog/diy-cat-enrichment/) | 5 scheduled →08.06. |
 | 34 | Bored, Lonely, or Sick? | 2026-05-29 | [/blog/cat-bored-lonely-or-sick](https://www.pawandsage.com/blog/cat-bored-lonely-or-sick/) | 5 scheduled →08.06. |
+| 35 | Mental Stimulation for Cats: 12 Ways | written 2026-06-10 | /blog/mental-stimulation-for-cats (⬜ deploy) | 5 briefed (E) |
+| 36 | How to Tire Out a Hyper Cat | written 2026-06-10 | /blog/how-to-tire-out-a-cat (⬜ deploy) | 5 briefed (F) |
+| 37 | Why Your Bored Cat Destroys Everything | written 2026-06-10 | /blog/cat-destroying-everything (⬜ deploy) | 5 briefed (G) |
+| 38 | Do Cats Get Bored of Their Toys? | written 2026-06-10 | /blog/do-cats-get-bored-of-their-toys (⬜ deploy) | 5 briefed (H) |
+| 39 | Cat TV: How a Window Perch Cures Boredom | written 2026-06-10 | /blog/cat-window-perch (⬜ deploy) | 5 briefed (I) |
+| 40 | Do Single Cats Get Lonely? | written 2026-06-10 | /blog/do-single-cats-get-lonely (⬜ deploy) | 5 briefed (J) |
+| 41 | Indoor Cat Depression | written 2026-06-10 | /blog/indoor-cat-depression (⬜ deploy) | 5 briefed (K) |
+| 42 | Puzzle Feeders for Wet vs Dry Food | written 2026-06-10 | /blog/cat-puzzle-feeder-wet-food (⬜ deploy) | 5 briefed (L) |
+
+**Wave-2-Status (2026-06-10):** #35–#42 als Astro-Content in `src/content/blog/` geschrieben, in `src/lib/clusters.ts` verlinkt (enrichment: #35,36,38,39,40,42 · behavior: #37,41), Frontmatter via `astro sync` validiert, Affiliate-Tags + interne Links geprüft. 40 Pin-Briefs in `03-Pinterest/Backlog-Pin-Briefs-Juni-2026-Wave2.md` (3/Tag ab 11.06). **Offen:** 8 Hero-PNGs rendern (Prompts: `02-Articles/Hero-Image-Prompts-Wave2.md`) → dann Build + Deploy. Build ist hart von den Heroes abhängig (sharp-Prebuild).
 
 *Plan: `01-Strategy/June-2026-Content-Plan.md` · Monetization: `01-Strategy/June-2026-Monetization-Audit.md`*
 
