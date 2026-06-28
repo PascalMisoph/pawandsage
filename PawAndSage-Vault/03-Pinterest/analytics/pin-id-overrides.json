@@ -1,0 +1,22 @@
+{
+  "_comment": "Manuelle Map fuer Legacy-Pins, die vor der queue.json entstanden. Keyed by Pinterest pinId. Felder ueberschreiben die automatische Zuordnung. Ab Juni-Wave-2 mappt sich alles automatisch ueber Brief+Queue; diese Datei deckt nur die alten High-Traffic-Pins ab. pinType aus Headline-Muster erschlossen (confidence: inferred).",
+  "1138707087058303259": { "pinType": "Listicle (save magnet)", "article": "Indoor Cat Enrichment", "confidence": "inferred" },
+  "1138707087057025087": { "pinType": "Problem hook", "article": "Cat Bites During Petting", "confidence": "inferred" },
+  "1138707087056320463": { "pinType": "Listicle (save magnet)", "article": "Indoor Cat Enrichment", "confidence": "inferred" },
+  "1138707087057769741": { "pinType": "Product/price", "article": "Bored Cat Toys", "confidence": "inferred" },
+  "1138707087058235607": { "pinType": "Product/price", "article": "DIY Cat Toys", "confidence": "inferred" },
+  "1138707087056380321": { "pinType": "Emotional/relatable", "article": "Indoor Cat Enrichment", "confidence": "inferred" },
+  "1138707087058109379": { "pinType": "Problem hook", "article": "Bored Cat Play", "confidence": "inferred" },
+  "1138707087058394467": { "pinType": "Emotional/relatable", "article": "Lazy/Bored Cat", "confidence": "inferred" },
+  "1138707087057422925": { "pinType": "Emotional/relatable", "article": "Puzzle Feeders", "confidence": "inferred" },
+  "1138707087057210213": { "pinType": "Product/price", "article": "Cat Bites During Petting", "confidence": "inferred" },
+  "1138707087057972711": { "pinType": "Problem hook", "article": "Cat Won't Play With Toys", "confidence": "inferred" },
+  "1138707087058443791": { "pinType": "Listicle (save magnet)", "article": "Bored vs Lonely vs Sick", "confidence": "inferred" },
+  "1138707087058376559": { "pinType": "Listicle (save magnet)", "article": "Cat Acting Off", "confidence": "inferred" },
+  "1138707087056823911": { "pinType": "Problem hook", "article": "Furniture Scratching", "confidence": "inferred" },
+  "1138707087057705092": { "pinType": "Problem hook", "article": "Lazy/Bored Cat", "confidence": "inferred" },
+  "1138707087058461658": { "pinType": "Emotional/relatable", "article": "Cat Home Alone", "confidence": "inferred" },
+  "1138707087058253547": { "pinType": "Listicle (save magnet)", "article": "DIY Foraging Games", "confidence": "inferred" },
+  "1138707087058021761": { "pinType": "Listicle (save magnet)", "article": "Cat Ignores Toys", "confidence": "inferred" },
+  "1138707087056507864": { "pinType": "Save this / checklist", "article": "New Kitten Checklist", "confidence": "inferred" }
+}
