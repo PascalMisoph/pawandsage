@@ -42,23 +42,23 @@
 | # | Title | Slug | Status | Pins |
 |---|-------|------|--------|------|
 | 43 | How to Keep Your Cat Cool in Hot Weather (12 Vet-Backed Ways) | keep-cat-cool-hot-weather | ✅ written 2026-06-28 (hero ⬜) | ⬜ |
-| 44 | Heatstroke in Cats: Warning Signs and What to Do Fast | heatstroke-in-cats | ⬜ to write | ⬜ |
-| 45 | Why Your Cat Sheds So Much in Summer | cat-shedding-summer | ⬜ to write | ⬜ |
-| 46 | How to Get Rid of Fleas on Cats | get-rid-of-fleas-on-cats | ⬜ to write | ⬜ |
-| 47 | How to Get Your Cat to Drink More Water in Summer | get-cat-to-drink-more-water | ⬜ to write | ⬜ |
-| 48 | Cat Window & Balcony Safety: Preventing Summer Falls | cat-window-balcony-safety | ⬜ to write | ⬜ |
-| 49 | Can Cats Get Sunburn? Sun Safety for Cats | can-cats-get-sunburn | ⬜ to write | ⬜ |
-| 50 | Should You Let Your Cat Outside in Summer? | let-cat-outside-safely | ⬜ to write | ⬜ |
-| 51 | Leaving Your Cat Home Alone on Summer Vacation | leaving-cat-alone-on-vacation | ⬜ to write | ⬜ |
-| 52 | Summer Dangers for Cats: Toxic Plants, Foods & Hazards | summer-dangers-for-cats | ⬜ to write | ⬜ |
-| 53 | Summer Enrichment for Indoor Cats: Low-Energy Games for Hot Days | summer-cat-enrichment-indoor | ⬜ to write | ⬜ |
-| 54 | DIY Frozen Cat Treats & Ice Games (Cooling Enrichment) | frozen-cat-treats-ice-games | ⬜ to write | ⬜ |
-| 55 | Build a Cat-Safe Summer Sensory Garden | cat-sensory-garden-summer | ⬜ to write | ⬜ |
-| 56 | The Best Cooling Products for Cats | best-cooling-products-for-cats | ⬜ to write | ⬜ |
-| 57 | How to Keep Cats Cool Without Air Conditioning | keep-cats-cool-without-ac | ⬜ to write | ⬜ |
-| 58 | Water Play for Cats: Cooling Games That Beat the Heat | cat-water-play-cooling-games | ⬜ to write | ⬜ |
+| 44 | Heatstroke in Cats: Warning Signs and What to Do Fast | heatstroke-in-cats | ✅ written (hero ⬜) | ⬜ |
+| 45 | Why Your Cat Sheds So Much in Summer | cat-shedding-summer | ✅ written (hero ⬜) | ⬜ |
+| 46 | How to Get Rid of Fleas on Cats | get-rid-of-fleas-on-cats | ✅ written (hero ⬜) | ⬜ |
+| 47 | How to Get Your Cat to Drink More Water in Summer | get-cat-to-drink-more-water | ✅ written (hero ⬜) | ⬜ |
+| 48 | Cat Window & Balcony Safety: Preventing Summer Falls | cat-window-balcony-safety | ✅ written (hero ⬜) | ⬜ |
+| 49 | Can Cats Get Sunburn? Sun Safety for Cats | can-cats-get-sunburn | ✅ written (hero ⬜) | ⬜ |
+| 50 | Should You Let Your Cat Outside in Summer? | let-cat-outside-safely | ✅ written (hero ⬜) | ⬜ |
+| 51 | Leaving Your Cat Home Alone on Summer Vacation | leaving-cat-alone-on-vacation | ✅ written (hero ⬜) | ⬜ |
+| 52 | Summer Dangers for Cats: Toxic Plants, Foods & Hazards | summer-dangers-for-cats | ✅ written (hero ⬜) | ⬜ |
+| 53 | Summer Enrichment for Indoor Cats: Low-Energy Games for Hot Days | summer-cat-enrichment-indoor | ✅ written (hero ⬜) | ⬜ |
+| 54 | DIY Frozen Cat Treats & Ice Games (Cooling Enrichment) | frozen-cat-treats-ice-games | ✅ written (hero ⬜) | ⬜ |
+| 55 | Build a Cat-Safe Summer Sensory Garden | cat-sensory-garden-summer | ✅ written (hero ⬜) | ⬜ |
+| 56 | The Best Cooling Products for Cats | best-cooling-products-for-cats | ✅ written (hero ⬜) | ⬜ |
+| 57 | How to Keep Cats Cool Without Air Conditioning | keep-cats-cool-without-ac | ✅ written (hero ⬜) | ⬜ |
+| 58 | Water Play for Cats: Cooling Games That Beat the Heat | cat-water-play-cooling-games | ✅ written (hero ⬜) | ⬜ |
 
-**Status (2026-06-28):** New `seasonal` cluster wired (`content.config.ts` enum + `clusters.ts` config + hub `/categories/seasonal`), validated via `astro sync`. Cluster expanded to 16 (#43–#58: +3 summer enrichment, +3 cooling, incl. 2 combos). #43 written. **Offen:** #44–#58 schreiben · 16 Hero-PNGs · Build + Deploy · 80 Pins.
+**Status (2026-06-28):** New `seasonal` cluster wired (`content.config.ts` enum + `clusters.ts` config + hub `/categories/seasonal`), validated via `astro sync`. Cluster = 16 (#43–#58: 10 heat/health/safety + 3 summer enrichment + 3 cooling, incl. 2 combos). **Alle 16 Artikel geschrieben** (`src/content/blog/`, je Quellen + 3 FAQ + interne Links + Affiliate). **Offen:** 16 Hero-PNGs rendern (harte Build-Abhängigkeit) · `astro build` + Vercel-Deploy (ggf. gestaffelt) · 16 URLs in Search Console · 80 Pins (5/Artikel).
 
 *Plan: `01-Strategy/Summer-2026-Content-Plan.md` · Affiliate: `07-Resources/Affiliate-Links.md` (Summer/Health & Safety)*
 
