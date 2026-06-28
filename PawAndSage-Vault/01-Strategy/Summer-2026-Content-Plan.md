@@ -8,7 +8,7 @@
 
 ---
 
-## Die 10 Artikel + Publish-Kalender (Juli 2026, 3/Woche Mo/Mi/Fr)
+## Die 16 Artikel + Publish-Kalender (Juli–Aug 2026, 3/Woche Mo/Mi/Fr)
 
 | # | Datum | Titel | Primary Keyword | Pin-Hook-Typ | Hero + Budget Affiliate |
 |---|---|---|---|---|---|
@@ -22,8 +22,14 @@
 | 50 | Fr 17.07. | Should You Let Your Cat Outside in Summer? Safe Outdoor Access | how to walk a cat on a leash | Listicle | Rabbitgoo Harness+Leash (B07SC7WFQN) + Catio-DIY |
 | 51 | Mo 20.07. | Leaving Your Cat Home Alone on Summer Vacation: The Full Guide | leaving cat alone on vacation | Listicle | PetSafe Simply Feed Auto-Feeder (B00VIXRB6O) + Pet-Kamera (B07ZWVGFDJ) + Fountain (B0146QXOB0) |
 | 52 | Mi 22.07. | Summer Dangers for Cats: Toxic Plants, Foods & Hidden Hazards | plants toxic to cats | Listicle | Cat Grass Kit (B07J5P1SNL) als sichere Alternative — educational-led |
+| 53 | Fr 24.07. | Summer Enrichment for Indoor Cats: Low-Energy Games for Hot Days | summer cat enrichment | Listicle | LickiMat (B089DN2HY7), Snuffle Mat (B0CBV7H8XT), Cat Amazing (B009R3SFBC) |
+| 54 | Mo 27.07. | DIY Frozen Cat Treats & Ice Games (Cooling Enrichment) | frozen cat treats | Listicle | LickiMat (B089DN2HY7) + Catit Fountain (B0146QXOB0) — DIY/free-led |
+| 55 | Mi 29.07. | Build a Cat-Safe Summer Sensory Garden (Balcony or Windowsill) | cat safe plants | Listicle | Cat Grass Kit (B07J5P1SNL) + Catnip/Silvervine (B01G3IBQIC) + Perch (B0G6D12FW8) |
+| 56 | Fr 31.07. | The Best Cooling Products for Cats (Mats, Beds, Fountains & Fans) | cat cooling products | Product/price | Chillz Mat (B09S3Y2TXN) + Feandrea Elevated Bed (B0CZ9GP89V) + Fountain (B0146QXOB0) + USB Fan (B07P7JLKNH) |
+| 57 | Mo 03.08. | How to Keep Cats Cool Without Air Conditioning | keep cats cool without ac | Listicle | Chillz Mat (B09S3Y2TXN) + USB Pet Fan (B07P7JLKNH) + Fountain (B0146QXOB0) |
+| 58 | Mi 05.08. | Water Play for Cats: Cooling Games That Beat the Heat | cats and water play | Listicle | Catit Flower Fountain (B0146QXOB0) + Potaroma Flopping Fish (B083S3ZXDF) — combo |
 
-> Pin-Hook-Typen folgen den Learnings: 4× Listicle (Reichweite, R1), 5× Problem hook (Klicks, R4), gestützt durch „Free/practical"-Angle (R3) wo passend.
+> Pin-Hook-Typen folgen den Learnings: 9× Listicle (Reichweite, R1), 6× Problem hook (Klicks, R4), 1× Product/price (Roundup), gestützt durch „Free/practical"-Angle (R3) wo passend. **#53–#58 ergänzt 2026-06-28** (3 Enrichment + 3 Abkühlung, davon #54 & #58 Combo).
 
 ## Interne Verlinkung (Cluster-Hub + Cross-Cluster)
 - **Hub** = #43 „Keep Cool" (Saison-Einstieg). Alle 10 verlinken untereinander + auf den jeweils nächsten Bestandsartikel:
@@ -50,4 +56,9 @@
 7. ⬜ Pins: 5 je Artikel nach 5-Pin-Formel → neue Backlog-Brief-Datei (separater Schritt)
 
 ## Slugs (für clusters.ts orderedPosts + Verlinkung)
-`keep-cat-cool-hot-weather` · `heatstroke-in-cats` · `cat-shedding-summer` · `get-rid-of-fleas-on-cats` · `get-cat-to-drink-more-water` · `cat-window-balcony-safety` · `can-cats-get-sunburn` · `let-cat-outside-safely` · `leaving-cat-alone-on-vacation` · `summer-dangers-for-cats`
+`keep-cat-cool-hot-weather` · `heatstroke-in-cats` · `cat-shedding-summer` · `get-rid-of-fleas-on-cats` · `get-cat-to-drink-more-water` · `cat-window-balcony-safety` · `can-cats-get-sunburn` · `let-cat-outside-safely` · `leaving-cat-alone-on-vacation` · `summer-dangers-for-cats` · `summer-cat-enrichment-indoor` · `frozen-cat-treats-ice-games` · `cat-sensory-garden-summer` · `best-cooling-products-for-cats` · `keep-cats-cool-without-ac` · `cat-water-play-cooling-games`
+
+## Interne Verlinkung — Ergänzungen #53–#58
+- #53 (Summer enrichment) ↔ #43, #54, mental-stimulation, indoor-cat-enrichment-ideas
+- #54 (Frozen treats) ↔ #47 (Wasser), #43, #53 · #55 (Sensory garden) ↔ #52 (toxic plants — Paar!), #50, #48
+- #56 (Cooling products) ↔ #43, #57, #44 · #57 (No AC) ↔ #43, #56, #58 · #58 (Water play) ↔ #47, #54, #43

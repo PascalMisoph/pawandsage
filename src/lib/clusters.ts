@@ -162,6 +162,12 @@ export const clusterConfigs: ClusterConfig[] = [
       'let-cat-outside-safely',
       'leaving-cat-alone-on-vacation',
       'summer-dangers-for-cats',
+      'summer-cat-enrichment-indoor',
+      'frozen-cat-treats-ice-games',
+      'cat-sensory-garden-summer',
+      'best-cooling-products-for-cats',
+      'keep-cats-cool-without-ac',
+      'cat-water-play-cooling-games',
     ],
   },
 ];

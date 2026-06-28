@@ -51,8 +51,14 @@
 | 50 | Should You Let Your Cat Outside in Summer? | let-cat-outside-safely | ⬜ to write | ⬜ |
 | 51 | Leaving Your Cat Home Alone on Summer Vacation | leaving-cat-alone-on-vacation | ⬜ to write | ⬜ |
 | 52 | Summer Dangers for Cats: Toxic Plants, Foods & Hazards | summer-dangers-for-cats | ⬜ to write | ⬜ |
+| 53 | Summer Enrichment for Indoor Cats: Low-Energy Games for Hot Days | summer-cat-enrichment-indoor | ⬜ to write | ⬜ |
+| 54 | DIY Frozen Cat Treats & Ice Games (Cooling Enrichment) | frozen-cat-treats-ice-games | ⬜ to write | ⬜ |
+| 55 | Build a Cat-Safe Summer Sensory Garden | cat-sensory-garden-summer | ⬜ to write | ⬜ |
+| 56 | The Best Cooling Products for Cats | best-cooling-products-for-cats | ⬜ to write | ⬜ |
+| 57 | How to Keep Cats Cool Without Air Conditioning | keep-cats-cool-without-ac | ⬜ to write | ⬜ |
+| 58 | Water Play for Cats: Cooling Games That Beat the Heat | cat-water-play-cooling-games | ⬜ to write | ⬜ |
 
-**Status (2026-06-28):** New `seasonal` cluster wired (`content.config.ts` enum + `clusters.ts` config + hub `/categories/seasonal`), validated via `astro sync`. #43 written. **Offen:** #44–#52 schreiben · 10 Hero-PNGs · Build + Deploy · 50 Pins.
+**Status (2026-06-28):** New `seasonal` cluster wired (`content.config.ts` enum + `clusters.ts` config + hub `/categories/seasonal`), validated via `astro sync`. Cluster expanded to 16 (#43–#58: +3 summer enrichment, +3 cooling, incl. 2 combos). #43 written. **Offen:** #44–#58 schreiben · 16 Hero-PNGs · Build + Deploy · 80 Pins.
 
 *Plan: `01-Strategy/Summer-2026-Content-Plan.md` · Affiliate: `07-Resources/Affiliate-Links.md` (Summer/Health & Safety)*
 

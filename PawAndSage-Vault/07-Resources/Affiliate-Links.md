@@ -101,8 +101,10 @@ Legacy article IDs:
 | Adjustable Self-Adhesive Cat Window Guard | `https://amazon.com/dp/B0B7BJ5LVN?tag=pawandsage21-20` | B0B7BJ5LVN | ~$18 | #48 |
 | rabbitgoo Escape-Proof Cat Harness + Leash Set | `https://amazon.com/dp/B07SC7WFQN?tag=pawandsage21-20` | B07SC7WFQN | ~$14 | #50 |
 | PetSafe Healthy Pet Simply Feed (auto feeder, 12 meals) | `https://amazon.com/dp/B00VIXRB6O?tag=pawandsage21-20` | B00VIXRB6O | ~$110 | #51 |
+| Feandrea 2-Tier Elevated Cat Hammock Bed (breathable mesh) | `https://amazon.com/dp/B0CZ9GP89V?tag=pawandsage21-20` | B0CZ9GP89V | ~$40 | #56, #57 |
+| USB Pet Fan (5-speed, low-noise, clip/crate) | `https://amazon.com/dp/B07P7JLKNH?tag=pawandsage21-20` | B07P7JLKNH | ~$18 | #56, #57 |
 
-*Reused for summer:* Catit Flower Fountain (B0146QXOB0) #43/#44/#45/#47/#51 · Owlet Pet Camera (B07ZWVGFDJ) #51 · Cat Window Perch (B0G6D12FW8) #48/#49 · LickiMat Slomo (B089DN2HY7) #47 · Cat Grass Kit (B07J5P1SNL) #52.
+*Reused for summer:* Catit Flower Fountain (B0146QXOB0) #43/#44/#45/#47/#51/#54/#56/#57/#58 · Owlet Pet Camera (B07ZWVGFDJ) #51 · Cat Window Perch (B0G6D12FW8) #48/#49/#55 · LickiMat Slomo (B089DN2HY7) #47/#53/#54 · Cat Grass Kit (B07J5P1SNL) #52/#55 · Snuffle Mat (B0CBV7H8XT) #53 · Cat Amazing (B009R3SFBC) #53 · Catnip/Silvervine (B01G3IBQIC) #55 · Potaroma Flopping Fish (B083S3ZXDF) #58.
 
 > **Responsibility rule (summer):** No affiliate links on prescription/pesticide flea medication or cat sunscreen (zinc oxide is toxic to cats; Amazon Associates restrictions). Recommend a flea comb + "ask your vet" instead.
 
