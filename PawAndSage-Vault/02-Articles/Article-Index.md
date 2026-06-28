@@ -38,6 +38,24 @@
 
 *Plan: `01-Strategy/June-2026-Content-Plan.md` · Monetization: `01-Strategy/June-2026-Monetization-Audit.md`*
 
+## Summer Seasonal Cluster — #43–#52 (NEW cluster `seasonal`)
+| # | Title | Slug | Status | Pins |
+|---|-------|------|--------|------|
+| 43 | How to Keep Your Cat Cool in Hot Weather (12 Vet-Backed Ways) | keep-cat-cool-hot-weather | ✅ written 2026-06-28 (hero ⬜) | ⬜ |
+| 44 | Heatstroke in Cats: Warning Signs and What to Do Fast | heatstroke-in-cats | ⬜ to write | ⬜ |
+| 45 | Why Your Cat Sheds So Much in Summer | cat-shedding-summer | ⬜ to write | ⬜ |
+| 46 | How to Get Rid of Fleas on Cats | get-rid-of-fleas-on-cats | ⬜ to write | ⬜ |
+| 47 | How to Get Your Cat to Drink More Water in Summer | get-cat-to-drink-more-water | ⬜ to write | ⬜ |
+| 48 | Cat Window & Balcony Safety: Preventing Summer Falls | cat-window-balcony-safety | ⬜ to write | ⬜ |
+| 49 | Can Cats Get Sunburn? Sun Safety for Cats | can-cats-get-sunburn | ⬜ to write | ⬜ |
+| 50 | Should You Let Your Cat Outside in Summer? | let-cat-outside-safely | ⬜ to write | ⬜ |
+| 51 | Leaving Your Cat Home Alone on Summer Vacation | leaving-cat-alone-on-vacation | ⬜ to write | ⬜ |
+| 52 | Summer Dangers for Cats: Toxic Plants, Foods & Hazards | summer-dangers-for-cats | ⬜ to write | ⬜ |
+
+**Status (2026-06-28):** New `seasonal` cluster wired (`content.config.ts` enum + `clusters.ts` config + hub `/categories/seasonal`), validated via `astro sync`. #43 written. **Offen:** #44–#52 schreiben · 10 Hero-PNGs · Build + Deploy · 50 Pins.
+
+*Plan: `01-Strategy/Summer-2026-Content-Plan.md` · Affiliate: `07-Resources/Affiliate-Links.md` (Summer/Health & Safety)*
+
 ## In Drafts
 | # | Title | Drafted | Notes |
 |---|-------|---------|-------|

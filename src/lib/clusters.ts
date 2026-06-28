@@ -1,4 +1,4 @@
-export type ClusterSlug = 'behavior' | 'enrichment' | 'new-cat';
+export type ClusterSlug = 'behavior' | 'enrichment' | 'new-cat' | 'seasonal';
 
 export interface ClusterLink {
   href: string;
@@ -125,6 +125,43 @@ export const clusterConfigs: ClusterConfig[] = [
     ],
     orderedPosts: [
       'new-kitten-checklist',
+    ],
+  },
+  {
+    slug: 'seasonal',
+    title: 'Seasonal Care',
+    description: 'Keeping your cat safe, cool, and healthy through the seasons.',
+    intro:
+      'The seasonal section covers heat, hydration, parasites, and warm-weather safety, the practical care that changes with the calendar and matters most in summer.',
+    featured: '/blog/keep-cat-cool-hot-weather',
+    featuredTitle: 'How to keep your cat cool in hot weather',
+    featuredLabel: 'Start with this guide',
+    nextReads: [
+      { href: '/blog/heatstroke-in-cats', label: 'Heatstroke in cats: warning signs' },
+      { href: '/blog/get-cat-to-drink-more-water', label: 'How to get your cat to drink more water' },
+      { href: '/blog/leaving-cat-alone-on-vacation', label: 'Leaving your cat alone on vacation' },
+    ],
+    faq: [
+      {
+        question: 'What temperature is too hot for a cat?',
+        answer: 'Most cats are comfortable up to the mid-80s Fahrenheit, but sustained heat above 90 with high humidity raises the risk of heatstroke, especially for kittens, seniors, flat-faced breeds, and overweight cats.',
+      },
+      {
+        question: 'Do indoor cats need summer-specific care?',
+        answer: 'Yes. Even indoors, cats face heat in un-airconditioned rooms, lower water intake, heavier shedding, and open-window fall risks, all of which are simple to manage once you know what to watch for.',
+      },
+    ],
+    orderedPosts: [
+      'keep-cat-cool-hot-weather',
+      'heatstroke-in-cats',
+      'cat-shedding-summer',
+      'get-rid-of-fleas-on-cats',
+      'get-cat-to-drink-more-water',
+      'cat-window-balcony-safety',
+      'can-cats-get-sunburn',
+      'let-cat-outside-safely',
+      'leaving-cat-alone-on-vacation',
+      'summer-dangers-for-cats',
     ],
   },
 ];

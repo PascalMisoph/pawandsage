@@ -90,5 +90,22 @@ Legacy article IDs:
 |---------|------------|------|-------|-----------------|
 | From The Field Ultimate Blend (2 oz tub) | `https://amazon.com/dp/B01G3IBQIC?tag=pawandsage21-20` | B01G3IBQIC | ~$12 | #32, #33, #38 |
 
+## Summer / Health & Safety (#43–#52)
+| Product | Amazon Link | ASIN | Price | Used In Articles |
+|---------|------------|------|-------|-----------------|
+| Chillz Cat Cooling Mat (gel, pressure-activated) | `https://amazon.com/dp/B09S3Y2TXN?tag=pawandsage21-20` | B09S3Y2TXN | ~$25 | #43, #44 |
+| FURminator deShedding Tool — Cats, Short Hair | `https://amazon.com/dp/B07MZD3ZVF?tag=pawandsage21-20` | B07MZD3ZVF | ~$30 | #45 |
+| FURminator deShedding Tool — Cats, Long Hair | `https://amazon.com/dp/B07MZDGF5M?tag=pawandsage21-20` | B07MZDGF5M | ~$32 | #45 |
+| Safari Flea Comb for Cats | `https://amazon.com/dp/B0002RJM7I?tag=pawandsage21-20` | B0002RJM7I | ~$7 | #46 |
+| XIEMINLE Cat Window/Balcony Safety Net (self-adhesive, zipper) | `https://amazon.com/dp/B0CBK6M7MX?tag=pawandsage21-20` | B0CBK6M7MX | ~$20 | #48 |
+| Adjustable Self-Adhesive Cat Window Guard | `https://amazon.com/dp/B0B7BJ5LVN?tag=pawandsage21-20` | B0B7BJ5LVN | ~$18 | #48 |
+| rabbitgoo Escape-Proof Cat Harness + Leash Set | `https://amazon.com/dp/B07SC7WFQN?tag=pawandsage21-20` | B07SC7WFQN | ~$14 | #50 |
+| PetSafe Healthy Pet Simply Feed (auto feeder, 12 meals) | `https://amazon.com/dp/B00VIXRB6O?tag=pawandsage21-20` | B00VIXRB6O | ~$110 | #51 |
+
+*Reused for summer:* Catit Flower Fountain (B0146QXOB0) #43/#44/#45/#47/#51 · Owlet Pet Camera (B07ZWVGFDJ) #51 · Cat Window Perch (B0G6D12FW8) #48/#49 · LickiMat Slomo (B089DN2HY7) #47 · Cat Grass Kit (B07J5P1SNL) #52.
+
+> **Responsibility rule (summer):** No affiliate links on prescription/pesticide flea medication or cat sunscreen (zinc oxide is toxic to cats; Amazon Associates restrictions). Recommend a flea comb + "ask your vet" instead.
+
 > Legacy article links and draft/product selections were checked on 2026-04-23. The former Trixie placeholder was replaced with a verified live Amazon board listing on 2026-04-29.
 > **2026-05-29:** Added 11 products (Tiers 1-3 of `01-Strategy/June-2026-Monetization-Audit.md`) for June articles #31-#42. ASINs sourced from live Amazon listings via search; links built in standard `dp/<ASIN>?tag=` format. Prices approximate — spot-check pending before publish.
+> **2026-06-28:** Added 8 products (Summer/Health & Safety) for #43–#52. ASINs sourced from live Amazon listings via WebSearch. Prices approximate — spot-check pending before publish.
