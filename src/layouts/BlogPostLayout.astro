@@ -34,7 +34,7 @@ const { frontmatter, relatedPosts = [] } = Astro.props as {
     description: string;
     pubDate: Date;
     updatedDate?: Date;
-    category: 'behavior' | 'enrichment' | 'new-cat';
+    category: 'behavior' | 'enrichment' | 'new-cat' | 'seasonal';
     readTime?: string;
     heroImage?: string;
     heroAlt?: string;
@@ -67,6 +67,7 @@ const categoryLabels = {
   behavior: 'Behavior',
   enrichment: 'Enrichment',
   'new-cat': 'New Cat',
+  seasonal: 'Seasonal Care',
 };
 
 const leadMagnetByCategory = {
@@ -81,6 +82,10 @@ const leadMagnetByCategory = {
   'new-cat': {
     title: 'The New Kitten First Week Checklist',
     description: 'A starter checklist covering litter, food, carrier, setup, and the first routines that matter most.',
+  },
+  seasonal: {
+    title: 'The Summer Cat Care Checklist',
+    description: 'A simple checklist for heat, hydration, grooming, and open-window safety on hot days.',
   },
 } satisfies Record<string, { title: string; description: string }>;
 
