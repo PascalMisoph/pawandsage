@@ -9,6 +9,7 @@ const manifestPath = path.join(projectRoot, 'src', 'generated', 'responsive-imag
 const homepageHero = '/home-header-premium-wide.png';
 const blogWidths = [360, 540, 720, 960, 1280, 1586];
 const homepageWidths = [480, 720, 960, 1280, 1600, 1822];
+const variantConcurrency = Number.parseInt(process.env.IMAGE_VARIANT_CONCURRENCY ?? '6', 10);
 
 const formatConfigs = [
   { key: 'avif', extension: 'avif', options: { quality: 50 } },
@@ -18,6 +19,18 @@ const formatConfigs = [
 
 async function ensureDir(dirPath) {
   await fs.mkdir(dirPath, { recursive: true });
+}
+
+async function fileIsCurrent(sourcePath, outputPath) {
+  try {
+    const [sourceStat, outputStat] = await Promise.all([
+      fs.stat(sourcePath),
+      fs.stat(outputPath),
+    ]);
+    return outputStat.mtimeMs >= sourceStat.mtimeMs;
+  } catch {
+    return false;
+  }
 }
 
 async function readHeroImages() {
@@ -49,14 +62,39 @@ function buildOutputName(imagePath, width, extension) {
 async function generateVariant(sourcePath, targetPath, width, format, options) {
   const outputPath = path.join(projectRoot, 'public', targetPath.replace(/^\//, ''));
   await ensureDir(path.dirname(outputPath));
+
+  if (await fileIsCurrent(sourcePath, outputPath)) {
+    return false;
+  }
+
   await sharp(sourcePath)
     .resize({ width, withoutEnlargement: true })
     [format](options)
     .toFile(outputPath);
+
+  return true;
+}
+
+async function runWithConcurrency(items, concurrency, worker) {
+  let nextIndex = 0;
+  let completed = 0;
+
+  const workers = Array.from({ length: Math.max(1, concurrency) }, async () => {
+    while (nextIndex < items.length) {
+      const currentIndex = nextIndex;
+      nextIndex += 1;
+      await worker(items[currentIndex], currentIndex);
+      completed += 1;
+    }
+  });
+
+  await Promise.all(workers);
+  return completed;
 }
 
 const manifest = {};
 const imagePaths = await readHeroImages();
+const variantJobs = [];
 
 for (const imagePath of imagePaths) {
   const sourcePath = path.join(projectRoot, 'public', imagePath.replace(/^\//, ''));
@@ -78,7 +116,13 @@ for (const imagePath of imagePaths) {
   for (const width of widths) {
     for (const format of formatConfigs) {
       const outputPath = buildOutputName(imagePath, width, format.extension);
-      await generateVariant(sourcePath, outputPath, width, format.key, format.options);
+      variantJobs.push({
+        sourcePath,
+        outputPath,
+        width,
+        format: format.key,
+        options: format.options,
+      });
       variants[format.key].push({
         width,
         src: outputPath,
@@ -93,7 +137,15 @@ for (const imagePath of imagePaths) {
   };
 }
 
+let generatedCount = 0;
+await runWithConcurrency(variantJobs, variantConcurrency, async (job) => {
+  const generated = await generateVariant(job.sourcePath, job.outputPath, job.width, job.format, job.options);
+  if (generated) {
+    generatedCount += 1;
+  }
+});
+
 await ensureDir(path.dirname(manifestPath));
 await fs.writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`, 'utf8');
 
-console.log(`Generated responsive variants for ${imagePaths.length} images.`);
+console.log(`Generated responsive variants for ${imagePaths.length} images (${generatedCount} files written, ${variantJobs.length - generatedCount} current).`);
