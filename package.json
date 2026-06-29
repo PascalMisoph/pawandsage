@@ -45,7 +45,6 @@
     "@remotion/cli": "^4.0.476",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
-    "hermes-agent": "^0.16.0",
     "playwright": "^1.60.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
