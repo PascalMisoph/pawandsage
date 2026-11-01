@@ -129,6 +129,27 @@ const siteSchemas = [
     <meta name="generator" content={Astro.generator} />
     <meta name="google-site-verification" content="vojFvLUW3NcjO5FdjCejc-0X-g6SbuJtPVZ-RXw-3kQ" />
     <meta name="ahrefs-site-verification" content="a1d136da9b21225796f7b0bd26c52ee9f410b80c8f4573f1cbf8ee982a21655c" />
+    <!-- Google Analytics 4. Consent Mode v2: analytics cookies off by default for EEA/UK/CH visitors (cookieless pings only); ad storage always denied. -->
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        analytics_storage: 'denied',
+        region: ['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IS','IE','IT','LV','LI','LT','LU','MT','NL','NO','PL','PT','RO','SK','SI','ES','SE','GB','CH']
+      });
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        analytics_storage: 'granted'
+      });
+      gtag('js', new Date());
+      gtag('config', 'G-DSMFYSN9P6', { anonymize_ip: true });
+    </script>
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-DSMFYSN9P6"></script>
     <script is:inline defer src="https://cloud.umami.is/script.js" data-website-id="8c9f1838-9f01-4fe0-ad14-077443c97ca5" data-domains="www.pawandsage.com"></script>
     <meta name="author" content={PERSON.name} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
