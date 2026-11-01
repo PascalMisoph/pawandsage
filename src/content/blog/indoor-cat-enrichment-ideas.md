@@ -1,8 +1,8 @@
 ---
-title: "20 Indoor Cat Enrichment Ideas That Take 5 Minutes to Set Up"
-description: "Real, practical ways to make your indoor cat's life less boring — from things you already have at home to small purchases under $30."
+title: "Cat Enrichment Ideas: 20 Easy Indoor Activities"
+description: "20 cat enrichment ideas for indoor cats, from free DIY games to under-$30 upgrades. Easy activities for bored house cats in any season, winter included."
 pubDate: 2026-04-12
-updatedDate: 2026-04-23
+updatedDate: 2026-11-01
 category: "enrichment"
 tags: ["enrichment", "indoor cat", "boredom", "diy"]
 readTime: "10 min read"
@@ -25,6 +25,10 @@ faq:
     answer: "There is no perfect number, but most indoor cats benefit from at least one or two short periods of active play plus chances to climb, watch, forage, and explore during the day."
   - question: "What are signs my indoor cat is bored?"
     answer: "Common signs include night waking, destructive play, knocking things over, pacing, overgrooming, and repeated attention-seeking at predictable times."
+  - question: "What is cat enrichment?"
+    answer: "Cat enrichment is anything that gives a cat a chance to use natural behaviors like hunting, climbing, scratching, exploring, and watching, in a safe way. For indoor cats that usually means play sessions, food puzzles, vertical space, window views, and regular novelty."
+  - question: "What are good enrichment activities for house cats in winter?"
+    answer: "Move the window perch to the sunniest spot, keep an evening play session right after you get home, feed part of meals in puzzle feeders, and rotate cardboard boxes and toys. These keep a house cat engaged when there is less daylight and less to watch outside."
 draft: false
 ---
 
@@ -130,6 +134,51 @@ Yes, you can clicker-train a cat. "Sit," "high five," and "come" are all achieva
 The most overlooked enrichment is paying attention. Notice which corner they avoid, which time of day they're most active, what makes them perk up. Cats are constantly telling you what they want — most owners just aren't watching.
 
 ---
+
+## Winter Indoor Enrichment
+
+Cold, dark months shrink an indoor cat's world: fewer daylight hours at the window, less going on outside, and often less play because everyone is tired. A few seasonal tweaks keep enrichment going:
+
+- **Move the window perch to the sunniest window** and add a warm blanket, so "cat TV" stays worth watching.
+- **Shift active play to right after you get home.** When it's dark at 5 PM, that session may be the only real exercise of the day. Our guide to [tiring out a hyper cat](/blog/how-to-tire-out-a-cat) has indoor games for small spaces.
+- **Use food for the long evenings.** Puzzle feeders, scatter-feeding, and [treat dispenser toys](/blog/best-treat-dispenser-toys-indoor-cats) work in any light.
+- **Add cardboard.** Holiday delivery boxes are free enrichment. Rotate one new box in every few days and recycle the old one.
+
+## Cat Enrichment Activities by Goal
+
+Every idea above has a deeper guide. Pick the one that matches what your cat needs most:
+
+**Burn energy**
+- [How to tire out a hyper cat before bed](/blog/how-to-tire-out-a-cat)
+- [Best interactive cat toys](/blog/best-interactive-cat-toys)
+- [Why your cat won't play with toys](/blog/cat-wont-play-with-toys)
+
+**Work the brain**
+- [Mental stimulation for cats: 12 ways](/blog/mental-stimulation-for-cats)
+- [Best puzzle feeders for cats](/blog/best-puzzle-feeders-cats)
+- [Puzzle feeders for wet food](/blog/cat-puzzle-feeder-wet-food)
+- [Best treat dispenser toys](/blog/best-treat-dispenser-toys-indoor-cats)
+
+**Free and DIY**
+- [DIY cat enrichment from things you already have](/blog/diy-cat-enrichment)
+- [The toy rotation system](/blog/do-cats-get-bored-of-their-toys)
+
+**Vertical space and views**
+- [Cat window perches](/blog/cat-window-perch)
+- [Cat wall ideas for bored indoor cats](/blog/best-cat-wall-ideas-bored-indoor-cats)
+- [Cat wall shelves vs cat trees](/blog/cat-wall-shelves-vs-cat-trees)
+- [Small apartment enrichment with vertical space](/blog/small-apartment-cat-enrichment-vertical-space)
+
+**When you're busy or away**
+- [How to keep your cat entertained while you're at work](/blog/how-to-keep-cat-busy-while-at-work)
+- [Keeping an indoor cat busy while you work from home](/blog/how-to-keep-indoor-cat-busy-while-working-from-home)
+- [Low-effort enrichment products for busy owners](/blog/low-effort-cat-enrichment-products-busy-owners)
+- [Do single cats get lonely?](/blog/do-single-cats-get-lonely)
+
+**Is it boredom?**
+- [7 signs your cat is bored](/blog/signs-cat-is-bored)
+- [Bored, lonely, or sick? How to tell](/blog/cat-bored-lonely-or-sick)
+- [Indoor cat depression: signs and fixes](/blog/indoor-cat-depression)
 
 The point of all this: indoor life isn't a sentence. It's a setup that needs to be designed. The cats whose owners commit to even three or four of these are noticeably calmer, more confident, and easier to live with.
 
