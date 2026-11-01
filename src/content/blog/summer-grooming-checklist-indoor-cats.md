@@ -74,3 +74,5 @@ Hydration and diet matter. Wet food, clean water stations, and a cooler room all
 - Refresh water stations.
 
 Do it before the hottest part of the day, reward generously, and keep the routine boring. Boring grooming is successful grooming.
+
+For quick cleanups between brushings, see [when cat wipes help and when they are not enough](/blog/cat-wipes-when-they-help). For nail tools, compare [cat nail clippers vs a nail grinder](/blog/cat-nail-clippers-vs-grinder).

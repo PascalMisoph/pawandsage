@@ -1,6 +1,6 @@
 ---
-title: "Why Your Cat Sheds So Much in Summer (The Grooming Routine That Works)"
-description: "Summer shedding is normal, but the hairballs, fur tumbleweeds, and matting do not have to be. Here's why cats shed more in warm months and the simple grooming routine that actually controls it."
+title: "Do Cats Shed More in Summer? Why + the Grooming Fix"
+description: "Yes, most cats shed more when it's hot. Why summer shedding happens, how much is normal, and the short brushing routine that keeps the fur under control."
 pubDate: 2026-07-06
 updatedDate: 2026-07-06
 category: "seasonal"
@@ -82,6 +82,6 @@ Normal seasonal shedding is even, all over, and leaves healthy skin underneath. 
 
 These can signal allergies, fleas, stress, or a medical issue — and summer is also flea season, which is its own cause of scratching and hair loss. If fleas are on your radar, see [how to get rid of fleas on cats](/blog/get-rid-of-fleas-on-cats).
 
-Otherwise, summer shedding is just your cat doing exactly what it should. A deshedding tool and a few minutes a few times a week turns it from a household nuisance into a non-event — and keeps your cat cooler and more comfortable in the process. For the bigger picture, see [how to keep your cat cool in hot weather](/blog/keep-cat-cool-hot-weather).
+Otherwise, summer shedding is just your cat doing exactly what it should. A deshedding tool and a few minutes a few times a week turns it from a household nuisance into a non-event — and keeps your cat cooler and more comfortable in the process. For the bigger picture, see [how to keep your cat cool in hot weather](/blog/keep-cat-cool-hot-weather). For picking up loose fur between brushings, see [when cat wipes help](/blog/cat-wipes-when-they-help).
 
 *We're building [CatPlay](https://catplay.app), a simple app for tracking your cat's daily habits — including grooming and coat changes — so you can tell normal seasonal shifts from something worth a vet visit.*
