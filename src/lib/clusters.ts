@@ -140,11 +140,13 @@ export const clusterConfigs: ClusterConfig[] = [
     title: 'Seasonal Care',
     description: 'Keeping your cat safe, cool, and healthy through the seasons.',
     intro:
-      'The seasonal section covers heat, hydration, parasites, and warm-weather safety, the practical care that changes with the calendar and matters most in summer.',
+      'The seasonal section covers heat, hydration, parasites, warm-weather safety, and holiday buying guides: the practical care and shopping decisions that change with the calendar.',
     featured: '/blog/keep-cat-cool-hot-weather',
     featuredTitle: 'How to keep your cat cool in hot weather',
     featuredLabel: 'Start with this guide',
     nextReads: [
+      { href: '/blog/black-friday-cat-deals', label: "Black Friday cat deals 2026: what's actually worth buying" },
+      { href: '/blog/best-gifts-for-cat-lovers', label: 'Best gifts for cat lovers 2026' },
       { href: '/blog/heatstroke-in-cats', label: 'Heatstroke in cats: warning signs' },
       { href: '/blog/get-cat-to-drink-more-water', label: 'How to get your cat to drink more water' },
       { href: '/blog/leaving-cat-alone-on-vacation', label: 'Leaving your cat alone on vacation' },
@@ -160,6 +162,8 @@ export const clusterConfigs: ClusterConfig[] = [
       },
     ],
     orderedPosts: [
+      'black-friday-cat-deals',
+      'best-gifts-for-cat-lovers',
       'keep-cat-cool-hot-weather',
       'heatstroke-in-cats',
       'cat-shedding-summer',

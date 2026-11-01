@@ -12,6 +12,10 @@ const allPosts = await getCollection('blog', ({ data }) => !data.draft);
 const sortedPosts = allPosts
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, 6);
+const featuredSlugs = ['black-friday-cat-deals', 'best-gifts-for-cat-lovers'];
+const featuredPosts = featuredSlugs
+  .map((slug) => allPosts.find((post) => post.id === slug))
+  .filter((post): post is (typeof allPosts)[number] => Boolean(post));
 const homeFaq = [
   {
     question: 'What kind of cat advice does Paw & Sage cover?',
@@ -67,7 +71,7 @@ const schema = [
   breadcrumbs={[{ name: 'Home', path: '/' }]}
   schema={schema}
   resourceHints={[
-    { rel: 'dns-prefetch', href: '//pawandsage.com' },
+    { rel: 'dns-prefetch', href: '//www.pawandsage.com' },
     { rel: 'preconnect', href: SITE_URL, crossorigin: 'anonymous' },
     {
       rel: 'preload',
@@ -112,6 +116,31 @@ const schema = [
       </figure>
     </div>
   </section>
+
+  {featuredPosts.length > 0 && (
+    <section class="recent-posts featured-guides">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Holiday 2026 buying guides</span>
+          <h2>Gifts and deals worth your money.</h2>
+        </div>
+        <div class="posts-grid">
+          {featuredPosts.map((post) => (
+            <PostCard
+              href={`/blog/${post.id}`}
+              title={post.data.title}
+              description={post.data.description}
+              category={post.data.category}
+              pubDate={post.data.pubDate}
+              readTime={post.data.readTime}
+              image={post.data.heroImage}
+              imageAlt={post.data.heroAlt}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
 
   <section class="categories-section">
     <div class="container">
@@ -364,6 +393,15 @@ const schema = [
 
   .categories-section {
     padding: 4rem 0 2.75rem;
+  }
+
+  @media (min-width: 701px) {
+    .featured-guides .posts-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      max-width: 760px;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 
   .recent-posts {
