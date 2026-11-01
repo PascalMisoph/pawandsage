@@ -1,6 +1,6 @@
 ---
-title: "How to Keep Cats Cool Without Air Conditioning"
-description: "No AC? Cats can still stay safe and comfortable in a hot home. Here are practical, mostly-free ways to keep cats cool without air conditioning, from airflow tricks to cool retreats."
+title: "How to Keep Cats Cool in Summer Without AC: Safe Tips"
+description: "No AC? How to keep cats cool in summer: cross-breezes, cool retreats, cold water everywhere and safe fan use, with the warning signs to watch for."
 pubDate: 2026-08-03
 updatedDate: 2026-08-03
 category: "seasonal"

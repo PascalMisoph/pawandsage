@@ -1,6 +1,6 @@
 ---
-title: "Leaving Your Cat Home Alone on Summer Vacation: The Full Guide"
-description: "How long can you really leave a cat alone, and what's the safe setup for summer travel? A practical guide to feeders, water, sitters, and heat-proofing your home while you're away."
+title: "Leaving Your Cat Alone on Vacation: How Long Is Safe?"
+description: "How long can you leave a cat alone for a weekend, a week or the holidays? Safe limits, feeders, water, cameras and when you need a sitter."
 pubDate: 2026-07-20
 updatedDate: 2026-07-20
 category: "seasonal"
