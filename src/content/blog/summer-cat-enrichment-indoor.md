@@ -25,6 +25,7 @@ faq:
     answer: "Often, yes. Cats sleep more and move less in heat, which can tip into restlessness and boredom, especially for indoor cats. The fix isn't more vigorous play; it's mental enrichment that engages them without raising their body temperature."
   - question: "What's the best enrichment for a hot afternoon?"
     answer: "Foraging and scent work. A snuffle mat, a food puzzle, or scattered treats give a cat a satisfying mental task while lying still in a cool spot. Add a lick mat or a few frozen treats and you've got engagement and cooling at the same time."
+draft: false
 ---
 
 There is a version of cat enrichment advice that does not work in July: wear your cat out with twenty minutes of flat-out wand play. On a hot day, that is not just unappealing to your cat — it is a route to overheating. But indoor cats actually get *more* bored in summer, not less, because heat makes them sleep more and move less until restlessness sets in. The answer is to switch the kind of enrichment you offer: low-energy, brain-first games that satisfy a cat without raising their temperature. Here are the best ones.
@@ -57,7 +58,19 @@ Take part of a meal and tuck small portions in easy "find spots" around a shaded
 
 A window view is all-day passive enrichment that asks nothing of your cat physically. The summer trick is placement: set the perch back from hot glass, in the shaded part of the room, so they get the entertainment without the radiant heat. A bird feeder on the glass turns an empty window into a live channel.
 
-## 6. Rotate Toys Instead of Adding Them
+## 6. Use Vertical Space Instead of Floor Play
+
+On hot days, the best enrichment often uses height rather than speed. A shelf, tree, or wall route lets your cat climb, watch, scratch, and nap without turning the room into a racetrack. This matters most in small homes, where the floor plan gets boring fast.
+
+**What helps:** The [Lynadri Cat Wall Shelves 5-in-1](https://www.amazon.com/dp/B0GWQ42WLQ?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.38JYHVPCJO618&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.38JYHVPCJO618_1782828464101) gives you a wall-mounted route with steps, a condo, a scratch area, and a post. Use it as a vertical-enrichment option, not a magic boredom cure: placement, secure mounting, and whether your cat enjoys height all matter.
+
+## 7. Turn a Doorway Into a Short Foraging Game
+
+If your cat still wants a little action, make the movement purposeful and brief. A treat-dispensing toy gives a cat something to investigate, paw, and solve without the sustained chase that can be too much during the hottest part of the day.
+
+**What helps:** The [NHCASURUE Hanging Door-Frame Treat Dispenser](https://www.amazon.com/dp/B0GVSZWH2B?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.1EX7RUBYS4MHA&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.1EX7RUBYS4MHA_1782828550693) fits the "short hunting puzzle" role: it hangs from a doorway and combines a treat dispenser with feathers and a bell. Check the attachment, supervise the first sessions, and inspect it regularly; hanging toys are enrichment only when they stay secure and your cat is using them safely.
+
+## 8. Rotate Toys Instead of Adding Them
 
 Novelty is mental stimulation. Keep three or four toys in play and box the rest, then swap weekly — the same toy comes back genuinely new to your cat. It is free, and it keeps interest up through a sluggish season. If your cat ignores toys entirely, the cause is usually fixable: see [why your cat won't play with toys](/blog/cat-wont-play-with-toys).
 

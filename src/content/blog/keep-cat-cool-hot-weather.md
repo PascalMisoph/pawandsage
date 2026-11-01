@@ -46,6 +46,12 @@ Cats are famously casual drinkers, and mild dehydration is what tips a warm day 
 
 **What helps:** A circulating fountain like the [Catit Flower Fountain](https://amazon.com/dp/B0146QXOB0?tag=pawandsage21-20) keeps water cooler and more interesting than a bowl that has gone flat and lukewarm by noon. If your cat is a reluctant drinker year-round, we go deeper in [how to get your cat to drink more water](/blog/get-cat-to-drink-more-water).
 
+For a heatwave, think in stations rather than one bowl. The best setup is usually one main water source in a cool, quiet room plus at least one backup bowl somewhere else. If your cat is picky about outlets, cords, or noisy fountains, a cordless option can make placement easier.
+
+**What helps:** The [PETALPAW Wireless Cat Water Fountain](https://www.amazon.com/dp/B0GZ7F93XM?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.I9OHHSB9H5MR&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.I9OHHSB9H5MR_1782828563987) is a good small-space option: a 3.5L stainless-steel fountain with a separate battery and multiple flow modes. The point is not that a fountain "prevents" heat illness; it simply makes fresh water easier to place where your cat will actually drink.
+
+For multi-pet homes or owners who refill bowls constantly, the [Pokpet 10L Stainless Cordless Fountain](https://www.amazon.com/dp/B0GZK62Q31?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.28ARQ0VAF4FYU&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.28ARQ0VAF4FYU_1782828401574) is the larger water-station angle. Its 10L capacity, stainless basin, motion sensing, and cordless placement make it a better fit when the problem is volume, placement, or more than one animal using the same station.
+
 ## 4. Drop an Ice Cube in the Bowl
 
 The simplest hydration trick there is. One or two ice cubes in the water bowl keeps it cold for an hour or two and gives curious cats a moving target to bat, which often nudges them into drinking. Some cats will happily lick a cube straight off the floor.
@@ -90,9 +96,11 @@ You do not need all twelve. On a genuinely hot day, the essentials are:
 
 - **One guaranteed cool retreat** (tiled floor or a cooling mat), reachable all day.
 - **Blinds closed early** on the sunny side.
-- **Extra water**, cold, in more than one spot.
+- **Extra water**, cold, clean, and in more than one spot.
 - **A damp-stroke** in the afternoon for cats that will tolerate it.
 - **Eyes on the high-risk cats**, more often than usual.
+
+If you only buy one hydration upgrade, choose based on the actual bottleneck. A small cordless fountain helps when the ideal water spot is away from an outlet. A high-capacity fountain helps when multiple pets, travel days, or hot rooms make a normal bowl run low too fast. In both cases, keep a backup bowl out; redundancy matters more than any single gadget.
 
 That covers the way cats actually lose heat, through cool surfaces, water, and evaporation, rather than the way we wish they did. And if your cat ever shows open-mouth panting, drooling, or sudden lethargy in the heat, treat it as urgent and read the [warning signs of heatstroke in cats](/blog/heatstroke-in-cats) so you know exactly what to do.
 

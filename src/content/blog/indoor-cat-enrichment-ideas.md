@@ -73,6 +73,8 @@ A basic puzzle feeder is around $15 and replaces a bowl that takes 30 seconds to
 
 Even simpler than a puzzle feeder: a hollow ball with a small hole that releases kibble when batted. Around $8. The [PetSafe SlimCat](https://amazon.com/dp/B0018CE8LG?tag=pawandsage21-20) is great for cats who need to slow down their eating.
 
+If your cat likes to paw upward or chase small movements, a doorway treat toy can add a different kind of foraging. The [NHCASURUE Hanging Door-Frame Treat Dispenser](https://www.amazon.com/dp/B0GVSZWH2B?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.1EX7RUBYS4MHA&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.1EX7RUBYS4MHA_1782828550693) works best as a short supervised game at first: treats make the puzzle rewarding, while the feathers and bell add movement. Check the attachment before every session and put it away if your cat starts chewing parts instead of playing.
+
 ### 9. A window perch
 
 If you don't have furniture by a window, a suction-cup window perch is around $25 and gives your cat front-row seats to the outdoor show.
@@ -102,6 +104,8 @@ Around $30. Many cats drink more from running water — and a hydrated cat has f
 ### 15. Vertical space (a single cat shelf)
 
 A wall-mounted cat shelf adds a vertical perch for around $40. Cats live in three dimensions — adding height is the single best spatial change you can make. If you don't want to drill into the wall, a [Feandrea 56.3" Cat Tree](https://amazon.com/dp/B078HB646M?tag=pawandsage21-20) by a window gets you most of the same payoff.
+
+For a more complete wall route, the [Lynadri Cat Wall Shelves 5-in-1](https://www.amazon.com/dp/B0GWQ42WLQ?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.38JYHVPCJO618&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.38JYHVPCJO618_1782828464101) combines steps, a condo, a scratch area, and a post. That matters because good vertical enrichment is not just one perch; it is a mini route with places to climb, pause, scratch, and observe.
 
 ## Daily routines that cost nothing
 

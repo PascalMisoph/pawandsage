@@ -70,6 +70,8 @@ Look specifically for toys with an **automatic shut-off** so they pulse on and o
 
 **What helps:** The [SmartyKat Loco Motion](https://amazon.com/dp/B000N9W7HW?tag=pawandsage21-20) moves a feather wand in unpredictable patterns and can be set to play in intervals for up to two hours, which spreads the stimulation instead of dumping it all at once.
 
+For treat-based movement, start more cautiously. The [NHCASURUE Hanging Door-Frame Treat Dispenser](https://www.amazon.com/dp/B0GVSZWH2B?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.1EX7RUBYS4MHA&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.1EX7RUBYS4MHA_1782828550693) can be a useful short puzzle because it makes your cat paw, investigate, and earn food instead of just staring at a toy. Use it while you are home first, then only leave it out if your cat uses it calmly and the attachment stays secure. If your cat chews strings, feathers, or small parts, this becomes a supervised-only toy.
+
 ## 5. Turn the Apartment Into a Foraging Ground
 
 Cats are wired to work for food across a territory, not to find it all in one dish. You can recreate that without much effort.
