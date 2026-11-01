@@ -1,8 +1,8 @@
 ---
-title: "Why Does My Cat Knock Things Off Tables? (5 Reasons + How to Stop It)"
-description: "Your cat isn't being a jerk. There are real behavior patterns behind why cats push things off tables. Here are 5 reasons and practical solutions that actually help."
+title: "Why Do Cats Knock Things Off Tables? 5 Reasons + Fixes"
+description: "Why do cats push things off tables, shelves and counters? The 5 real reasons (hunting, boredom, attention) and the fixes that stop it for good."
 pubDate: 2026-04-19
-updatedDate: 2026-04-23
+updatedDate: 2026-11-01
 category: "behavior"
 tags: ["behavior", "enrichment", "indoor cats", "training"]
 heroImage: "/blog/cat-knocking-things-off.png"
@@ -24,6 +24,8 @@ faq:
     answer: "No. The more common drivers are prey play, boredom, curiosity, attention seeking, and the desire to clear space on a preferred perch."
   - question: "What is the fastest way to reduce this behavior?"
     answer: "Daily interactive play, more climbing space, and less reinforcement when it happens usually matter most. The goal is to make the behavior less rewarding and give the cat better outlets."
+  - question: "Why do cats push things off shelves and counters?"
+    answer: "For the same reasons they clear tables: hunting instinct, boredom, curiosity, and attention. Shelves and counters are also high lookout spots, and counters smell like food, so cats patrol them more. A cat tree near a window and more daily play reduce it."
 readTime: "5 min read"
 draft: false
 ---
@@ -89,6 +91,23 @@ The objects up there? Just obstacles in their territory. They're not being vindi
 **What helps:** Give them their *own* high spot. A tall [cat tree](https://amazon.com/dp/B078HB646M?tag=pawandsage21-20) (at least 40 inches, ideally 60+) with wide, sturdy platforms gives large cats the elevation they crave without turning your furniture into a war zone.
 
 For items you can't move, [museum putty](https://amazon.com/dp/B0002VA9NA?tag=pawandsage21-20) is an underrated trick — a small dab keeps vases, picture frames, and decorative objects anchored to the surface. Invisible, removable, and surprisingly effective.
+
+## Why Cats Push Things Off Shelves and Counters
+
+Shelves and counters get targeted for the same reasons as tables, with one extra factor: they are often the highest, most interesting surfaces in the room. A shelf full of small objects at cat height is both a lookout post and a toy box. Kitchen counters also smell like food, which makes them worth patrolling.
+
+The pattern to watch for: if the knocking happens mostly when you are in the room, attention is the driver. If it happens while you are away or asleep, boredom and exploration are more likely.
+
+## How to Stop It: 6 Fixes That Work
+
+1. **Play before the knocking hour.** Most cats have a predictable time of day for table-clearing, often early morning or evening. Schedule 10 to 15 minutes of hunt-style play just before it.
+2. **Make meals take work.** Feeding part of the daily food in a puzzle feeder gives your cat something to bat and push that pays off. Our guide to the [best puzzle feeders](/blog/best-puzzle-feeders-cats) compares options.
+3. **Give them a better high spot.** A cat tree or a few wall shelves near a window give your cat elevation without your mugs in the way. See [cat wall ideas for bored indoor cats](/blog/best-cat-wall-ideas-bored-indoor-cats).
+4. **Clear or anchor the targets.** Move breakables off the edges for a few weeks and use museum putty on what has to stay.
+5. **Stop rewarding the drop.** No reaction when something falls. Pick it up later, and give attention when your cat is calm.
+6. **Rule out a medical cause for sudden changes.** A cat who suddenly starts knocking things over constantly, especially an older cat, may be restless from discomfort or another issue worth a vet check.
+
+Most cats improve within a couple of weeks once play, food puzzles, and a better perch are in place. If the knocking comes with other destructive behavior, [why your bored cat destroys everything](/blog/cat-destroying-everything) covers the bigger picture, and [signs your cat is bored](/blog/signs-cat-is-bored) helps you confirm boredom is the cause. Curious about the intense eye contact before the swipe? That's covered in [why your cat stares at you](/blog/why-cat-stares-at-me).
 
 ## The Bottom Line
 
