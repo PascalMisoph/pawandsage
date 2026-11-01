@@ -44,6 +44,15 @@ Scratching belongs on the route, not as an afterthought. A wall setup with a scr
 
 **What helps:** The [Lynadri Cat Wall Shelves 5-in-1](https://www.amazon.com/dp/B0GWQ42WLQ?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.38JYHVPCJO618&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.38JYHVPCJO618_1782828464101) combines steps, a condo, a scratch area, and a post, which makes it more useful than a single decorative shelf.
 
+<aside class="product-card" aria-label="Product pick: Lynadri Cat Wall Shelves 5-in-1">
+<span class="product-card-label">Top pick</span>
+<p class="product-card-name">Lynadri Cat Wall Shelves 5-in-1</p>
+<p class="product-card-why">Steps, a condo, a scratch area, and a post in one set, so it builds a real climbing route instead of a single decorative shelf.</p>
+<p class="product-card-best"><strong>Best for:</strong> Apartments and bored indoor cats who need more vertical territory</p>
+<a class="product-card-cta" href="https://www.amazon.com/dp/B0GWQ42WLQ?ref=t_ac_view_request_product_image&amp;campaignId=amzn1.campaign.38JYHVPCJO618&amp;linkCode=tr1&amp;tag=pawandsage21-20&amp;linkId=amzn1.campaign.38JYHVPCJO618_1782828464101" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>
+<span class="product-card-note">Affiliate link. Prices and deals change often, so check the current price on Amazon.</span>
+</aside>
+
 ## 3. The Small Apartment Patrol Path
 
 In a small home, a wall route can replace a bulky cat tree. Keep jumps short and landings predictable. Think "walkable path," not "parkour challenge."

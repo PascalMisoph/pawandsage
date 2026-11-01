@@ -46,6 +46,15 @@ Some cats love toys that move, hang, rattle, or flutter. Others get overstimulat
 
 **What helps:** The [NHCASURUE Hanging Door-Frame Treat Dispenser](https://www.amazon.com/dp/B0GVSZWH2B?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.1EX7RUBYS4MHA&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.1EX7RUBYS4MHA_1782828550693) fits cats who like batting upward and investigating movement. It combines a treat dispenser with feathers and a bell, so use it as a short supervised puzzle at first. Check the attachment, inspect parts, and put it away if your cat chews instead of plays.
 
+<aside class="product-card" aria-label="Product pick: NHCASURUE Hanging Door-Frame Treat Dispenser">
+<span class="product-card-label">Top pick</span>
+<p class="product-card-name">NHCASURUE Hanging Door-Frame Treat Dispenser</p>
+<p class="product-card-why">Combines a treat dispenser with feathers and a bell, turning snack time into a short upward batting puzzle. Start with supervised sessions.</p>
+<p class="product-card-best"><strong>Best for:</strong> Cats who like batting upward and investigating movement</p>
+<a class="product-card-cta" href="https://www.amazon.com/dp/B0GVSZWH2B?ref=t_ac_view_request_product_image&amp;campaignId=amzn1.campaign.1EX7RUBYS4MHA&amp;linkCode=tr1&amp;tag=pawandsage21-20&amp;linkId=amzn1.campaign.1EX7RUBYS4MHA_1782828550693" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>
+<span class="product-card-note">Affiliate link. Prices and deals change often, so check the current price on Amazon.</span>
+</aside>
+
 ## Match the Toy to the Boredom Pattern
 
 For fast eaters, use rolling balls or maze feeders.

@@ -38,6 +38,15 @@ Hydration is not usually framed as enrichment, but for cats it can be. Moving wa
 
 **What helps:** The [PETALPAW Wireless Cat Water Fountain](https://www.amazon.com/dp/B0GZ7F93XM?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.I9OHHSB9H5MR&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.I9OHHSB9H5MR_1782828563987) is low-effort when the problem is placement: cordless setup, stainless steel, visible water window, and flow modes.
 
+<aside class="product-card" aria-label="Product pick: PETALPAW Wireless Cat Water Fountain">
+<span class="product-card-label">Top pick</span>
+<p class="product-card-name">PETALPAW Wireless Cat Water Fountain</p>
+<p class="product-card-why">A cordless stainless fountain with a visible water window and flow modes, so fresh moving water goes wherever your cat prefers to drink.</p>
+<p class="product-card-best"><strong>Best for:</strong> Busy owners who want an easy hydration upgrade</p>
+<a class="product-card-cta" href="https://www.amazon.com/dp/B0GZ7F93XM?ref=t_ac_view_request_product_image&amp;campaignId=amzn1.campaign.I9OHHSB9H5MR&amp;linkCode=tr1&amp;tag=pawandsage21-20&amp;linkId=amzn1.campaign.I9OHHSB9H5MR_1782828563987" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>
+<span class="product-card-note">Affiliate link. Prices and deals change often, so check the current price on Amazon.</span>
+</aside>
+
 Use the [Pokpet 10L Stainless Cordless Fountain](https://www.amazon.com/dp/B0GZK62Q31?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.28ARQ0VAF4FYU&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.28ARQ0VAF4FYU_1782828401574) when capacity and multi-pet use are the bigger bottlenecks.
 
 ## 2. Vertical Space That Stays Useful

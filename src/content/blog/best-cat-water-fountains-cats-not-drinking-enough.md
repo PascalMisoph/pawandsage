@@ -48,6 +48,15 @@ If the best drinking spot is a bedroom corner, hallway edge, shaded living-room 
 
 **What helps:** The [PETALPAW Wireless Cat Water Fountain](https://www.amazon.com/dp/B0GZ7F93XM?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.I9OHHSB9H5MR&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.I9OHHSB9H5MR_1782828563987) is a good fit when placement is the bottleneck. The useful features are the cordless setup, stainless-steel drinking surface, visible water window, and multiple flow modes. That combination helps you test where your cat actually chooses to drink.
 
+<aside class="product-card" aria-label="Product pick: PETALPAW Wireless Cat Water Fountain">
+<span class="product-card-label">Top pick</span>
+<p class="product-card-name">PETALPAW Wireless Cat Water Fountain</p>
+<p class="product-card-why">Cordless setup, stainless-steel drinking surface, visible water window, and multiple flow modes, so you can put water where your cat actually drinks.</p>
+<p class="product-card-best"><strong>Best for:</strong> Picky drinkers and homes where the best water spot has no outlet</p>
+<a class="product-card-cta" href="https://www.amazon.com/dp/B0GZ7F93XM?ref=t_ac_view_request_product_image&amp;campaignId=amzn1.campaign.I9OHHSB9H5MR&amp;linkCode=tr1&amp;tag=pawandsage21-20&amp;linkId=amzn1.campaign.I9OHHSB9H5MR_1782828563987" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>
+<span class="product-card-note">Affiliate link. Prices and deals change often, so check the current price on Amazon.</span>
+</aside>
+
 ## Best for Multi-Pet Homes: A High-Capacity Station
 
 If two cats, a dog, or a hot room drain a small fountain quickly, capacity becomes part of hydration. A bigger station does not replace cleaning or backup bowls, but it can make the main water source more resilient.
