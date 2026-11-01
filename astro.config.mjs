@@ -13,7 +13,9 @@ export default defineConfig({
     }),
   ],
   markdown: {
-    rehypePlugins: [rehypeAffiliateLinks],
+    // Bump `version` whenever the plugin changes: it alters the config digest so
+    // Astro's content cache (also restored on Vercel) re-renders every article.
+    rehypePlugins: [[rehypeAffiliateLinks, { version: 2 }]],
     shikiConfig: {
       theme: 'github-light',
     },

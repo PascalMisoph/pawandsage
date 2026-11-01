@@ -18,16 +18,24 @@ export interface Props {
   asin?: string;
   href?: string;
   label?: string;
+  /** Injected by rehype-affiliate-links in MDX (e.g. productcard-2). */
+  position?: string;
+  /** Injected by rehype-affiliate-links in MDX (article slug). */
+  article?: string;
 }
 
 const AMAZON_TAG = 'pawandsage21-20';
 const { name, why, bestFor, asin, href, label } = Astro.props;
+const position = Astro.props.position ?? 'productcard';
+const article =
+  Astro.props.article ?? Astro.url.pathname.replace(/^\/blog\//, '').replace(/\/$/, '') ?? 'unknown';
 
 if (!asin && !href) {
   throw new Error(`ProductCard "${name}" needs an asin or href.`);
 }
 
 const url = href ?? `https://www.amazon.com/dp/${asin}?tag=${AMAZON_TAG}`;
+const merchant = /amazon\.|amzn\.to/i.test(url) ? 'amazon' : new URL(url).hostname.replace(/^www\./, '');
 
 if (!url.includes(`tag=${AMAZON_TAG}`)) {
   throw new Error(`ProductCard "${name}" link is missing tag=${AMAZON_TAG}.`);
@@ -46,6 +54,11 @@ if (!url.includes(`tag=${AMAZON_TAG}`)) {
     href={url}
     target="_blank"
     rel="sponsored nofollow noopener"
+    data-umami-event="affiliate-click"
+    data-umami-event-merchant={merchant}
+    data-umami-event-article={article}
+    data-umami-event-position={position}
+    data-umami-event-product={name}
   >Check price on Amazon</a>
   <span class="product-card-note">Affiliate link. Prices and deals change often, so check the current price on Amazon.</span>
 </aside>

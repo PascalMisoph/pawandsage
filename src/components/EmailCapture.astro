@@ -4,6 +4,8 @@ export interface Props {
   title?: string;
   description?: string;
   buttonLabel?: string;
+  /** Where the form sits, for Umami newsletter-signup events (defaults from the URL). */
+  location?: string;
 }
 
 // MailerLite form (double opt-in). PUBLIC_MAILERLITE_FORM_URL can override it per environment.
@@ -16,6 +18,10 @@ const {
   buttonLabel = 'Send it to me',
 } = Astro.props;
 
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+const location =
+  Astro.props.location ??
+  (path === '/' ? 'homepage' : path.startsWith('/blog/') ? `article:${path.slice(6)}` : `page:${path.slice(1)}`);
 const formAction = import.meta.env.PUBLIC_MAILERLITE_FORM_URL || DEFAULT_FORM_URL;
 const inputId = `email-capture-${variant}-${title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
 ---
@@ -31,6 +37,7 @@ const inputId = `email-capture-${variant}-${title.toLowerCase().replace(/[^a-z0-
       target="_blank"
       class="email-form"
       data-mailerlite-form
+      data-location={location}
     >
       <label class="sr-only" for={inputId}>Email address</label>
       <input
@@ -43,7 +50,12 @@ const inputId = `email-capture-${variant}-${title.toLowerCase().replace(/[^a-z0-
       />
       <input type="hidden" name="ml-submit" value="1" />
       <input type="hidden" name="anticsrf" value="true" />
-      <button type="submit" class="btn btn-accent">{buttonLabel}</button>
+      <button
+        type="submit"
+        class="btn btn-accent"
+        data-umami-event="newsletter-signup"
+        data-umami-event-location={location}
+      >{buttonLabel}</button>
     </form>
     <p class="email-status" role="status" aria-live="polite" hidden></p>
     <p class="email-fineprint">
@@ -81,6 +93,7 @@ const inputId = `email-capture-${variant}-${title.toLowerCase().replace(/[^a-z0-
         });
         const data = await response.json().catch(() => null);
         if (response.ok && (!data || data.success)) {
+          (window as any).umami?.track?.('newsletter-signup-success', { location: form.dataset.location ?? '' });
           form.hidden = true;
           showStatus(SUCCESS_MESSAGE);
           return;
