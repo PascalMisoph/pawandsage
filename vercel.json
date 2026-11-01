@@ -1,4 +1,11 @@
 {
+  "redirects": [
+    {
+      "source": "/blog/low-effort-enrichment-products-busy-owners",
+      "destination": "/blog/low-effort-cat-enrichment-products-busy-owners",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
