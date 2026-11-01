@@ -1,8 +1,8 @@
 ---
-title: "How to Keep Your Cat Entertained While You're at Work (All-Day Plan)"
-description: "A simple all-day routine to keep your cat busy while you're at work, using morning play, foraging meals, window views, and self-play toys that run without you."
+title: "How to Keep a Cat Entertained While at Work (Daily Plan)"
+description: "Work all day? This hour-by-hour plan keeps cats and kittens entertained while you're at work: morning play, food puzzles, cat TV and self-play toys."
 pubDate: 2026-05-29
-updatedDate: 2026-05-29
+updatedDate: 2026-11-01
 category: "enrichment"
 tags: ["enrichment", "indoor cats", "play", "home alone", "work"]
 readTime: "7 min read"
@@ -25,6 +25,12 @@ faq:
     answer: "Most healthy adult cats are fine on their own during a standard workday if they have food, water, a clean litter box, and something to do. The issue is rarely the hours and almost always whether the environment gives them anything to engage with."
   - question: "What is the best toy for a cat that is home alone?"
     answer: "Self-play toys that move or reward on their own work best, like a motion toy with an auto shut-off or a foraging feeder. Avoid leaving anything with strings or small parts out unsupervised."
+  - question: "Should I get a cat if I work full time?"
+    answer: "Many people who work full time have happy cats. Adult cats generally cope well with a workday alone if they get play before and after work, food puzzles, a window to watch, and a clean litter box. A very young kitten or a cat who struggles with being alone needs more support, such as a midday visit or a sitter."
+  - question: "What is a realistic daily routine for a cat while I am at work?"
+    answer: "Ten to fifteen minutes of wand play before you leave, breakfast served in a puzzle feeder, a window perch and one self-play toy during the day, and another short play session followed by dinner when you get home. That covers the core needs without requiring you to be home."
+  - question: "How do I keep a kitten entertained while I am at work?"
+    answer: "Set up one kitten-safe room with litter, water, a bed, a scratcher, and solid no-string toys, split food into small portions, and arrange a midday check-in if your kitten is very young. Play hard before you leave so your kitten starts the day tired."
 draft: false
 ---
 
@@ -108,5 +114,28 @@ You do not need every item above. Here is the minimum effective routine:
 - **When you get home:** one more short play session before dinner to close out the day.
 
 None of this requires being home. It requires a little setup the night before and a few minutes in the morning, and it replaces the empty stretch that used to end with a knocked-over plant.
+
+## How to Keep a Kitten Entertained While You're at Work
+
+Kittens need the same plan with tighter safety margins. They have more energy, less judgment, and smaller stomachs, so a few things change:
+
+- **Give them one kitten-safe room, not the whole home.** A bedroom or bathroom with the litter box, water, a bed, a scratcher, and a few safe toys is easier to make safe than an entire apartment. Remove hair ties, rubber bands, string, yarn, cords they can reach, and anything small enough to swallow.
+- **Leave only solid, no-string toys out.** Balls, crinkle toys, and a small tunnel are fine for solo play. Wand toys, feathers on strings, and anything with elastic stay in a drawer until you are home to supervise.
+- **Split food into smaller portions.** Kittens usually eat more often than adult cats. An automatic feeder or a couple of small puzzle portions can spread meals through the day. Ask your vet how much and how often for your kitten's age.
+- **Plan a midday check-in for very young kittens.** A kitten who is only a few months old is not ready for a full workday alone every day. A lunch visit, a friend, or a cat sitter fills the gap until they are older and the routine is settled.
+
+The morning play session matters even more for kittens. A kitten who has chased, pounced, and eaten before you leave is far more likely to nap than to explore the inside of your sofa.
+
+## Winter Workdays: When You Leave and Come Home in the Dark
+
+Short winter days change the rhythm. Many owners leave before sunrise and get home after dark, so the window view has fewer hours of daylight to work with and the evening energy burst starts as soon as you walk in.
+
+A few adjustments help:
+
+- **Move the window perch to the brightest window** and add a warm blanket so it stays a place your cat wants to be. Our guide to [window perches](/blog/cat-window-perch) covers placement and safe mounting.
+- **Make the after-work session non-negotiable.** In winter it is often the only active play of the day, so do it before you start dinner or open your laptop.
+- **Lean on food puzzles for the dark hours.** Foraging and [treat dispenser toys](/blog/best-treat-dispenser-toys-indoor-cats) do not depend on daylight the way bird-watching does.
+
+If you work from home part of the week, the routine is slightly different. See [how to keep an indoor cat busy while you work from home](/blog/how-to-keep-indoor-cat-busy-while-working-from-home). If you have an only cat who seems clingy when you return, [do single cats get lonely?](/blog/do-single-cats-get-lonely) helps you tell loneliness from boredom. And for trips longer than a workday, read [leaving your cat home alone on vacation](/blog/leaving-cat-alone-on-vacation).
 
 *Trying to figure out which of these actually changes your cat's day? We're building [CatPlay](https://catplay.app), a simple app for tracking your cat's daily play and behavior so you can see what is working and what is not.*

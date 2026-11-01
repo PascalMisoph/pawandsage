@@ -1,8 +1,8 @@
 ---
-title: "How to Tire Out a Hyper Cat (Especially Before Bed)"
-description: "A practical plan to burn off a hyper cat's energy, with a play structure that mimics the hunt, the right self-play gear, and an evening routine that ends the 3 AM zoomies."
+title: "How to Tire Out a Hyper Cat Before Bed (Evening Routine)"
+description: "Hyper cat at night? A hunt-catch-eat play routine, self-play toys and indoor exercise for dark winter evenings that ends the 3 AM zoomies."
 pubDate: 2026-06-12
-updatedDate: 2026-06-12
+updatedDate: 2026-11-01
 category: "enrichment"
 tags: ["enrichment", "indoor cats", "play", "energy", "zoomies"]
 readTime: "7 min read"
@@ -25,6 +25,8 @@ faq:
     answer: "Cats are crepuscular, most active at dawn and dusk, so an evening energy surge is normal. The problem is an indoor cat with no outlet for it. A structured play session followed by a meal right before your bedtime redirects that surge into the natural hunt-eat-sleep cycle."
   - question: "Will a second cat tire out a hyper cat?"
     answer: "Sometimes, but it is not a guaranteed fix. A well-matched companion can absorb a lot of energy, but a mismatched pairing can create stress instead. Structured play and self-play outlets are a more reliable first step before adding another cat."
+  - question: "What indoor games tire out a cat the fastest?"
+    answer: "Short bursts of hunt-style play with a wand toy are the most efficient, especially when the toy goes up and down furniture so your cat climbs and jumps. Stair chases and tunnel sprints also burn energy fast. End with a catch and a meal so the session settles your cat instead of winding them up."
 draft: false
 ---
 
@@ -82,6 +84,17 @@ Put it together and the bedtime zoomies usually disappear. The pattern that work
 - **Right before bed:** the meal, immediately after that catch.
 
 Consistency matters more than intensity. A cat that learns the day reliably ends with a hunt and a meal stops inventing its own 3 AM entertainment.
+
+## Indoor Exercise When It's Dark and Cold
+
+In winter the evening energy surge tends to arrive earlier, because it gets dark earlier, and there is less going on outside the window to burn it off. If your cat is bouncing off the walls by 6 PM, these indoor games give the energy a job:
+
+- **Stair chase.** If you have stairs, toss a lightweight toy up a few steps at a time. Running uphill and pouncing is hard work, and a few rounds go a long way.
+- **Tunnel sprints.** A play tunnel on a hallway floor turns a short space into a dash-and-ambush course. Drag a wand toy past one end and let your cat explode out of the other.
+- **The furniture circuit.** Lead the wand toy up onto the sofa, across a chair, down to the floor, and up a cat tree. Climbing and jumping work different muscles than flat sprinting. [Cat wall shelves or a cat tree](/blog/cat-wall-shelves-vs-cat-trees) make this route easier and safer.
+- **Hide-and-seek with food.** Hide a few pieces of kibble around one room and let your cat hunt them out. It is slower, but it tires the brain, which matters just as much.
+
+Finish every game the same way: a final catch, then food. For more toy ideas that hold a cat's interest, see our picks for the [best interactive cat toys](/blog/best-interactive-cat-toys). If space is the limit, [small apartment cat enrichment](/blog/small-apartment-cat-enrichment-vertical-space) shows how to use walls instead of floor space.
 
 ## When Hyper Is Something Else
 

@@ -90,4 +90,6 @@ If you've made the three changes above and seen no improvement in three to four 
 
 ---
 
+For a full evening play routine that drains energy before bed, see [how to tire out a hyper cat](/blog/how-to-tire-out-a-cat). And if the wake-up call starts with your cat silently watching you from the foot of the bed, here is [why your cat stares at you](/blog/why-cat-stares-at-me).
+
 For most cats, though, the 3 AM cat is a problem you accidentally created — and one you can deliberately untrain. The cycle exists for a reason. Match your evenings to it, and your nights get quiet.
