@@ -1,3 +1,4 @@
+import crypto from 'node:crypto';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
@@ -9,6 +10,17 @@ const manifestPath = path.join(projectRoot, 'src', 'generated', 'responsive-imag
 const homepageHero = '/home-header-premium-wide.png';
 const blogWidths = [360, 540, 720, 960, 1280, 1586];
 const homepageWidths = [480, 720, 960, 1280, 1600, 1822];
+// Content-addressed cache of generated variants. It lives in node_modules/.cache because
+// Vercel restores node_modules from its build cache on every deploy, while a fresh git
+// clone gives every source image a new mtime (so the mtime check below never hits there).
+// Keys hash the source bytes + width + format + encoder options + sharp version, so any
+// change to an image or setting simply misses the cache and regenerates. If the cache is
+// missing or unwritable, the script behaves exactly as before.
+const cacheDir = path.join(projectRoot, 'node_modules', '.cache', 'pawandsage-responsive-images');
+const cacheEnabled = process.env.IMAGE_CACHE !== '0';
+const sharpVersion = sharp.versions?.sharp ?? 'unknown';
+const usedCacheFiles = new Set();
+let cacheHits = 0;
 const variantConcurrency = Number.parseInt(process.env.IMAGE_VARIANT_CONCURRENCY ?? '6', 10);
 
 const formatConfigs = [
@@ -59,18 +71,60 @@ function buildOutputName(imagePath, width, extension) {
   return `/${path.posix.join('optimized', folder, fileName)}`;
 }
 
+const sourceHashes = new Map();
+async function hashSource(sourcePath) {
+  if (!sourceHashes.has(sourcePath)) {
+    sourceHashes.set(
+      sourcePath,
+      fs.readFile(sourcePath).then((buffer) => crypto.createHash('sha256').update(buffer).digest('hex')),
+    );
+  }
+  return sourceHashes.get(sourcePath);
+}
+
+async function cachePathFor(sourcePath, width, format, options, extension) {
+  const key = crypto
+    .createHash('sha256')
+    .update(JSON.stringify([await hashSource(sourcePath), width, format, options, sharpVersion]))
+    .digest('hex')
+    .slice(0, 32);
+  return path.join(cacheDir, `${key}.${extension}`);
+}
+
 async function generateVariant(sourcePath, targetPath, width, format, options) {
   const outputPath = path.join(projectRoot, 'public', targetPath.replace(/^\//, ''));
   await ensureDir(path.dirname(outputPath));
+  const extension = path.extname(outputPath).slice(1);
+  const cachePath = cacheEnabled ? await cachePathFor(sourcePath, width, format, options, extension) : null;
+  if (cachePath) usedCacheFiles.add(path.basename(cachePath));
 
   if (await fileIsCurrent(sourcePath, outputPath)) {
     return false;
+  }
+
+  if (cachePath) {
+    try {
+      await fs.copyFile(cachePath, outputPath);
+      cacheHits += 1;
+      return false;
+    } catch {
+      // cache miss: fall through and generate
+    }
   }
 
   await sharp(sourcePath)
     .resize({ width, withoutEnlargement: true })
     [format](options)
     .toFile(outputPath);
+
+  if (cachePath) {
+    try {
+      await ensureDir(cacheDir);
+      await fs.copyFile(outputPath, cachePath);
+    } catch {
+      // cache is best-effort only
+    }
+  }
 
   return true;
 }
@@ -145,7 +199,18 @@ await runWithConcurrency(variantJobs, variantConcurrency, async (job) => {
   }
 });
 
+// Drop cache entries no current variant uses, so the cache never grows unbounded.
+if (cacheEnabled) {
+  try {
+    for (const name of await fs.readdir(cacheDir)) {
+      if (!usedCacheFiles.has(name)) await fs.rm(path.join(cacheDir, name), { force: true });
+    }
+  } catch {
+    // no cache dir yet
+  }
+}
+
 await ensureDir(path.dirname(manifestPath));
 await fs.writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`, 'utf8');
 
-console.log(`Generated responsive variants for ${imagePaths.length} images (${generatedCount} files written, ${variantJobs.length - generatedCount} current).`);
+console.log(`Generated responsive variants for ${imagePaths.length} images (${generatedCount} files written, ${variantJobs.length - generatedCount} current, ${cacheHits} restored from cache).`);
