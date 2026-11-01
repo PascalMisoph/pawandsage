@@ -1,4 +1,4 @@
-export const SITE_URL = 'https://pawandsage.com';
+export const SITE_URL = 'https://www.pawandsage.com';
 export const SITE_NAME = 'Paw & Sage';
 export const SITE_DESCRIPTION =
   'A calm, considered guide to understanding the cat in your home.';

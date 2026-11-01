@@ -1,0 +1,51 @@
+---
+/**
+ * ProductCard: an Amazon affiliate pick for use inside MDX articles.
+ *
+ * Usage (MDX):
+ *   import ProductCard from '../../components/ProductCard.astro';
+ *   <ProductCard name="Catit Flower Fountain" asin="B0146QXOB0"
+ *     why="Quiet pump, three flow settings, easy to take apart."
+ *     bestFor="Cats who ignore still bowls" label="Top pick" />
+ *
+ * Plain .md articles can use the same markup (see global.css .product-card).
+ * Prices are never hardcoded: the CTA always says "Check price on Amazon".
+ */
+export interface Props {
+  name: string;
+  why: string;
+  bestFor?: string;
+  asin?: string;
+  href?: string;
+  label?: string;
+}
+
+const AMAZON_TAG = 'pawandsage21-20';
+const { name, why, bestFor, asin, href, label } = Astro.props;
+
+if (!asin && !href) {
+  throw new Error(`ProductCard "${name}" needs an asin or href.`);
+}
+
+const url = href ?? `https://www.amazon.com/dp/${asin}?tag=${AMAZON_TAG}`;
+
+if (!url.includes(`tag=${AMAZON_TAG}`)) {
+  throw new Error(`ProductCard "${name}" link is missing tag=${AMAZON_TAG}.`);
+}
+---
+
+<aside class="product-card" aria-label={`Product pick: ${name}`}>
+  {label && <span class="product-card-label">{label}</span>}
+  <p class="product-card-name">{name}</p>
+  <p class="product-card-why">{why}</p>
+  {bestFor && (
+    <p class="product-card-best"><strong>Best for:</strong> {bestFor}</p>
+  )}
+  <a
+    class="product-card-cta"
+    href={url}
+    target="_blank"
+    rel="sponsored nofollow noopener"
+  >Check price on Amazon</a>
+  <span class="product-card-note">Affiliate link. Prices and deals change often, so check the current price on Amazon.</span>
+</aside>

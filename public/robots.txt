@@ -10,5 +10,5 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Sitemap: https://pawandsage.com/sitemap.xml
-Sitemap: https://pawandsage.com/sitemap-index.xml
+Sitemap: https://www.pawandsage.com/sitemap.xml
+Sitemap: https://www.pawandsage.com/sitemap-index.xml
