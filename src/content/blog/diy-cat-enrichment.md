@@ -88,7 +88,7 @@ DIY is brilliant, but supervise anything involving string, ribbon, rubber bands,
 
 Homemade enrichment covers novelty and foraging beautifully, and for most cats it is 80 percent of the job. The pieces it cannot easily replace are durable self-play and a steady supply of greens.
 
-A simple [cat grass growing kit](https://amazon.com/dp/B07J5P1SNL?tag=pawandsage21-20) gives indoor cats safe greens to nibble and a living thing to investigate, which is hard to fake with household items.
+A simple [cat grass growing kit](https://amazon.com/dp/B074SZ17C7?tag=pawandsage21-20) gives indoor cats safe greens to nibble and a living thing to investigate, which is hard to fake with household items.
 
 For the rest, pair your DIY setup with a couple of well-chosen basics. Our [indoor cat enrichment ideas](/blog/indoor-cat-enrichment-ideas) guide shows how the homemade and store-bought pieces fit together, and the [best puzzle feeders](/blog/best-puzzle-feeders-cats) roundup covers foraging that outlasts a toilet roll.
 

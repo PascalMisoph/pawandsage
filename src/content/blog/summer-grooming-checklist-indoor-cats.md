@@ -44,7 +44,7 @@ For shedding specifics, read [why cats shed so much in summer](/blog/cat-sheddin
 
 Keep the brush, towel, treats, and cleanup option in one predictable place. The routine becomes easier when you are not hunting for supplies while your cat is still in the mood.
 
-**What helps:** The [ZeaCotio Pet Glove Wipes](https://www.amazon.com/dp/B0GTV5M7KV?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.10C0IU46OUTC6&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.10C0IU46OUTC6_1782828621824) make sense for small summer messes because they are glove-shaped and individually wrapped. Use them for quick paw, coat, face, or rear-area cleanup when your cat tolerates it. Do not use wipes to treat irritation, wounds, or skin disease.
+**What helps:** The [HICC PET Glove Wipes](https://www.amazon.com/dp/B0BRML7424?tag=pawandsage21-20) make sense for small summer messes because they are glove-shaped and individually wrapped. Use them for quick paw, coat, face, or rear-area cleanup when your cat tolerates it. Do not use wipes to treat irritation, wounds, or skin disease.
 
 ## 3. Check Nails Every Two Weeks
 

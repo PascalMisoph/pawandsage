@@ -64,7 +64,7 @@ Keeping water appealing helps — a [fountain](https://amazon.com/dp/B0146QXOB0?
 
 The easiest routine is the one you do without thinking. Keep the brush, a towel, and a gentle wipe option in one predictable spot, ideally near the place your cat already relaxes. After a short brushing session, wipe loose hair from the coat surface, paws, or rear area only if your cat tolerates it.
 
-**What helps:** The [ZeaCotio Pet Glove Wipes](https://www.amazon.com/dp/B0GTV5M7KV?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.10C0IU46OUTC6&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.10C0IU46OUTC6_1782828621824) are a practical cleanup add-on because each wipe is shaped like a glove and individually wrapped. They make the most sense for quick paw, coat, face, or rear-area cleanup after brushing, litter tracking, or travel. Treat them as a convenience tool, not a treatment: wipes do not replace bathing when a cat is truly soiled, and they do not treat skin problems.
+**What helps:** The [HICC PET Glove Wipes](https://www.amazon.com/dp/B0BRML7424?tag=pawandsage21-20) are a practical cleanup add-on because each wipe is shaped like a glove and individually wrapped. They make the most sense for quick paw, coat, face, or rear-area cleanup after brushing, litter tracking, or travel. Treat them as a convenience tool, not a treatment: wipes do not replace bathing when a cat is truly soiled, and they do not treat skin problems.
 
 This is also a good moment to check nails. Long, sharp claws can snag bedding, scratch posts, and furniture more aggressively, especially when a shedding cat is grooming and scratching more often.
 

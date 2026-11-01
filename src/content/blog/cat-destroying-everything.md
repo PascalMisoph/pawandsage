@@ -58,7 +58,7 @@ A cat that chews leaves is often after plant matter for its own sake, cats nibbl
 
 Give your cat a safe target to chew and the houseplants become less of a draw. And check every plant in your home against a reliable toxic-plant list, lilies in particular are dangerous to cats.
 
-**What helps:** A tray of [cat grass](https://amazon.com/dp/B07J5P1SNL?tag=pawandsage21-20) gives your cat a safe, satisfying thing to nibble and redirects the chewing instinct away from your pothos. Grow it where your cat can reach it easily so it competes with the off-limits plants.
+**What helps:** A tray of [cat grass](https://amazon.com/dp/B074SZ17C7?tag=pawandsage21-20) gives your cat a safe, satisfying thing to nibble and redirects the chewing instinct away from your pothos. Grow it where your cat can reach it easily so it competes with the off-limits plants.
 
 ## "Make This Spot Boring" — The Repeat-Offender Targets
 

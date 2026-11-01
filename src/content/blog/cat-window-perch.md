@@ -48,7 +48,7 @@ Most cats will use a windowsill, but a sill is often too narrow, too high, or to
 
 The best spot is the window with the most going on outside: a garden, a tree, a feeder, or a quiet street at a distance. Morning sun is a bonus, since a warm perch is a perch that gets used.
 
-**What helps:** A suction-cup [cat window perch](https://amazon.com/dp/B0G6D12FW8?tag=pawandsage21-20) mounts directly to the glass and holds most cats comfortably, turning even a narrow sill into a proper lounging spot at the best vantage point in the room.
+**What helps:** A suction-cup [cat window perch](https://amazon.com/dp/B07MH7WTSN?tag=pawandsage21-20) mounts directly to the glass and holds most cats comfortably, turning even a narrow sill into a proper lounging spot at the best vantage point in the room.
 
 ## Step 2: Add Something Live to Watch
 

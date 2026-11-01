@@ -78,7 +78,7 @@ A single cat has more quiet hours to fill, so mental work carries extra weight. 
 
 Part of what reads as loneliness is simply the long unbroken stretch of your absence. You can break it up, and reassure yourself at the same time, with a way to check in and create a small midday event.
 
-**What helps:** A [pet camera with a treat dispenser](https://amazon.com/dp/B07ZWVGFDJ?tag=pawandsage21-20) lets you watch in, talk, and toss a treat from your phone, so your only cat gets a surprise mid-afternoon and you get to see whether they are actually distressed or just napping peacefully. For most owners of single cats, *seeing* the calm is half the relief.
+**What helps:** A [pet camera with a treat dispenser](https://amazon.com/dp/B0C4XXBY44?tag=pawandsage21-20) lets you watch in, talk, and toss a treat from your phone, so your only cat gets a surprise mid-afternoon and you get to see whether they are actually distressed or just napping peacefully. For most owners of single cats, *seeing* the calm is half the relief.
 
 If you are away all day, our [all-day plan for keeping a cat entertained while you're at work](/blog/how-to-keep-cat-busy-while-at-work) shows how to fill the hours you are gone.
 

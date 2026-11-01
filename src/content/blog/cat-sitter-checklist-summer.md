@@ -56,7 +56,7 @@ If your cat pants, drools, becomes weak, collapses, or seems disoriented, the si
 
 Make a small station with paper towels, trash bags, litter scoop, spare litter, a brush if tolerated, and pet wipes for small messes.
 
-**What helps:** The [ZeaCotio Pet Glove Wipes](https://www.amazon.com/dp/B0GTV5M7KV?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.10C0IU46OUTC6&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.10C0IU46OUTC6_1782828621824) are useful in a sitter kit because they are individually wrapped and shaped like gloves. Keep the instructions simple: paws, coat, face, or rear-area cleanup only if the cat tolerates it. No wiping wounds, irritated skin, or unknown substances.
+**What helps:** The [HICC PET Glove Wipes](https://www.amazon.com/dp/B0BRML7424?tag=pawandsage21-20) are useful in a sitter kit because they are individually wrapped and shaped like gloves. Keep the instructions simple: paws, coat, face, or rear-area cleanup only if the cat tolerates it. No wiping wounds, irritated skin, or unknown substances.
 
 ## The Daily Check
 

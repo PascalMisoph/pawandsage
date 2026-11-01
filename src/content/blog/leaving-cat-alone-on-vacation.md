@@ -60,7 +60,7 @@ For a short trip or a multi-pet home, capacity and placement matter as much as t
 
 If your cat is alone for more than a day, ask the sitter to check the water station at every visit: confirm the water level, rinse anything slimy, verify the fountain is still running, and refresh the backup bowls. The safest travel setup is not "one big gadget." It is a main water station plus redundancy plus human eyes.
 
-**Add eyes on the home.** A [pet camera](https://amazon.com/dp/B07ZWVGFDJ?tag=pawandsage21-20), some with treat-dispensing, lets you check in, confirm your cat is eating and moving normally, and even say hello. It will not replace a sitter, but it turns "I hope they're okay" into "I can see they're okay."
+**Add eyes on the home.** A [pet camera](https://amazon.com/dp/B0C4XXBY44?tag=pawandsage21-20), some with treat-dispensing, lets you check in, confirm your cat is eating and moving normally, and even say hello. It will not replace a sitter, but it turns "I hope they're okay" into "I can see they're okay."
 
 **Arrange a real human.** For anything past two days, book a trusted sitter or ask a reliable friend to visit daily — to scoop litter, refresh water, top up food, and simply lay eyes on your cat. Leave your vet's details and an emergency contact.
 

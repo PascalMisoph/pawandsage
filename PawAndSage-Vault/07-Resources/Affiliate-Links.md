@@ -67,7 +67,7 @@ Legacy article IDs:
 ## Window Perches And Bird Feeders
 | Product | Amazon Link | ASIN | Price | Used In Articles |
 |---------|------------|------|-------|-----------------|
-| Cat Window Perch + Bird Feeder (combo) | `https://amazon.com/dp/B0G6D12FW8?tag=pawandsage21-20` | B0G6D12FW8 | ~$35 | #31, #39, #41 |
+| Cat Window Perch + Bird Feeder (combo) — replaced 2026-11-02 (B0G6D12FW8 unavailable); generic perch links now use PEFUNY Cat Window Hammock B07MH7WTSN | `https://amazon.com/dp/B0H6TLFQZ1?tag=pawandsage21-20` | B0H6TLFQZ1 | ~$35 | #31, #39, #41 |
 | Nature's Hangout Window Bird Feeder | `https://amazon.com/dp/B00YSU3WG2?tag=pawandsage21-20` | B00YSU3WG2 | ~$30 | #39 |
 
 ## Exercise Wheels
@@ -78,12 +78,12 @@ Legacy article IDs:
 ## Cameras And Remote Play
 | Product | Amazon Link | ASIN | Price | Used In Articles |
 |---------|------------|------|-------|-----------------|
-| Owlet Pet Camera + Treat Dispenser | `https://amazon.com/dp/B07ZWVGFDJ?tag=pawandsage21-20` | B07ZWVGFDJ | ~$50 | #31, #34, #40 |
+| Furbo 360° Cat Camera (treat toss) — replaced 2026-11-02 (B07ZWVGFDJ unavailable) | `https://amazon.com/dp/B0C4XXBY44?tag=pawandsage21-20` | B0C4XXBY44 | ~$184 | #31, #34, #40 |
 
 ## Cat Grass And Greens
 | Product | Amazon Link | ASIN | Price | Used In Articles |
 |---------|------------|------|-------|-----------------|
-| Window Garden Cat Grass Kit (3-pack) | `https://amazon.com/dp/B07J5P1SNL?tag=pawandsage21-20` | B07J5P1SNL | ~$15 | #33, #37, #41 |
+| The Cat Ladies Cat Grass Kit (3-pack) — replaced 2026-11-02 (B07J5P1SNL unavailable) | `https://amazon.com/dp/B074SZ17C7?tag=pawandsage21-20` | B074SZ17C7 | ~$15 | #33, #37, #41 |
 
 ## Catnip And Silvervine
 | Product | Amazon Link | ASIN | Price | Used In Articles |
@@ -111,3 +111,6 @@ Legacy article IDs:
 > Legacy article links and draft/product selections were checked on 2026-04-23. The former Trixie placeholder was replaced with a verified live Amazon board listing on 2026-04-29.
 > **2026-05-29:** Added 11 products (Tiers 1-3 of `01-Strategy/June-2026-Monetization-Audit.md`) for June articles #31-#42. ASINs sourced from live Amazon listings via search; links built in standard `dp/<ASIN>?tag=` format. Prices approximate — spot-check pending before publish.
 > **2026-06-28:** Added 8 products (Summer/Health & Safety) for #43–#52. ASINs sourced from live Amazon listings via WebSearch. Prices approximate — spot-check pending before publish.
+
+
+*2026-11-02 dead-ASIN swap:* ZeaCotio Pet Glove Wipes (B0GTV5M7KV, page not found) → HICC PET Glove Wipes, Individual Glove Packs (B0BRML7424) in 5 articles.

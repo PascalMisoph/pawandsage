@@ -77,7 +77,7 @@ Start here before anything fancy: same meal times, a short play session at the s
 
 A flat cat needs reasons to re-engage, gently at first. The goal is to rebuild the hunt-watch-solve loop that a dull environment stripped away.
 
-**What helps:** A window with a view is one of the kindest first steps, passive, low-demand stimulation a low cat can take in without effort. A [cat window perch](https://amazon.com/dp/B0G6D12FW8?tag=pawandsage21-20) gives them a comfortable front-row seat to the outside world, and a tray of [cat grass](https://amazon.com/dp/B07J5P1SNL?tag=pawandsage21-20) nearby offers a gentle, safe sensory activity to re-engage with. For the wider menu, see [20 indoor cat enrichment ideas](/blog/indoor-cat-enrichment-ideas).
+**What helps:** A window with a view is one of the kindest first steps, passive, low-demand stimulation a low cat can take in without effort. A [cat window perch](https://amazon.com/dp/B07MH7WTSN?tag=pawandsage21-20) gives them a comfortable front-row seat to the outside world, and a tray of [cat grass](https://amazon.com/dp/B074SZ17C7?tag=pawandsage21-20) nearby offers a gentle, safe sensory activity to re-engage with. For the wider menu, see [20 indoor cat enrichment ideas](/blog/indoor-cat-enrichment-ideas).
 
 ## Rekindle Play Gently
 

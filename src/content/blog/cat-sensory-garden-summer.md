@@ -39,7 +39,7 @@ It also solves a problem. Cats chew greenery instinctively, and if the only gree
 
 Build your garden from these cat-safe favorites:
 
-- **Cat grass** — oat, wheat, or barley grass. The cornerstone of any cat garden: safe to nibble, aids digestion, and helps with hairballs. A [cat grass growing kit](https://amazon.com/dp/B07J5P1SNL?tag=pawandsage21-20) makes it foolproof, and you can sow a fresh pot every couple of weeks for a steady supply.
+- **Cat grass** — oat, wheat, or barley grass. The cornerstone of any cat garden: safe to nibble, aids digestion, and helps with hairballs. A [cat grass growing kit](https://amazon.com/dp/B074SZ17C7?tag=pawandsage21-20) makes it foolproof, and you can sow a fresh pot every couple of weeks for a steady supply.
 - **Catnip** — the classic. Many cats get a joyful buzz from sniffing and rolling in it. A [catnip and silver vine blend](https://amazon.com/dp/B01G3IBQIC?tag=pawandsage21-20) covers cats that do not respond to catnip alone, since silver vine works on many that catnip doesn't.
 - **Silver vine, valerian, and cat thyme** — alternative "happy" plants for the roughly one in three cats indifferent to catnip.
 - **Cat-safe herbs** — basil, rosemary, and thyme add scent variety and are safe to be around.
@@ -62,7 +62,7 @@ You do not need a yard or a green thumb:
 1. **Pick a sunny spot** — a windowsill, a shelf, or a small balcony table.
 2. **Use heavy, stable pots** so a pouncing cat cannot tip them, and skip cocoa-based or chemically treated soil and fertilizers.
 3. **Plant in waves.** Sow fresh cat grass every couple of weeks so there is always a tender new pot, since cats prefer young shoots.
-4. **Place it near a lounging spot.** Beside a [window perch](https://amazon.com/dp/B0G6D12FW8?tag=pawandsage21-20) is ideal — your cat gets the view, the breeze, and the garden all in one favorite corner.
+4. **Place it near a lounging spot.** Beside a [window perch](https://amazon.com/dp/B07MH7WTSN?tag=pawandsage21-20) is ideal — your cat gets the view, the breeze, and the garden all in one favorite corner.
 5. **Let them engage on their terms.** Some cats graze daily, others just like to sniff and nap nearby. Both are the garden doing its job.
 
 ## A Safe Taste of the Outdoors

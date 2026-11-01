@@ -44,7 +44,7 @@ For multi-pet homes or heavy-use stations, the [Pokpet 10L Stainless Cordless Fo
 
 Keep a brush, towel, and treats together. Summer shedding becomes easier when brushing is short and predictable.
 
-**What helps:** The [ZeaCotio Pet Glove Wipes](https://www.amazon.com/dp/B0GTV5M7KV?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.10C0IU46OUTC6&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.10C0IU46OUTC6_1782828621824) are useful for small paw, coat, face, or rear-area cleanup after brushing, travel, or litter tracking. Use them as convenience wipes, not medical care.
+**What helps:** The [HICC PET Glove Wipes](https://www.amazon.com/dp/B0BRML7424?tag=pawandsage21-20) are useful for small paw, coat, face, or rear-area cleanup after brushing, travel, or litter tracking. Use them as convenience wipes, not medical care.
 
 ## 3. Keep One Low-Energy Game Ready
 

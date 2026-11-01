@@ -64,7 +64,7 @@ Loneliness tracks with *you*. The pattern revolves around your comings and going
 
 A lonely cat may greet you with overwhelming intensity, follow you room to room, become distressed when you leave, and only truly settle once you are back. It is most common in single cats in homes where everyone is out all day.
 
-**What helps:** Give your cat reasons to engage while you are gone, and a way to check in. A [pet camera with a treat dispenser](https://amazon.com/dp/B07ZWVGFDJ?tag=pawandsage21-20) lets you see whether your cat is genuinely distressed or just napping, and lets you trigger a moment of contact mid-day. Our guide to [keeping your cat entertained while you're at work](/blog/how-to-keep-cat-busy-while-at-work) covers the full alone-time setup.
+**What helps:** Give your cat reasons to engage while you are gone, and a way to check in. A [pet camera with a treat dispenser](https://amazon.com/dp/B0C4XXBY44?tag=pawandsage21-20) lets you see whether your cat is genuinely distressed or just napping, and lets you trigger a moment of contact mid-day. Our guide to [keeping your cat entertained while you're at work](/blog/how-to-keep-cat-busy-while-at-work) covers the full alone-time setup.
 
 ## What Stress or Anxiety Looks Like
 

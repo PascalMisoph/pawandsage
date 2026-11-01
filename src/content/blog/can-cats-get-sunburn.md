@@ -57,7 +57,7 @@ That last group matters most. **Any sore, scab, or lesion on a cat's ear or nose
 
 The safest protection is not a product — it is managing exposure:
 
-**Offer shade and move the nap spot.** If your white cat loves a particular sunny windowsill, give them an equally appealing spot in the shade. A [window perch](https://amazon.com/dp/B0G6D12FW8?tag=pawandsage21-20) positioned out of the direct sun lets them keep the view without baking in UV.
+**Offer shade and move the nap spot.** If your white cat loves a particular sunny windowsill, give them an equally appealing spot in the shade. A [window perch](https://amazon.com/dp/B07MH7WTSN?tag=pawandsage21-20) positioned out of the direct sun lets them keep the view without baking in UV.
 
 **Limit peak-sun hours.** Sun is strongest from late morning to mid-afternoon. For at-risk cats, that is the window to keep them out of direct sun, indoors or shaded.
 

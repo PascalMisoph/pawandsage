@@ -66,7 +66,7 @@ Ask any cat behaviorist about the cheapest high-impact upgrade for an indoor cat
 
 A perch with a view turns the outside world into hours of passive entertainment, what trainers half-jokingly call "Cat TV." Add a bird feeder stuck to the glass and you have given your cat a reason to watch, chatter, and stalk all day, with zero effort from you.
 
-**What helps:** A [cat window perch with a clip-on bird feeder](https://amazon.com/dp/B0G6D12FW8?tag=pawandsage21-20) mounts with suction cups and creates a live nature channel right where your cat already wants to sit.
+**What helps:** A [cat window perch with a clip-on bird feeder](https://amazon.com/dp/B0H6TLFQZ1?tag=pawandsage21-20) mounts with suction cups and creates a live nature channel right where your cat already wants to sit.
 
 ## 4. Leave Toys That Move on Their Own
 
@@ -92,7 +92,7 @@ This one is as much for you as for your cat.
 
 A camera that lets you watch in and toss a treat does two things: it tells you whether your cat is actually distressed or just napping happily, and it lets you trigger a small midday event from your desk. For a lot of owners, the relief of *seeing* the calm is the real payoff.
 
-**What helps:** A [pet camera with a treat dispenser](https://amazon.com/dp/B07ZWVGFDJ?tag=pawandsage21-20) gives you a live view, two-way audio, and a remote treat toss, so your cat gets a surprise mid-afternoon and you get peace of mind.
+**What helps:** A [pet camera with a treat dispenser](https://amazon.com/dp/B0C4XXBY44?tag=pawandsage21-20) gives you a live view, two-way audio, and a remote treat toss, so your cat gets a surprise mid-afternoon and you get peace of mind.
 
 ## 7. Rotate Everything Weekly So Nothing Goes Stale
 

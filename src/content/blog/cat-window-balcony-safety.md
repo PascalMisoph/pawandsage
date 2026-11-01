@@ -57,7 +57,7 @@ You have a few good options, from simple to thorough:
 
 Here is the good news: you do not have to choose between a safe cat and a happy one. Cats need that window view — it is genuine enrichment — so the goal is to keep the entertainment and remove the danger.
 
-A secure screen plus a stable perch set back from the opening gives your cat the whole show safely. A [window perch](https://amazon.com/dp/B0G6D12FW8?tag=pawandsage21-20) positioned behind safety mesh lets your cat lounge, watch, and chatter at birds with no way to tumble out. For more on why that view matters so much, see our guide to [Cat TV and window perches](/blog/cat-window-perch).
+A secure screen plus a stable perch set back from the opening gives your cat the whole show safely. A [window perch](https://amazon.com/dp/B07MH7WTSN?tag=pawandsage21-20) positioned behind safety mesh lets your cat lounge, watch, and chatter at birds with no way to tumble out. For more on why that view matters so much, see our guide to [Cat TV and window perches](/blog/cat-window-perch).
 
 ## The Summer Safety Checklist
 
