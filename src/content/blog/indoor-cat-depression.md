@@ -1,8 +1,8 @@
 ---
-title: "Indoor Cat Depression: Signs, Causes & How Enrichment Helps"
-description: "Can cats get depressed? Indoor cats can become withdrawn and flat from boredom, stress, or change. Here are the signs, the real causes, and how enrichment helps."
+title: "Can Indoor Cats Get Depressed? Signs, Causes & Fixes"
+description: "Can cats get depressed? Signs of a low indoor cat (sleeping more, hiding, eating less), what causes it, winter blues, and when to see a vet."
 pubDate: 2026-06-24
-updatedDate: 2026-06-24
+updatedDate: 2026-11-01
 category: "behavior"
 tags: ["behavior", "indoor cats", "depression", "stress", "enrichment"]
 readTime: "8 min read"
@@ -25,6 +25,8 @@ faq:
     answer: "Common signs include sleeping far more than usual, loss of interest in play and food, hiding, reduced grooming or over-grooming, changes in vocalization, and a general flatness. Because these overlap heavily with illness, a vet visit should come first to rule out a medical cause."
   - question: "How do I help a depressed indoor cat?"
     answer: "Once a vet has ruled out illness, the core fixes are restoring routine, adding enrichment and structured play, reducing stress with calming aids and safe spaces, and rebuilding positive interaction. Most environment-driven low moods lift as the cat's days fill with things to do and a sense of security returns."
+  - question: "My cat is sleeping a lot but still eating. Is that depression?"
+    answer: "Usually not. Many cats sleep more in winter or as they age, and a cat who still eats, grooms, and engages with you is often just resting more. Watch for appetite loss, hiding, a poorly kept coat, or sudden changes. If you see those, or the sleeping change is sudden, see your vet."
 draft: false
 ---
 
@@ -88,6 +90,18 @@ A depressed cat will not leap into a vigorous hunt on day one. Start small and l
 If change or conflict is behind the low mood, reducing the underlying stress is part of the cure. Calming aids and secure spaces help a cat feel safe enough to come back out.
 
 **What helps:** A [Feliway diffuser](https://amazon.com/dp/B01AVIIFRA?tag=pawandsage21-20) releases a synthetic version of the facial pheromone cats use to mark a space as safe, which can take the edge off stress during a transition or conflict. Pair it with safe high perches and quiet retreats so your cat always has a secure place to be.
+
+## Do Cats Get the Winter Blues?
+
+There is no solid research showing that cats get seasonal depression the way some people do. But winter does change an indoor cat's day in ways that can look like low mood. There are fewer daylight hours at the window, less bird and street activity to watch, colder rooms, and often less play because owners are busy and tired too. Many cats respond by sleeping more and seeking out warm spots.
+
+That alone is usually normal. A cat who sleeps more in winter but still eats, grooms, greets you, and plays when invited is adjusting, not depressed. What is not normal: eating noticeably less, hiding, a dull or unkempt coat, losing interest in things they always enjoyed, or any sudden change. Those deserve a vet visit first.
+
+To keep winter from flattening your cat's routine:
+
+- **Keep the daily play sessions** even when it is dark by 5 PM. Evening play after work matters more in winter, not less. Our guide on [how to tire out a hyper cat](/blog/how-to-tire-out-a-cat) has indoor games that work in small spaces.
+- **Move the window perch to the sunniest window** and add a warm blanket. A good [window perch](/blog/cat-window-perch) keeps "cat TV" running even on gray days.
+- **Add one new thing a week:** a rotated toy, a cardboard box, a food puzzle. Small novelty does more than a big shopping trip. See [indoor cat enrichment ideas](/blog/indoor-cat-enrichment-ideas) for easy options.
 
 ## Give It Time, and Know When to Escalate
 

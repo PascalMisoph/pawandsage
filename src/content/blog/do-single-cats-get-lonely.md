@@ -1,8 +1,8 @@
 ---
-title: "Do Single Cats Get Lonely? Enrichment for One-Cat Homes"
-description: "Does your only cat need a friend, or just more to do? Here is how to tell loneliness from boredom in a single cat, and how to enrich a one-cat home so they thrive."
+title: "Do Single Cats Get Lonely? Signs and What to Do"
+description: "How to know if your cat is lonely: the signs in one-cat homes, loneliness vs boredom, and easy ways to keep a single cat happy while you're out."
 pubDate: 2026-06-22
-updatedDate: 2026-06-22
+updatedDate: 2026-11-01
 category: "enrichment"
 tags: ["enrichment", "indoor cats", "single cat", "loneliness", "boredom"]
 readTime: "8 min read"
@@ -25,6 +25,8 @@ faq:
     answer: "Not as a default. A second cat can help a genuinely social, under-stimulated cat, but a mismatched pairing often creates stress, tension, and territorial problems. Try fixing the enrichment and interaction first, then consider a companion only if your cat is clearly social and still struggling."
   - question: "How can I tell if my cat is lonely or just bored?"
     answer: "Loneliness tends to be tied to you, clinginess, following, vocalizing when you leave or return. Boredom shows up as restlessness, destructive behavior, and over-grooming regardless of whether you are home. The two overlap, and both usually improve with more structured interaction and enrichment."
+  - question: "How do I know if my cat is lonely?"
+    answer: "Loneliness usually shows up around you: following you everywhere, extra meowing when you leave or return, clinginess, and seeming flat when alone. Boredom shows up whether or not you are home. If the behavior is new or sudden, rule out illness with your vet first."
 draft: false
 ---
 
@@ -41,6 +43,16 @@ The two look similar, but they point at different fixes.
 **Boredom** shows up whether or not you are home: restlessness, destructive behavior, over-grooming, eating too fast, waking you at night. It is a stimulation problem.
 
 **Loneliness** tends to be tied specifically to *you*: clinginess, following you room to room, vocalizing when you leave or arrive, and seeming flat when you are gone. It is an interaction problem.
+
+**Signs your cat may be lonely:**
+
+- Following you from room to room and seeming unsettled when you are out of sight.
+- Extra meowing when you leave or the moment you come home.
+- Clinginess that eases when you are home and engaged with them.
+- Seeming flat or withdrawn when left alone for long stretches.
+- Attention-seeking behavior, such as knocking things over or waking you at night, mostly when you are around.
+
+None of these alone proves loneliness. A sudden change in behavior can also signal pain or illness, so check with your vet if something new appears.
 
 Most single cats who seem "lonely" are actually under-engaged, and the good news is that both problems respond to the same toolkit, more interaction and more to do. If you want to rule out illness as well, [bored, lonely, or sick](/blog/cat-bored-lonely-or-sick) walks through telling them apart.
 
@@ -67,6 +79,8 @@ A single cat has more quiet hours to fill, so mental work carries extra weight. 
 Part of what reads as loneliness is simply the long unbroken stretch of your absence. You can break it up, and reassure yourself at the same time, with a way to check in and create a small midday event.
 
 **What helps:** A [pet camera with a treat dispenser](https://amazon.com/dp/B07ZWVGFDJ?tag=pawandsage21-20) lets you watch in, talk, and toss a treat from your phone, so your only cat gets a surprise mid-afternoon and you get to see whether they are actually distressed or just napping peacefully. For most owners of single cats, *seeing* the calm is half the relief.
+
+If you are away all day, our [all-day plan for keeping a cat entertained while you're at work](/blog/how-to-keep-cat-busy-while-at-work) shows how to fill the hours you are gone.
 
 ## Should You Get a Second Cat?
 

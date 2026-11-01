@@ -86,6 +86,6 @@ When you are unsure, run through three questions:
 
 If you have added enrichment, eased stressors, and your cat still seems off, do not keep guessing. Return to the vet. A behavior that resists every behavioral fix is itself a signal worth taking seriously.
 
-Most cats, once health is cleared, land in boredom or stress, and both respond well to a richer routine. Build that with our [indoor cat enrichment ideas](/blog/indoor-cat-enrichment-ideas), and for more on reading feline signals, see [why your cat stares at you](/blog/why-cat-stares-at-me).
+Most cats, once health is cleared, land in boredom or stress, and both respond well to a richer routine. Build that with our [indoor cat enrichment ideas](/blog/indoor-cat-enrichment-ideas), and for more on reading feline signals, see [why your cat stares at you](/blog/why-cat-stares-at-me). If loneliness looks like the fit, read [do single cats get lonely?](/blog/do-single-cats-get-lonely), and if your cat seems flat and withdrawn, see [indoor cat depression](/blog/indoor-cat-depression).
 
 *Trying to spot the pattern behind your cat's behavior? We're building [CatPlay](https://catplay.app), a simple app for logging your cat's daily activity and mood so changes are easier to catch early, and easier to show your vet.*

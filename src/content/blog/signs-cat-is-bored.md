@@ -120,6 +120,6 @@ Start with one daily structured play session. Add foraging to one meal. Give you
 
 The signs above do not require a complete life overhaul. They require noticing what is missing and adding the right kind of stimulation.
 
-For a deeper routine, read [indoor cat enrichment ideas](/blog/indoor-cat-enrichment-ideas). For feeding specifically, [puzzle feeders](/blog/best-puzzle-feeders-cats) are one of the highest impact additions most cat owners have not tried yet.
+For a deeper routine, read our [cat enrichment ideas](/blog/indoor-cat-enrichment-ideas). If your cat seems withdrawn rather than restless, [indoor cat depression](/blog/indoor-cat-depression) covers the low-energy side of boredom, and [why your cat stares at you](/blog/why-cat-stares-at-me) helps you read the quieter signals. For feeding specifically, [puzzle feeders](/blog/best-puzzle-feeders-cats) are one of the highest impact additions most cat owners have not tried yet.
 
 *Noticing patterns in when your cat acts bored or restless? We're building [CatPlay](https://catplay.app), a simple app for tracking your cat's daily play and behavior so you can see what's working and what is not.*
