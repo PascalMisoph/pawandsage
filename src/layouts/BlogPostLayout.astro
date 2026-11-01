@@ -70,25 +70,6 @@ const categoryLabels = {
   seasonal: 'Seasonal Care',
 };
 
-const leadMagnetByCategory = {
-  behavior: {
-    title: 'The Cat Behavior Decoder',
-    description: 'A free PDF with the body language cues and behavior patterns worth noticing first.',
-  },
-  enrichment: {
-    title: 'The Indoor Cat Enrichment Starter Plan',
-    description: 'A simple download with play, food puzzle, and routine ideas you can use this week.',
-  },
-  'new-cat': {
-    title: 'The New Kitten First Week Checklist',
-    description: 'A starter checklist covering litter, food, carrier, setup, and the first routines that matter most.',
-  },
-  seasonal: {
-    title: 'The Summer Cat Care Checklist',
-    description: 'A simple checklist for heat, hydration, grooming, and open-window safety on hot days.',
-  },
-} satisfies Record<string, { title: string; description: string }>;
-
 const showCatPlay = category === 'behavior' || category === 'enrichment';
 const canonical = `${SITE_URL}${Astro.url.pathname}`;
 const heroImageObject = buildImageObject(heroImage);
@@ -210,6 +191,8 @@ const schema = [
         <slot />
       </div>
 
+      <EmailCapture />
+
       {sources.length > 0 && (
         <section class="sources">
           <h2>Sources</h2>
@@ -299,11 +282,6 @@ const schema = [
           </ul>
         </aside>
       )}
-
-      <EmailCapture
-        title={leadMagnetByCategory[category].title}
-        description={leadMagnetByCategory[category].description}
-      />
 
       {showCatPlay && <CatPlayCTA />}
     </div>

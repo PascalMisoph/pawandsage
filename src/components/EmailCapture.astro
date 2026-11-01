@@ -3,47 +3,101 @@ export interface Props {
   variant?: 'inline' | 'box';
   title?: string;
   description?: string;
+  buttonLabel?: string;
 }
+
+// MailerLite form (double opt-in). PUBLIC_MAILERLITE_FORM_URL can override it per environment.
+const DEFAULT_FORM_URL = 'https://assets.mailerlite.com/jsonp/2761013/forms/202974784428967520/subscribe';
 
 const {
   variant = 'box',
-  title = "The Cat Behavior Decoder",
-  description = "A free 12-page PDF: 25 cat behaviors decoded, with what to do about each one. Sent straight to your inbox."
+  title = 'Get our free indoor cat enrichment checklist',
+  description = 'Plus seasonal picks and deals worth knowing about. No spam, unsubscribe anytime.',
+  buttonLabel = 'Send it to me',
 } = Astro.props;
 
-const formAction = import.meta.env.PUBLIC_MAILERLITE_FORM_URL;
+const formAction = import.meta.env.PUBLIC_MAILERLITE_FORM_URL || DEFAULT_FORM_URL;
 const inputId = `email-capture-${variant}-${title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
-const fallbackHref = `mailto:hello@pawandsage.com?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(
-  `Hi Pascal,\n\nPlease send me: ${title}\n`
-)}`;
 ---
 
 <div class={`email-capture email-capture-${variant}`}>
   <div class="email-capture-content">
-    <span class="eyebrow">Free download</span>
+    <span class="eyebrow">Free checklist</span>
     <h3>{title}</h3>
     <p>{description}</p>
-    {formAction ? (
-      <form action={formAction} method="post" class="email-form">
-        <label class="sr-only" for={inputId}>Email address</label>
-        <input
-          id={inputId}
-          type="email"
-          name="email"
-          placeholder="your@email.com"
-          required
-          autocomplete="email"
-        />
-        <button type="submit" class="btn btn-accent">Send me the PDF</button>
-      </form>
-    ) : (
-      <div class="email-fallback">
-        <a href={fallbackHref} class="btn btn-accent">Request the PDF by email</a>
-      </div>
-    )}
-    <p class="email-fineprint">No spam. Unsubscribe anytime. We respect your inbox.</p>
+    <form
+      action={formAction}
+      method="post"
+      target="_blank"
+      class="email-form"
+      data-mailerlite-form
+    >
+      <label class="sr-only" for={inputId}>Email address</label>
+      <input
+        id={inputId}
+        type="email"
+        name="fields[email]"
+        placeholder="your@email.com"
+        required
+        autocomplete="email"
+      />
+      <input type="hidden" name="ml-submit" value="1" />
+      <input type="hidden" name="anticsrf" value="true" />
+      <button type="submit" class="btn btn-accent">{buttonLabel}</button>
+    </form>
+    <p class="email-status" role="status" aria-live="polite" hidden></p>
+    <p class="email-fineprint">
+      By subscribing you agree to receive emails from Paw &amp; Sage. Double opt-in, unsubscribe anytime. See our <a href="/privacy">privacy policy</a>.
+    </p>
   </div>
 </div>
+
+<script>
+  const SUCCESS_MESSAGE = 'Check your inbox to confirm your subscription.';
+
+  document.querySelectorAll<HTMLFormElement>('form[data-mailerlite-form]').forEach((form) => {
+    form.addEventListener('submit', async (event) => {
+      if (!window.fetch || form.dataset.fallback === 'true') return;
+      event.preventDefault();
+
+      const status = form.parentElement?.querySelector<HTMLElement>('.email-status');
+      const button = form.querySelector<HTMLButtonElement>('button[type="submit"]');
+      const showStatus = (message: string, isError = false) => {
+        if (!status) return;
+        status.textContent = message;
+        status.hidden = false;
+        status.classList.toggle('is-error', isError);
+      };
+
+      if (button) button.disabled = true;
+      const body = new URLSearchParams();
+      new FormData(form).forEach((value, key) => body.append(key, String(value)));
+
+      try {
+        const response = await fetch(form.action, {
+          method: 'POST',
+          body,
+          headers: { Accept: 'application/json' },
+        });
+        const data = await response.json().catch(() => null);
+        if (response.ok && (!data || data.success)) {
+          form.hidden = true;
+          showStatus(SUCCESS_MESSAGE);
+          return;
+        }
+        const fieldError = data?.errors?.fields?.email?.[0];
+        showStatus(fieldError || 'That did not work. Please check the email address and try again.', true);
+      } catch {
+        // Network or CORS problem: fall back to a normal form POST in a new tab.
+        form.dataset.fallback = 'true';
+        form.submit();
+        showStatus(SUCCESS_MESSAGE);
+      } finally {
+        if (button) button.disabled = false;
+      }
+    });
+  });
+</script>
 
 <style>
   .email-capture {
@@ -92,8 +146,12 @@ const fallbackHref = `mailto:hello@pawandsage.com?subject=${encodeURIComponent(t
   .email-form input:focus {
     border-color: var(--sage-700);
   }
-  .email-fallback {
-    margin: 0 auto 0.75rem;
+  .email-status {
+    font-weight: 600;
+    color: var(--sage-900);
+  }
+  .email-status.is-error {
+    color: var(--terra-700);
   }
   .email-fineprint {
     font-size: 0.75rem;

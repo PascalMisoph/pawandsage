@@ -1,0 +1,204 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { buildPageSchema } from '../lib/schema';
+
+const title = 'The Indoor Cat Enrichment Checklist';
+const description =
+  'A free, printable indoor cat enrichment checklist: daily play, food puzzles, vertical space, scratching, hydration, and a weekly toy rotation plan.';
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Indoor Cat Enrichment Checklist', path: '/indoor-cat-enrichment-checklist' },
+];
+
+interface Item {
+  text: string;
+  link?: { href: string; label: string };
+}
+
+interface Section {
+  id: string;
+  heading: string;
+  intro: string;
+  items: Item[];
+}
+
+const sections: Section[] = [
+  {
+    id: 'daily',
+    heading: 'Every day (10 to 20 minutes total)',
+    intro: 'The daily basics that cover hunting, exercise, and connection.',
+    items: [
+      { text: 'One or two short wand-toy play sessions that follow the hunt sequence: stalk, chase, pounce, catch.', link: { href: '/blog/best-interactive-cat-toys', label: 'Interactive toys that work' } },
+      { text: 'End the last play session with a "catch", then feed a meal or a few treats (play, eat, groom, sleep).', link: { href: '/blog/how-to-tire-out-a-cat', label: 'How to tire out a cat' } },
+      { text: 'Serve at least part of one meal in a puzzle feeder, snuffle mat, or lick mat instead of a bowl.', link: { href: '/blog/best-puzzle-feeders-cats', label: 'Best puzzle feeders' } },
+      { text: 'Check that fresh water is available in more than one spot, away from the food bowl and litter box.', link: { href: '/blog/get-cat-to-drink-more-water', label: 'Get your cat to drink more water' } },
+      { text: 'Give your cat a few minutes of calm attention on their terms: slow blinks, chin scratches, quiet company.' },
+      { text: 'Scoop the litter box. A clean box is part of a low-stress environment.' },
+    ],
+  },
+  {
+    id: 'environment',
+    heading: 'Environment (set up once, check monthly)',
+    intro: 'The physical setup that lets a cat climb, scratch, hide, and watch the world.',
+    items: [
+      { text: 'At least one high perch per cat: a cat tree, wall shelf, or cleared bookshelf top.', link: { href: '/blog/cat-wall-shelves-vs-cat-trees', label: 'Wall shelves vs cat trees' } },
+      { text: 'A window spot with a view, ideally with a perch and a bird feeder outside.', link: { href: '/blog/cat-window-perch', label: 'Cat window perch guide' } },
+      { text: 'A tall, sturdy vertical scratching post plus one horizontal scratcher, placed near sleeping spots and room entrances.', link: { href: '/blog/how-to-stop-cat-scratching-furniture', label: 'Stop furniture scratching' } },
+      { text: 'At least one hiding spot per cat: a covered bed, a box on its side, or a cubby in a cat tree.' },
+      { text: 'Separate resources in multi-cat homes: food, water, litter, scratching, and resting spots in more than one place.', link: { href: '/blog/small-apartment-cat-enrichment-vertical-space', label: 'Small-apartment vertical space' } },
+      { text: 'A safe, comfortable resting spot in a quiet area, warm in winter and cool in summer.' },
+    ],
+  },
+  {
+    id: 'weekly',
+    heading: 'Every week',
+    intro: 'Small changes that keep the environment interesting.',
+    items: [
+      { text: 'Rotate toys: put most away and bring out 3 or 4 "new" ones each week.', link: { href: '/blog/do-cats-get-bored-of-their-toys', label: 'Do cats get bored of their toys?' } },
+      { text: 'Add one novelty: a cardboard box, a paper bag (handles removed), or a new scent like catnip or silver vine.', link: { href: '/blog/diy-cat-enrichment', label: 'DIY enrichment ideas' } },
+      { text: 'Hide a few treats around the home for a short "find it" game.' },
+      { text: 'Clean water bowls or the fountain and check the filter.', link: { href: '/blog/where-to-put-cat-water-fountain', label: 'Where to put a fountain' } },
+      { text: 'Try one short training session, for example teaching a sit or a high five with treats.', link: { href: '/blog/mental-stimulation-for-cats', label: 'Mental stimulation for cats' } },
+    ],
+  },
+  {
+    id: 'alone-time',
+    heading: 'When your cat is home alone',
+    intro: 'For workdays and longer absences.',
+    items: [
+      { text: 'Play right before you leave, so your cat starts the day tired and fed.', link: { href: '/blog/how-to-keep-cat-busy-while-at-work', label: 'Keep a cat busy while you work' } },
+      { text: 'Leave a treat-dispensing toy or puzzle feeder with part of the daily food.', link: { href: '/blog/best-treat-dispenser-toys-indoor-cats', label: 'Best treat dispenser toys' } },
+      { text: 'Open blinds to a safe window view, and make sure windows have secure screens.', link: { href: '/blog/cat-window-balcony-safety', label: 'Window and balcony safety' } },
+      { text: 'Put away strings, hair ties, and anything small enough to swallow.' },
+      { text: 'For trips longer than a day, arrange a sitter rather than relying on gadgets.', link: { href: '/blog/leaving-cat-alone-on-vacation', label: 'Leaving your cat alone on vacation' } },
+    ],
+  },
+  {
+    id: 'watch',
+    heading: 'Signs to watch',
+    intro: 'Boredom and illness can look similar. Call your vet if something changes suddenly.',
+    items: [
+      { text: 'Boredom signs: night-time zoomies, knocking things off tables, over-grooming, attention-seeking, destructive scratching.', link: { href: '/blog/signs-cat-is-bored', label: 'Signs your cat is bored' } },
+      { text: 'Vet signs: sudden changes in appetite, thirst, litter habits, hiding, or energy.', link: { href: '/blog/cat-bored-lonely-or-sick', label: 'Bored, lonely, or sick?' } },
+    ],
+  },
+];
+
+const schema = buildPageSchema({
+  name: title,
+  description,
+  path: '/indoor-cat-enrichment-checklist',
+  about: 'Indoor cat enrichment',
+  significantLinks: ['/blog/indoor-cat-enrichment-ideas', '/blog/best-interactive-cat-toys', '/blog/best-puzzle-feeders-cats'],
+});
+---
+
+<BaseLayout title={title} description={description} breadcrumbs={breadcrumbs} schema={schema}>
+  <section class="page-header">
+    <div class="container-narrow">
+      <div class="no-print">
+        <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: 'Indoor Cat Enrichment Checklist' }]} />
+      </div>
+      <span class="eyebrow">Free printable checklist</span>
+      <h1>{title}</h1>
+      <p class="lede">
+        A simple routine for a happier indoor cat. Tick off what you already do, then add one new habit each week.
+      </p>
+      <button type="button" class="btn btn-outline no-print" onclick="window.print()">Print this checklist</button>
+    </div>
+  </section>
+
+  <section class="checklist-section">
+    <div class="container-narrow">
+      <p class="checklist-note">
+        Indoor cats need outlets for hunting, climbing, scratching, and exploring. You do not need to do everything on this
+        list. Most cats do noticeably better with a few consistent daily habits and a home set up with their instincts in mind.
+        For the full background, read <a href="/blog/indoor-cat-enrichment-ideas">20 indoor cat enrichment ideas</a>.
+      </p>
+
+      {sections.map((section) => (
+        <div class="checklist-group" id={section.id}>
+          <h2>{section.heading}</h2>
+          <p class="checklist-intro">{section.intro}</p>
+          <ul class="checklist">
+            {section.items.map((item, index) => (
+              <li>
+                <input type="checkbox" id={`${section.id}-${index}`} />
+                <label for={`${section.id}-${index}`}>
+                  {item.text}
+                  {item.link && (
+                    <span class="checklist-link no-print">
+                      {' '}<a href={item.link.href}>{item.link.label}</a>
+                    </span>
+                  )}
+                </label>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+
+      <div class="checklist-next no-print">
+        <h2>Want to upgrade the setup?</h2>
+        <p>These guides compare the products that make the biggest difference for indoor cats:</p>
+        <ul>
+          <li><a href="/blog/best-interactive-cat-toys">Best interactive cat toys</a></li>
+          <li><a href="/blog/best-puzzle-feeders-cats">Best puzzle feeders for cats</a></li>
+          <li><a href="/blog/best-treat-dispenser-toys-indoor-cats">Best treat dispenser toys for indoor cats</a></li>
+          <li><a href="/blog/best-cat-wall-ideas-bored-indoor-cats">Best cat wall ideas for bored indoor cats</a></li>
+          <li><a href="/blog/best-cat-water-fountains-cats-not-drinking-enough">Best cat water fountains</a></li>
+          <li><a href="/blog/black-friday-cat-deals">Black Friday cat deals 2026: what's worth buying</a></li>
+        </ul>
+      </div>
+
+      <p class="checklist-footer">
+        Paw &amp; Sage · pawandsage.com · This checklist is general guidance and not a substitute for veterinary advice.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header { padding: 3rem 0 1.5rem; text-align: center; }
+  .page-header .eyebrow { display: block; margin-bottom: 1rem; }
+  .lede {
+    font-family: 'Fraunces Variable', 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.15rem;
+    color: var(--ink-soft);
+    max-width: 560px;
+    margin: 1rem auto 1.5rem;
+    line-height: 1.5;
+  }
+  .checklist-section { padding: 1rem 0 5rem; }
+  .checklist-note { color: var(--ink-soft); line-height: 1.7; }
+  .checklist-group {
+    margin-top: 2rem;
+    padding: 1.5rem 1.25rem;
+    background: var(--cream-200);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    break-inside: avoid;
+  }
+  .checklist-group h2 { font-size: 1.4rem; margin: 0 0 0.35rem; }
+  .checklist-intro { color: var(--ink-soft); margin: 0 0 1rem; }
+  .checklist { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.75rem; }
+  .checklist li { display: grid; grid-template-columns: 1.4rem 1fr; gap: 0.6rem; align-items: start; line-height: 1.6; }
+  .checklist input { width: 1.15rem; height: 1.15rem; margin-top: 0.25rem; accent-color: var(--sage-700); }
+  .checklist label { cursor: pointer; }
+  .checklist-link { font-size: 0.9rem; white-space: nowrap; }
+  .checklist-next { margin-top: 3rem; }
+  .checklist-next h2 { font-size: 1.4rem; }
+  .checklist-footer { margin-top: 3rem; font-size: 0.8rem; color: var(--ink-soft); text-align: center; }
+  @media (max-width: 600px) {
+    .checklist-link { white-space: normal; }
+  }
+  @media print {
+    :global(header), :global(footer), .no-print { display: none !important; }
+    .page-header { padding: 0 0 0.5rem; }
+    .checklist-group { background: none; border: 1px solid #999; padding: 0.75rem 1rem; margin-top: 1rem; }
+    .checklist li { gap: 0.4rem; }
+  }
+</style>
