@@ -84,4 +84,6 @@ A well-hydrated cat has moist gums, elastic skin that springs back when gently l
 
 Hydration is one piece of the warm-weather picture. Pair it with a cool retreat and good airflow — see [how to keep your cat cool in hot weather](/blog/keep-cat-cool-hot-weather) — and watch for the [warning signs of heatstroke](/blog/heatstroke-in-cats), since dehydration and overheating tend to arrive together.
 
+If you are adding a fountain, placement matters as much as the model: see [where to put a cat water fountain](/blog/where-to-put-cat-water-fountain) and our guide to the [best cat water fountains](/blog/best-cat-water-fountains-cats-not-drinking-enough).
+
 *We're building [CatPlay](https://catplay.app), a simple app for logging your cat's daily habits, including drinking and litter box patterns, so you can catch hydration problems before they become serious.*

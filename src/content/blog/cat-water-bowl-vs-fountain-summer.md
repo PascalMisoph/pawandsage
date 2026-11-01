@@ -68,3 +68,5 @@ For cats that drink poorly, pair this with wet food and water-rich treats. For a
 Changing the water setup is for normal picky drinking. It is not for sudden medical changes. Call your vet if your cat suddenly drinks far more, stops drinking, urinates more, strains, hides, vomits, or seems weak.
 
 Summer hydration is about reducing friction: water should be clean, easy to find, and appealing enough that your cat chooses it before thirst becomes a problem.
+
+Ready to try a fountain? See the [best cat water fountains](/blog/best-cat-water-fountains-cats-not-drinking-enough) for different problems, and [where to put a cat water fountain](/blog/where-to-put-cat-water-fountain) so your cat actually uses it.
