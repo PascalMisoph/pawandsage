@@ -32,7 +32,8 @@
     "demo:pinterest:render": "remotion render src/remotion/index.tsx PinterestApiUpgradeDemo \"PawAndSage-Vault/03-Pinterest/automation/demo-video/pinterest-api-upgrade-demo.mp4\"",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "indexnow": "node scripts/indexnow.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "~5.0.6",
