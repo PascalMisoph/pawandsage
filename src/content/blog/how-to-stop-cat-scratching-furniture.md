@@ -118,6 +118,8 @@ The three-step approach that actually works:
 2. Cover the furniture temporarily to redirect them while they're learning
 3. Make sure they have enough play and stimulation so scratching doesn't become the main outlet for energy
 
+Keeping claws trimmed also limits the damage while your cat learns the new habits. If you have never trimmed your cat's nails, start with [cat nail clippers vs grinder](/blog/cat-nail-clippers-vs-grinder) to pick the right tool.
+
 Most cats shift within two to four weeks when all three are in place at the same time. The key word is *all three* — doing one or two while skipping the third is usually why the furniture keeps losing.
 
 ---
