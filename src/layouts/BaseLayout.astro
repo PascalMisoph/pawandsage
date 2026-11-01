@@ -8,6 +8,7 @@ import Footer from '../components/Footer.astro';
 import { getResponsiveImageMeta } from '../lib/images';
 import { DEFAULT_SOCIAL_IMAGE, ORGANIZATION, PERSON, SITE_DESCRIPTION, SITE_LANGUAGE, SITE_LOGO, SITE_NAME, SITE_URL } from '../lib/site';
 import { buildBreadcrumbSchema, type BreadcrumbItem } from '../lib/schema';
+import Analytics from '@vercel/analytics/astro';
 
 export interface Props {
   title: string;
@@ -122,6 +123,7 @@ const siteSchemas = [
 <!doctype html>
 <html lang="en">
   <head>
+    <meta name='impact-site-verification' value='e41be454-7726-4afb-80ba-b30f12435379'>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content={Astro.generator} />
@@ -175,5 +177,6 @@ const siteSchemas = [
       <slot />
     </main>
     <Footer />
+    <Analytics />
   </body>
 </html>

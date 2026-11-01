@@ -5,6 +5,7 @@ pubDate: 2026-04-29
 updatedDate: 2026-04-29
 category: "behavior"
 tags: ["behavior", "scratching", "furniture", "training", "indoor cats"]
+readTime: "5 min read"
 heroImage: "/blog/cat-scratching-furniture.png"
 heroAlt: "A tabby cat fully extended on a tall sisal scratching post in a warm, neutral living room."
 sources:
@@ -26,7 +27,6 @@ faq:
     answer: "Most cats shift within two to four weeks when a tall sisal post is placed next to the scratched furniture and the furniture is temporarily covered. The key is doing all three steps at the same time."
   - question: "Should I declaw my cat to stop the scratching?"
     answer: "No. Declawing is an amputation of the last bone of each toe and is associated with long-term pain, litter box avoidance, and increased biting. It is banned in many countries. Regular nail trims and proper post placement are effective and humane alternatives."
-readTime: "5 min read"
 draft: false
 ---
 
@@ -96,6 +96,8 @@ Trimming removes the sharp tip of each claw, which is the part that catches and 
 
 Every two to three weeks is a reasonable frequency for most cats. If your cat resists nail trims, short handling sessions with a treat reward are more effective than trying to do all ten claws at once while they're struggling.
 
+**What helps:** The [Picky zoom 2-in-1 Nail Clippers and Grinder](https://www.amazon.com/dp/B0FS1WBYTN?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.1R2465HYLV5XN&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.1R2465HYLV5XN_1782828288428) gives beginners two options in one tool: clipping for a small clean trim, grinding for gradual smoothing, plus a safety guard and LED light. It does not make nail trims magically easy. It just gives you a more controlled setup if you go slowly and stop before your cat is overwhelmed.
+
 ## Give Them More to Do
 
 A bored cat is more likely to scratch problematically.
@@ -111,6 +113,7 @@ If your cat's scratching seems tied to stress rather than boredom — it spikes 
 You can't train a cat not to scratch. But you can train them where.
 
 The three-step approach that actually works:
+
 1. Give them a tall, stable sisal post and put it right where they currently scratch
 2. Cover the furniture temporarily to redirect them while they're learning
 3. Make sure they have enough play and stimulation so scratching doesn't become the main outlet for energy

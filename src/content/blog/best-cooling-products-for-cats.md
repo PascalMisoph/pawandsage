@@ -25,6 +25,7 @@ faq:
     answer: "Fans are safe and useful, but they work differently for cats than for us. Cats barely sweat, so a fan cools them less through their skin and more by lowering the room temperature and helping evaporation from damp fur. Aim it across the room rather than directly at the cat, and pair it with a cool surface."
   - question: "What's the most worthwhile cooling purchase for a cat?"
     answer: "For most homes, a gel cooling mat and a water fountain give the best results per dollar — one provides a cool surface, the other keeps a cat drinking, which together address how cats actually manage heat. An elevated mesh bed and a quiet fan are strong additions for hotter climates."
+draft: false
 ---
 
 There is a lot of summer pet gear out there, and not all of it earns its place. Cats cool themselves through cool surfaces, airflow, and water — so the products worth buying are the ones that support those three things, and the rest is mostly noise. This is a practical roundup of cat cooling gear that genuinely helps, organized by what it does, so you can pick what your home actually needs. (For the no-spend version, see [how to keep cats cool without air conditioning](/blog/keep-cats-cool-without-ac).)
@@ -54,6 +55,18 @@ Hydration is half of how a cat copes with heat, and a cat that drinks more handl
 Many cats prefer moving water and drink more from a fountain than a still bowl, and circulation keeps the water cooler and fresher through a hot afternoon.
 
 **The pick:** The [Catit Flower Fountain](https://amazon.com/dp/B0146QXOB0?tag=pawandsage21-20) is a long-running favorite that nudges fussy cats to drink. For the full set of hydration tactics, see [how to get your cat to drink more water](/blog/get-cat-to-drink-more-water).
+
+### Cordless Fountain - best when the right spot has no outlet
+
+The best water spot is not always the spot beside a socket. Many cats drink more from quiet corners, shaded rooms, or the edge of a normal walking route, and a cord can be the thing that keeps a fountain in the wrong place.
+
+**The pick:** The [PETALPAW Wireless Cat Water Fountain](https://www.amazon.com/dp/B0GZ7F93XM?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.I9OHHSB9H5MR&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.I9OHHSB9H5MR_1782828563987) makes sense for small homes where placement is the main problem. Its stainless-steel drinking surface, visible water window, separate battery, and multiple flow modes are practical setup features. Keep the promise modest: it helps you put fresh moving water where your cat may actually use it.
+
+### High-Capacity Fountain - best for multi-pet homes
+
+If you refill bowls constantly, travel for weekends, or have more than one animal drinking from the same station, capacity becomes part of cooling. A tiny fountain can be fine for one cat, but a larger station reduces how often the water drops low during hot days.
+
+**The pick:** The [Pokpet 10L Stainless Cordless Fountain](https://www.amazon.com/dp/B0GZK62Q31?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.28ARQ0VAF4FYU&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.28ARQ0VAF4FYU_1782828401574) is the higher-capacity option for multi-pet households, summer hydration stations, and short travel prep. The useful features are the 10L reservoir, stainless basin, cordless placement, motion sensing, and multiple water modes. Still keep a backup bowl out; redundancy matters more than any single product.
 
 ## Airflow
 

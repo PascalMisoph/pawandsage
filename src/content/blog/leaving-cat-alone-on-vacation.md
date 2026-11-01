@@ -25,6 +25,7 @@ faq:
     answer: "No. An automatic feeder and water fountain solve food and water, but not a sudden illness, a tipped-over fountain, a litter box that needs cleaning, or simple loneliness. For a week away, arrange a pet sitter or daily visitor, even if the feeding is automated."
   - question: "Is it better to board a cat or leave it at home?"
     answer: "Most cats are far less stressed in their own home than in a boarding facility, since cats bond strongly to territory. A trusted sitter visiting your home is usually the gentlest option. Boarding can make sense for cats with medical needs or when no reliable in-home care is available."
+draft: false
 ---
 
 Summer is peak travel season, which means a lot of cats are about to spend some time home alone. Cats are more independent than dogs, and that leads to a common, risky assumption: that you can top up the food and water, head off for a week, and they will be fine. They will not. There is a real difference between a cat that is *self-sufficient for a day* and a cat that is *safe for a week*, and the gap is exactly where things go wrong. Here is how to set up genuinely safe summer travel.
@@ -52,6 +53,12 @@ The best approach pairs reliable equipment with a daily visitor.
 **Automate the food.** A programmable feeder keeps meals on schedule so your cat is not gorging or starving around a sitter's timing. A [PetSafe Healthy Pet Simply Feed](https://amazon.com/dp/B00VIXRB6O?tag=pawandsage21-20) dispenses portioned meals at set times and holds enough for a long weekend, which also keeps routine-driven cats calmer.
 
 **Secure the water.** Put out more than one water source so a single failure is not a crisis. A [fountain](https://amazon.com/dp/B0146QXOB0?tag=pawandsage21-20) keeps water fresh and appealing — important in summer when intake matters more — and a backup bowl or two covers you if it stops. Our [hydration guide](/blog/get-cat-to-drink-more-water) has more on keeping a cat drinking.
+
+For a short trip or a multi-pet home, capacity and placement matter as much as the fountain itself. A small fountain in the wrong corner can still go unused, and a single water source is never enough if you are away.
+
+**What helps:** The [Pokpet 10L Stainless Cordless Fountain](https://www.amazon.com/dp/B0GZK62Q31?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.28ARQ0VAF4FYU&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.28ARQ0VAF4FYU_1782828401574) is useful when your main problem is a larger shared water station. A 10L capacity, stainless basin, motion sensing, Type-C charging, and cordless placement make it easier to keep the station somewhere useful instead of wherever the nearest outlet happens to be. It does not replace a sitter or a backup bowl, but it can make the primary water station more resilient for a weekend or hot spell.
+
+If your cat is alone for more than a day, ask the sitter to check the water station at every visit: confirm the water level, rinse anything slimy, verify the fountain is still running, and refresh the backup bowls. The safest travel setup is not "one big gadget." It is a main water station plus redundancy plus human eyes.
 
 **Add eyes on the home.** A [pet camera](https://amazon.com/dp/B07ZWVGFDJ?tag=pawandsage21-20), some with treat-dispensing, lets you check in, confirm your cat is eating and moving normally, and even say hello. It will not replace a sitter, but it turns "I hope they're okay" into "I can see they're okay."
 

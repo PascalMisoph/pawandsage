@@ -25,6 +25,7 @@ faq:
     answer: "Short-haired cats do well with two or three brushings a week; long-haired cats benefit from a short daily session. A few minutes is enough. Consistency matters more than length, and daily brushing prevents the mats that build up fast in a heavy coat."
   - question: "When is shedding a sign of a health problem?"
     answer: "See your vet if you notice bald patches, redness, scabs, excessive scratching, or a dull, greasy coat. Sudden heavy shedding with skin changes can point to allergies, parasites, stress, or an underlying medical issue rather than a normal seasonal coat change."
+draft: false
 ---
 
 If it feels like your cat is dissolving into fur every July, you are not imagining it. Summer is peak shedding season, and a cat that looked sleek in winter can suddenly leave drifts of hair on every dark cushion in the house. The shedding itself is healthy and normal. The hairballs, the matting, and the fur on your clothes are the parts you can actually control, and it comes down to a few minutes of grooming done consistently.
@@ -58,6 +59,16 @@ You do not need a grooming station or an hour a day. You need the right tool and
 A surprising amount of coat quality comes from the inside. A well-hydrated cat has healthier skin and a more resilient coat that sheds in a controlled way rather than coming out in dull clumps. This is doubly true in summer, when cats are prone to running slightly dry.
 
 Keeping water appealing helps — a [fountain](https://amazon.com/dp/B0146QXOB0?tag=pawandsage21-20) nudges reluctant drinkers, and leaning on wet food adds moisture. Our guide on [getting your cat to drink more water](/blog/get-cat-to-drink-more-water) covers the rest. A diet with enough quality fat and protein rounds out a coat that holds together better through the shedding season.
+
+## Build a Small Summer Grooming Station
+
+The easiest routine is the one you do without thinking. Keep the brush, a towel, and a gentle wipe option in one predictable spot, ideally near the place your cat already relaxes. After a short brushing session, wipe loose hair from the coat surface, paws, or rear area only if your cat tolerates it.
+
+**What helps:** The [ZeaCotio Pet Glove Wipes](https://www.amazon.com/dp/B0GTV5M7KV?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.10C0IU46OUTC6&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.10C0IU46OUTC6_1782828621824) are a practical cleanup add-on because each wipe is shaped like a glove and individually wrapped. They make the most sense for quick paw, coat, face, or rear-area cleanup after brushing, litter tracking, or travel. Treat them as a convenience tool, not a treatment: wipes do not replace bathing when a cat is truly soiled, and they do not treat skin problems.
+
+This is also a good moment to check nails. Long, sharp claws can snag bedding, scratch posts, and furniture more aggressively, especially when a shedding cat is grooming and scratching more often.
+
+**What helps:** The [Picky zoom 2-in-1 Nail Clippers and Grinder](https://www.amazon.com/dp/B0FS1WBYTN?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.1R2465HYLV5XN&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.1R2465HYLV5XN_1782828288428) combines a clipper and grinder with a safety guard and LED light. Use it as a tool for careful, gradual nail maintenance, not as a promise that trimming will be painless or stress-free. If your cat panics, stop and ask a vet or groomer to show you the safe depth.
 
 ## When to Stop Brushing and Call the Vet
 

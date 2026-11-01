@@ -66,6 +66,8 @@ For cats who want to survey rather than lounge at glass level, a tall tree by th
 
 **What helps:** A tall, stable [cat tree](https://amazon.com/dp/B078HB646M?tag=pawandsage21-20) positioned next to the window adds elevated perches and a sense of safe high ground, so your cat can watch the show from the height it instinctively prefers.
 
+If floor space is tight, use the wall instead of adding another piece of furniture. The [Lynadri Cat Wall Shelves 5-in-1](https://www.amazon.com/dp/B0GWQ42WLQ?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.38JYHVPCJO618&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.38JYHVPCJO618_1782828464101) can turn the area beside a window into a small vertical route, with steps, a condo, scratching surfaces, and resting points. The best setup is not just a perch at the glass; it is a route to the perch that gives your cat choices.
+
 ## Getting a Reluctant Cat to Use It
 
 If your cat ignores a new perch, it is almost always about placement or incentive, not the perch itself. A few quick fixes:

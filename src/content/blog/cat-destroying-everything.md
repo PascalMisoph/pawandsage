@@ -50,6 +50,8 @@ The answer is rarely "stop." It is "scratch *here* instead," with an outlet good
 
 **What helps:** A tall, rigid post like the [SmartCat Ultimate Scratching Post](https://amazon.com/dp/B000634MH8?tag=pawandsage21-20) lets a cat stretch to full height on a stable surface, which is exactly what the arm of your sofa was standing in for. The complete redirection method is in [how to stop your cat scratching furniture](/blog/how-to-stop-cat-scratching-furniture).
 
+Nails are the support layer here, not the whole fix. Trimming the sharp tips reduces fabric damage while the new scratching habit takes hold. The [Picky zoom 2-in-1 Nail Clippers and Grinder](https://www.amazon.com/dp/B0FS1WBYTN?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.1R2465HYLV5XN&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.1R2465HYLV5XN_1782828288428) is useful if you want one tool that can clip and smooth gradually, with a safety guard and LED light. Go claw by claw, reward heavily, and stop before the session turns into a fight.
+
 ## "I Want to Chew Greens" — Eaten Houseplants
 
 A cat that chews leaves is often after plant matter for its own sake, cats nibble greens to aid digestion. The problem is that many common houseplants are toxic, so this one carries real risk, not just mess.
@@ -77,6 +79,8 @@ A reliable daily pattern:
 - **Evening:** a second play session ending in a catch and a meal.
 
 If you want this built out fully, [signs your cat is bored](/blog/signs-cat-is-bored) helps you confirm boredom is the cause, and [20 indoor cat enrichment ideas](/blog/indoor-cat-enrichment-ideas) gives you the outlets to fill the day with.
+
+For cats in small homes, add height before buying more floor toys. A wall route such as the [Lynadri Cat Wall Shelves 5-in-1](https://www.amazon.com/dp/B0GWQ42WLQ?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.38JYHVPCJO618&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.38JYHVPCJO618_1782828464101) gives a bored cat more territory without taking up the room. Steps, a condo, scratching surfaces, and resting points create a place to climb, watch, and decompress instead of using your shelves and blinds as the obstacle course.
 
 ## What Does Not Work
 

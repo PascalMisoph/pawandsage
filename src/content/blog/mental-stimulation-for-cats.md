@@ -42,6 +42,8 @@ This is not a gimmick. Working for food is the most natural mental task a cat ha
 
 **What helps:** A maze-style puzzle like the [Cat Amazing](https://amazon.com/dp/B009R3SFBC?tag=pawandsage21-20) hides treats in a cardboard labyrinth your cat has to reason through. It is a genuine first puzzle, not a toy, and most cats stay engaged because the difficulty feels real.
 
+For cats who need a little movement with the puzzle, a doorway setup can work well as a short session. The [NHCASURUE Hanging Door-Frame Treat Dispenser](https://www.amazon.com/dp/B0GVSZWH2B?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.1EX7RUBYS4MHA&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.1EX7RUBYS4MHA_1782828550693) combines a treat dispenser with feathers and a bell, which makes the reward something your cat has to investigate and paw at rather than simply eat. Use it first while you are home, check that the attachment is secure, and inspect hanging toys regularly.
+
 ## 2. Build a Sliding-Tile Brain Game
 
 Once your cat understands foraging, raise the difficulty. Activity boards with sliders, lids, and wells ask the cat to use different paw movements to reach each reward, which keeps the puzzle from becoming automatic.
@@ -101,6 +103,8 @@ If your cat seems uninterested in toys entirely, the cause is usually fixable, a
 ## 11. Add Vertical Territory
 
 Height is mental enrichment because it changes what your cat can observe and control. A cat that can survey a room from above has more to monitor and feels more secure doing it. Cat trees, shelves, and cleared windowsills all expand the mental map your cat gets to manage.
+
+**What helps:** The [Lynadri Cat Wall Shelves 5-in-1](https://www.amazon.com/dp/B0GWQ42WLQ?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.38JYHVPCJO618&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.38JYHVPCJO618_1782828464101) is useful when the floor plan is already full. Steps, a small condo, a scratch area, and a post turn an empty wall into a route your cat can climb, patrol, and rest on. The important part is not owning shelves; it is creating a stable, secure path your cat actually wants to use.
 
 ## 12. Change One Thing on Purpose
 
