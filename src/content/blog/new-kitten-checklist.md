@@ -1,5 +1,6 @@
 ---
 title: "The Complete New Kitten Checklist: Everything You Need in the First Week"
+seoTitle: "New Kitten Checklist: Everything You Need in the First Week"
 description: "A no-fluff list of what to actually buy when you bring home a new kitten, in the order you'll need it."
 pubDate: 2026-04-15
 updatedDate: 2026-04-23

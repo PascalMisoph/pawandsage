@@ -1,6 +1,7 @@
 ---
 title: "The Best Cooling Products for Cats (Mats, Beds, Fountains & Fans)"
-description: "Which cat cooling products are actually worth buying? A practical roundup of cooling mats, elevated beds, fountains, and fans that genuinely help cats beat the summer heat."
+seoTitle: "Best Cooling Products for Cats: Mats, Beds, Fountains & Fans"
+description: "Which cat cooling products are worth buying? A practical roundup of cooling mats, elevated beds, fountains and fans that help cats beat summer heat."
 pubDate: 2026-07-31
 updatedDate: 2026-07-31
 category: "seasonal"

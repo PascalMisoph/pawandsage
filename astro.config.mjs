@@ -6,6 +6,10 @@ import rehypeAffiliateLinks from './src/lib/rehype-affiliate-links.mjs';
 export default defineConfig({
   site: 'https://www.pawandsage.com',
   trailingSlash: 'never',
+  build: {
+    // Inline the (small, ~20 KB) CSS so it no longer blocks first render.
+    inlineStylesheets: 'always',
+  },
   integrations: [
     mdx(),
     sitemap({

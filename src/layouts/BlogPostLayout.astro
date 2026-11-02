@@ -31,6 +31,7 @@ export interface ClusterContext {
 const { frontmatter, relatedPosts = [] } = Astro.props as {
   frontmatter: {
     title: string;
+    seoTitle?: string;
     description: string;
     pubDate: Date;
     updatedDate?: Date;
@@ -47,7 +48,7 @@ const { frontmatter, relatedPosts = [] } = Astro.props as {
 };
 
 const { clusterContext } = Astro.props as { clusterContext?: ClusterContext };
-const { title, description, pubDate, updatedDate, category, readTime, heroImage, heroAlt = '', tags = [], sources = [], faq = [] } = frontmatter;
+const { title, seoTitle, description, pubDate, updatedDate, category, readTime, heroImage, heroAlt = '', tags = [], sources = [], faq = [] } = frontmatter;
 
 const formattedDate = new Date(pubDate).toLocaleDateString('en-US', {
   year: 'numeric',
@@ -86,12 +87,7 @@ const articleSchema = {
   '@type': 'BlogPosting',
   headline: title,
   description,
-  image: heroImageObject
-    ? {
-        ...heroImageObject,
-        url: `${SITE_URL}${heroImage}`,
-      }
-    : undefined,
+  image: heroImageObject,
   mainEntityOfPage: canonical,
   datePublished: pubDate.toISOString(),
   dateModified: (updatedDate ?? pubDate).toISOString(),
@@ -127,7 +123,7 @@ const schema = [
 ---
 
 <BaseLayout
-  title={title}
+  title={seoTitle ?? title}
   description={description}
   type="article"
   image={heroImage}

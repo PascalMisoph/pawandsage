@@ -6,6 +6,9 @@ const blog = defineCollection({
   loader: glob({ base: './src/content/blog', pattern: '**/*.{md,mdx}' }),
   schema: z.object({
     title: z.string(),
+    // Optional shorter <title> for search results (H1 keeps `title`). Max 60 chars;
+    // the " | Paw & Sage" suffix is only added when the total still fits in 60.
+    seoTitle: z.string().max(60).optional(),
     description: z.string(),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),

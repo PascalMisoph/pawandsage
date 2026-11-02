@@ -1,5 +1,6 @@
 ---
 title: "DIY Cat Enrichment: 15 Toys & Games From Stuff You Already Have"
+seoTitle: "DIY Cat Enrichment: 15 Toys & Games From Household Stuff"
 description: "Fifteen DIY cat toys and enrichment games you can make from boxes, paper, and kitchen items, plus the few low-cost upgrades worth buying when DIY runs out."
 pubDate: 2026-05-29
 updatedDate: 2026-05-29

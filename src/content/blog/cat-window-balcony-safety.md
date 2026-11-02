@@ -1,6 +1,6 @@
 ---
 title: "Cat Window & Balcony Safety: Preventing Summer Falls"
-description: "Open windows are a summer necessity and a hidden danger for cats. Here's how to cat-proof windows and balconies, what 'high-rise syndrome' really is, and the simple fixes that prevent falls."
+description: "Open windows are a hidden summer danger for cats. How to cat-proof windows and balconies, what high-rise syndrome is, and simple fixes that prevent falls."
 pubDate: 2026-07-13
 updatedDate: 2026-07-13
 category: "seasonal"

@@ -17,13 +17,13 @@ const schema = buildCollectionPageSchema({
   path: '/blog',
   about: 'Cat behavior, indoor enrichment, and new cat care',
   significantLinks: ['/categories/behavior', '/categories/enrichment', '/categories/new-cat'],
-  hasPart: sortedPosts.map((post) => `/blog/${post.id}`),
+  hasPart: sortedPosts.map((post) => ({ path: `/blog/${post.id}`, name: post.data.title })),
 });
 ---
 
 <BaseLayout
-  title="Journal"
-  description="Calm, considered writing about cats and the people who live with them."
+  title="Journal: All Cat Care Guides"
+  description="Every Paw & Sage guide in one place: cat behavior explained, indoor enrichment ideas, new-cat care and seasonal safety, newest articles first."
   breadcrumbs={breadcrumbs}
   schema={schema}
 >

@@ -1,6 +1,7 @@
 ---
 title: "Why Your Cat Won't Play With Toys (And How to Get Them Interested)"
-description: "If your cat ignores every toy you buy, the problem is usually motion, timing, or habituation, not your cat. Here is how to get a bored or fussy cat to play again."
+seoTitle: "Why Your Cat Won't Play With Toys (and How to Fix It)"
+description: "If your cat ignores every toy, the problem is usually motion, timing or habituation, not your cat. How to get a bored or fussy cat to play again."
 pubDate: 2026-05-29
 updatedDate: 2026-05-29
 category: "enrichment"

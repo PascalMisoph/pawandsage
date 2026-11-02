@@ -1,6 +1,7 @@
 ---
 title: "Cat TV: How a Window Perch Cures Indoor Boredom (Best Perches)"
-description: "A window perch is the cheapest high-impact upgrade for an indoor cat. Here is why 'Cat TV' works, how to set it up, and the best perches and feeders to build it."
+seoTitle: "Cat Window Perch: How 'Cat TV' Cures Indoor Boredom"
+description: "A window perch is the cheapest high-impact upgrade for an indoor cat. Why 'Cat TV' works, how to set it up, and the best perches and feeders for it."
 pubDate: 2026-06-19
 updatedDate: 2026-06-19
 category: "enrichment"

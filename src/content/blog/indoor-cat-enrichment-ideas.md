@@ -182,4 +182,4 @@ Every idea above has a deeper guide. Pick the one that matches what your cat nee
 
 The point of all this: indoor life isn't a sentence. It's a setup that needs to be designed. The cats whose owners commit to even three or four of these are noticeably calmer, more confident, and easier to live with.
 
-Pick three to start with this week. See what changes.
+Pick three to start with this week. See what changes. To keep track, print the free [indoor cat enrichment checklist](/indoor-cat-enrichment-checklist): daily, weekly, and monthly tasks on one page.

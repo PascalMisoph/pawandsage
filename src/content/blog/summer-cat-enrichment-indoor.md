@@ -1,6 +1,7 @@
 ---
 title: "Summer Enrichment for Indoor Cats: Low-Energy Games for Hot Days"
-description: "On a hot day your cat won't chase a wand toy for twenty minutes, and they shouldn't. Here are low-energy enrichment ideas that keep an indoor cat engaged without overheating them."
+seoTitle: "Summer Enrichment for Indoor Cats: Low-Energy Hot-Day Games"
+description: "On hot days your cat won't chase a wand toy for twenty minutes, and shouldn't. Low-energy enrichment ideas keep indoor cats engaged without overheating."
 pubDate: 2026-07-24
 updatedDate: 2026-07-24
 category: "seasonal"

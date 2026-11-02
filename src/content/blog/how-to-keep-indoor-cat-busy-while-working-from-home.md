@@ -1,6 +1,6 @@
 ---
 title: "How to Keep an Indoor Cat Busy While You Work From Home"
-description: "A work-from-home cat routine that reduces keyboard interruptions without ignoring your cat: pre-meeting play, food puzzles, vertical space, and calm breaks."
+description: "A work-from-home cat routine that cuts keyboard interruptions without ignoring your cat: pre-meeting play, food puzzles, vertical space and calm breaks."
 pubDate: 2026-07-14
 updatedDate: 2026-07-14
 category: "enrichment"

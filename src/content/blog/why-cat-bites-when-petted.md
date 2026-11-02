@@ -1,5 +1,6 @@
 ---
 title: "Why Does My Cat Bite Me When I Pet Her? (Overstimulation Explained)"
+seoTitle: "Why Does My Cat Bite Me When I Pet Her? Overstimulation"
 description: "Your cat is not biting out of nowhere. Petting can tip into overstimulation fast. Here is how to read the warning signs and keep touch relaxed."
 pubDate: 2026-05-04
 updatedDate: 2026-05-04

@@ -1,6 +1,6 @@
 ---
 title: "How to Get Your Cat to Drink More Water in Summer (9 Tricks)"
-description: "Cats are famously bad drinkers, and summer heat makes mild dehydration risky. Here are nine vet-informed tricks to get your cat drinking more water, from fountains to food hacks."
+description: "Cats are poor drinkers, and summer heat makes mild dehydration risky. Nine vet-informed tricks to get your cat drinking more, from fountains to food."
 pubDate: 2026-07-10
 updatedDate: 2026-07-10
 category: "seasonal"

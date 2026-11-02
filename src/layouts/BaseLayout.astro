@@ -5,7 +5,7 @@ import '@fontsource-variable/fraunces';
 import '@fontsource-variable/fraunces/full-italic.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { getResponsiveImageMeta } from '../lib/images';
+import { getShareImage } from '../lib/images';
 import { DEFAULT_SOCIAL_IMAGE, ORGANIZATION, PERSON, SITE_DESCRIPTION, SITE_LANGUAGE, SITE_LOGO, SITE_NAME, SITE_URL } from '../lib/site';
 import { buildBreadcrumbSchema, type BreadcrumbItem } from '../lib/schema';
 import Analytics from '@vercel/analytics/astro';
@@ -51,13 +51,20 @@ const {
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? SITE_URL);
-const fullTitle = title === SITE_NAME ? title : `${title} | ${SITE_NAME}`;
-const socialImage = new URL(image, Astro.site ?? SITE_URL).toString();
-const socialImageMeta = getResponsiveImageMeta(image);
+// Keep <title> within 60 characters for SERPs: append the brand suffix only when it fits.
+const MAX_TITLE_LENGTH = 60;
+const suffixedTitle = `${title} | ${SITE_NAME}`;
+const fullTitle = title === SITE_NAME || suffixedTitle.length > MAX_TITLE_LENGTH ? title : suffixedTitle;
+if (fullTitle.length > MAX_TITLE_LENGTH) {
+  console.warn(`[seo] <title> longer than ${MAX_TITLE_LENGTH} chars on ${Astro.url.pathname}: "${fullTitle}"`);
+}
+const shareImage = getShareImage(image);
+const socialImage = new URL(shareImage.src, Astro.site ?? SITE_URL).toString();
+const socialImageMeta = shareImage.width && shareImage.height ? shareImage : null;
 const pageSchemas = Array.isArray(schema) ? schema : [schema];
 const schemas = breadcrumbs.length > 0 ? [...pageSchemas, buildBreadcrumbSchema(breadcrumbs)] : pageSchemas;
 const robotsContent = noindex
-  ? 'noindex, nofollow'
+  ? 'noindex, follow'
   : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 
 const siteSchemas = [

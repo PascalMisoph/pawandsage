@@ -1,6 +1,7 @@
 ---
 title: "Build a Cat-Safe Summer Sensory Garden (Balcony or Windowsill)"
-description: "A cat sensory garden brings the enrichment of the outdoors safely inside. Here's how to grow cat-safe plants on a windowsill or balcony, what to plant, and what to never let near your cat."
+seoTitle: "Cat-Safe Sensory Garden for Summer: Balcony or Windowsill"
+description: "Bring the outdoors safely inside with a cat sensory garden: which cat-safe plants to grow on a windowsill or balcony, and which to keep away from cats."
 pubDate: 2026-07-29
 updatedDate: 2026-07-29
 category: "seasonal"

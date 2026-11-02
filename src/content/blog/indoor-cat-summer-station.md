@@ -1,5 +1,6 @@
 ---
 title: "The Indoor Cat Summer Station: Water, Grooming, and Enrichment"
+seoTitle: "Indoor Cat Summer Station: Water, Grooming & Enrichment"
 description: "Build one practical indoor cat summer station with hydration, grooming, cleanup, and low-energy enrichment supplies for hot days."
 pubDate: 2026-07-19
 updatedDate: 2026-07-19

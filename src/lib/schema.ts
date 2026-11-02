@@ -1,4 +1,4 @@
-import { ORGANIZATION, PERSON, SITE_NAME, SITE_URL } from './site';
+import { ORGANIZATION, PERSON, SITE_LANGUAGE, SITE_NAME, SITE_URL } from './site';
 
 export interface BreadcrumbItem {
   name: string;
@@ -20,8 +20,10 @@ interface PageSchemaOptions {
   significantLinks?: string[];
 }
 
+export type CollectionItem = string | { path: string; name?: string };
+
 interface CollectionPageOptions extends PageSchemaOptions {
-  hasPart?: string[];
+  hasPart?: CollectionItem[];
 }
 
 const compact = <T extends Record<string, unknown>>(value: T) =>
@@ -83,7 +85,7 @@ export function buildPageSchema({
     name,
     description,
     url: absoluteUrl(path),
-    inLanguage: 'en',
+    inLanguage: SITE_LANGUAGE,
     isPartOf: siteReference,
     author: personReference,
     publisher: organizationReference,
@@ -117,7 +119,24 @@ export function buildCollectionPageSchema({
       about,
       significantLinks,
     }),
-    hasPart: hasPart.length > 0 ? hasPart.map((item) => absoluteUrl(item)) : undefined,
+    // Schema.org expects CreativeWork objects here, not bare URL strings, so the
+    // list of posts is exposed as an ItemList (valid for Google + schema validator).
+    mainEntity:
+      hasPart.length > 0
+        ? {
+            '@type': 'ItemList',
+            numberOfItems: hasPart.length,
+            itemListElement: hasPart.map((item, index) => {
+              const entry = typeof item === 'string' ? { path: item } : item;
+              return compact({
+                '@type': 'ListItem',
+                position: index + 1,
+                url: absoluteUrl(entry.path),
+                name: entry.name,
+              });
+            }),
+          }
+        : undefined,
   });
 }
 

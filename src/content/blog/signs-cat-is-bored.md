@@ -118,7 +118,7 @@ Most indoor cat boredom improves with a few consistent changes.
 
 Start with one daily structured play session. Add foraging to one meal. Give your cat somewhere to climb, scratch, hide, and watch the room.
 
-The signs above do not require a complete life overhaul. They require noticing what is missing and adding the right kind of stimulation.
+The signs above do not require a complete life overhaul. They require noticing what is missing and adding the right kind of stimulation. Our free [indoor cat enrichment checklist](/indoor-cat-enrichment-checklist) turns that into a simple daily and weekly routine.
 
 For a deeper routine, read our [cat enrichment ideas](/blog/indoor-cat-enrichment-ideas). If your cat seems withdrawn rather than restless, [indoor cat depression](/blog/indoor-cat-depression) covers the low-energy side of boredom, and [why your cat stares at you](/blog/why-cat-stares-at-me) helps you read the quieter signals. For feeding specifically, [puzzle feeders](/blog/best-puzzle-feeders-cats) are one of the highest impact additions most cat owners have not tried yet.
 

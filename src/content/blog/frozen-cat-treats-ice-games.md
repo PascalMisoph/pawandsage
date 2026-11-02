@@ -1,6 +1,6 @@
 ---
 title: "DIY Frozen Cat Treats & Ice Games (Cooling Enrichment)"
-description: "Frozen treats cool your cat down and entertain them at the same time. Here are easy, cat-safe DIY frozen treat ideas and ice games to beat the summer heat, most from things you already have."
+description: "Frozen treats cool your cat down and entertain at the same time. Easy cat-safe DIY frozen treats and ice games for summer, mostly from things you have."
 pubDate: 2026-07-27
 updatedDate: 2026-07-27
 category: "seasonal"

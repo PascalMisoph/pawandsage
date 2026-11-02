@@ -14,6 +14,8 @@ export interface ClusterConfig {
   slug: ClusterSlug;
   title: string;
   description: string;
+  /** Meta description for the hub page (120-155 chars). `description` stays the visible tagline. */
+  metaDescription: string;
   intro: string;
   featured: string;
   featuredTitle: string;
@@ -28,6 +30,7 @@ export const clusterConfigs: ClusterConfig[] = [
     slug: 'behavior',
     title: 'Behavior',
     description: 'What your cat is actually telling you, and how to listen.',
+    metaDescription: 'Why cats stare, bite when petted, knock things over or wake you at 3 AM, plus scratching and nail care: clear cat behavior guides with practical fixes.',
     intro:
       'Behavior articles help you decode the signals behind attention-seeking, staring, night waking, overstimulation, and other common patterns that can feel random until you see the logic underneath them.',
     featured: '/blog/why-cat-stares-at-me',
@@ -65,6 +68,7 @@ export const clusterConfigs: ClusterConfig[] = [
     slug: 'enrichment',
     title: 'Enrichment',
     description: 'Small changes that turn a flat indoor life into a rich one.',
+    metaDescription: 'Indoor cat enrichment guides: puzzle feeders, interactive toys, window perches, cat walls and daily routines that keep a bored indoor cat busy.',
     intro:
       'The enrichment section focuses on boredom prevention, play structure, hunting outlets, and environmental upgrades that make indoor life more satisfying for cats and easier for owners.',
     featured: '/blog/indoor-cat-enrichment-ideas',
@@ -112,6 +116,7 @@ export const clusterConfigs: ClusterConfig[] = [
     slug: 'new-cat',
     title: 'New Cat',
     description: 'Everything you wish someone had told you in the first week.',
+    metaDescription: 'New cat and kitten guides: what you need in the first week, how to set up your home, and which litter box to buy, from basics to Litter-Robot models.',
     intro:
       'The new cat section is built for the first days and weeks after bringing a cat home, with an emphasis on calm setup, fewer unnecessary purchases, and routines that reduce stress fast.',
     featured: '/blog/new-kitten-checklist',
@@ -140,6 +145,7 @@ export const clusterConfigs: ClusterConfig[] = [
     slug: 'seasonal',
     title: 'Seasonal Care',
     description: 'Keeping your cat safe, cool, and healthy through the seasons.',
+    metaDescription: 'Seasonal cat care: keep cats cool and hydrated in summer, warm in winter, safe from heatstroke and fleas, plus holiday gift and deal guides.',
     intro:
       'The seasonal section covers heat, hydration, parasites, warm-weather safety, and holiday buying guides: the practical care and shopping decisions that change with the calendar.',
     featured: '/blog/keep-cat-cool-hot-weather',

@@ -1,6 +1,7 @@
 ---
 title: "Should You Let Your Cat Outside in Summer? Safe Outdoor Access"
-description: "Summer makes indoor cats desperate to get out. Here's how to give your cat safe outdoor time, from harness training to catios and supervised access, without the risks of free roaming."
+seoTitle: "Should You Let Your Cat Outside in Summer? Safe Options"
+description: "Summer makes indoor cats desperate to get out. Give your cat safe outdoor time with harness training, catios and supervised access instead of free roaming."
 pubDate: 2026-07-17
 updatedDate: 2026-07-17
 category: "seasonal"

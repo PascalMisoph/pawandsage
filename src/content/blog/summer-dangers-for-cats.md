@@ -1,6 +1,7 @@
 ---
 title: "Summer Dangers for Cats: Toxic Plants, Foods & Hidden Hazards"
-description: "Summer brings hazards cats don't face the rest of the year, from lilies to BBQ scraps to open windows. Here's a room-by-room guide to the dangers and how to keep your cat safe."
+seoTitle: "Summer Dangers for Cats: Toxic Plants, Foods & Hazards"
+description: "Summer brings hazards cats don't face the rest of the year, from lilies to BBQ scraps to open windows. A room-by-room guide to keeping your cat safe."
 pubDate: 2026-07-22
 updatedDate: 2026-07-22
 category: "seasonal"

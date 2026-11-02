@@ -1,6 +1,7 @@
 ---
 title: "Why Your Bored Cat Destroys Everything (Blinds, Plants & the Fix)"
-description: "Knocked plants, chewed blinds, shredded furniture: destructive cats are usually bored, not bad. Here is what each behavior means and how to redirect it for good."
+seoTitle: "Why Your Bored Cat Destroys Everything (and the Fix)"
+description: "Knocked plants, chewed blinds, shredded furniture: destructive cats are usually bored, not bad. What each behavior means and how to redirect it."
 pubDate: 2026-06-15
 updatedDate: 2026-06-15
 category: "behavior"

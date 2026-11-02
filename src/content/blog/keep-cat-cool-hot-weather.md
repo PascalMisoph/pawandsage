@@ -1,6 +1,7 @@
 ---
 title: "How to Keep Your Cat Cool in Hot Weather (12 Vet-Backed Ways)"
-description: "Cats hide heat stress until it's serious. Here are 12 practical ways to keep an indoor cat cool in summer, from water tricks to cooling mats and the rooms that actually stay cold."
+seoTitle: "How to Keep Your Cat Cool in Hot Weather: 12 Vet-Backed Ways"
+description: "Cats hide heat stress until it's serious. 12 practical ways to keep an indoor cat cool in summer, from water tricks to cooling mats and the coolest rooms."
 pubDate: 2026-07-01
 updatedDate: 2026-07-01
 category: "seasonal"

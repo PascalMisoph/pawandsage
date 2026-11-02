@@ -1,6 +1,6 @@
 ---
 title: "Can Cats Get Sunburn? Sun Safety for Cats in Summer"
-description: "Yes, cats can get sunburned, and for some cats it's a real skin-cancer risk. Here's which cats are most vulnerable, the warning signs, and how to protect them safely in summer."
+description: "Yes, cats can get sunburned, and for some it's a real skin-cancer risk. Which cats are most vulnerable, the warning signs, and how to protect them."
 pubDate: 2026-07-15
 updatedDate: 2026-07-15
 category: "seasonal"

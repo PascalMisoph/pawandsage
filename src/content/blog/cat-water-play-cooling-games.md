@@ -1,6 +1,6 @@
 ---
 title: "Water Play for Cats: Cooling Games That Beat the Heat"
-description: "Not all cats hate water, and gentle water play is a brilliant way to cool and entertain a cat in summer. Here are safe, low-stress water games your cat might actually love."
+description: "Not all cats hate water. Gentle water play cools and entertains a cat in summer; here are safe, low-stress water games your cat might actually love."
 pubDate: 2026-08-05
 updatedDate: 2026-08-05
 category: "seasonal"

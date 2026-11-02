@@ -1,5 +1,6 @@
 ---
 title: "Cat Wall Shelves vs Cat Trees: Which Is Better for Indoor Cats?"
+seoTitle: "Cat Wall Shelves vs Cat Trees: Which Is Better Indoors?"
 description: "Cat wall shelves and cat trees solve different enrichment problems. Here is how to choose the better vertical-space setup for your home and your cat."
 pubDate: 2026-07-10
 updatedDate: 2026-07-10

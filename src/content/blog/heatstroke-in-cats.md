@@ -1,6 +1,6 @@
 ---
 title: "Heatstroke in Cats: The Warning Signs and What to Do Fast"
-description: "Heatstroke in cats can turn serious in minutes. Learn the early warning signs, the emergency steps that buy time, and how to cool a cat down safely on the way to the vet."
+description: "Heatstroke in cats can turn serious in minutes. The early warning signs, emergency steps that buy time, and how to cool a cat safely on the way to the vet."
 pubDate: 2026-07-03
 updatedDate: 2026-07-03
 category: "seasonal"

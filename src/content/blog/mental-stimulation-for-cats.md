@@ -1,6 +1,6 @@
 ---
 title: "Mental Stimulation for Cats: 12 Ways to Exercise the Brain"
-description: "Physical play only tires half of your cat. Here are 12 ways to give an indoor cat real mental stimulation, from foraging puzzles to scent work and training."
+description: "Physical play only tires half of your cat. 12 ways to give an indoor cat real mental stimulation, from foraging puzzles to scent work and training."
 pubDate: 2026-06-10
 updatedDate: 2026-06-10
 category: "enrichment"
@@ -118,6 +118,8 @@ You do not need all twelve. A genuinely well-stimulated cat usually has:
 - **Two short focused sessions**, play in the morning, a puzzle or training in the evening.
 - **One passive channel running**, a window view or a scatter feed.
 - **Weekly rotation** so nothing goes stale.
+
+For a printable version of this routine, use the free [indoor cat enrichment checklist](/indoor-cat-enrichment-checklist).
 
 That mix tires the half of your cat the wand toy never reaches, which is usually the half keeping you up at night. If you are not sure boredom is the issue in the first place, start with the [signs your cat is bored](/blog/signs-cat-is-bored).
 

@@ -1,6 +1,6 @@
 ---
 title: "How to Stop Your Cat From Scratching Furniture (For Good)"
-description: "Your cat isn't scratching the couch out of spite. Scratching is a biological need — and the fix is redirecting it, not stopping it. Here's the three-step approach that actually works."
+description: "Your cat isn't scratching the couch out of spite. Scratching is a biological need, so the fix is redirecting it, not stopping it: a three-step approach."
 pubDate: 2026-04-29
 updatedDate: 2026-04-29
 category: "behavior"

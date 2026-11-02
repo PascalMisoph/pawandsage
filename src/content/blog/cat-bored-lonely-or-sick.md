@@ -1,6 +1,7 @@
 ---
 title: "Bored, Lonely, or Sick? How to Tell What's Wrong With Your Cat"
-description: "Boredom, loneliness, and illness can look almost identical in cats. Here is how to tell the difference, what to do for each, and when a behavior change means a vet visit."
+seoTitle: "Is My Cat Bored, Lonely, or Sick? How to Tell the Difference"
+description: "Boredom, loneliness and illness can look alike in cats. How to tell the difference, what to do for each, and when a behavior change needs a vet."
 pubDate: 2026-05-29
 updatedDate: 2026-05-29
 category: "behavior"

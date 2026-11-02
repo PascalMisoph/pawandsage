@@ -1,6 +1,7 @@
 ---
 title: "Do Cats Get Bored of Their Toys? The Rotation System That Works"
-description: "Yes, cats habituate to toys fast. Here is the simple toy rotation system that makes old toys feel new again, plus which toys are worth keeping in the lineup."
+seoTitle: "Do Cats Get Bored of Their Toys? A Toy Rotation That Works"
+description: "Yes, cats habituate to toys fast. The simple toy rotation system that makes old toys feel new again, plus which toys are worth keeping in the lineup."
 pubDate: 2026-06-17
 updatedDate: 2026-06-17
 category: "enrichment"

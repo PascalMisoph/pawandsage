@@ -1,6 +1,6 @@
 ---
 title: "Puzzle Feeders for Wet vs Dry Food + Mealtime Enrichment"
-description: "Most puzzle feeders only work with kibble. Here is how to add mealtime enrichment for wet food too, plus the best puzzle feeders for dry, wet, and slow eating."
+description: "Most puzzle feeders only work with kibble. How to add mealtime enrichment for wet food too, plus the best puzzle feeders for dry, wet and slow eating."
 pubDate: 2026-06-26
 updatedDate: 2026-06-26
 category: "enrichment"

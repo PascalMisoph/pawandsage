@@ -28,11 +28,11 @@ const breadcrumbs = [
 const schema = [
   buildCollectionPageSchema({
     name: `${category.title} on Paw & Sage`,
-    description: category.description,
+    description: category.metaDescription,
     path: `/categories/${category.slug}`,
     about: `${category.title} advice for cat owners`,
     significantLinks: category.nextReads.map((item) => item.href),
-    hasPart: posts.map((post) => `/blog/${post.id}`),
+    hasPart: posts.map((post) => ({ path: `/blog/${post.id}`, name: post.data.title })),
   }),
   buildFAQPageSchema(category.faq),
 ];
@@ -40,7 +40,7 @@ const schema = [
 
 <BaseLayout
   title={`${category.title} for cat owners`}
-  description={category.description}
+  description={category.metaDescription}
   breadcrumbs={breadcrumbs}
   schema={schema}
 >

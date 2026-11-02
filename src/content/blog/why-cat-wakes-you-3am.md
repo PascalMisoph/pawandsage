@@ -1,6 +1,6 @@
 ---
 title: "Why Your Cat Wakes You Up at 3 AM (And How to Stop It)"
-description: "It's not random, and it's not malice. Cats wake their humans at night for three specific reasons — each with a fix that doesn't involve closing them out of the bedroom."
+description: "Cats wake their humans at night for three specific reasons, and it isn't malice. Each has a fix that doesn't mean shutting your cat out of the bedroom."
 pubDate: 2026-04-10
 updatedDate: 2026-04-23
 category: "behavior"

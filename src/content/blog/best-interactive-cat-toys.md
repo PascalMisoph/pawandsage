@@ -1,6 +1,6 @@
 ---
 title: "7 Best Interactive Toys for Indoor Cats"
-description: "Most cat toys end up ignored on the floor. Here are 7 interactive cat toys that actually trigger the hunting instinct — ranked by type, use case, and price."
+description: "Most cat toys end up ignored on the floor. Here are 7 interactive cat toys that trigger the hunting instinct, ranked by type, use case and price."
 pubDate: 2026-04-23
 updatedDate: 2026-04-23
 category: "enrichment"
