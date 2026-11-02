@@ -9,13 +9,22 @@ import { PERSON, SITE_URL } from '../lib/site';
 import { buildFAQPageSchema, buildPageSchema } from '../lib/schema';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
-const sortedPosts = allPosts
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .slice(0, 6);
 const featuredSlugs = ['black-friday-cat-deals', 'best-gifts-for-cat-lovers'];
 const featuredPosts = featuredSlugs
   .map((slug) => allPosts.find((post) => post.id === slug))
   .filter((post): post is (typeof allPosts)[number] => Boolean(post));
+// "New this week": built automatically from the content collection (newest first,
+// ties broken by updatedDate then title), so new articles appear without homepage edits.
+// Posts already shown in the curated Holiday block above are skipped to avoid duplicates.
+const sortedPosts = [...allPosts]
+  .filter((post) => !featuredSlugs.includes(post.id))
+  .sort(
+    (a, b) =>
+      b.data.pubDate.valueOf() - a.data.pubDate.valueOf() ||
+      (b.data.updatedDate?.valueOf() ?? 0) - (a.data.updatedDate?.valueOf() ?? 0) ||
+      a.data.title.localeCompare(b.data.title),
+  )
+  .slice(0, 6);
 const homeFaq = [
   {
     question: 'What kind of cat advice does Paw & Sage cover?',
@@ -142,6 +151,32 @@ const schema = [
     </section>
   )}
 
+  {sortedPosts.length > 0 && (
+    <section class="recent-posts latest-guides" aria-labelledby="latest-guides-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">New this week</span>
+          <h2 id="latest-guides-title">Latest guides.</h2>
+        </div>
+        <div class="posts-grid">
+          {sortedPosts.map((post) => (
+            <PostCard
+              href={`/blog/${post.id}`}
+              title={post.data.title}
+              description={post.data.description}
+              category={post.data.category}
+              pubDate={post.data.pubDate}
+              readTime={post.data.readTime}
+              image={post.data.heroImage}
+              imageAlt={post.data.heroAlt}
+            />
+          ))}
+        </div>
+        <p class="section-more"><a href="/blog">See everything in the journal &rarr;</a></p>
+      </div>
+    </section>
+  )}
+
   <section class="categories-section">
     <div class="container">
       <div class="section-header">
@@ -164,31 +199,6 @@ const schema = [
       </div>
     </div>
   </section>
-
-  {sortedPosts.length > 0 && (
-    <section class="recent-posts">
-      <div class="container">
-        <div class="section-header">
-          <span class="eyebrow">Latest from the journal</span>
-          <h2>Recent reading.</h2>
-        </div>
-        <div class="posts-grid">
-          {sortedPosts.map((post) => (
-            <PostCard
-              href={`/blog/${post.id}`}
-              title={post.data.title}
-              description={post.data.description}
-              category={post.data.category}
-              pubDate={post.data.pubDate}
-              readTime={post.data.readTime}
-              image={post.data.heroImage}
-              imageAlt={post.data.heroAlt}
-            />
-          ))}
-        </div>
-      </div>
-    </section>
-  )}
 
   <section class="trust-section">
     <div class="container trust-grid">
@@ -420,6 +430,16 @@ const schema = [
 
   .section-header h2 {
     margin: 0;
+  }
+
+  .section-more {
+    margin: 1.75rem 0 0;
+    text-align: center;
+    font-size: 0.95rem;
+  }
+
+  .featured-guides + .latest-guides {
+    padding-top: 1rem;
   }
 
   .categories-grid {

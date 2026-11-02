@@ -11,3 +11,7 @@ Rules for anyone (human or agent) writing or editing articles in `src/content/bl
   - Keep the CTA button as well. Don't remove the FTC disclosure.
 - Use normal Markdown links. `src/lib/rehype-affiliate-links.mjs` adds `rel="sponsored nofollow noopener"`, `target="_blank"` and the Umami `affiliate-click` event attributes. Positions tell us which placement gets the click: `inline-N` (body text), `heading-N` (headings), `table-N` (table cells), `title-N` / `image-N` (product-card title/image), `productcard-N` (CTA button or full affiliate card).
 - The build fails if a `ProductCard` link lacks `tag=pawandsage21-20`.
+
+## Homepage and hero images
+
+- New articles must appear on the homepage automatically: the "New this week / Latest guides" section in `src/pages/index.astro` (plus `/blog` and the category hubs) is generated from the content collection by `pubDate`, so never hand-edit the homepage to add a post; just publish it with a correct `pubDate` and `draft: false`. Every new article must also ship with a hero image (`heroImage` + `heroAlt`, 1672×941 PNG in `public/blog/<slug>-hero.png`, same warm sage/cream editorial style).
