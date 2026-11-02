@@ -85,4 +85,6 @@ For the active side of that equation, see [mental stimulation for cats](/blog/me
 
 Of every upgrade in this niche, a window perch with a feeder is the one with the best ratio of cost to payoff. A modest, one-time setup buys your cat hours of daily engagement, and buys you a cat that watches the birds instead of redecorating the living room.
 
+In winter, the glass next to a perch gets cold after dark. Our guide to [keeping cats warm in winter](/blog/keep-cats-warm-without-heat) covers heated window perches and other warm spots.
+
 *Wondering whether the window is actually keeping your cat content? We're building [CatPlay](https://catplay.app), a simple app for tracking your cat's daily behavior so you can see what genuinely fills their day and what still needs an outlet.*

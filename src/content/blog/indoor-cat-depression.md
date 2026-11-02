@@ -93,7 +93,7 @@ If change or conflict is behind the low mood, reducing the underlying stress is 
 
 ## Do Cats Get the Winter Blues?
 
-There is no solid research showing that cats get seasonal depression the way some people do. But winter does change an indoor cat's day in ways that can look like low mood. There are fewer daylight hours at the window, less bird and street activity to watch, colder rooms, and often less play because owners are busy and tired too. Many cats respond by sleeping more and seeking out warm spots.
+There is no solid research showing that cats get seasonal depression the way some people do. But winter does change an indoor cat's day in ways that can look like low mood. There are fewer daylight hours at the window, less bird and street activity to watch, colder rooms, and often less play because owners are busy and tired too. Many cats respond by sleeping more and seeking out warm spots. Our guide to [keeping cats warm in winter](/blog/keep-cats-warm-without-heat) shows how to give them those spots safely.
 
 That alone is usually normal. A cat who sleeps more in winter but still eats, grooms, greets you, and plays when invited is adjusting, not depressed. What is not normal: eating noticeably less, hiding, a dull or unkempt coat, losing interest in things they always enjoyed, or any sudden change. Those deserve a vet visit first.
 

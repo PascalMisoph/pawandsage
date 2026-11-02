@@ -97,6 +97,6 @@ Use treat dispenser toys at predictable times:
 - In the hot afternoon when chase play is too much.
 - Before dinner as a small hunting task.
 
-They also make easy, low-cost gifts. A treat toy and a bag of your cat's favorite treats is a thoughtful stocking stuffer. See our [gift guide for cat lovers](/blog/best-gifts-for-cat-lovers) and this year's [Black Friday cat deals](/blog/black-friday-cat-deals) if you are shopping for the season. For using treat toys during a long workday, see [how to keep your cat entertained while you're at work](/blog/how-to-keep-cat-busy-while-at-work).
+They also make easy, low-cost gifts. A treat toy and a bag of your cat's favorite treats is a thoughtful stocking stuffer, or the start of a DIY [cat advent calendar](/blog/cat-advent-calendar). See our [gift guide for cat lovers](/blog/best-gifts-for-cat-lovers) and this year's [Black Friday cat deals](/blog/black-friday-cat-deals) if you are shopping for the season. For using treat toys during a long workday, see [how to keep your cat entertained while you're at work](/blog/how-to-keep-cat-busy-while-at-work).
 
 Rotate them so they stay interesting. A toy left out forever becomes furniture. A toy that appears for ten focused minutes can stay valuable for months.

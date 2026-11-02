@@ -1,6 +1,6 @@
 ---
-title: "How to Get Rid of Fleas on Cats — and Keep Them Off All Summer"
-description: "Fleas peak in summer and a few quickly become an infestation. Here's how to get rid of fleas on cats safely, treat your home so they don't come back, and the dangerous mistake to avoid."
+title: "How to Get Rid of Fleas on Cats: Safe, Year-Round Fix"
+description: "How to get rid of fleas on cats safely: treat the cat and home together, why indoor cats need year-round prevention, and the dog-product mistake to avoid."
 pubDate: 2026-07-08
 updatedDate: 2026-07-08
 category: "seasonal"
@@ -68,5 +68,7 @@ Heat and humidity speed up the flea life cycle dramatically, so an infestation s
 - **Treat every pet in the home.** Fleas move between animals, so one untreated pet keeps the cycle alive for everyone.
 
 Fleas are also worth catching early because heavy scratching and over-grooming look a lot like other summer skin issues. If your cat is losing fur and you have ruled out fleas, it may simply be the season — see [why your cat sheds so much in summer](/blog/cat-shedding-summer). And for the rest of the warm-weather care picture, [how to keep your cat cool in hot weather](/blog/keep-cat-cool-hot-weather) covers what else changes once the temperature climbs.
+
+Bringing home a new kitten or adopted cat? Ask your vet about flea checks at the first visit, and see our [new kitten checklist](/blog/new-kitten-checklist) for the rest of the setup. Many vets recommend prevention through the colder months too, and our winter guide to [keeping cats warm without heat](/blog/keep-cats-warm-without-heat) covers the rest of cold-season care.
 
 *This article is general information, not veterinary advice. Flea products and dosing should be confirmed with your vet, especially for kittens, seniors, or cats with health conditions. We're also building [CatPlay](https://catplay.app), a simple app for logging your cat's daily habits so you spot scratching and coat changes early.*

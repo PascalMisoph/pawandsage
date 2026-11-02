@@ -72,6 +72,6 @@ When the house is just hot, a couple of direct tricks help:
 
 Without AC, keep a closer eye on the high-risk cats — kittens, seniors, flat-faced breeds, and overweight or long-haired cats — and check on them through the hottest hours. Know the [warning signs of heatstroke](/blog/heatstroke-in-cats) so you can act fast if a hot day tips too far.
 
-No AC is no problem for a cat as long as you give them what they actually use: a cold surface to lie on, air that moves, and cold water within reach. For the complete warm-weather routine, see [how to keep your cat cool in hot weather](/blog/keep-cat-cool-hot-weather), and if you do decide to buy a thing or two, [the best cooling products for cats](/blog/best-cooling-products-for-cats) covers what is worth it.
+No AC is no problem for a cat as long as you give them what they actually use: a cold surface to lie on, air that moves, and cold water within reach. For the complete warm-weather routine, see [how to keep your cat cool in hot weather](/blog/keep-cat-cool-hot-weather), and if you do decide to buy a thing or two, [the best cooling products for cats](/blog/best-cooling-products-for-cats) covers what is worth it. Reading this in winter? The cold-weather version is [how to keep cats warm in winter, even without heat](/blog/keep-cats-warm-without-heat).
 
 *We're building [CatPlay](https://catplay.app), a simple app for tracking your cat's daily comfort, eating, and drinking — so you can tell when the heat is getting to them.*

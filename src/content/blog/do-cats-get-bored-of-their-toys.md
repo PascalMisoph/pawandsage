@@ -84,6 +84,6 @@ It is also worth a sanity check that boredom, not illness, is behind a sudden dr
 
 Toy rotation is one of those rare cat-care moves with no downside: it saves money, cuts clutter, and makes your cat more interested in the toys you already have. Pair it with the right active set, a catnip reset now and then, and a regular play schedule, and "my cat is bored of all their toys" quietly stops being a sentence you say.
 
-For the toys most worth building your rotation around, see our guide to the [best interactive toys for indoor cats](/blog/best-interactive-cat-toys), and for the bigger picture of keeping an indoor cat engaged, [20 indoor cat enrichment ideas](/blog/indoor-cat-enrichment-ideas).
+In December, a [cat advent calendar](/blog/cat-advent-calendar) is an easy way to build that rotation into a daily routine. For the toys most worth building your rotation around, see our guide to the [best interactive toys for indoor cats](/blog/best-interactive-cat-toys), and for the bigger picture of keeping an indoor cat engaged, [20 indoor cat enrichment ideas](/blog/indoor-cat-enrichment-ideas).
 
 *Curious which toys your cat actually keeps coming back to? We're building [CatPlay](https://catplay.app), a simple app for tracking your cat's daily play so you can see which toys earn their place in the rotation and which ones to retire.*

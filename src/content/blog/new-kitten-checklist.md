@@ -85,6 +85,8 @@ Once the basics are working and your kitten is eating, drinking, and using the l
 - **A cat bed** (optional — most kittens will sleep wherever they want anyway)
 - **A puzzle feeder** for mental enrichment as they grow — the [Cat Amazing Puzzle Feeder](https://amazon.com/dp/B009R3SFBC?tag=pawandsage21-20) is a good first step once meals and litter habits are stable.
 
+Thinking about a self-cleaning litter box later? Most need each cat to weigh at least 3 lb before automatic mode is safe, so start with a regular box. Our [Litter-Robot 4 vs 5 vs EVO comparison](/blog/litter-robot-4-vs-5-vs-evo) explains the weight limits. And ask your vet about a flea check at the first visit; our guide on [how to get rid of fleas on cats](/blog/get-rid-of-fleas-on-cats) covers safe products.
+
 [See our full enrichment guide →](/categories/enrichment)
 
 ## What you don't need yet (despite the marketing)

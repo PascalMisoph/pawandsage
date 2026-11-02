@@ -133,6 +133,7 @@ export const clusterConfigs: ClusterConfig[] = [
     ],
     orderedPosts: [
       'new-kitten-checklist',
+      'litter-robot-4-vs-5-vs-evo',
     ],
   },
   {
@@ -164,6 +165,8 @@ export const clusterConfigs: ClusterConfig[] = [
     orderedPosts: [
       'black-friday-cat-deals',
       'best-gifts-for-cat-lovers',
+      'cat-advent-calendar',
+      'keep-cats-warm-without-heat',
       'keep-cat-cool-hot-weather',
       'heatstroke-in-cats',
       'cat-shedding-summer',
