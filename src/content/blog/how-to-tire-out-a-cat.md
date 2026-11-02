@@ -72,7 +72,7 @@ A laser pointer is fantastic cardio and terrible on its own, because your cat ca
 
 The fix is simple: always end a laser session by landing the dot on a physical toy or a treat your cat can finally pounce on and "win." That gives the chase a real conclusion.
 
-**What helps:** An automatic laser like the [PetSafe Bolt](https://amazon.com/dp/B004798TJO?tag=pawandsage21-20) adds hands-free cardio, but follow the same rule, finish with a catchable toy so your cat gets the satisfaction of a kill.
+**What helps:** An automatic laser like the PetSafe Bolt adds hands-free cardio, but follow the same rule, finish with a catchable toy so your cat gets the satisfaction of a kill.
 
 ## Build the Evening Routine
 
