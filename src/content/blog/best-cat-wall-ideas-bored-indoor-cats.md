@@ -46,7 +46,7 @@ Scratching belongs on the route, not as an afterthought. A wall setup with a scr
 
 <aside class="product-card" aria-label="Product pick: Lynadri Cat Wall Shelves 5-in-1">
 <span class="product-card-label">Top pick</span>
-<p class="product-card-name">Lynadri Cat Wall Shelves 5-in-1</p>
+<p class="product-card-name"><a class="product-card-title-link" href="https://www.amazon.com/dp/B0GWQ42WLQ?ref=t_ac_view_request_product_image&amp;campaignId=amzn1.campaign.38JYHVPCJO618&amp;linkCode=tr1&amp;tag=pawandsage21-20&amp;linkId=amzn1.campaign.38JYHVPCJO618_1782828464101" target="_blank" rel="sponsored nofollow noopener">Lynadri Cat Wall Shelves 5-in-1</a></p>
 <p class="product-card-why">Steps, a condo, a scratch area, and a post in one set, so it builds a real climbing route instead of a single decorative shelf.</p>
 <p class="product-card-best"><strong>Best for:</strong> Apartments and bored indoor cats who need more vertical territory</p>
 <a class="product-card-cta" href="https://www.amazon.com/dp/B0GWQ42WLQ?ref=t_ac_view_request_product_image&amp;campaignId=amzn1.campaign.38JYHVPCJO618&amp;linkCode=tr1&amp;tag=pawandsage21-20&amp;linkId=amzn1.campaign.38JYHVPCJO618_1782828464101" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>

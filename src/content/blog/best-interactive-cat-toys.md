@@ -38,7 +38,7 @@ The toys that actually work share one thing: they trigger the full hunting seque
 
 Before the list: "interactive" gets thrown around loosely in pet marketing. For this guide it means one of two things — either *you* control the toy (wand toys), or the toy moves on its own in an unpredictable way (electronic toys). A toy that sits still, no matter how many feathers it has, is not interactive.
 
-## 1. Go Cat Da Bird Wand Toy — Best Overall
+## 1. [Go Cat Da Bird Wand Toy](https://amazon.com/dp/B001BOVEU4?tag=pawandsage21-20) — Best Overall
 
 If you only buy one wand toy in your cat's lifetime, make it this one.
 
@@ -55,7 +55,7 @@ This style of wand toy works especially well because it lets you mimic quick dir
   <span class="affiliate-card-cta">View on Amazon</span>
 </a>
 
-## 2. Cat Dancer Original — Best Budget Pick
+## 2. [Cat Dancer Original](https://amazon.com/dp/B0006N9I68?tag=pawandsage21-20) — Best Budget Pick
 
 This toy costs about $4. It's a wire with rolled cardboard at the end. It is also, somewhat absurdly, one of the cat toys that most reliably gets a response.
 
@@ -70,7 +70,7 @@ The Cat Dancer works because the wire creates completely unpredictable, twitchy 
   <span class="affiliate-card-cta">View on Amazon</span>
 </a>
 
-## 3. SmartyKat Hot Pursuit — Best for Busy Owners
+## 3. [SmartyKat Hot Pursuit](https://amazon.com/dp/B06WP7F8YC?tag=pawandsage21-20) — Best for Busy Owners
 
 If you can't always be on the other end of a wand, the SmartyKat Hot Pursuit is the closest thing to having someone else do it for you.
 
@@ -85,7 +85,7 @@ An electronic motor moves a feathered attachment under a fabric cover in randomi
   <span class="affiliate-card-cta">View on Amazon</span>
 </a>
 
-## 4. Petstages Tower of Tracks — Best for Solo Play
+## 4. [Petstages Tower of Tracks](https://amazon.com/dp/B00DT2WL26?tag=pawandsage21-20) — Best for Solo Play
 
 Not every cat wants a toy that requires a human. Some are perfectly content to bat things around on their own — they just need something worth batting.
 
@@ -100,7 +100,7 @@ The Tower of Tracks stacks three levels of spinning balls in a circular track. E
   <span class="affiliate-card-cta">View on Amazon</span>
 </a>
 
-## 5. Potaroma Flopping Fish — Best "Prey Feel" Toy
+## 5. [Potaroma Flopping Fish](https://amazon.com/dp/B083S3ZXDF?tag=pawandsage21-20) — Best "Prey Feel" Toy
 
 Some cats aren't interested in feathers. They want something that feels like a real catch — something they can grab, bite, bunny-kick, and carry off.
 
@@ -115,7 +115,7 @@ The Potaroma Flopping Fish is a plush fish that activates automatically when tou
   <span class="affiliate-card-cta">View on Amazon</span>
 </a>
 
-## 6. PetFusion Ambush Electronic Toy — Best Automated Wand
+## 6. [PetFusion Ambush Electronic Toy](https://amazon.com/dp/B07F391BX2?tag=pawandsage21-20) — Best Automated Wand
 
 The PetFusion Ambush takes the wand toy format and automates it — a feather wand rotates in unpredictable patterns out of a circular base, with varying speed and direction so the movement stays novel over time.
 
@@ -130,7 +130,7 @@ What sets it apart from cheaper spinners is the feather itself: a natural feathe
   <span class="affiliate-card-cta">View on Amazon</span>
 </a>
 
-## 7. Cat Dancer Rainbow Charmer — Best for Kittens and Shy Cats
+## 7. [Cat Dancer Rainbow Charmer](https://amazon.com/dp/B007VPFC8C?tag=pawandsage21-20) — Best for Kittens and Shy Cats
 
 Some cats don't want the speed or noise of motorized toys. They want something softer, slower, and easier to track.
 
@@ -147,7 +147,7 @@ The Cat Charmer uses a flexible wand with a long fleece ribbon that snakes, glid
 
 ## Which Toy Should You Start With?
 
-If you're unsure where to begin, start with the **Da Bird wand** for structured play sessions and the **Tower of Tracks** for independent play. That combination covers both modes — human-led and solo — for under $25 combined.
+If you're unsure where to begin, start with the **[Da Bird wand](https://amazon.com/dp/B001BOVEU4?tag=pawandsage21-20)** for structured play sessions and the **[Tower of Tracks](https://amazon.com/dp/B00DT2WL26?tag=pawandsage21-20)** for independent play. That combination covers both modes — human-led and solo — for under $25 combined.
 
 If your cat has gone cold on their current toys, don't add more of the same. Rotate two or three on a weekly cycle and keep the others completely out of sight. Novelty matters more than variety.
 

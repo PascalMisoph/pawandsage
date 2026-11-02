@@ -76,7 +76,7 @@ Not all puzzle feeders are equally useful.
 
 ## The Picks
 
-### PetSafe SlimCat: Best for Beginners
+### [PetSafe SlimCat](https://amazon.com/dp/B0018CE8LG?tag=pawandsage21-20): Best for Beginners
 
 [PetSafe SlimCat](https://amazon.com/dp/B0018CE8LG?tag=pawandsage21-20) is a hollow ball with adjustable holes. You fill it with kibble, and your cat bats it around to release pieces one at a time.
 
@@ -86,7 +86,7 @@ The limitations are clear: it is dry food only, it can roll under furniture, and
 
 **Best for:** First time puzzle feeders, high energy cats, and homes where simplicity matters.
 
-### TRIXIE Cat Activity Flip Board: Best Flat Feeder
+### [TRIXIE Cat Activity Flip Board](https://amazon.com/dp/B08C53X29M?tag=pawandsage21-20): Best Flat Feeder
 
 [TRIXIE Cat Activity Flip Board](https://amazon.com/dp/B08C53X29M?tag=pawandsage21-20) is a low tray with small compartments your cat has to paw, nudge, or uncover.
 
@@ -96,7 +96,7 @@ It will not slow experienced cats as much as a harder feeder. Once they memorize
 
 **Best for:** Cats that like to use their paws, owners who want a stable feeder, and cats ready for a slight challenge.
 
-### Catit Senses 2.0 Digger: Best for Pawing Cats
+### [Catit Senses 2.0 Digger](https://amazon.com/dp/B015P13QMM?tag=pawandsage21-20): Best for Pawing Cats
 
 [Catit Senses 2.0 Digger](https://amazon.com/dp/B015P13QMM?tag=pawandsage21-20) uses vertical tubes that your cat has to fish food out of with one paw.
 
@@ -106,7 +106,7 @@ The tubes can be too narrow for some larger cats, and it is still mainly a dry f
 
 **Best for:** Cats that fish and paw at objects, medium difficulty feeding, and rotating with flatter puzzle boards.
 
-### Cat Amazing Puzzle Feeder: Best Challenge Feeder
+### [Cat Amazing Puzzle Feeder](https://amazon.com/dp/B009R3SFBC?tag=pawandsage21-20): Best Challenge Feeder
 
 [Cat Amazing Puzzle Feeder](https://amazon.com/dp/B009R3SFBC?tag=pawandsage21-20) is a cardboard box feeder with multiple openings and difficulty levels.
 

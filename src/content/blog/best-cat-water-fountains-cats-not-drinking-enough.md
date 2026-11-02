@@ -54,7 +54,7 @@ If the best drinking spot is a bedroom corner, hallway edge, shaded living-room 
 
 <aside class="product-card" aria-label="Product pick: PETALPAW Wireless Cat Water Fountain">
 <span class="product-card-label">Top pick</span>
-<p class="product-card-name">PETALPAW Wireless Cat Water Fountain</p>
+<p class="product-card-name"><a class="product-card-title-link" href="https://www.amazon.com/dp/B0GZ7F93XM?ref=t_ac_view_request_product_image&amp;campaignId=amzn1.campaign.I9OHHSB9H5MR&amp;linkCode=tr1&amp;tag=pawandsage21-20&amp;linkId=amzn1.campaign.I9OHHSB9H5MR_1782828563987" target="_blank" rel="sponsored nofollow noopener">PETALPAW Wireless Cat Water Fountain</a></p>
 <p class="product-card-why">Cordless setup, stainless-steel drinking surface, visible water window, and multiple flow modes, so you can put water where your cat actually drinks.</p>
 <p class="product-card-best"><strong>Best for:</strong> Picky drinkers and homes where the best water spot has no outlet</p>
 <a class="product-card-cta" href="https://www.amazon.com/dp/B0GZ7F93XM?ref=t_ac_view_request_product_image&amp;campaignId=amzn1.campaign.I9OHHSB9H5MR&amp;linkCode=tr1&amp;tag=pawandsage21-20&amp;linkId=amzn1.campaign.I9OHHSB9H5MR_1782828563987" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>
@@ -81,7 +81,7 @@ Noise and cleaning are the two reasons fountains end up unplugged in a closet, s
 
 **Easy to clean:** count the parts. Fewer parts, a wide opening you can reach with a brush, and a basin that comes apart without tools all mean you will actually clean it. Stainless steel and ceramic drinking surfaces are easier to keep smooth and clean than plastic that scratches over time. Check how often filters need replacing and what they cost, because that is the real running cost.
 
-| | PETALPAW Wireless | Pokpet 10L Cordless |
+| | [PETALPAW Wireless](https://www.amazon.com/dp/B0GZ7F93XM?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.I9OHHSB9H5MR&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.I9OHHSB9H5MR_1782828563987) | [Pokpet 10L Cordless](https://www.amazon.com/dp/B0GZK62Q31?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.28ARQ0VAF4FYU&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.28ARQ0VAF4FYU_1782828401574) |
 |---|---|---|
 | **Power** | Cordless | Cordless |
 | **Drinking surface** | Stainless steel | Stainless steel basin |

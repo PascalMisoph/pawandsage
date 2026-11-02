@@ -6,7 +6,13 @@
 //       data-umami-event="affiliate-click"
 //       data-umami-event-merchant  (amazon / impact / awin / skimlinks / ...)
 //       data-umami-event-article   (article slug)
-//       data-umami-event-position  (inline-N or productcard-N)
+//       data-umami-event-position  (placement + counter, see below)
+//         inline-N       link in body text
+//         heading-N      product name linked inside an h2-h4 heading
+//         table-N        product name linked inside a table cell
+//         title-N        product-card title link (raw .md product cards)
+//         image-N        product-card image link (raw .md product cards)
+//         productcard-N  card CTA button / whole affiliate-card block
 //       data-umami-event-product   (link text / product name, when available)
 // MDX <ProductCard> components get `position` and `article` props injected so
 // their CTA buttons are tracked the same way. Hrefs and link text never change.
@@ -70,8 +76,13 @@ function slugFromFile(file) {
   return match ? match[1] : 'unknown';
 }
 
-function trackingAttrs(state, { merchant, isCard, product }) {
-  const position = isCard ? `productcard-${++state.cards}` : `inline-${++state.inline}`;
+function nextPosition(state, kind) {
+  state.counts[kind] = (state.counts[kind] ?? 0) + 1;
+  return `${kind}-${state.counts[kind]}`;
+}
+
+function trackingAttrs(state, { merchant, isCard, product, kind }) {
+  const position = nextPosition(state, isCard ? 'productcard' : kind ?? 'inline');
   const attrs = {
     'data-umami-event': 'affiliate-click',
     'data-umami-event-merchant': merchant,
@@ -101,12 +112,17 @@ function patchRawHtml(value, state) {
 
     if (!/data-umami-event\s*=/i.test(out)) {
       const isCard = /product-card-cta|affiliate-card/.test(out);
+      const kind = /product-card-title-link/.test(out)
+        ? 'title'
+        : /product-card-image-link/.test(out)
+          ? 'image'
+          : 'inline';
       let product = null;
       const aria = out.match(/aria-label\s*=\s*"View (.+?) on Amazon"/i);
       if (aria) product = aria[1];
       if (!product) {
         const before = value.slice(0, offset);
-        const names = [...before.matchAll(/class="product-card-name"[^>]*>([^<]+)</g)];
+        const names = [...before.matchAll(/class="product-card-name"[^>]*>\s*(?:<a\b[^>]*>\s*)?([^<]+)</g)];
         if (names.length) product = names[names.length - 1][1];
       }
       if (!product && !isCard) {
@@ -114,7 +130,7 @@ function patchRawHtml(value, state) {
         const text = after.match(/^([^<]{1,120})<\/a>/);
         if (text) product = text[1];
       }
-      const attrs = trackingAttrs(state, { merchant, isCard, product });
+      const attrs = trackingAttrs(state, { merchant, isCard, product, kind });
       const attrString = Object.entries(attrs)
         .map(([key, val]) => ` ${key}="${escapeAttr(val)}"`)
         .join('');
@@ -124,7 +140,9 @@ function patchRawHtml(value, state) {
   });
 }
 
-function visit(node, state) {
+const HEADINGS = new Set(['h1', 'h2', 'h3', 'h4', 'h5', 'h6']);
+
+function visit(node, state, context = 'inline') {
   if (node.type === 'raw' && typeof node.value === 'string' && /<a\b/i.test(node.value)) {
     node.value = patchRawHtml(node.value, state);
   }
@@ -142,7 +160,7 @@ function visit(node, state) {
       node.properties.target = '_blank';
       const classes = [].concat(node.properties.className ?? []);
       const isCard = classes.includes('product-card-cta') || classes.includes('affiliate-card');
-      const attrs = trackingAttrs(state, { merchant, isCard, product: textOf(node) || null });
+      const attrs = trackingAttrs(state, { merchant, isCard, product: textOf(node) || null, kind: context });
       for (const [key, val] of Object.entries(attrs)) node.properties[toPropName(key)] = val;
     }
   }
@@ -155,18 +173,21 @@ function visit(node, state) {
     node.attributes = node.attributes ?? [];
     const has = (name) => node.attributes.some((attr) => attr.name === name);
     if (!has('position')) {
-      node.attributes.push({ type: 'mdxJsxAttribute', name: 'position', value: `productcard-${++state.cards}` });
+      node.attributes.push({ type: 'mdxJsxAttribute', name: 'position', value: nextPosition(state, 'productcard') });
     }
     if (!has('article')) {
       node.attributes.push({ type: 'mdxJsxAttribute', name: 'article', value: state.article });
     }
   }
 
-  if (Array.isArray(node.children)) node.children.forEach((child) => visit(child, state));
+  let childContext = context;
+  if (node.type === 'element' && (node.tagName === 'td' || node.tagName === 'th')) childContext = 'table';
+  else if (node.type === 'element' && HEADINGS.has(node.tagName)) childContext = 'heading';
+  if (Array.isArray(node.children)) node.children.forEach((child) => visit(child, state, childContext));
 }
 
 export default function rehypeAffiliateLinks() {
   return (tree, file) => {
-    visit(tree, { article: slugFromFile(file), inline: 0, cards: 0 });
+    visit(tree, { article: slugFromFile(file), counts: {} });
   };
 }

@@ -40,7 +40,7 @@ Hydration is not usually framed as enrichment, but for cats it can be. Moving wa
 
 <aside class="product-card" aria-label="Product pick: PETALPAW Wireless Cat Water Fountain">
 <span class="product-card-label">Top pick</span>
-<p class="product-card-name">PETALPAW Wireless Cat Water Fountain</p>
+<p class="product-card-name"><a class="product-card-title-link" href="https://www.amazon.com/dp/B0GZ7F93XM?ref=t_ac_view_request_product_image&amp;campaignId=amzn1.campaign.I9OHHSB9H5MR&amp;linkCode=tr1&amp;tag=pawandsage21-20&amp;linkId=amzn1.campaign.I9OHHSB9H5MR_1782828563987" target="_blank" rel="sponsored nofollow noopener">PETALPAW Wireless Cat Water Fountain</a></p>
 <p class="product-card-why">A cordless stainless fountain with a visible water window and flow modes, so fresh moving water goes wherever your cat prefers to drink.</p>
 <p class="product-card-best"><strong>Best for:</strong> Busy owners who want an easy hydration upgrade</p>
 <a class="product-card-cta" href="https://www.amazon.com/dp/B0GZ7F93XM?ref=t_ac_view_request_product_image&amp;campaignId=amzn1.campaign.I9OHHSB9H5MR&amp;linkCode=tr1&amp;tag=pawandsage21-20&amp;linkId=amzn1.campaign.I9OHHSB9H5MR_1782828563987" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>

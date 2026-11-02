@@ -10,6 +10,11 @@
  *
  * Plain .md articles can use the same markup (see global.css .product-card).
  * Prices are never hardcoded: the CTA always says "Check price on Amazon".
+ *
+ * Every named product links directly: the title (and the image, when an
+ * `image` is given) link to the same affiliate URL as the CTA button. Each
+ * placement is tracked with its own Umami position (title-N, image-N,
+ * productcard-N) so we can compare which one gets the clicks.
  */
 export interface Props {
   name: string;
@@ -18,6 +23,9 @@ export interface Props {
   asin?: string;
   href?: string;
   label?: string;
+  /** Optional product image (public path or URL); rendered as a link. */
+  image?: string;
+  imageAlt?: string;
   /** Injected by rehype-affiliate-links in MDX (e.g. productcard-2). */
   position?: string;
   /** Injected by rehype-affiliate-links in MDX (article slug). */
@@ -25,8 +33,10 @@ export interface Props {
 }
 
 const AMAZON_TAG = 'pawandsage21-20';
-const { name, why, bestFor, asin, href, label } = Astro.props;
+const { name, why, bestFor, asin, href, label, image, imageAlt } = Astro.props;
 const position = Astro.props.position ?? 'productcard';
+const titlePosition = position.replace(/^productcard/, 'title');
+const imagePosition = position.replace(/^productcard/, 'image');
 const article =
   Astro.props.article ?? Astro.url.pathname.replace(/^\/blog\//, '').replace(/\/$/, '') ?? 'unknown';
 
@@ -44,7 +54,30 @@ if (!url.includes(`tag=${AMAZON_TAG}`)) {
 
 <aside class="product-card" aria-label={`Product pick: ${name}`}>
   {label && <span class="product-card-label">{label}</span>}
-  <p class="product-card-name">{name}</p>
+  {image && (
+    <a
+      class="product-card-image-link"
+      href={url}
+      target="_blank"
+      rel="sponsored nofollow noopener"
+      data-umami-event="affiliate-click"
+      data-umami-event-merchant={merchant}
+      data-umami-event-article={article}
+      data-umami-event-position={imagePosition}
+      data-umami-event-product={name}
+    ><img class="product-card-image" src={image} alt={imageAlt ?? name} loading="lazy" decoding="async" /></a>
+  )}
+  <p class="product-card-name"><a
+    class="product-card-title-link"
+    href={url}
+    target="_blank"
+    rel="sponsored nofollow noopener"
+    data-umami-event="affiliate-click"
+    data-umami-event-merchant={merchant}
+    data-umami-event-article={article}
+    data-umami-event-position={titlePosition}
+    data-umami-event-product={name}
+  >{name}</a></p>
   <p class="product-card-why">{why}</p>
   {bestFor && (
     <p class="product-card-best"><strong>Best for:</strong> {bestFor}</p>

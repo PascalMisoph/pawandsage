@@ -62,7 +62,7 @@ Look for:
 
 <aside class="product-card" aria-label="Product pick: Picky zoom 2-in-1 Nail Clippers and Grinder">
 <span class="product-card-label">Top pick</span>
-<p class="product-card-name">Picky zoom 2-in-1 Nail Clippers and Grinder</p>
+<p class="product-card-name"><a class="product-card-title-link" href="https://www.amazon.com/dp/B0FS1WBYTN?ref=t_ac_view_request_product_image&amp;campaignId=amzn1.campaign.1R2465HYLV5XN&amp;linkCode=tr1&amp;tag=pawandsage21-20&amp;linkId=amzn1.campaign.1R2465HYLV5XN_1782828288428" target="_blank" rel="sponsored nofollow noopener">Picky zoom 2-in-1 Nail Clippers and Grinder</a></p>
 <p class="product-card-why">Clip the sharp tip, then grind for gradual smoothing, with a safety guard and LED light in one tool.</p>
 <p class="product-card-best"><strong>Best for:</strong> Beginners who want both options without buying two tools</p>
 <a class="product-card-cta" href="https://www.amazon.com/dp/B0FS1WBYTN?ref=t_ac_view_request_product_image&amp;campaignId=amzn1.campaign.1R2465HYLV5XN&amp;linkCode=tr1&amp;tag=pawandsage21-20&amp;linkId=amzn1.campaign.1R2465HYLV5XN_1782828288428" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>
