@@ -163,6 +163,9 @@ Every idea above has a deeper guide. Pick the one that matches what your cat nee
 - [DIY cat enrichment from things you already have](/blog/diy-cat-enrichment)
 - [The toy rotation system](/blog/do-cats-get-bored-of-their-toys)
 
+**Holiday enrichment**
+- [Cat tunnel Christmas tree skirts](/blog/cat-tunnel-christmas-tree-skirt)
+
 **Vertical space and views**
 - [Cat window perches](/blog/cat-window-perch)
 - [Cat wall ideas for bored indoor cats](/blog/best-cat-wall-ideas-bored-indoor-cats)

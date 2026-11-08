@@ -100,6 +100,7 @@ export const clusterConfigs: ClusterConfig[] = [
       'diy-cat-enrichment',
       'mental-stimulation-for-cats',
       'how-to-tire-out-a-cat',
+      'cat-tunnel-christmas-tree-skirt',
       'do-cats-get-bored-of-their-toys',
       'cat-window-perch',
       'cat-wall-shelves-vs-cat-trees',
@@ -139,6 +140,9 @@ export const clusterConfigs: ClusterConfig[] = [
     orderedPosts: [
       'new-kitten-checklist',
       'litter-robot-4-vs-5-vs-evo',
+      'litter-robot-4-vs-petlibro-luma',
+      'litter-robot-alternatives',
+      'best-automatic-litter-box-under-200',
     ],
   },
   {
@@ -170,8 +174,11 @@ export const clusterConfigs: ClusterConfig[] = [
     ],
     orderedPosts: [
       'black-friday-cat-deals',
+      'litter-robot-black-friday-deal',
       'best-gifts-for-cat-lovers',
+      'gifts-for-new-cat-owners',
       'cat-advent-calendar',
+      'cat-tunnel-christmas-tree-skirt',
       'keep-cats-warm-without-heat',
       'keep-cat-cool-hot-weather',
       'heatstroke-in-cats',

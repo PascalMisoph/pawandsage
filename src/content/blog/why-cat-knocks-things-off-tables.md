@@ -109,6 +109,8 @@ The pattern to watch for: if the knocking happens mostly when you are in the roo
 
 Most cats improve within a couple of weeks once play, food puzzles, and a better perch are in place. If the knocking comes with other destructive behavior, [why your bored cat destroys everything](/blog/cat-destroying-everything) covers the bigger picture, and [signs your cat is bored](/blog/signs-cat-is-bored) helps you confirm boredom is the cause. Curious about the intense eye contact before the swipe? That's covered in [why your cat stares at you](/blog/why-cat-stares-at-me).
 
+Decorating for the holidays? A [cat tunnel Christmas tree skirt](/blog/cat-tunnel-christmas-tree-skirt) can redirect some of that batting energy away from ornaments—while you still secure the tree and skip tinsel.
+
 ## The Bottom Line
 
 Your cat isn't a jerk. They're a predator living in a world full of lightweight objects and flat surfaces — basically an irresistible playground.

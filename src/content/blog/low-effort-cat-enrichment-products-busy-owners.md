@@ -83,3 +83,5 @@ Use one passive layer, one food-work layer, and one human-led play window:
 - Human: one short play session before a meal.
 
 That is enough to make most indoor days richer without turning your life into a cat activity calendar.
+
+Want to win back the time you spend scooping, too? Our guide to the [best self-cleaning litter boxes under $200](/blog/best-automatic-litter-box-under-200) covers budget boxes from makers that publish their safety specs.

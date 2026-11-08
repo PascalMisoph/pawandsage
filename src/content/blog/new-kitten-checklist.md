@@ -1,7 +1,7 @@
 ---
-title: "The Complete New Kitten Checklist: Everything You Need in the First Week"
-seoTitle: "New Kitten Checklist: Everything You Need in the First Week"
-description: "A no-fluff list of what to actually buy when you bring home a new kitten, in the order you'll need it."
+title: "New Kitten Checklist 2026: Everything to Buy Before Day One"
+seoTitle: "New Kitten Checklist 2026: Everything to Buy Before Day One"
+description: "New cat checklist for 2026: what to buy before your kitten comes home, in the order you'll need it, from litter setup to carrier and scratcher."
 pubDate: 2026-04-15
 updatedDate: 2026-04-23
 category: "new-cat"
@@ -86,7 +86,9 @@ Once the basics are working and your kitten is eating, drinking, and using the l
 - **A cat bed** (optional — most kittens will sleep wherever they want anyway)
 - **A puzzle feeder** for mental enrichment as they grow — the [Cat Amazing Puzzle Feeder](https://amazon.com/dp/B009R3SFBC?tag=pawandsage21-20) is a good first step once meals and litter habits are stable.
 
-Thinking about a self-cleaning litter box later? Most need each cat to weigh at least 3 lb before automatic mode is safe, so start with a regular box. Our [Litter-Robot 4 vs 5 vs EVO comparison](/blog/litter-robot-4-vs-5-vs-evo) explains the weight limits. And ask your vet about a flea check at the first visit; our guide on [how to get rid of fleas on cats](/blog/get-rid-of-fleas-on-cats) covers safe products.
+Thinking about a self-cleaning litter box later? Most need each cat to weigh at least 3 lb before automatic mode is safe, so start with a regular box. Our [Litter-Robot 4 vs 5 vs EVO comparison](/blog/litter-robot-4-vs-5-vs-evo) explains the weight limits. Our [Litter-Robot 4 vs Petlibro Luma](/blog/litter-robot-4-vs-petlibro-luma) comparison covers open-top vs globe if you are choosing a brand later. And ask your vet about a flea check at the first visit; our guide on [how to get rid of fleas on cats](/blog/get-rid-of-fleas-on-cats) covers safe products.
+
+Shopping for a friend who just adopted? Our [gifts for new cat owners](/blog/gifts-for-new-cat-owners) guide turns this checklist into practical week-one gift ideas.
 
 [See our full enrichment guide →](/categories/enrichment)
 

@@ -91,6 +91,7 @@ In winter the evening energy surge tends to arrive earlier, because it gets dark
 
 - **Stair chase.** If you have stairs, toss a lightweight toy up a few steps at a time. Running uphill and pouncing is hard work, and a few rounds go a long way.
 - **Tunnel sprints.** A play tunnel on a hallway floor turns a short space into a dash-and-ambush course. Drag a wand toy past one end and let your cat explode out of the other.
+ In December, a [donut tunnel under the Christmas tree](/blog/cat-tunnel-christmas-tree-skirt) can double as that sprint track.
 - **The furniture circuit.** Lead the wand toy up onto the sofa, across a chair, down to the floor, and up a cat tree. Climbing and jumping work different muscles than flat sprinting. [Cat wall shelves or a cat tree](/blog/cat-wall-shelves-vs-cat-trees) make this route easier and safer.
 - **Hide-and-seek with food.** Hide a few pieces of kibble around one room and let your cat hunt them out. It is slower, but it tires the brain, which matters just as much.
 
