@@ -124,3 +124,5 @@ For many cats, adding 15 minutes of structured play per day can reduce this beha
 ---
 
 *Struggling to keep track of your cat's play habits? We're building [CatPlay](https://catplay.app) — a simple app that helps you build a daily play routine and actually see the difference it makes in your cat's behavior. Coming soon.*
+
+Ornament-swatting season? See [how to cat-proof a Christmas tree](/blog/cat-proof-christmas-tree).

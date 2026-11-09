@@ -88,3 +88,5 @@ Toy rotation is one of those rare cat-care moves with no downside: it saves mone
 In December, a [cat advent calendar](/blog/cat-advent-calendar) is an easy way to build that rotation into a daily routine. For the toys most worth building your rotation around, see our guide to the [best interactive toys for indoor cats](/blog/best-interactive-cat-toys), and for the bigger picture of keeping an indoor cat engaged, [20 indoor cat enrichment ideas](/blog/indoor-cat-enrichment-ideas).
 
 *Curious which toys your cat actually keeps coming back to? We're building [CatPlay](https://catplay.app), a simple app for tracking your cat's daily play so you can see which toys earn their place in the rotation and which ones to retire.*
+
+Buying a few new toys for the holidays? Our [cat stocking stuffers](/blog/cat-stocking-stuffers) list has safe, small picks.
