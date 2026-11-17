@@ -99,7 +99,7 @@ That alone is usually normal. A cat who sleeps more in winter but still eats, gr
 
 To keep winter from flattening your cat's routine:
 
-- **Keep the daily play sessions** even when it is dark by 5 PM. Evening play after work matters more in winter, not less. Our guide on [how to tire out a hyper cat](/blog/how-to-tire-out-a-cat) has indoor games that work in small spaces.
+- **Keep the daily play sessions** even when it is dark by 5 PM. Evening play after work matters more in winter, not less. Our guide on [how to tire out a hyper cat](/blog/how-to-tire-out-a-cat) has indoor games that work in small spaces. For a longer cold-weather list, see [winter enrichment for indoor cats](/blog/winter-enrichment-indoor-cats).
 - **Move the window perch to the sunniest window** and add a warm blanket. A good [window perch](/blog/cat-window-perch) keeps "cat TV" running even on gray days.
 - **Add one new thing a week:** a rotated toy, a cardboard box, a food puzzle. Small novelty does more than a big shopping trip. See [indoor cat enrichment ideas](/blog/indoor-cat-enrichment-ideas) for easy options.
 

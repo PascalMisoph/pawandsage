@@ -34,7 +34,7 @@ Summer is wonderful for cats, but the season quietly stacks the house and garden
 
 This is the most important one, so it comes first. **Lilies are deadly to cats.** True lilies and daylilies are so toxic that a cat brushing past the pollen and grooming it off, nibbling a single leaf, or even drinking the vase water can suffer fatal kidney failure. Summer bouquets are full of them.
 
-If you have a cat, the safest rule is simply no lilies in the house, ever. If a lily does come in and your cat may have contacted it, treat it as an emergency and call your vet immediately — early treatment is the difference between a scare and a tragedy. Other common cut-flower and houseplant risks include hydrangea, oleander, and sago palm.
+If you have a cat, the safest rule is simply no lilies in the house, ever. If a lily does come in and your cat may have contacted it, treat it as an emergency and call your vet immediately — early treatment is the difference between a scare and a tragedy. Other common cut-flower and houseplant risks include hydrangea, oleander, and sago palm. Holiday bouquets are a common way lilies sneak indoors later in the year; [holiday plants toxic to cats](/blog/holiday-plants-toxic-to-cats) covers poinsettias, holly, mistletoe, amaryllis and tree water as well.
 
 ## In the Garden: Plants and Chemicals
 

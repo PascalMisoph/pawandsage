@@ -71,7 +71,7 @@ A lonely cat may greet you with overwhelming intensity, follow you room to room,
 
 Stress usually has a *trigger* you can trace: a move, a new pet or baby, a change in routine, building work, or a new cat visible outside.
 
-Stressed cats tend to hide, overgroom (sometimes to bald patches), become twitchy, or develop litter box issues. Unlike boredom, more toys alone will not fix it. These cats need predictability and a sense of safety.
+Stressed cats tend to hide, overgroom (sometimes to bald patches), become twitchy, or develop litter box issues. Unlike boredom, more toys alone will not fix it. These cats need predictability and a sense of safety. After a vet check, a calming diffuser can be an extra layer; [Feliway vs Comfort Zone](/blog/feliway-vs-comfort-zone) maps Classic, Optimum and MultiCat against Comfort Zone Multicat.
 
 **What helps:** Reduce the trigger where you can, keep routines steady, and consider pheromone support. A [Feliway Classic Diffuser](https://amazon.com/dp/B01AVIIFRA?tag=pawandsage21-20) releases a calming signal that helps some cats feel more secure during a stressful stretch.
 

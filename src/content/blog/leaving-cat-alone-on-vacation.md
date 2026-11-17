@@ -50,7 +50,7 @@ The things that actually go wrong on a trip — illness, injury, a knocked-over 
 
 The best approach pairs reliable equipment with a daily visitor.
 
-**Automate the food.** A programmable feeder keeps meals on schedule so your cat is not gorging or starving around a sitter's timing. A [PetSafe Healthy Pet Simply Feed](https://amazon.com/dp/B00VIXRB6O?tag=pawandsage21-20) dispenses portioned meals at set times and holds enough for a long weekend, which also keeps routine-driven cats calmer.
+**Automate the food.** A programmable feeder keeps meals on schedule so your cat is not gorging or starving around a sitter's timing. A [PetSafe Healthy Pet Simply Feed](https://amazon.com/dp/B00VIXRB6O?tag=pawandsage21-20) dispenses portioned meals at set times and holds enough for a long weekend, which also keeps routine-driven cats calmer. Compare that button-programmed model with an app-connected hopper in [PETLIBRO vs PetSafe automatic feeders](/blog/petlibro-vs-petsafe-automatic-feeder).
 
 **Secure the water.** Put out more than one water source so a single failure is not a crisis. A [fountain](https://amazon.com/dp/B0146QXOB0?tag=pawandsage21-20) keeps water fresh and appealing — important in summer when intake matters more — and a backup bowl or two covers you if it stops. Our [hydration guide](/blog/get-cat-to-drink-more-water) has more on keeping a cat drinking.
 
@@ -60,7 +60,7 @@ For a short trip or a multi-pet home, capacity and placement matter as much as t
 
 If your cat is alone for more than a day, ask the sitter to check the water station at every visit: confirm the water level, rinse anything slimy, verify the fountain is still running, and refresh the backup bowls. The safest travel setup is not "one big gadget." It is a main water station plus redundancy plus human eyes.
 
-**Add eyes on the home.** A [pet camera](https://amazon.com/dp/B0C4XXBY44?tag=pawandsage21-20), some with treat-dispensing, lets you check in, confirm your cat is eating and moving normally, and even say hello. It will not replace a sitter, but it turns "I hope they're okay" into "I can see they're okay."
+**Add eyes on the home.** A [pet camera](https://amazon.com/dp/B0C4XXBY44?tag=pawandsage21-20), some with treat-dispensing, lets you check in, confirm your cat is eating and moving normally, and even say hello. It will not replace a sitter, but it turns "I hope they're okay" into "I can see they're okay." [Furbo vs Petcube](/blog/furbo-vs-petcube) compares a 360° treat-toss camera with a small fixed cam, including which features need a subscription.
 
 **Arrange a real human.** For anything past two days, book a trusted sitter or ask a reliable friend to visit daily — to scoop litter, refresh water, top up food, and simply lay eyes on your cat. Leave your vet's details and an emergency contact.
 

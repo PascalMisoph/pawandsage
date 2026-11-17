@@ -76,7 +76,7 @@ Training is some of the densest mental work you can offer, because the cat has t
 
 Novelty is mental stimulation. A toy that has sat out for two weeks is, to your cat, part of the floor. Keep three or four toys in play and box the rest, then swap weekly. The same toy comes back genuinely new.
 
-**Stimulation is not about owning more. It is about showing less at a time.** For the full version of this idea, see our guide to [indoor cat enrichment ideas](/blog/indoor-cat-enrichment-ideas).
+**Stimulation is not about owning more. It is about showing less at a time.** For the full version of this idea, see our guide to [indoor cat enrichment ideas](/blog/indoor-cat-enrichment-ideas). [Silvervine vs catnip](/blog/silvervine-vs-catnip) is the scent-specific next read if toys are not landing.
 
 ## 7. Set Up "Cat TV"
 

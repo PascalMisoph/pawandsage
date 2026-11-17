@@ -128,7 +128,7 @@ The morning play session matters even more for kittens. A kitten who has chased,
 
 ## Winter Workdays: When You Leave and Come Home in the Dark
 
-Short winter days change the rhythm. Many owners leave before sunrise and get home after dark, so the window view has fewer hours of daylight to work with and the evening energy burst starts as soon as you walk in.
+Short winter days change the rhythm. Many owners leave before sunrise and get home after dark, so the window view has fewer hours of daylight to work with and the evening energy burst starts as soon as you walk in. Our [winter enrichment for indoor cats](/blog/winter-enrichment-indoor-cats) list has 15 cold-weather ideas, from short wand sessions to warm window perches and puzzle breakfasts.
 
 A few adjustments help:
 

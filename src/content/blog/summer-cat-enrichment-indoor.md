@@ -79,6 +79,6 @@ Novelty is mental stimulation. Keep three or four toys in play and box the rest,
 
 None of this means dropping physical play. Cats still need it; you just move it to the cool edges of the day. Do your wand sessions in the early morning and the evening, let your cat actually catch the toy at the end, and keep the hot midday hours for the brain games above.
 
-A well-enriched summer cat usually has one foraging meal a day, a scent or lick task for the hot hours, a shaded window channel running, and a short active session when it cools. That mix beats boredom without ever putting your cat at risk of overheating. For the wider picture, see [how to keep your cat cool in hot weather](/blog/keep-cat-cool-hot-weather).
+A well-enriched summer cat usually has one foraging meal a day, a scent or lick task for the hot hours, a shaded window channel running, and a short active session when it cools. That mix beats boredom without ever putting your cat at risk of overheating. When the weather turns, switch to the cold-weather version in [winter enrichment for indoor cats](/blog/winter-enrichment-indoor-cats). For the wider picture, see [how to keep your cat cool in hot weather](/blog/keep-cat-cool-hot-weather).
 
 *We're building [CatPlay](https://catplay.app), a simple app for tracking your cat's daily play and activity, so you can see which enrichment actually changes their mood.*

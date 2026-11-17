@@ -58,7 +58,7 @@ Food puzzles are widely used as feline enrichment because they support natural f
 
 **A better meal is not just slower. It gives the brain something to do.**
 
-If your cat also shows boredom patterns like [biting during petting](/blog/why-cat-bites-when-petted) or [knocking objects off surfaces](/blog/why-cat-knocks-things-off-tables), feeding enrichment is a useful place to start.
+If your cat also shows boredom patterns like [biting during petting](/blog/why-cat-bites-when-petted) or [knocking objects off surfaces](/blog/why-cat-knocks-things-off-tables), feeding enrichment is a useful place to start. A timed hopper is a different tool: it schedules meals, it does not make the cat work. See [PETLIBRO vs PetSafe automatic feeders](/blog/petlibro-vs-petsafe-automatic-feeder) if you need that kind of machine.
 
 ## What to Look For
 

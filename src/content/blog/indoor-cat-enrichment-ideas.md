@@ -81,7 +81,7 @@ If your cat likes to paw upward or chase small movements, a doorway treat toy ca
 
 ### 9. A window perch
 
-If you don't have furniture by a window, a suction-cup window perch is around $25 and gives your cat front-row seats to the outdoor show.
+If you don't have furniture by a window, a suction-cup window perch is around $25 and gives your cat front-row seats to the outdoor show. In the colder months, pair that perch with the ideas in [winter enrichment for indoor cats](/blog/winter-enrichment-indoor-cats).
 
 ### 10. Catnip toys (rotated)
 

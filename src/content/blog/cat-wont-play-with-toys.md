@@ -67,7 +67,7 @@ If your cat is alone during the day, building play into a morning and evening ro
 
 Roughly one in three cats does not respond to catnip at all. It is genetic, not a defect. If you have been relying on catnip toys to spark interest, that may be the whole problem.
 
-The good news: many catnip-immune cats respond strongly to **silvervine**, a different plant with a similar but broader effect.
+The good news: many catnip-immune cats respond strongly to **silvervine**, a different plant with a similar but broader effect. The response rates and a buying guide are in [silvervine vs catnip](/blog/silvervine-vs-catnip).
 
 **What helps:** A blend like [From The Field Ultimate Blend catnip and silvervine](https://amazon.com/dp/B01G3IBQIC?tag=pawandsage21-20) covers both, and the silvervine often reaches the cats that shrug at catnip.
 

@@ -28,7 +28,7 @@ faq:
 draft: false
 ---
 
-Summer boredom looks different from winter boredom.
+Summer boredom looks different from winter boredom. For a cold-weather plan, see [winter enrichment for indoor cats](/blog/winter-enrichment-indoor-cats).
 
 In winter, an indoor cat may need more movement. In summer, the problem is often that hard movement is less comfortable, windows are managed differently, owners travel, and the day gets flatter. A cat still needs hunting, watching, scratching, and problem-solving. The outlets just need to change.
 
