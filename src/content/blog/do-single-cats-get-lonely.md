@@ -92,6 +92,6 @@ But go in clear-eyed. A mismatched pairing, wrong ages, wrong temperaments, a ru
 
 Most single cats are not lonely for another cat. They are under-engaged, and that is something you can fix without adopting anyone. Reliable daily play, self-play outlets, food puzzles, a window to watch, and a way to check in during the day will transform how a one-cat home feels, for both of you.
 
-Build that foundation first. If your cat is still clearly struggling after it is in place, then a companion becomes a thoughtful next step rather than a guess. For the full set of quick wins to start with, see [20 indoor cat enrichment ideas](/blog/indoor-cat-enrichment-ideas).
+Build that foundation first. If your cat is still clearly struggling after it is in place, then a companion becomes a thoughtful next step rather than a guess. For the full set of quick wins to start with, see [20 indoor cat enrichment ideas](/blog/indoor-cat-enrichment-ideas). If you are leaving a single cat for a Friday-to-Sunday trip, [can you leave a cat alone for a weekend](/blog/can-i-leave-my-cat-alone-for-a-weekend) covers the daily check-in and the setup at home.
 
 *Want to know whether your only cat is genuinely thriving or just coping? We're building [CatPlay](https://catplay.app), a simple app for tracking your cat's daily play and behavior so you can see what is actually keeping them engaged.*

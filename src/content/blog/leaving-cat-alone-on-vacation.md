@@ -79,4 +79,6 @@ Cats bond to territory far more than to places, which is why most are calmer at 
 
 Set up properly, a week away does not have to mean a stressed or at-risk cat. Automate what you can, enlist a human for the rest, and heat-proof the home — then actually enjoy your trip.
 
+Planning only a Friday-to-Sunday trip? Use our shorter guide, [can you leave a cat alone for a weekend](/blog/can-i-leave-my-cat-alone-for-a-weekend), which is built around a daily check-in and a feeder-and-fountain setup.
+
 *We're building [CatPlay](https://catplay.app), a simple app for tracking your cat's daily eating, drinking, and activity — so a sitter (or you, remotely) can tell at a glance whether everything's normal.*

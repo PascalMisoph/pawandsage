@@ -74,3 +74,5 @@ Whatever you choose:
 - Give cats an easy way down.
 
 Vertical space works because it gives a cat control. Build it like a route, not a decoration.
+
+If you are buying a tree around Black Friday or Cyber Monday, [cat tree Black Friday deals](/blog/cat-tree-black-friday-deals) covers what to measure and which mid-height trees and shelves to watch.

@@ -74,4 +74,4 @@ This is the fastest way to catch a problem without micromanaging.
 
 Do not ask a sitter to force nail trims, baths, medication they are not comfortable giving, or play sessions that make your cat frantic in a hot room. The sitter's job is care, observation, and stability.
 
-For the broader travel plan, read [leaving your cat alone on vacation](/blog/leaving-cat-alone-on-vacation). This checklist is the summer-specific handoff that makes the visit useful.
+For the broader travel plan, read [leaving your cat alone on vacation](/blog/leaving-cat-alone-on-vacation). This checklist is the summer-specific handoff that makes the visit useful. If you only need a weekend handoff, start with [can you leave a cat alone for a weekend](/blog/can-i-leave-my-cat-alone-for-a-weekend).

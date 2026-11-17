@@ -69,6 +69,6 @@ Before you start leaving windows open for the season:
 - **Set perches back** from open windows so a lunge does not end at the edge.
 - **Supervise** until you are sure the setup holds.
 
-Window safety pairs naturally with the question of outdoor access — if your cat is desperate to get outside, there are safe ways to allow it, covered in [letting your cat outside safely](/blog/let-cat-outside-safely). And for the rest of the season's care, see [how to keep your cat cool in hot weather](/blog/keep-cat-cool-hot-weather).
+Window safety pairs naturally with the question of outdoor access — if your cat is desperate to get outside, there are safe ways to allow it, covered in [letting your cat outside safely](/blog/let-cat-outside-safely). And for the rest of the season's care, see [how to keep your cat cool in hot weather](/blog/keep-cat-cool-hot-weather). If you are adding a winter sill perch, [heated window perches](/blog/heated-cat-window-perch) covers cords, mounts and keeping the window closed.
 
 *We're building [CatPlay](https://catplay.app), a simple app for tracking your cat's daily routine and habits, so you always know what your indoor cat is up to.*

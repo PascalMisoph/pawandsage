@@ -109,6 +109,6 @@ Environment-driven low mood usually lifts as the days fill with routine, stimula
 
 If your cat does not improve, or gets worse, go back to the vet, and ask specifically about behavioral causes and whether a referral to a veterinary behaviorist is warranted. Persistent withdrawal that does not respond to enrichment deserves professional eyes.
 
-The encouraging reality is that most indoor cats labeled "depressed" are responding to a fixable environment, not a permanent state. Give a flat cat reasons to watch, hunt, and feel secure again, on a routine they can count on, and most of them come back. For help confirming boredom is in the mix, start with [signs your cat is bored](/blog/signs-cat-is-bored).
+The encouraging reality is that most indoor cats labeled "depressed" are responding to a fixable environment, not a permanent state. Give a flat cat reasons to watch, hunt, and feel secure again, on a routine they can count on, and most of them come back. For help confirming boredom is in the mix, start with [signs your cat is bored](/blog/signs-cat-is-bored). In winter, a stiff or older cat may also need a warmer rest spot; see [best heated cat beds for senior and arthritic cats](/blog/best-heated-cat-beds-senior-cats).
 
 *Trying to tell whether your cat is genuinely improving week to week? We're building [CatPlay](https://catplay.app), a simple app for tracking your cat's daily play, appetite, and behavior so you can see the trend instead of guessing.*
