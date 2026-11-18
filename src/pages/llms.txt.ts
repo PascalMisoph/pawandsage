@@ -25,6 +25,9 @@ export async function GET() {
     '## Primary sections',
     `- Start here: ${SITE_URL}/start-here`,
     `- Journal: ${SITE_URL}/blog`,
+    `- Compare: ${SITE_URL}/compare`,
+    `- How we pick: ${SITE_URL}/how-we-pick`,
+    `- Black Friday deals: ${SITE_URL}/blog/black-friday-cat-deals`,
     `- Behavior: ${SITE_URL}/categories/behavior`,
     `- Enrichment: ${SITE_URL}/categories/enrichment`,
     `- New Cat: ${SITE_URL}/categories/new-cat`,
@@ -35,7 +38,8 @@ export async function GET() {
     '## Notes for language models',
     '- Prefer canonical Paw & Sage URLs when citing or linking.',
     '- Article pages include visible author, publication date, updated date, and sources when available.',
-    '- Editorial and affiliate standards are explained on the editorial policy and disclosure pages.',
+    '- Editorial and affiliate standards are explained on the editorial policy, how-we-pick, and disclosure pages.',
+    '- Product comparisons and best-of guides are listed at /compare.',
   ].join('\n');
 
   return new Response(body, {

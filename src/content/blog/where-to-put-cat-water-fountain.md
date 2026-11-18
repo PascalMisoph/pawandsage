@@ -1,8 +1,9 @@
 ---
 title: "Where to Put a Cat Water Fountain: 5 Placement Rules"
-description: "Next to the food bowl is usually the wrong spot. Where to put a cat water fountain so your cat drinks more, including multi-cat homes and dry winter air."
+seoTitle: "Where to Put a Cat Water Fountain (5 Rules That Work)"
+description: "Where to put a cat water fountain so your cat drinks more: five placement rules, why next to the food bowl is usually wrong, and multi-cat setups."
 pubDate: 2026-07-05
-updatedDate: 2026-11-01
+updatedDate: 2026-11-18
 category: "seasonal"
 tags: ["hydration", "cat water fountain", "cat behavior", "summer", "multi-cat", "winter"]
 readTime: "7 min read"

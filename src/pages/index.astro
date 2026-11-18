@@ -9,7 +9,7 @@ import { PERSON, SITE_URL } from '../lib/site';
 import { buildFAQPageSchema, buildPageSchema } from '../lib/schema';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
-const featuredSlugs = ['black-friday-cat-deals', 'best-gifts-for-cat-lovers'];
+const featuredSlugs = ['black-friday-cat-deals', 'litter-robot-black-friday-deal', 'best-automatic-litter-box-multiple-cats', 'litter-robot-alternatives'];
 const featuredPosts = featuredSlugs
   .map((slug) => allPosts.find((post) => post.id === slug))
   .filter((post): post is (typeof allPosts)[number] => Boolean(post));
@@ -42,7 +42,7 @@ const homeFaq = [
       'Start with the journal if you want the latest articles, or go straight to Start Here if you want the best first reads for behavior, enrichment, and new cat care.',
   },
 ];
-const updatedDate = '2026-04-24';
+const updatedDate = '2026-11-18';
 const heroEntry = responsiveImageManifest['/home-header-premium-wide.png'];
 const heroJpegVariants = heroEntry.variants.jpeg;
 const heroPreloadSrcset = heroJpegVariants.map((variant) => `${variant.src} ${variant.width}w`).join(', ');
@@ -54,7 +54,7 @@ const schema = [
     path: '/',
     image: '/home-header-premium-wide.png',
     about: 'Cat behavior, indoor enrichment, and new cat care',
-    significantLinks: ['/blog', '/start-here', '/categories/behavior', '/categories/enrichment', '/categories/new-cat', '/indoor-cat-enrichment-checklist'],
+    significantLinks: ['/blog', '/compare', '/blog/black-friday-cat-deals', '/start-here', '/how-we-pick', '/categories/behavior', '/categories/enrichment', '/categories/new-cat', '/indoor-cat-enrichment-checklist'],
   }),
   buildFAQPageSchema(homeFaq),
   {
@@ -130,8 +130,8 @@ const schema = [
     <section class="recent-posts featured-guides">
       <div class="container">
         <div class="section-header">
-          <span class="eyebrow">Holiday 2026 buying guides</span>
-          <h2>Gifts and deals worth your money.</h2>
+          <span class="eyebrow">Black Friday 2026</span>
+          <h2>Deals and litter-box guides worth your money.</h2>
         </div>
         <div class="posts-grid">
           {featuredPosts.map((post) => (
@@ -147,6 +147,7 @@ const schema = [
             />
           ))}
         </div>
+        <p class="section-more">Also: <a href="/compare">all product comparisons</a> and the <a href="/blog/best-gifts-for-cat-lovers">2026 gift guide</a>.</p>
       </div>
     </section>
   )}
@@ -209,7 +210,7 @@ const schema = [
           Paw & Sage is written and edited by <a href="/about">Pascal Misoph</a> and built around published feline welfare guidance, veterinary behavior resources, and practical home routines that are actually usable.
         </p>
         <p class="trust-meta">
-          Updated {updatedDate} · Read the <a href="/editorial-policy">editorial policy</a>
+          Updated {updatedDate} · Read the <a href="/editorial-policy">editorial policy</a> and <a href="/how-we-pick">how we pick products</a>
         </p>
       </div>
       <div class="trust-sources">

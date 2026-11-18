@@ -1,0 +1,259 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { buildCollectionPageSchema } from '../lib/schema';
+
+const allPosts = (await getCollection('blog', ({ data }) => !data.draft));
+
+const isComparison = (id: string) =>
+  /(?:^|-)vs(?:-|$)/.test(id) ||
+  id.includes('alternatives') ||
+  id.startsWith('best-') ||
+  id.includes('black-friday');
+
+const comparisonPosts = allPosts.filter((post) => isComparison(post.id));
+
+const groups: { title: string; blurb: string; slugs: string[] }[] = [
+  {
+    title: 'Automatic litter boxes',
+    blurb: 'Litter-Robot comparisons, open-top alternatives, and budget self-cleaning boxes.',
+    slugs: [
+      'litter-robot-4-vs-5-vs-evo',
+      'litter-robot-4-vs-petlibro-luma',
+      'litter-robot-vs-neakasa-m1',
+      'petkit-pura-max-2-vs-litter-robot-4',
+      'litter-robot-alternatives',
+      'best-automatic-litter-box-multiple-cats',
+      'best-automatic-litter-box-under-200',
+      'litter-robot-black-friday-deal',
+    ],
+  },
+  {
+    title: 'Cat litter',
+    blurb: 'Clay, tofu, and crystal litter: what to buy for a regular box or a Litter-Robot.',
+    slugs: [
+      'best-litter-for-litter-robot',
+      'tofu-vs-clay-cat-litter',
+      'pretty-litter-vs-tidy-cats',
+    ],
+  },
+  {
+    title: 'Water fountains',
+    blurb: 'Bowl versus fountain, brand matchups, and quiet multi-cat picks.',
+    slugs: [
+      'catit-vs-petsafe-fountain',
+      'cat-water-bowl-vs-fountain-summer',
+      'best-cat-water-fountains-cats-not-drinking-enough',
+    ],
+  },
+  {
+    title: 'Feeders, cameras and calming',
+    blurb: 'Automatic feeders, pet cameras, and plug-in diffusers for a calmer house.',
+    slugs: [
+      'petlibro-vs-petsafe-automatic-feeder',
+      'furbo-vs-petcube',
+      'feliway-vs-comfort-zone',
+    ],
+  },
+  {
+    title: 'Beds, trees and enrichment gear',
+    blurb: 'Heated versus self-warming beds, wall shelves versus trees, toys and treats.',
+    slugs: [
+      'self-warming-vs-heated-cat-bed',
+      'best-heated-cat-beds-senior-cats',
+      'heated-cat-window-perch',
+      'cat-wall-shelves-vs-cat-trees',
+      'best-cat-wall-ideas-bored-indoor-cats',
+      'best-interactive-cat-toys',
+      'best-puzzle-feeders-cats',
+      'best-treat-dispenser-toys-indoor-cats',
+      'silvervine-vs-catnip',
+      'churu-vs-delectables',
+      'cat-nail-clippers-vs-grinder',
+      'best-cooling-products-for-cats',
+    ],
+  },
+  {
+    title: 'Holiday gifts and deals',
+    blurb: 'Black Friday shopping plans and gift guides, including the main deals hub.',
+    slugs: [
+      'black-friday-cat-deals',
+      'cat-tree-black-friday-deals',
+      'best-gifts-for-cat-lovers',
+      'gifts-for-new-cat-owners',
+      'cat-stocking-stuffers',
+      'cat-advent-calendar',
+    ],
+  },
+];
+
+const postById = new Map(comparisonPosts.map((post) => [post.id, post]));
+const groupedIds = new Set(groups.flatMap((group) => group.slugs));
+const leftovers = comparisonPosts
+  .filter((post) => !groupedIds.has(post.id))
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+const grouped = groups
+  .map((group) => ({
+    ...group,
+    posts: group.slugs
+      .map((slug) => postById.get(slug))
+      .filter((post): post is (typeof comparisonPosts)[number] => Boolean(post)),
+  }))
+  .filter((group) => group.posts.length > 0);
+
+if (leftovers.length > 0) {
+  grouped.push({
+    title: 'More comparisons',
+    blurb: 'Other side-by-side and best-of guides on Paw & Sage.',
+    slugs: leftovers.map((post) => post.id),
+    posts: leftovers,
+  });
+}
+
+const listedPosts = grouped.flatMap((group) => group.posts);
+const uniqueListed = [...new Map(listedPosts.map((post) => [post.id, post])).values()];
+
+const bestFor: Record<string, string> = {
+  'litter-robot-4-vs-5-vs-evo': 'Choosing among Whisker globe models by cat count, weight and camera features',
+  'litter-robot-4-vs-petlibro-luma': 'Enclosed Litter-Robot 4 versus an open-top Petlibro box',
+  'litter-robot-vs-neakasa-m1': 'Litter-Robot 4 versus the open-top Neakasa M1 Plus',
+  'petkit-pura-max-2-vs-litter-robot-4': 'Wanting clay or tofu flexibility in a mid-price smart box',
+  'litter-robot-alternatives': 'Cheaper, open-top or large-cat self-cleaning options',
+  'best-automatic-litter-box-multiple-cats': 'Two or more cats sharing one automatic box',
+  'best-automatic-litter-box-under-200': 'Trying self-cleaning without a $600–$800 outlay',
+  'litter-robot-black-friday-deal': 'Judging a real Litter-Robot discount this November',
+  'best-litter-for-litter-robot': 'Litter that Whisker says will sift in a Litter-Robot',
+  'tofu-vs-clay-cat-litter': 'Choosing a litter type for a regular box',
+  'pretty-litter-vs-tidy-cats': 'Health-monitoring crystals versus scoopable clumping clay',
+  'catit-vs-petsafe-fountain': 'The two classic starter fountains, plus a stainless third option',
+  'cat-water-bowl-vs-fountain-summer': 'Deciding whether a fountain is worth adding at all',
+  'best-cat-water-fountains-cats-not-drinking-enough': 'Quiet, easy-clean or high-capacity fountain picks',
+  'black-friday-cat-deals': 'The main 2026 Black Friday shopping plan for cat gear',
+  'cat-tree-black-friday-deals': 'Checking height, stability and sisal before a tree discount',
+  'feliway-vs-comfort-zone': 'Choosing a calming diffuser formula',
+  'silvervine-vs-catnip': 'Which plant attractant to try first',
+  'churu-vs-delectables': 'Lickable treat tubes, calories and ingredients',
+  'furbo-vs-petcube': 'A camera if you need to check in from work',
+  'petlibro-vs-petsafe-automatic-feeder': 'Scheduled meals when you are out',
+  'self-warming-vs-heated-cat-bed': 'A warm bed with or without a plug',
+};
+
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Compare', path: '/compare' },
+];
+
+const schema = buildCollectionPageSchema({
+  name: 'Cat Product Comparisons',
+  description: 'Side-by-side cat product comparisons and buying guides: litter boxes, litter, fountains, feeders, beds and Black Friday deals.',
+  path: '/compare',
+  about: 'Cat product comparisons and buying guides',
+  significantLinks: [
+    '/blog/black-friday-cat-deals',
+    '/blog/litter-robot-alternatives',
+    '/how-we-pick',
+    '/editorial-policy',
+  ],
+  hasPart: uniqueListed.map((post) => ({ path: `/blog/${post.id}`, name: post.data.title })),
+});
+---
+
+<BaseLayout
+  title="Compare Cat Products: Litter Boxes, Litter, Fountains"
+  description="Compare cat litter boxes, litter, fountains, feeders and holiday deals in one place, with a clear verdict on each guide and links to how we pick."
+  breadcrumbs={breadcrumbs}
+  schema={schema}
+>
+  <section class="page-header">
+    <div class="container-narrow">
+      <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: 'Compare' }]} />
+      <span class="eyebrow">Comparisons</span>
+      <h1>Compare cat products.</h1>
+      <p class="lede">
+        Every vs, alternatives and best-of guide on Paw & Sage, grouped so you can decide what to buy. These pages are research-based. We do not claim hands-on tests we did not do. Read <a href="/how-we-pick">how we pick</a> and our <a href="/editorial-policy">editorial policy</a>.
+      </p>
+    </div>
+  </section>
+
+  {grouped.map((group) => (
+    <section class="compare-section">
+      <div class="container-narrow">
+        <h2>{group.title}</h2>
+        <p class="group-blurb">{group.blurb}</p>
+        <ul class="compare-list">
+          {group.posts.map((post) => (
+            <li>
+              <a href={`/blog/${post.id}`}>
+                <span class="compare-title">{post.data.title}</span>
+                <span class="compare-best">{bestFor[post.id] ?? post.data.description}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  ))}
+
+  <section class="compare-foot">
+    <div class="container-narrow">
+      <p>
+        Shopping this month? Start with the <a href="/blog/black-friday-cat-deals">Black Friday cat deals</a> hub, then use the litter-box guides above before you click a discount. New here? <a href="/start-here">Start here</a>.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header { padding: 5rem 0 2rem; text-align: center; }
+  .page-header .eyebrow { display: block; margin-bottom: 1rem; }
+  .lede {
+    font-family: 'Fraunces Variable', 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.15rem;
+    color: var(--ink-soft);
+    max-width: 640px;
+    margin: 1.25rem auto 0;
+    line-height: 1.55;
+  }
+  .compare-section { padding: 0.5rem 0 2.25rem; }
+  .compare-section h2 { margin-bottom: 0.35rem; }
+  .group-blurb {
+    color: var(--ink-soft);
+    margin-bottom: 1.25rem;
+  }
+  .compare-list { list-style: none; }
+  .compare-list li + li { margin-top: 0.75rem; }
+  .compare-list a {
+    display: block;
+    text-decoration: none;
+    background: var(--cream-200);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 1.1rem 1.25rem;
+    color: inherit;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .compare-list a:hover {
+    border-color: var(--sage-700);
+    box-shadow: 0 8px 24px rgba(42, 39, 36, 0.06);
+  }
+  .compare-title {
+    display: block;
+    font-weight: 600;
+    color: var(--sage-900);
+    margin-bottom: 0.35rem;
+  }
+  .compare-best {
+    display: block;
+    font-size: 0.95rem;
+    color: var(--ink-soft);
+    line-height: 1.45;
+  }
+  .compare-foot {
+    padding: 0.5rem 0 5rem;
+    color: var(--ink-soft);
+  }
+</style>

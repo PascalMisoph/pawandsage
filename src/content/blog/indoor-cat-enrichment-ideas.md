@@ -185,4 +185,4 @@ Every idea above has a deeper guide. Pick the one that matches what your cat nee
 
 The point of all this: indoor life isn't a sentence. It's a setup that needs to be designed. The cats whose owners commit to even three or four of these are noticeably calmer, more confident, and easier to live with.
 
-Pick three to start with this week. See what changes. To keep track, print the free [indoor cat enrichment checklist](/indoor-cat-enrichment-checklist): daily, weekly, and monthly tasks on one page.
+Pick three to start with this week. See what changes. To keep track, print the free [indoor cat enrichment checklist](/indoor-cat-enrichment-checklist): daily, weekly, and monthly tasks on one page. If the slump is seasonal, [why indoor cats get bored in summer](/blog/why-indoor-cats-get-bored-summer) is the shorter diagnostic. Shopping for durable upgrades this month? Start with the [Black Friday cat deals](/blog/black-friday-cat-deals) hub or browse [Compare](/compare).

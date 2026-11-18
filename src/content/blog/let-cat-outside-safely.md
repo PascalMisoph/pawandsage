@@ -68,7 +68,7 @@ Whichever route you choose, the season adds a few rules:
 
 ## Bringing the Outside In
 
-If your cat cannot safely go out, you can bring a lot of the outdoors to them. A window view, a [cat-safe sensory garden](/blog/cat-sensory-garden-summer) of edible greens, and secure window access deliver much of the same stimulation. And whatever you set up outside, pair it with safe windows at home — see [cat window and balcony safety](/blog/cat-window-balcony-safety).
+If your cat cannot safely go out, you can bring a lot of the outdoors to them. A window view, a [cat-safe sensory garden](/blog/cat-sensory-garden-summer) of edible greens, and secure window access deliver much of the same stimulation. And whatever you set up outside, pair it with safe windows at home — see [cat window and balcony safety](/blog/cat-window-balcony-safety). Pale or thin-coated cats also need [sun-safety basics](/blog/can-cats-get-sunburn), even for short supervised time outdoors.
 
 Done thoughtfully, summer can be the season your cat finally gets to feel grass under their paws — safely, on terms that bring them home every time.
 

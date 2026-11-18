@@ -80,6 +80,6 @@ Warm weather brings more bugs, and more interactions with them:
 
 Before the season gets busy, save your **vet's number** and a **pet poison helpline** somewhere you can find them fast. With poisoning, minutes matter, and knowing exactly who to call removes the panic from a scary moment.
 
-Summer hazards look like a long list, but managing them is mostly a handful of habits: no lilies, cat-safe plants, scraps off-limits, windows secured, and sheds checked. Do those, and the season goes back to being what it should be for your cat — the best one of the year. For the rest of warm-weather care, start with [how to keep your cat cool in hot weather](/blog/keep-cat-cool-hot-weather).
+Summer hazards look like a long list, but managing them is mostly a handful of habits: no lilies, cat-safe plants, scraps off-limits, windows secured, and sheds checked. Do those, and the season goes back to being what it should be for your cat — the best one of the year. Cats that nap in a sunny window can also burn; see [can cats get sunburn](/blog/can-cats-get-sunburn). For the rest of warm-weather care, start with [how to keep your cat cool in hot weather](/blog/keep-cat-cool-hot-weather).
 
 *This article is general information, not veterinary advice. If you suspect poisoning, contact your vet or a pet poison helpline immediately. We're also building [CatPlay](https://catplay.app), a simple app for tracking your cat's daily habits so you notice when something's off.*

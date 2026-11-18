@@ -1,0 +1,104 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { buildPageSchema } from '../lib/schema';
+
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'About', path: '/about' },
+  { name: 'How We Pick', path: '/how-we-pick' },
+];
+const schema = buildPageSchema({
+  type: 'WebPage',
+  name: 'How We Pick Cat Products',
+  description: 'How Paw & Sage researches and selects cat products: criteria, sources, and what we do not claim.',
+  path: '/how-we-pick',
+  about: 'Product research methodology for Paw & Sage',
+  significantLinks: ['/editorial-policy', '/disclosure', '/compare', '/about'],
+});
+---
+
+<BaseLayout
+  title="How We Pick Cat Products (Research Method)"
+  description="How Paw & Sage chooses cat products: research sources, comparison criteria, affiliate relationships, and why we do not claim hands-on tests we have not done."
+  breadcrumbs={breadcrumbs}
+  schema={schema}
+>
+  <section class="page-header">
+    <div class="container-narrow">
+      <Breadcrumbs
+        items={[
+          { name: 'Home', href: '/' },
+          { name: 'About', href: '/about' },
+          { name: 'How We Pick' },
+        ]}
+      />
+      <span class="eyebrow">Methodology</span>
+      <h1>How we pick.</h1>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container-narrow prose">
+      <p class="lede">
+        Paw & Sage product guides are research-based. We compare official specifications, veterinary and welfare guidance, and verified retail listings. We do not claim to have tested a product in our home unless we actually did.
+      </p>
+
+      <h2>What “research-based” means here</h2>
+      <p>
+        When we recommend or compare a product, we start with the manufacturer’s current documentation: capacity, weight range, litter or food rules, materials, warranty, and running-cost items such as filters, liners or refills. We check those claims against the official product page or manual, and we link the source. Where a veterinary organization, university clinic, or peer-reviewed paper is relevant, we cite that too.
+      </p>
+      <p>
+        We do <strong>not</strong> invent ratings, owner-review scores, or lab results. If a number appears, it comes from a named source or is clearly labeled as a brand claim. Amazon prices change constantly and our publishing environment does not reliably show U.S. storefront prices, so we do not hard-code Amazon prices. We say “check the current price” and link the live listing.
+      </p>
+
+      <h2>What we have not done</h2>
+      <p>
+        We have not run a hands-on test lab. We have not kept every litter box, fountain or treat in this house for a week and then scored it. If a sentence starts to sound like “we tried this,” it should not. Comparison pages include a short “how we compared” note so that line stays clear. Independent tests, when we cite them, belong to the original publisher (for example Wirecutter or a journal study) and are linked.
+      </p>
+
+      <h2>How we choose what to include</h2>
+      <p>
+        A product has to be a real, currently sold item we can identify with a verified listing or an official product page. We prefer products that solve a specific job (a reluctant drinker, a multi-cat box, a senior cat that seeks heat) over novelty gadgets. We also look at running costs and return windows, because a discounted machine that needs proprietary trays, or a treat tube you cannot return, is part of the real decision.
+      </p>
+      <p>Typical criteria, by category:</p>
+      <ul>
+        <li><strong>Automatic litter boxes:</strong> how many cats and what weight the maker rates, open-top versus enclosed, litter type, waste capacity, safety sensors, floor requirements, app or subscription extras, warranty and trial terms, and ongoing liner, filter or bag costs.</li>
+        <li><strong>Litter:</strong> clumping versus non-clumping, dust and tracking claims (as the maker states them), scent, compatibility with automatic boxes, and whether flushing is actually allowed in your area.</li>
+        <li><strong>Fountains:</strong> capacity, materials (plastic versus stainless), flow options, filter type, how it comes apart, and whether a bowl should stay down as backup.</li>
+        <li><strong>Treats and food toppers:</strong> calories per serving from the label, named ingredients, and the reminder that treats are not a meal.</li>
+        <li><strong>Beds, trees and toys:</strong> size, weight rating, material, and whether the product matches the behavior problem (scratching, boredom, warmth) rather than a generic “best.”</li>
+      </ul>
+
+      <h2>Affiliate links</h2>
+      <p>
+        Some links are affiliate links, most often Amazon Associates (tag pawandsage21-20). If you buy through those links, we may earn a commission at no extra cost to you. Affiliate relationships do not decide which products appear, and they do not change a specification. The full wording is on our <a href="/disclosure">affiliate disclosure</a> page, and a short disclosure appears on product articles.
+      </p>
+
+      <h2>How this sits next to the editorial policy</h2>
+      <p>
+        This page is the product-selection method. The <a href="/editorial-policy">editorial policy</a> covers who writes the site, how we update articles, and how we handle corrections. If you spot an outdated spec, a dead listing, or a claim that is stronger than the source, email <a href="mailto:hello@pawandsage.com">hello@pawandsage.com</a>.
+      </p>
+
+      <p>
+        Browse the guides themselves on <a href="/compare">Compare</a>, or start with the <a href="/blog/black-friday-cat-deals">Black Friday cat deals</a> hub if you are shopping this month.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header { padding: 5rem 0 2rem; text-align: center; }
+  .page-header .eyebrow { display: block; margin-bottom: 1rem; }
+  .content-section { padding: 2rem 0 5rem; }
+  .prose { font-size: 1.05rem; line-height: 1.75; }
+  .lede {
+    font-family: 'Fraunces Variable', 'Fraunces', serif;
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--ink-soft);
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+</style>

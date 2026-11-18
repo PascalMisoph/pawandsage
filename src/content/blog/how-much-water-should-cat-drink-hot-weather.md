@@ -77,4 +77,4 @@ Use this before heatwaves and travel days:
 - Sitter instructions if you are away.
 - Vet contact saved where a sitter can find it.
 
-For cooling beyond hydration, read [how to keep your cat cool in hot weather](/blog/keep-cat-cool-hot-weather). Water matters, but it works alongside shade, cool surfaces, airflow, and watching your cat's normal behavior.
+For cooling beyond hydration, read [how to keep your cat cool in hot weather](/blog/keep-cat-cool-hot-weather). A simple [indoor cat summer station](/blog/indoor-cat-summer-station) keeps extra water in the same place as a cool retreat. Still choosing between a bowl and a fountain? See [cat water fountain vs bowl](/blog/cat-water-bowl-vs-fountain-summer). Water matters, but it works alongside shade, cool surfaces, airflow, and watching your cat's normal behavior.

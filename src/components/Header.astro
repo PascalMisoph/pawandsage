@@ -1,11 +1,12 @@
 ---
 const navItems = [
   { href: '/blog', label: 'Journal' },
-  { href: '/categories/behavior', label: 'Behavior' },
+  { href: '/compare', label: 'Compare' },
+  { href: '/blog/black-friday-cat-deals', label: 'Black Friday' },
   { href: '/categories/enrichment', label: 'Enrichment' },
   { href: '/categories/new-cat', label: 'New Cat' },
+  { href: '/categories/behavior', label: 'Behavior' },
   { href: '/start-here', label: 'Start Here' },
-  { href: '/about', label: 'About' },
 ];
 
 const isHome = Astro.url.pathname === '/';
@@ -88,12 +89,12 @@ const isHome = Astro.url.pathname === '/';
   }
   nav ul {
     display: flex;
-    gap: 1.75rem;
+    gap: 1.15rem;
     list-style: none;
   }
   nav a {
     font-family: 'Inter Variable', 'Inter', sans-serif;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: var(--ink-soft);
     text-decoration: none;
     font-weight: 500;

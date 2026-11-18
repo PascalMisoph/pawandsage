@@ -1,8 +1,9 @@
 ---
 title: "How to Keep Cats Cool in Summer Without AC: Safe Tips"
-description: "No AC? How to keep cats cool in summer: cross-breezes, cool retreats, cold water everywhere and safe fan use, with the warning signs to watch for."
+seoTitle: "How to Keep Cats Cool in Summer Without AC (Safe Setup)"
+description: "No AC? Keep cats cool with cross-breezes, a cold retreat, extra water and safe fan use, plus the heat warning signs to watch for."
 pubDate: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-11-18
 category: "seasonal"
 tags: ["summer", "cooling", "no air conditioning", "heat", "indoor cats"]
 readTime: "7 min read"
@@ -72,6 +73,6 @@ When the house is just hot, a couple of direct tricks help:
 
 Without AC, keep a closer eye on the high-risk cats — kittens, seniors, flat-faced breeds, and overweight or long-haired cats — and check on them through the hottest hours. Know the [warning signs of heatstroke](/blog/heatstroke-in-cats) so you can act fast if a hot day tips too far.
 
-No AC is no problem for a cat as long as you give them what they actually use: a cold surface to lie on, air that moves, and cold water within reach. For the complete warm-weather routine, see [how to keep your cat cool in hot weather](/blog/keep-cat-cool-hot-weather), and if you do decide to buy a thing or two, [the best cooling products for cats](/blog/best-cooling-products-for-cats) covers what is worth it. Reading this in winter? The cold-weather version is [how to keep cats warm in winter, even without heat](/blog/keep-cats-warm-without-heat).
+No AC is no problem for a cat as long as you give them what they actually use: a cold surface to lie on, air that moves, and cold water within reach. For the complete warm-weather routine, see [how to keep your cat cool in hot weather](/blog/keep-cat-cool-hot-weather), and if you do decide to buy a thing or two, [the best cooling products for cats](/blog/best-cooling-products-for-cats) covers what is worth it. For a low-effort play plan on a hot afternoon, use [5-minute cat enrichment setups for hot summer days](/blog/5-minute-cat-enrichment-hot-summer-days) or build an [indoor cat summer station](/blog/indoor-cat-summer-station). If the real issue is boredom rather than heat, start with [why indoor cats get bored in summer](/blog/why-indoor-cats-get-bored-summer). Cats that sunbathe in a window also need [sun-safety basics](/blog/can-cats-get-sunburn). Reading this in winter? The cold-weather version is [how to keep cats warm in winter, even without heat](/blog/keep-cats-warm-without-heat).
 
 *We're building [CatPlay](https://catplay.app), a simple app for tracking your cat's daily comfort, eating, and drinking — so you can tell when the heat is getting to them.*

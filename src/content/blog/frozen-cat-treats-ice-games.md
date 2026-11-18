@@ -65,6 +65,6 @@ Freeze a small cat-safe toy or a few treats inside a cup of water to make an "ic
 
 ## Work These Into the Hot Hours
 
-Frozen treats shine in exactly the window when active play is a bad idea — the hot middle of the day. Offer one as the afternoon enrichment, keep wand play for the cool morning and evening, and you have a cat that is engaged, cooler, and a little better hydrated all at once. For more heat-friendly games, see [summer enrichment for indoor cats](/blog/summer-cat-enrichment-indoor), and for the full warm-weather routine, [how to keep your cat cool in hot weather](/blog/keep-cat-cool-hot-weather).
+Frozen treats shine in exactly the window when active play is a bad idea — the hot middle of the day. Offer one as the afternoon enrichment, keep wand play for the cool morning and evening, and you have a cat that is engaged, cooler, and a little better hydrated all at once. For more heat-friendly games, see [summer enrichment for indoor cats](/blog/summer-cat-enrichment-indoor) and [5-minute cat enrichment setups for hot summer days](/blog/5-minute-cat-enrichment-hot-summer-days). If you want a mat or fountain as well, see [the best cooling products for cats](/blog/best-cooling-products-for-cats). For the full warm-weather routine, read [how to keep your cat cool in hot weather](/blog/keep-cat-cool-hot-weather).
 
 *We're building [CatPlay](https://catplay.app), a simple app for logging your cat's daily treats, play, and habits — so you can see what keeps them happiest through the heat.*

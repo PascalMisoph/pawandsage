@@ -44,7 +44,7 @@ These four things should be set up before your kitten walks through the door. Ev
 
 A single litter box for one kitten, two if you have a multi-floor home. Get one larger than you think you need — kittens grow fast, and an undersized box is the leading cause of "accidents" that aren't really accidents.
 
-For litter, start with **unscented clumping clay** in the first weeks. Kittens occasionally taste their litter, and unscented is safer. You can experiment with alternative litters (pine, paper, walnut) once they're settled.
+For litter, start with **unscented clumping clay** in the first weeks. Kittens occasionally taste their litter, and unscented is safer. You can experiment with alternative litters (pine, paper, walnut, or tofu) once they're settled; [tofu vs clay cat litter](/blog/tofu-vs-clay-cat-litter) and [PrettyLitter vs Tidy Cats](/blog/pretty-litter-vs-tidy-cats) are the later comparisons, not week-one decisions.
 
 ### 2. Food (the same brand the kitten was already eating)
 
@@ -54,7 +54,7 @@ If you want to switch food later, do it gradually over 7–10 days, mixing incre
 
 ### 3. Water bowl (or a small fountain)
 
-A wide, shallow ceramic bowl is fine. Many cats prefer running water. If your kitten ignores the bowl, the [Catit Flower Fountain](https://amazon.com/dp/B0146QXOB0?tag=pawandsage21-20) is a practical starter option that's easy to clean. Plastic bowls can cause chin acne over time and aren't recommended.
+A wide, shallow ceramic bowl is fine. Many cats prefer running water. If your kitten ignores the bowl, the [Catit Flower Fountain](https://www.amazon.com/dp/B0146QXOB0?tag=pawandsage21-20) is a practical starter option that's easy to clean. [Catit vs PetSafe fountain](/blog/catit-vs-petsafe-fountain) compares that classic with PetSafe's Drinkwell if you want a second option. Plastic bowls can cause chin acne over time and aren't recommended.
 
 ### 4. A safe room
 

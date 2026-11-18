@@ -71,4 +71,4 @@ Try this for seven days:
 - Evening: second short play session.
 - Weekly: rotate toys and move one piece of enrichment.
 
-That is enough to learn whether summer boredom is the pattern. If it helps, build from there. If it does not, look harder at health, stress, and the home setup.
+That is enough to learn whether summer boredom is the pattern. If it helps, build from there with [summer enrichment for indoor cats](/blog/summer-cat-enrichment-indoor) or a [5-minute hot-day setup](/blog/5-minute-cat-enrichment-hot-summer-days). If it does not, look harder at health, stress, and the home setup.
