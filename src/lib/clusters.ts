@@ -153,7 +153,10 @@ export const clusterConfigs: ClusterConfig[] = [
       'best-automatic-litter-box-multiple-cats',
       'best-litter-for-litter-robot',
       'tofu-vs-clay-cat-litter',
+      'really-great-cat-litter-review',
+      'really-great-cat-litter-vs-pidan',
       'pretty-litter-vs-tidy-cats',
+      'tuft-and-paw-cove-vs-cubby',
     ],
   },
   {

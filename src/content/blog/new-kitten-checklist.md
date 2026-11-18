@@ -3,7 +3,7 @@ title: "New Kitten Checklist 2026: Everything to Buy Before Day One"
 seoTitle: "New Kitten Checklist 2026: Everything to Buy Before Day One"
 description: "New cat checklist for 2026: what to buy before your kitten comes home, in the order you'll need it, from litter setup to carrier and scratcher."
 pubDate: 2026-04-15
-updatedDate: 2026-04-23
+updatedDate: 2026-11-18
 category: "new-cat"
 tags: ["kitten", "new cat", "checklist", "essentials"]
 readTime: "8 min read"
@@ -42,7 +42,7 @@ These four things should be set up before your kitten walks through the door. Ev
 
 ### 1. Litter box + litter
 
-A single litter box for one kitten, two if you have a multi-floor home. Get one larger than you think you need — kittens grow fast, and an undersized box is the leading cause of "accidents" that aren't really accidents.
+A single litter box for one kitten, two if you have a multi-floor home. Get one larger than you think you need — kittens grow fast, and an undersized box is the leading cause of "accidents" that aren't really accidents. If you want a box that grows with the cat and keeps litter in, the [Tuft & Paw Cubby](https://www.awin1.com/cread.php?awinmid=59149&awinaffid=3141803&ued=https%3A%2F%2Fwww.tuftandpaw.com%2Fproducts%2Fcubby-litter-box) has an open top with removable 8-inch walls.
 
 For litter, start with **unscented clumping clay** in the first weeks. Kittens occasionally taste their litter, and unscented is safer. You can experiment with alternative litters (pine, paper, walnut, or tofu) once they're settled; [tofu vs clay cat litter](/blog/tofu-vs-clay-cat-litter) and [PrettyLitter vs Tidy Cats](/blog/pretty-litter-vs-tidy-cats) are the later comparisons, not week-one decisions.
 
@@ -70,7 +70,7 @@ The biggest mistake new owners make: buying a small, decorative scratching post.
 
 ### 6. A carrier (hard-sided, top-loading)
 
-You'll need this within the first two weeks for the first vet visit. Hard-sided top-loading carriers are far easier to get a reluctant cat into than soft front-loaders. The [Petmate Two-Door Top-Load Carrier](https://amazon.com/dp/B0062JFGM0?tag=pawandsage21-20) is a good example of the format to look for. Spend $30–50 here — it's a 15-year purchase.
+You'll need this within the first two weeks for the first vet visit. Hard-sided top-loading carriers are far easier to get a reluctant cat into than soft front-loaders. The [Petmate Two-Door Top-Load Carrier](https://amazon.com/dp/B0062JFGM0?tag=pawandsage21-20) is a good example of the format to look for. Spend $30–50 here — it's a 15-year purchase. If you will also travel with your cat, a structured soft carrier with seatbelt straps like the [Tuft & Paw Porto](https://www.awin1.com/cread.php?awinmid=59149&awinaffid=3141803&ued=https%3A%2F%2Fwww.tuftandpaw.com%2Fproducts%2Fporto-cat-carrier) is the upgrade; see [best cat carrier for car travel](/blog/best-cat-carrier-for-car-travel).
 
 ### 7. A simple wand toy
 

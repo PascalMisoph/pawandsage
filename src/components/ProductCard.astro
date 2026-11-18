@@ -30,10 +30,12 @@ export interface Props {
   position?: string;
   /** Injected by rehype-affiliate-links in MDX (article slug). */
   article?: string;
+  /** Store name for non-Amazon affiliate links (e.g. "Tuft & Paw"). */
+  store?: string;
 }
 
 const AMAZON_TAG = 'pawandsage21-20';
-const { name, why, bestFor, asin, href, label, image, imageAlt } = Astro.props;
+const { name, why, bestFor, asin, href, label, image, imageAlt, store } = Astro.props;
 const position = Astro.props.position ?? 'productcard';
 const titlePosition = position.replace(/^productcard/, 'title');
 const imagePosition = position.replace(/^productcard/, 'image');
@@ -45,10 +47,16 @@ if (!asin && !href) {
 }
 
 const url = href ?? `https://www.amazon.com/dp/${asin}?tag=${AMAZON_TAG}`;
-const merchant = /amazon\.|amzn\.to/i.test(url) ? 'amazon' : new URL(url).hostname.replace(/^www\./, '');
+const isAmazon = /amazon\.|amzn\.to/i.test(url);
+const isAwin = /(^|\.)awin1?\.com$/i.test(new URL(url).hostname);
+const merchant = isAmazon ? 'amazon' : isAwin ? 'awin' : new URL(url).hostname.replace(/^www\./, '');
+const storeName = isAmazon ? 'Amazon' : store ?? 'the retailer';
 
-if (!url.includes(`tag=${AMAZON_TAG}`)) {
+if (isAmazon && !url.includes(`tag=${AMAZON_TAG}`)) {
   throw new Error(`ProductCard "${name}" link is missing tag=${AMAZON_TAG}.`);
+}
+if (!isAmazon && !isAwin) {
+  throw new Error(`ProductCard "${name}" non-Amazon link must be an Awin tracking link.`);
 }
 ---
 
@@ -92,6 +100,6 @@ if (!url.includes(`tag=${AMAZON_TAG}`)) {
     data-umami-event-article={article}
     data-umami-event-position={position}
     data-umami-event-product={name}
-  >Check price on Amazon</a>
-  <span class="product-card-note">Affiliate link. Prices and deals change often, so check the current price on Amazon.</span>
+  >Check price on {storeName}</a>
+  <span class="product-card-note">Affiliate link. Prices and deals change often, so check the current price on {storeName}.</span>
 </aside>

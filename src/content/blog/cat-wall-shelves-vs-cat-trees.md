@@ -49,6 +49,8 @@ The best wall setup has more than one function: steps to climb, a resting spot, 
 
 **What helps:** The [Lynadri Cat Wall Shelves 5-in-1](https://www.amazon.com/dp/B0GWQ42WLQ?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.38JYHVPCJO618&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.38JYHVPCJO618_1782828464101) fits the route idea because it combines steps, a condo, a scratch area, and a post. That gives a cat several things to do, not just one perch to sit on.
 
+Two wall-friendly extras from Tuft & Paw fit the same idea: the [Tab Scratching Board](https://www.awin1.com/cread.php?awinmid=59149&awinaffid=3141803&ued=https%3A%2F%2Fwww.tuftandpaw.com%2Fproducts%2Ftab-scratching-board) has an optional wall mount for vertical scratching without floor space, and the [Cloud Nine Window Hammock](https://www.awin1.com/cread.php?awinmid=59149&awinaffid=3141803&ued=https%3A%2F%2Fwww.tuftandpaw.com%2Fproducts%2Fcloud-nine-window-hammock) turns a window into a perch rated for up to 30 lb (it needs a glass surface). Check current prices and the [Tuft & Paw coupon codes](/blog/tuft-and-paw-coupon-code) before you buy.
+
 ## Choose by Cat Personality
 
 Pick a cat tree for cats who love scratching posts, enclosed cubbies, and predictable central spots.

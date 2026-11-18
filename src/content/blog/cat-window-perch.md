@@ -3,7 +3,7 @@ title: "Cat TV: How a Window Perch Cures Indoor Boredom (Best Perches)"
 seoTitle: "Cat Window Perch: How 'Cat TV' Cures Indoor Boredom"
 description: "A window perch is the cheapest high-impact upgrade for an indoor cat. Why 'Cat TV' works, how to set it up, and the best perches and feeders for it."
 pubDate: 2026-06-19
-updatedDate: 2026-06-19
+updatedDate: 2026-11-18
 category: "enrichment"
 tags: ["enrichment", "indoor cats", "window perch", "cat tv", "boredom"]
 readTime: "7 min read"
@@ -50,6 +50,8 @@ Most cats will use a windowsill, but a sill is often too narrow, too high, or to
 The best spot is the window with the most going on outside: a garden, a tree, a feeder, or a quiet street at a distance. Morning sun is a bonus, since a warm perch is a perch that gets used.
 
 **What helps:** A suction-cup [cat window perch](https://amazon.com/dp/B07MH7WTSN?tag=pawandsage21-20) mounts directly to the glass and holds most cats comfortably, turning even a narrow sill into a proper lounging spot at the best vantage point in the room.
+
+If you want the perch to look like part of the room, the [Tuft & Paw Cloud Nine Window Hammock](https://www.awin1.com/cread.php?awinmid=59149&awinaffid=3141803&ued=https%3A%2F%2Fwww.tuftandpaw.com%2Fproducts%2Fcloud-nine-window-hammock) is a minimalist steel-arch hammock with grey felt that suction-mounts to glass and is rated for up to 30 lb by the maker. Check the current price.
 
 ## Step 2: Add Something Live to Watch
 

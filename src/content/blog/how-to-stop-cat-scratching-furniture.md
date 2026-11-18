@@ -2,7 +2,7 @@
 title: "How to Stop Your Cat From Scratching Furniture (For Good)"
 description: "Your cat isn't scratching the couch out of spite. Scratching is a biological need, so the fix is redirecting it, not stopping it: a three-step approach."
 pubDate: 2026-04-29
-updatedDate: 2026-04-29
+updatedDate: 2026-11-18
 category: "behavior"
 tags: ["behavior", "scratching", "furniture", "training", "indoor cats"]
 readTime: "5 min read"
@@ -63,6 +63,8 @@ The most common mistakes:
 **It's in the wrong room.** More on this in a moment.
 
 The [SmartCat Ultimate Scratching Post](https://amazon.com/dp/B000634MH8?tag=pawandsage21-20) gets this right: it's 32 inches tall, covered in sisal, and has a weighted base that doesn't tip. It's the most consistently recommended tall post for a reason, and at around $50 it lasts far longer than the cheap ones that fall apart in three months.
+
+If your cat scratches horizontally (rugs, stair carpet) or you want something that looks like furniture, the [Tuft & Paw Tab Scratching Board](https://www.awin1.com/cread.php?awinmid=59149&awinaffid=3141803&ued=https%3A%2F%2Fwww.tuftandpaw.com%2Fproducts%2Ftab-scratching-board) can lie flat, sit on an incline, or mount on the wall with the optional mount. Its weight and rubber grips are meant to stop it sliding mid-scratch. Check the current price.
 
 ## Put the Post Exactly Where They Already Scratch
 
