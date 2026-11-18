@@ -84,13 +84,14 @@ const siteSchemas = [
     publishingPrinciples: ORGANIZATION.publishingPrinciples,
     founder: {
       '@type': 'Person',
+      '@id': PERSON.id,
       name: PERSON.name,
       url: PERSON.url,
     },
   },
   {
     '@context': 'https://schema.org',
-    '@id': `${PERSON.url}#person`,
+    '@id': PERSON.id,
     '@type': 'Person',
     name: PERSON.name,
     givenName: PERSON.givenName,
@@ -103,6 +104,7 @@ const siteSchemas = [
       name: ORGANIZATION.name,
       url: ORGANIZATION.url,
     },
+    ...(PERSON.sameAs.length > 0 ? { sameAs: PERSON.sameAs } : {}),
   },
   {
     '@context': 'https://schema.org',
@@ -114,6 +116,7 @@ const siteSchemas = [
     inLanguage: SITE_LANGUAGE,
     creator: {
       '@type': 'Person',
+      '@id': PERSON.id,
       name: PERSON.name,
       url: PERSON.url,
     },

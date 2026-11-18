@@ -1,4 +1,4 @@
-export type ClusterSlug = 'behavior' | 'enrichment' | 'new-cat' | 'seasonal';
+export type ClusterSlug = 'behavior' | 'enrichment' | 'new-cat' | 'seasonal' | 'health-safety';
 
 export interface ClusterLink {
   href: string;
@@ -240,6 +240,61 @@ export const clusterConfigs: ClusterConfig[] = [
       'best-heated-cat-beds-senior-cats',
       'self-warming-vs-heated-cat-bed',
       'heated-cat-window-perch',
+    ],
+  },
+  {
+    slug: 'health-safety',
+    title: 'Health & Safety',
+    description: 'Is it safe for cats? Plants, foods and essential oils, checked against official sources.',
+    metaDescription: 'Is it safe for cats? Toxic and non-toxic houseplants, people foods and essential oils, with verdicts from ASPCA Animal Poison Control and vet sources.',
+    intro:
+      'Health and safety articles answer one question each: is this plant, food or essential oil safe for cats? Every verdict comes from the ASPCA Animal Poison Control Center plant database or another cited veterinary source, with the signs to watch for and what to do next.',
+    featured: '/guides/is-it-safe-for-cats',
+    featuredTitle: 'Is it safe for cats? The full list',
+    featuredLabel: 'Start with the hub',
+    nextReads: [
+      { href: '/blog/holiday-plants-toxic-to-cats', label: 'Holiday plants and cats: a toxicity chart' },
+      { href: '/blog/is-lavender-safe-for-cats', label: 'Is lavender safe for cats?' },
+      { href: '/blog/can-cats-eat-scrambled-eggs', label: 'Can cats eat scrambled eggs?' },
+    ],
+    faq: [
+      {
+        question: 'Who do I call if my cat ate something toxic?',
+        answer: 'Call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435 right away. Pet Poison Helpline is another 24/7 option at (855) 764-7661. Both may charge a consultation fee.',
+      },
+      {
+        question: 'Where do the safe and toxic verdicts come from?',
+        answer: 'Plant verdicts come from the ASPCA toxic and non-toxic plant database. Food and essential-oil verdicts come from ASPCA Animal Poison Control, Pet Poison Helpline, VCA Animal Hospitals, the Merck Veterinary Manual and the Cornell Feline Health Center, linked on each page.',
+      },
+    ],
+    orderedPosts: [
+      'are-calatheas-toxic-to-cats',
+      'are-orchids-toxic-to-cats',
+      'are-peace-lilies-toxic-to-cats',
+      'are-roses-toxic-to-cats',
+      'are-spider-plants-toxic-to-cats',
+      'are-tulips-toxic-to-cats',
+      'is-aloe-vera-toxic-to-cats',
+      'is-basil-safe-for-cats',
+      'is-jade-plant-toxic-to-cats',
+      'is-lucky-bamboo-toxic-to-cats',
+      'is-money-tree-toxic-to-cats',
+      'is-monstera-toxic-to-cats',
+      'is-pothos-toxic-to-cats',
+      'is-rosemary-safe-for-cats',
+      'is-snake-plant-toxic-to-cats',
+      'is-eucalyptus-safe-for-cats',
+      'is-lavender-safe-for-cats',
+      'is-peppermint-oil-safe-for-cats',
+      'is-tea-tree-oil-safe-for-cats',
+      'can-cats-drink-milk',
+      'can-cats-eat-cheese',
+      'can-cats-eat-onions-and-garlic',
+      'can-cats-eat-peanut-butter',
+      'can-cats-eat-scrambled-eggs',
+      'can-cats-eat-tuna',
+      'can-cats-eat-watermelon',
+      'is-chocolate-toxic-to-cats',
     ],
   },
 ];

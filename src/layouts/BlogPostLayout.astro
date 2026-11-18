@@ -6,7 +6,7 @@ import CatPlayCTA from '../components/CatPlayCTA.astro';
 import StickyCTA from '../components/StickyCTA.astro';
 import ResponsiveImage from '../components/ResponsiveImage.astro';
 import { buildImageObject, buildImagePreloadHint } from '../lib/images';
-import { buildFAQPageSchema } from '../lib/schema';
+import { buildFAQPageSchema, buildItemListSchema, type ItemListEntry } from '../lib/schema';
 import { ORGANIZATION, PERSON, SITE_LANGUAGE, SITE_URL } from '../lib/site';
 
 export interface RelatedPost {
@@ -29,27 +29,38 @@ export interface ClusterContext {
   nextPost?: RelatedPost | null;
 }
 
-const { frontmatter, relatedPosts = [] } = Astro.props as {
+const { frontmatter, relatedPosts = [], itemList = [] } = Astro.props as {
+  itemList?: ItemListEntry[];
   frontmatter: {
     title: string;
     seoTitle?: string;
     description: string;
     pubDate: Date;
     updatedDate?: Date;
-    category: 'behavior' | 'enrichment' | 'new-cat' | 'seasonal';
+    category: 'behavior' | 'enrichment' | 'new-cat' | 'seasonal' | 'health-safety';
     readTime?: string;
     heroImage?: string;
     heroAlt?: string;
     tags?: string[];
     sources?: { title: string; url: string; publisher?: string }[];
     faq?: { question: string; answer: string }[];
+    safety?: {
+      subject: string;
+      kind: 'plant' | 'food' | 'essential-oil';
+      verdict: 'safe' | 'caution' | 'toxic';
+      summary: string;
+      sourceName: string;
+      sourceUrl: string;
+      scientificName?: string;
+    };
   };
   relatedPosts?: RelatedPost[];
   clusterContext?: ClusterContext;
 };
 
 const { clusterContext } = Astro.props as { clusterContext?: ClusterContext };
-const { title, seoTitle, description, pubDate, updatedDate, category, readTime, heroImage, heroAlt = '', tags = [], sources = [], faq = [] } = frontmatter;
+const { title, seoTitle, description, pubDate, updatedDate, category, readTime, heroImage, heroAlt = '', tags = [], sources = [], faq = [], safety } = frontmatter;
+const verdictText = { safe: 'Non-toxic / safe', caution: 'Use caution', toxic: 'Toxic to cats' } as const;
 
 const formattedDate = new Date(pubDate).toLocaleDateString('en-US', {
   year: 'numeric',
@@ -70,6 +81,7 @@ const categoryLabels = {
   enrichment: 'Enrichment',
   'new-cat': 'New Cat',
   seasonal: 'Seasonal Care',
+  'health-safety': 'Health & Safety',
 };
 
 const showCatPlay = category === 'behavior' || category === 'enrichment';
@@ -100,6 +112,7 @@ const articleSchema = {
   keywords: tags.join(', '),
   author: {
     '@type': 'Person',
+    '@id': PERSON.id,
     name: PERSON.name,
     url: PERSON.url,
     jobTitle: PERSON.jobTitle,
@@ -120,6 +133,8 @@ const articleSchema = {
 const schema = [
   articleSchema,
   ...(faq.length > 0 ? [buildFAQPageSchema(faq)] : []),
+  // ItemList only for best-of / comparison / deal pages that name 2+ products.
+  ...(itemList.length >= 2 ? [buildItemListSchema(title, itemList)] : []),
 ];
 ---
 
@@ -180,9 +195,22 @@ const schema = [
 
     <div class="container-narrow">
       <div class="post-byline">
-        <p>Written by <a href="/about">Pascal Misoph</a></p>
+        <p>Written by <a href="/author/pascal-misoph" rel="author">Pascal Misoph</a>, founder of Paw &amp; Sage</p>
         {formattedUpdatedDate && <p class="post-byline-meta">Updated {formattedUpdatedDate}</p>}
       </div>
+
+      {safety && (
+        <aside class={`safety-verdict safety-${safety.verdict}`} aria-label="Safety verdict">
+          <p class="safety-label">Verdict</p>
+          <p class="safety-result"><span class="safety-dot" aria-hidden="true"></span>{safety.subject}: <strong>{verdictText[safety.verdict]}</strong></p>
+          {safety.scientificName && <p class="safety-sci"><em>{safety.scientificName}</em></p>}
+          <p class="safety-summary">{safety.summary}</p>
+          <p class="safety-source">Source: <a href={safety.sourceUrl} rel="noopener" target="_blank">{safety.sourceName}</a> · <a href="/guides/is-it-safe-for-cats">All plants, foods and oils</a></p>
+          <p class="safety-call">
+            Think your cat ate or touched something toxic? Call your veterinarian or the ASPCA Animal Poison Control Center at <a href="tel:+18884264435">(888) 426-4435</a> (consultation fee may apply).
+          </p>
+        </aside>
+      )}
 
       <div class="prose">
         <slot />
@@ -540,4 +568,19 @@ const schema = [
       grid-template-columns: 1fr;
     }
   }
+  .safety-verdict { border-radius: 12px; padding: 1.1rem 1.25rem; margin: 0 0 1.75rem; border: 1px solid; }
+  .safety-verdict p { margin: 0.25rem 0; }
+  .safety-toxic { background: #fbece8; border-color: #e3b0a5; }
+  .safety-caution { background: #fdf5e2; border-color: #e8cf94; }
+  .safety-safe { background: #edf6ee; border-color: #a9d1ae; }
+  .safety-label { font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-soft); }
+  .safety-result { font-size: 1.15rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+  .safety-dot { width: 0.85rem; height: 0.85rem; border-radius: 50%; display: inline-block; flex: none; }
+  .safety-toxic .safety-dot { background: #c0392b; }
+  .safety-caution .safety-dot { background: #d99a00; }
+  .safety-safe .safety-dot { background: #2e8b47; }
+  .safety-sci { font-size: 0.9rem; color: var(--ink-soft); }
+  .safety-summary { font-size: 0.98rem; }
+  .safety-source, .safety-call { font-size: 0.85rem; }
+  .safety-call { margin-top: 0.6rem !important; font-weight: 600; }
 </style>

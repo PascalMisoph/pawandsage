@@ -1,4 +1,4 @@
-import { getCollection } from 'astro:content';
+import { getBlogPosts } from '../lib/posts';
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from '../lib/site';
 
 const normalizeText = (value: string) =>
@@ -8,7 +8,7 @@ const normalizeText = (value: string) =>
     .replaceAll('â†’', '→');
 
 export async function GET() {
-  const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
+  const posts = (await getBlogPosts(({ data }) => !data.draft)).sort(
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
   );
 

@@ -1,5 +1,5 @@
 ---
-title: "Best Puzzle Feeders for Cats Who Eat Too Fast (2026 Picks)"
+title: "Best Puzzle Feeders for Cats Who Eat Too Fast ({year} Picks)"
 description: "If your cat inhales meals, a puzzle feeder can slow eating and add daily enrichment. These are the best starter, flat, digging, and challenge feeders."
 pubDate: 2026-05-04
 updatedDate: 2026-05-04

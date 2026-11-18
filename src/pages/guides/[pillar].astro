@@ -1,0 +1,213 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getBlogPosts, type BlogPost } from '../../lib/posts';
+import { pillars, type Pillar } from '../../lib/pillars';
+import { buildCollectionPageSchema, buildFAQPageSchema } from '../../lib/schema';
+
+export async function getStaticPaths() {
+  const posts = await getBlogPosts(({ data }) => !data.draft);
+  return pillars.map((pillar) => ({ params: { pillar: pillar.slug }, props: { pillar, posts } }));
+}
+
+const { pillar, posts } = Astro.props as { pillar: Pillar; posts: BlogPost[] };
+const bySlug = new Map(posts.map((post) => [post.id, post]));
+const placed = new Set<string>();
+const sections = pillar.sections
+  .map((section) => ({
+    ...section,
+    posts: section.slugs
+      .map((slug) => bySlug.get(slug))
+      .filter((post): post is BlogPost => Boolean(post))
+      .map((post) => {
+        placed.add(post.id);
+        return post;
+      }),
+  }))
+  .filter((section) => section.posts.length > 0);
+
+const extras = posts
+  .filter(
+    (post) =>
+      !placed.has(post.id) &&
+      !post.data.safety &&
+      (pillar.categories.includes(post.data.category) || (pillar.alsoInclude ?? []).includes(post.id)),
+  )
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+// Safety hub: traffic-light table built from each page's `safety` frontmatter.
+const verdictOrder = { toxic: 0, caution: 1, safe: 2 } as const;
+const verdictLabel = { toxic: 'Toxic', caution: 'Caution', safe: 'Non-toxic / safe' } as const;
+const kindLabel = { plant: 'Plants', food: 'Foods and drinks', 'essential-oil': 'Essential oils' } as const;
+const safetyPosts = posts.filter((post) => post.data.safety && pillar.slug === 'is-it-safe-for-cats');
+const safetyGroups = (['plant', 'food', 'essential-oil'] as const)
+  .map((kind) => ({
+    kind,
+    label: kindLabel[kind],
+    rows: safetyPosts
+      .filter((post) => post.data.safety!.kind === kind)
+      .sort(
+        (a, b) =>
+          verdictOrder[a.data.safety!.verdict] - verdictOrder[b.data.safety!.verdict] ||
+          a.data.safety!.subject.localeCompare(b.data.safety!.subject),
+      ),
+  }))
+  .filter((group) => group.rows.length > 0);
+
+const allLinked = [...sections.flatMap((s) => s.posts), ...safetyPosts, ...extras];
+const path = `/guides/${pillar.slug}`;
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Guides', path: '/start-here' },
+  { name: pillar.title, path },
+];
+const schema = [
+  buildCollectionPageSchema({
+    name: pillar.title,
+    description: pillar.description,
+    path,
+    image: pillar.image,
+    about: pillar.title,
+    hasPart: allLinked.map((post) => ({ path: `/blog/${post.id}`, name: post.data.title })),
+  }),
+  buildFAQPageSchema(pillar.faq),
+];
+---
+
+<BaseLayout title={pillar.seoTitle} description={pillar.description} breadcrumbs={breadcrumbs} schema={schema} image={pillar.image}>
+  <section class="page-header">
+    <div class="container-narrow">
+      <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: 'Guides', href: '/start-here' }, { name: pillar.title }]} />
+      <span class="eyebrow">{pillar.eyebrow}</span>
+      <h1>{pillar.title}</h1>
+      <p class="byline">By <a href="/author/pascal-misoph" rel="author">Pascal Misoph</a> · {allLinked.length} guides, sources linked below</p>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container-narrow prose">
+      {pillar.intro.map((paragraph) => <p>{paragraph}</p>)}
+      {pillar.vetNote && (
+        <aside class="vet-note" role="note">
+          <strong>Vet first:</strong> {pillar.vetNote}
+        </aside>
+      )}
+
+      {safetyGroups.length > 0 && (
+        <nav class="toc" aria-label="On this page">
+          {safetyGroups.map((group) => <a href={`#${group.kind}`}>{group.label}</a>)}
+        </nav>
+      )}
+
+      {safetyGroups.map((group) => (
+        <section class="pillar-section">
+          <h2 id={group.kind}>{group.label}</h2>
+          <table class="safety-table">
+            <thead>
+              <tr><th scope="col">Is it safe?</th><th scope="col">Verdict</th><th scope="col">Why</th></tr>
+            </thead>
+            <tbody>
+              {group.rows.map((post) => (
+                <tr>
+                  <th scope="row"><a href={`/blog/${post.id}`}>{post.data.safety!.subject}</a></th>
+                  <td><span class={`verdict verdict-${post.data.safety!.verdict}`}>{verdictLabel[post.data.safety!.verdict]}</span></td>
+                  <td>{post.data.safety!.summary} <span class="src">Source: <a href={post.data.safety!.sourceUrl} rel="noopener" target="_blank">{post.data.safety!.sourceName}</a></span></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </section>
+      ))}
+
+      {sections.map((section) => (
+        <section class="pillar-section">
+          <h2>{section.heading}</h2>
+          <p class="section-blurb">{section.blurb}</p>
+          <ul class="pillar-list">
+            {section.posts.map((post) => (
+              <li>
+                <a href={`/blog/${post.id}`}>{post.data.title}</a>
+                <span class="pillar-desc">{post.data.description}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+
+      {extras.length > 0 && (
+        <section class="pillar-section">
+          <h2>{sections.length > 0 || safetyGroups.length > 0 ? 'More in this topic' : 'All guides'}</h2>
+          <ul class="pillar-list">
+            {extras.map((post) => (
+              <li>
+                <a href={`/blog/${post.id}`}>{post.data.title}</a>
+                <span class="pillar-desc">{post.data.description}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      <section class="pillar-section">
+        <h2>Frequently asked questions</h2>
+        {pillar.faq.map((item) => (
+          <details class="pillar-faq">
+            <summary>{item.question}</summary>
+            <p>{item.answer}</p>
+          </details>
+        ))}
+      </section>
+
+      <section class="pillar-section sources">
+        <h2>Sources</h2>
+        <ul>
+          {pillar.sources.map((source) => (
+            <li><a href={source.url} rel="noopener" target="_blank">{source.title}</a>, {source.publisher}</li>
+          ))}
+        </ul>
+        <p class="small">
+          Paw &amp; Sage is not a veterinary practice and these guides do not replace your veterinarian. Some guides contain affiliate links; see our <a href="/disclosure">disclosure</a>.
+        </p>
+      </section>
+
+      <p class="other-guides">
+        Other guides:
+        {pillars.filter((p) => p.slug !== pillar.slug).map((p, index, list) => (
+          <><a href={`/guides/${p.slug}`}>{p.title.split(':')[0]}</a>{index < list.length - 1 ? ' · ' : ''}</>
+        ))}
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header { padding: 5rem 0 1.5rem; text-align: center; }
+  .page-header .eyebrow { display: block; margin-bottom: 1rem; }
+  .byline { font-size: 0.85rem; color: var(--ink-soft); margin-top: 0.75rem; }
+  .content-section { padding: 1rem 0 5rem; }
+  .vet-note { border-left: 4px solid #b5533c; background: #fbf1ec; padding: 1rem 1.2rem; border-radius: 8px; margin: 1.5rem 0; font-size: 0.98rem; }
+  .toc { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; margin: 1rem 0; font-size: 0.95rem; }
+  .pillar-section { margin-top: 2.5rem; }
+  .section-blurb { color: var(--ink-soft); margin-top: -0.4rem; }
+  .pillar-list { list-style: none; padding: 0; margin: 0; }
+  .pillar-list li { padding: 0.7rem 0; border-bottom: 1px solid var(--line, #e7e1d8); }
+  .pillar-list li a { font-weight: 600; }
+  .pillar-desc { display: block; font-size: 0.9rem; color: var(--ink-soft); margin-top: 0.2rem; line-height: 1.5; }
+  .safety-table { width: 100%; border-collapse: collapse; font-size: 0.93rem; }
+  .safety-table th, .safety-table td { text-align: left; vertical-align: top; padding: 0.6rem 0.5rem; border-bottom: 1px solid var(--line, #e7e1d8); }
+  .safety-table thead th { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-soft); }
+  .safety-table .src { display: block; font-size: 0.8rem; color: var(--ink-soft); margin-top: 0.2rem; }
+  .verdict { display: inline-block; padding: 0.15rem 0.55rem; border-radius: 999px; font-size: 0.78rem; font-weight: 700; white-space: nowrap; }
+  .verdict-toxic { background: #f6d5cf; color: #8a2414; }
+  .verdict-caution { background: #f8e7c2; color: #7a5200; }
+  .verdict-safe { background: #d8ecd9; color: #1f5a2a; }
+  .pillar-faq { border-bottom: 1px solid var(--line, #e7e1d8); padding: 0.6rem 0; }
+  .pillar-faq summary { cursor: pointer; font-weight: 600; }
+  .sources .small { font-size: 0.85rem; color: var(--ink-soft); }
+  .other-guides { margin-top: 2.5rem; font-size: 0.92rem; }
+  @media (max-width: 640px) {
+    .safety-table thead { display: none; }
+    .safety-table tr { display: block; padding: 0.6rem 0; border-bottom: 1px solid var(--line, #e7e1d8); }
+    .safety-table th, .safety-table td { display: block; border: 0; padding: 0.15rem 0; }
+  }
+</style>

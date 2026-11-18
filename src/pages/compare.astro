@@ -1,10 +1,10 @@
 ---
-import { getCollection } from 'astro:content';
+import { getBlogPosts } from '../lib/posts';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { buildCollectionPageSchema } from '../lib/schema';
 
-const allPosts = (await getCollection('blog', ({ data }) => !data.draft));
+const allPosts = (await getBlogPosts(({ data }) => !data.draft));
 
 const isComparison = (id: string) =>
   /(?:^|-)vs(?:-|$)/.test(id) ||

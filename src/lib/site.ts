@@ -19,8 +19,11 @@ export const PERSON = {
   name: 'Pascal Misoph',
   givenName: 'Pascal',
   familyName: 'Misoph',
-  url: `${SITE_URL}/about`,
+  url: `${SITE_URL}/author/pascal-misoph`,
+  id: `${SITE_URL}/author/pascal-misoph#person`,
   jobTitle: 'Founder, writer, and editor',
+  // Leave empty until Pascal provides real profile URLs (LinkedIn, Instagram, ...).
+  sameAs: [] as string[],
   description:
     'Independent publisher of Paw & Sage, focused on clear, practical writing about cat behavior, enrichment, and new cat care.',
 };

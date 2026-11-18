@@ -1,6 +1,6 @@
 ---
 title: "Best Treat Dispenser Toys for Cats (Food Puzzle Picks)"
-seoTitle: "Best Cat Food Dispenser Toys and Treat Puzzles (2026)"
+seoTitle: "Best Cat Food Dispenser Toys and Treat Puzzles ({year})"
 description: "The best food dispenser and treat puzzle toys for indoor cats: easy starters, moving puzzles, and how to match a toy to your cat."
 pubDate: 2026-07-13
 updatedDate: 2026-11-18

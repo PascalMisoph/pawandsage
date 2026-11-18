@@ -1,6 +1,6 @@
 ---
-title: "Best Cat Water Fountains 2026: Quiet, Ceramic, Stainless Steel & Filterless"
-seoTitle: "Best Cat Water Fountains 2026: Ceramic, Stainless & Quiet"
+title: "Best Cat Water Fountains {year}: Quiet, Ceramic, Stainless Steel & Filterless"
+seoTitle: "Best Cat Water Fountains {year}: Ceramic, Stainless & Quiet"
 description: "Best cat water fountains for cats that ignore still bowls: quiet cordless picks, ceramic and stainless steel fountains, filterless options, replacement filters and cleaning tips."
 pubDate: 2026-07-04
 updatedDate: 2026-11-18T15:00:00Z

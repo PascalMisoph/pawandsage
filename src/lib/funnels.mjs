@@ -336,6 +336,35 @@ export const RELATED_GROUPS = {
     ['cat-proof-christmas-tree', 'How to cat-proof a Christmas tree'],
     ['tuft-and-paw-coupon-code', 'Tuft & Paw coupon codes'],
   ],
+  safety: [
+    ['are-calatheas-toxic-to-cats', "Are Calatheas Toxic to Cats?"],
+    ['are-orchids-toxic-to-cats', "Are Orchids Toxic to Cats?"],
+    ['are-peace-lilies-toxic-to-cats', "Are Peace Lilies Toxic to Cats?"],
+    ['are-roses-toxic-to-cats', "Are Roses Toxic to Cats?"],
+    ['are-spider-plants-toxic-to-cats', "Are Spider Plants Toxic to Cats?"],
+    ['are-tulips-toxic-to-cats', "Are Tulips Toxic to Cats?"],
+    ['is-aloe-vera-toxic-to-cats', "Is Aloe Vera Toxic to Cats?"],
+    ['is-basil-safe-for-cats', "Is Basil Safe for Cats?"],
+    ['is-jade-plant-toxic-to-cats', "Is a Jade Plant Toxic to Cats?"],
+    ['is-lucky-bamboo-toxic-to-cats', "Is Lucky Bamboo Toxic to Cats?"],
+    ['is-money-tree-toxic-to-cats', "Is a Money Tree Toxic to Cats?"],
+    ['is-monstera-toxic-to-cats', "Is Monstera Toxic to Cats?"],
+    ['is-pothos-toxic-to-cats', "Is Pothos Toxic to Cats?"],
+    ['is-rosemary-safe-for-cats', "Is Rosemary Safe for Cats?"],
+    ['is-snake-plant-toxic-to-cats', "Is Snake Plant Toxic to Cats?"],
+    ['is-eucalyptus-safe-for-cats', "Is Eucalyptus Safe for Cats?"],
+    ['is-lavender-safe-for-cats', "Is Lavender Safe for Cats?"],
+    ['is-peppermint-oil-safe-for-cats', "Is Peppermint Oil Safe for Cats?"],
+    ['is-tea-tree-oil-safe-for-cats', "Is Tea Tree Oil Safe for Cats?"],
+    ['can-cats-drink-milk', "Can Cats Drink Milk?"],
+    ['can-cats-eat-cheese', "Can Cats Eat Cheese?"],
+    ['can-cats-eat-onions-and-garlic', "Can Cats Eat Onions or Garlic?"],
+    ['can-cats-eat-peanut-butter', "Can Cats Eat Peanut Butter?"],
+    ['can-cats-eat-scrambled-eggs', "Can Cats Eat Scrambled Eggs?"],
+    ['can-cats-eat-tuna', "Can Cats Eat Tuna?"],
+    ['can-cats-eat-watermelon', "Can Cats Eat Watermelon?"],
+    ['is-chocolate-toxic-to-cats', "Is Chocolate Toxic to Cats?"],
+  ],
   care: [
     ['feliway-vs-comfort-zone', 'Feliway vs Comfort Zone'],
     ['churu-vs-delectables', 'Churu vs Delectables'],
@@ -377,6 +406,11 @@ const PAGE_GROUP = {
   'feliway-vs-comfort-zone': 'care', 'churu-vs-delectables': 'care', 'cat-nail-clippers-vs-grinder': 'care', 'tuft-and-paw-review': 'care',
 };
 
+const RELATED_TITLES = { safety: 'More cat safety checks' };
+/** Groups whose related list rotates from the current page (large groups). */
+const ROTATING = new Set(['safety']);
+for (const [s] of RELATED_GROUPS.safety) PAGE_GROUP[s] = 'safety';
+
 /** Funnel config for an article slug, or null. */
 export function funnelFor(slug) {
   const target = FUNNEL_MAP[slug];
@@ -387,12 +421,18 @@ export function funnelFor(slug) {
   const group = PAGE_GROUP[slug];
   if (group) {
     const own = MONEY_PAGES[slug];
-    return { kind: 'money', target: slug, money: own ?? null, related: relatedFor(group, slug) };
+    return { kind: 'money', target: slug, money: own ?? null, related: relatedFor(group, slug), relatedTitle: RELATED_TITLES[group] };
   }
   return null;
 }
 
 function relatedFor(group, slug, target) {
+  if (ROTATING.has(group)) {
+    const all = RELATED_GROUPS[group];
+    const i = all.findIndex(([s]) => s === slug);
+    const rot = [...all.slice(i + 1), ...all.slice(0, Math.max(i, 0))].filter(([s]) => s !== slug);
+    return rot.slice(0, 5);
+  }
   const list = (RELATED_GROUPS[group] ?? []).filter(([s]) => s !== slug);
   // Put the funnel target first so it always gets a contextual link.
   if (target) list.sort((a, b) => (a[0] === target ? -1 : b[0] === target ? 1 : 0));

@@ -1,10 +1,11 @@
 ---
-import { getCollection, render } from 'astro:content';
+import { render } from 'astro:content';
+import { getBlogPosts } from '../../lib/posts';
 import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 import { clusterConfigBySlug } from '../../lib/clusters';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  const posts = await getBlogPosts(({ data }) => !data.draft);
   const postMap = new Map(posts.map((post) => [post.id, post]));
 
   return posts.map((post) => {
@@ -60,9 +61,34 @@ export async function getStaticPaths() {
 }
 
 const { post, relatedPosts, clusterContext } = Astro.props;
+
+// Products named on the page (ProductCard components in MDX, product-card markup in .md),
+// used for ItemList schema on best-of / comparison / deal pages. Names and URLs only:
+// no prices or ratings.
+const AMAZON_TAG = 'pawandsage21-20';
+const itemList: { name: string; url?: string }[] = [];
+const seen = new Set<string>();
+const addItem = (name: string, url?: string) => {
+  const key = name.trim().toLowerCase();
+  if (!key || seen.has(key)) return;
+  seen.add(key);
+  itemList.push({ name: name.trim(), url });
+};
+const body = post.body ?? '';
+for (const match of body.matchAll(/<ProductCard\b([\s\S]*?)\/>/g)) {
+  const attrs = match[1];
+  const name = attrs.match(/\bname="([^"]+)"/)?.[1];
+  const asin = attrs.match(/\basin="([^"]+)"/)?.[1];
+  const href = attrs.match(/\bhref="([^"]+)"/)?.[1];
+  if (name) addItem(name, href ?? (asin ? `https://www.amazon.com/dp/${asin}?tag=${AMAZON_TAG}` : undefined));
+}
+for (const match of body.matchAll(/class="product-card-title-link" href="([^"]+)"[^>]*>([^<]+)</g)) {
+  addItem(match[2].replace(/&amp;/g, '&'), match[1].replace(/&amp;/g, '&'));
+}
+const isListPage = /(^best-|-vs-|deal|coupon|gifts|stocking|advent|alternatives|review|window-perch|tree-skirt|products)/.test(post.id);
 const { Content } = await render(post);
 ---
 
-<BlogPostLayout frontmatter={post.data} relatedPosts={relatedPosts} clusterContext={clusterContext}>
+<BlogPostLayout frontmatter={post.data} relatedPosts={relatedPosts} clusterContext={clusterContext} itemList={isListPage ? itemList : []}>
   <Content />
 </BlogPostLayout>

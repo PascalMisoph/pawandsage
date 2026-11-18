@@ -1,7 +1,7 @@
 ---
-title: "New Kitten Checklist 2026: Everything to Buy Before Day One"
-seoTitle: "New Kitten Checklist 2026: Everything to Buy Before Day One"
-description: "New cat checklist for 2026: what to buy before your kitten comes home, in the order you'll need it, from litter setup to carrier and scratcher."
+title: "New Kitten Checklist {year}: Everything to Buy Before Day One"
+seoTitle: "New Kitten Checklist {year}: Everything to Buy Before Day One"
+description: "New cat checklist for {year}: what to buy before your kitten comes home, in the order you'll need it, from litter setup to carrier and scratcher."
 pubDate: 2026-04-15
 updatedDate: 2026-11-18T15:00:00Z
 category: "new-cat"

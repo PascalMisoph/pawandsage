@@ -53,9 +53,48 @@ const organizationReference = {
 
 const personReference = {
   '@type': 'Person',
+  '@id': PERSON.id,
   name: PERSON.name,
   url: PERSON.url,
 };
+
+export function buildPersonSchema() {
+  return compact({
+    '@type': 'Person',
+    '@id': PERSON.id,
+    name: PERSON.name,
+    givenName: PERSON.givenName,
+    familyName: PERSON.familyName,
+    url: PERSON.url,
+    jobTitle: PERSON.jobTitle,
+    description: PERSON.description,
+    worksFor: organizationReference,
+    sameAs: PERSON.sameAs.length > 0 ? PERSON.sameAs : undefined,
+  });
+}
+
+export interface ItemListEntry {
+  name: string;
+  url?: string;
+}
+
+/** ItemList for best-of / comparison / deal pages, built from the products named on the page. */
+export function buildItemListSchema(name: string, items: ItemListEntry[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name,
+    numberOfItems: items.length,
+    itemListElement: items.map((item, index) =>
+      compact({
+        '@type': 'ListItem',
+        position: index + 1,
+        name: item.name,
+        url: item.url,
+      }),
+    ),
+  };
+}
 
 export function buildBreadcrumbSchema(items: BreadcrumbItem[]) {
   return {

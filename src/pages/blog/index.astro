@@ -2,10 +2,10 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import PostCard from '../../components/PostCard.astro';
-import { getCollection } from 'astro:content';
+import { getBlogPosts } from '../../lib/posts';
 import { buildCollectionPageSchema } from '../../lib/schema';
 
-const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const allPosts = await getBlogPosts(({ data }) => !data.draft);
 const sortedPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const breadcrumbs = [
   { name: 'Home', path: '/' },

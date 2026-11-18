@@ -74,8 +74,8 @@ function endBlocks(slug, f) {
   }
   if (f.related.length) {
     out.push(
-      el('nav', { className: ['related-comparisons'], ariaLabel: 'Related comparisons' }, [
-        el('p', { className: ['funnel-eyebrow'] }, [text('Related comparisons')]),
+      el('nav', { className: ['related-comparisons'], ariaLabel: f.relatedTitle ?? 'Related comparisons' }, [
+        el('p', { className: ['funnel-eyebrow'] }, [text(f.relatedTitle ?? 'Related comparisons')]),
         el(
           'ul',
           {},

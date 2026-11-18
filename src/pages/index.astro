@@ -3,12 +3,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import EmailCapture from '../components/EmailCapture.astro';
 import PostCard from '../components/PostCard.astro';
 import ResponsiveImage from '../components/ResponsiveImage.astro';
-import { getCollection } from 'astro:content';
+import { getBlogPosts } from '../lib/posts';
+import { pillars } from '../lib/pillars';
+import { resolveSeasonal } from '../lib/seasonal';
 import responsiveImageManifest from '../generated/responsive-image-manifest.json';
 import { PERSON, SITE_URL } from '../lib/site';
 import { buildFAQPageSchema, buildPageSchema } from '../lib/schema';
 
-const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const allPosts = await getBlogPosts(({ data }) => !data.draft);
 const featuredSlugs = ['black-friday-cat-deals', 'litter-robot-black-friday-deal', 'best-automatic-litter-box-multiple-cats', 'litter-robot-alternatives'];
 const featuredPosts = featuredSlugs
   .map((slug) => allPosts.find((post) => post.id === slug))
@@ -25,6 +27,18 @@ const sortedPosts = [...allPosts]
       a.data.title.localeCompare(b.data.title),
   )
   .slice(0, 9);
+// Topic guides (pillars) and quick-check chip lists so every cluster article is one click from home.
+const guideCards = pillars.map((pillar) => ({ href: `/guides/${pillar.slug}`, title: pillar.title.split(':')[0], description: pillar.description }));
+const postById = new Map(allPosts.map((post) => [post.id, post]));
+const safetyPosts = allPosts
+  .filter((post) => post.data.safety)
+  .sort((a, b) => (a.data.safety!.subject).localeCompare(b.data.safety!.subject));
+const litterPillar = pillars.find((pillar) => pillar.slug === 'litter-box');
+const litterPosts = (litterPillar?.sections ?? [])
+  .flatMap((section) => section.slugs)
+  .map((slug) => postById.get(slug))
+  .filter((post): post is (typeof allPosts)[number] => Boolean(post) && !featuredSlugs.includes(post!.id));
+const giftYear = resolveSeasonal('{year}');
 const homeFaq = [
   {
     question: 'What kind of cat advice does Paw & Sage cover?',
@@ -147,7 +161,7 @@ const schema = [
             />
           ))}
         </div>
-        <p class="section-more">Also: <a href="/compare">all product comparisons</a> and the <a href="/blog/best-gifts-for-cat-lovers">2026 gift guide</a>.</p>
+        <p class="section-more">Also: <a href="/compare">all product comparisons</a> and the <a href="/blog/best-gifts-for-cat-lovers">{giftYear} gift guide</a>.</p>
       </div>
     </section>
   )}
@@ -178,28 +192,62 @@ const schema = [
     </section>
   )}
 
-  <section class="categories-section">
+  <section class="categories-section" aria-labelledby="topic-guides-title">
     <div class="container">
       <div class="section-header">
-        <span class="eyebrow">Three threads</span>
-        <h2>Where to begin.</h2>
+        <span class="eyebrow">Topic guides</span>
+        <h2 id="topic-guides-title">Where to begin.</h2>
       </div>
-      <div class="categories-grid">
-        <a href="/categories/behavior" class="category-card">
-          <h3>Behavior</h3>
-          <p>What your cat is actually telling you, and how to listen.</p>
-        </a>
-        <a href="/categories/enrichment" class="category-card">
-          <h3>Enrichment</h3>
-          <p>Small changes that turn a flat indoor life into a rich one.</p>
-        </a>
-        <a href="/categories/new-cat" class="category-card">
-          <h3>New Cat</h3>
-          <p>Everything you wish someone had told you in the first week.</p>
-        </a>
+      <div class="categories-grid guides-grid">
+        {guideCards.map((card) => (
+          <a href={card.href} class="category-card">
+            <h3>{card.title}</h3>
+            <p>{card.description}</p>
+          </a>
+        ))}
       </div>
+      <p class="section-more">Or browse by category: <a href="/categories/behavior">Behavior</a> · <a href="/categories/enrichment">Enrichment</a> · <a href="/categories/new-cat">New Cat</a> · <a href="/categories/health-safety">Health &amp; Safety</a></p>
     </div>
   </section>
+
+  {safetyPosts.length > 0 && (
+    <section class="quick-checks" aria-labelledby="safety-checks-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Is it safe for cats?</span>
+          <h2 id="safety-checks-title">Plants, foods and oils, checked against the ASPCA.</h2>
+        </div>
+        <ul class="chip-list">
+          {safetyPosts.map((post) => (
+            <li>
+              <a href={`/blog/${post.id}`} class={`chip verdict-${post.data.safety!.verdict}`}>
+                <span class="chip-dot" aria-hidden="true"></span>{post.data.safety!.subject}
+                <span class="visually-hidden"> ({post.data.safety!.verdict === 'safe' ? 'non-toxic' : post.data.safety!.verdict})</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+        <p class="section-more">Suspect poisoning? Call your vet or the ASPCA Animal Poison Control Center at <a href="tel:+18884264435">(888) 426-4435</a> (a fee may apply). <a href="/guides/is-it-safe-for-cats">See the full safety list &rarr;</a></p>
+      </div>
+    </section>
+  )}
+
+  {litterPosts.length > 0 && (
+    <section class="quick-checks" aria-labelledby="litter-checks-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Litter box help</span>
+          <h2 id="litter-checks-title">Litter box problems, solved one by one.</h2>
+        </div>
+        <ul class="chip-list">
+          {litterPosts.map((post) => (
+            <li><a href={`/blog/${post.id}`} class="chip">{post.data.title.split(/[:?(]/)[0].trim()}</a></li>
+          ))}
+        </ul>
+        <p class="section-more"><a href="/guides/litter-box">Open the complete litter box guide &rarr;</a></p>
+      </div>
+    </section>
+  )}
 
   <section class="trust-section">
     <div class="container trust-grid">
@@ -806,4 +854,15 @@ const schema = [
   .faq-list summary::-webkit-details-marker {
     display: none;
   }
+
+  .guides-grid { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+  .quick-checks { padding: 3rem 0; }
+  .chip-list { list-style: none; padding: 0; margin: 1.25rem 0 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .chip { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.45rem 0.85rem; border: 1px solid var(--color-border, #e3ddd2); border-radius: 999px; background: var(--color-surface, #fff); color: inherit; text-decoration: none; font-size: 0.92rem; line-height: 1.2; min-height: 44px; }
+  .chip:hover { border-color: currentColor; }
+  .chip-dot { width: 0.65rem; height: 0.65rem; border-radius: 50%; flex: none; background: #9aa39a; }
+  .verdict-toxic .chip-dot { background: #c0392b; }
+  .verdict-caution .chip-dot { background: #d4a017; }
+  .verdict-safe .chip-dot { background: #3f8f5a; }
+  .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 </style>

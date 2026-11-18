@@ -1,0 +1,112 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getBlogPosts } from '../../lib/posts';
+import { buildPersonSchema } from '../../lib/schema';
+import { PERSON, SITE_URL } from '../../lib/site';
+
+// Facts on this page come only from what Paw & Sage already states publicly (About page,
+// editorial policy). No invented credentials, pets or social profiles: `sameAs` stays empty
+// until real profile URLs exist.
+const posts = (await getBlogPosts(({ data }) => !data.draft)).sort(
+  (a, b) => (b.data.updatedDate ?? b.data.pubDate).valueOf() - (a.data.updatedDate ?? a.data.pubDate).valueOf(),
+);
+const latest = posts.slice(0, 12);
+const path = '/author/pascal-misoph';
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'About', path: '/about' },
+  { name: PERSON.name, path },
+];
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfilePage',
+  name: `${PERSON.name}, founder of Paw & Sage`,
+  url: `${SITE_URL}${path}`,
+  inLanguage: 'en-US',
+  dateModified: new Date(latest[0]?.data.updatedDate ?? latest[0]?.data.pubDate ?? Date.now()).toISOString(),
+  mainEntity: buildPersonSchema(),
+};
+const topics = [
+  { href: '/guides/cat-behavior', label: 'Cat behavior', note: 'why cats do what they do, and when it is a vet question' },
+  { href: '/guides/indoor-cat-enrichment', label: 'Indoor enrichment', note: 'play, climbing, puzzles and boredom' },
+  { href: '/guides/new-cat', label: 'New cat care', note: 'the first weeks, supplies and setup' },
+  { href: '/guides/litter-box', label: 'Litter box problems', note: 'house soiling, litter, boxes and cleaning' },
+  { href: '/guides/is-it-safe-for-cats', label: 'Is it safe for cats?', note: 'plants, foods and essential oils, based on ASPCA data' },
+];
+---
+
+<BaseLayout
+  title="Pascal Misoph, Founder and Writer at Paw & Sage"
+  description="Pascal Misoph founded Paw & Sage and writes its research-based guides on cat behavior, enrichment, litter boxes and cat safety, citing ASPCA, Cornell, VCA and AAFP guidance."
+  breadcrumbs={breadcrumbs}
+  schema={schema}
+>
+  <section class="page-header">
+    <div class="container-narrow">
+      <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: 'About', href: '/about' }, { name: PERSON.name }]} />
+      <span class="eyebrow">Author</span>
+      <h1>Pascal Misoph</h1>
+      <p class="author-role">Founder, writer and editor of Paw &amp; Sage</p>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container-narrow prose">
+      <p class="lede">
+        I started Paw &amp; Sage to write the cat guides I wanted to read: clear, calm, useful in the first paragraph, and honest about what is known and what is not.
+      </p>
+      <p>
+        Paw &amp; Sage is written from Germany for cat lovers in the US. That is why product links point to Amazon.com and US retailers and prices are never hardcoded: they change too often to print.
+      </p>
+
+      <h2>How I research</h2>
+      <p>
+        Health and safety claims on this site are based on published guidance from veterinary and animal-welfare organizations, and each article links the sources it uses. The ones I rely on most:
+      </p>
+      <ul>
+        <li><a href="https://www.aspca.org/pet-care/animal-poison-control" rel="noopener" target="_blank">ASPCA Animal Poison Control Center</a> and its toxic and non-toxic plant database</li>
+        <li><a href="https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center" rel="noopener" target="_blank">Cornell Feline Health Center</a></li>
+        <li><a href="https://catvets.com/" rel="noopener" target="_blank">American Association of Feline Practitioners (AAFP)</a> guidelines</li>
+        <li><a href="https://vcahospitals.com/know-your-pet" rel="noopener" target="_blank">VCA Animal Hospitals</a>, <a href="https://www.merckvetmanual.com/" rel="noopener" target="_blank">Merck Veterinary Manual</a> and <a href="https://www.petpoisonhelpline.com/" rel="noopener" target="_blank">Pet Poison Helpline</a></li>
+      </ul>
+      <p>
+        I am not a veterinarian, and nothing here replaces one. If you think your cat ate something toxic, call your veterinarian or the ASPCA Animal Poison Control Center at <a href="tel:+18884264435">(888) 426-4435</a> (a consultation fee may apply).
+      </p>
+      <p>
+        Product picks follow the process described in <a href="/how-we-pick">how we pick products</a>, and corrections and updates follow the <a href="/editorial-policy">editorial policy</a>. Some links are affiliate links; see the <a href="/disclosure">disclosure</a>.
+      </p>
+
+      <h2>What I write about</h2>
+      <ul class="topic-list">
+        {topics.map((topic) => (
+          <li><a href={topic.href}>{topic.label}</a>: {topic.note}</li>
+        ))}
+      </ul>
+      <p>
+        Outside the site, I also build <a href="/catplay">CatPlay</a>, a small iOS app for tracking cat behavior.
+      </p>
+
+      <h2>Recently published and updated</h2>
+      <ul class="latest-list">
+        {latest.map((post) => (
+          <li><a href={`/blog/${post.id}`}>{post.data.title}</a></li>
+        ))}
+      </ul>
+      <p><a href="/blog">All {posts.length} articles</a></p>
+
+      <h2>Contact</h2>
+      <p>
+        Questions, corrections or a source I should read? Use the <a href="/contact">contact page</a>.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header { padding: 5rem 0 2rem; text-align: center; }
+  .page-header .eyebrow { display: block; margin-bottom: 1rem; }
+  .author-role { color: var(--ink-soft, #5a554f); margin-top: 0.5rem; }
+  .content-section { padding: 2rem 0 5rem; }
+  .topic-list li, .latest-list li { margin: 0.35rem 0; }
+</style>
