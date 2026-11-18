@@ -3,7 +3,7 @@ title: "New Kitten Checklist 2026: Everything to Buy Before Day One"
 seoTitle: "New Kitten Checklist 2026: Everything to Buy Before Day One"
 description: "New cat checklist for 2026: what to buy before your kitten comes home, in the order you'll need it, from litter setup to carrier and scratcher."
 pubDate: 2026-04-15
-updatedDate: 2026-11-18
+updatedDate: 2026-11-18T15:00:00Z
 category: "new-cat"
 tags: ["kitten", "new cat", "checklist", "essentials"]
 readTime: "8 min read"
@@ -105,6 +105,8 @@ Shopping for a friend who just adopted? Our [gifts for new cat owners](/blog/gif
 For a thoughtful setup with quality basics: **$150–$250.**
 
 You'll see lists online suggesting $500+. Most of that is upselling. The list above is the honest minimum to give your kitten a healthy, comfortable first month. You can always add more later — once you've watched your specific cat for a few weeks and learned what they actually want.
+
+Still choosing supplies? Start with our [best cat litter](/blog/best-cat-litter) guide and our [best cat scratchers](/blog/best-cat-scratchers).
 
 ## A quiet note before you go
 

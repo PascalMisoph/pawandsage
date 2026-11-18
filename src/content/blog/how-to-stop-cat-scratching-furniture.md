@@ -2,7 +2,7 @@
 title: "How to Stop Your Cat From Scratching Furniture (For Good)"
 description: "Your cat isn't scratching the couch out of spite. Scratching is a biological need, so the fix is redirecting it, not stopping it: a three-step approach."
 pubDate: 2026-04-29
-updatedDate: 2026-11-18
+updatedDate: 2026-11-18T15:00:00Z
 category: "behavior"
 tags: ["behavior", "scratching", "furniture", "training", "indoor cats"]
 readTime: "5 min read"
@@ -109,6 +109,8 @@ Scratching that happens in sudden intense bursts — especially in the early mor
 **Two ten-minute play sessions a day, done consistently, change more behavior than any deterrent product.** A wand toy like [Go Cat Da Bird](https://amazon.com/dp/B001BOVEU4?tag=pawandsage21-20) is the most effective option for burning off that restless energy — the feather moves like real prey and pulls out the full hunting sequence. See our guide to [interactive toys that actually work](/blog/best-interactive-cat-toys) for more options by play style.
 
 If your cat's scratching seems tied to stress rather than boredom — it spikes after visitors, after loud disruptions, or after something in the home changed — check our [indoor cat enrichment ideas](/blog/indoor-cat-enrichment-ideas) for ways to lower their baseline anxiety.
+
+Ready to buy? Our [best cat scratchers](/blog/best-cat-scratchers) guide ranks vertical posts, cardboard pads and sofa protectors.
 
 ## The Bottom Line
 

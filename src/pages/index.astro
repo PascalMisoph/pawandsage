@@ -24,7 +24,7 @@ const sortedPosts = [...allPosts]
       (b.data.updatedDate?.valueOf() ?? 0) - (a.data.updatedDate?.valueOf() ?? 0) ||
       a.data.title.localeCompare(b.data.title),
   )
-  .slice(0, 6);
+  .slice(0, 9);
 const homeFaq = [
   {
     question: 'What kind of cat advice does Paw & Sage cover?',

@@ -3,6 +3,7 @@ import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import EmailCapture from '../components/EmailCapture.astro';
 import CatPlayCTA from '../components/CatPlayCTA.astro';
+import StickyCTA from '../components/StickyCTA.astro';
 import ResponsiveImage from '../components/ResponsiveImage.astro';
 import { buildImageObject, buildImagePreloadHint } from '../lib/images';
 import { buildFAQPageSchema } from '../lib/schema';
@@ -282,6 +283,7 @@ const schema = [
       {showCatPlay && <CatPlayCTA />}
     </div>
   </article>
+  <StickyCTA />
 </BaseLayout>
 
 <style>

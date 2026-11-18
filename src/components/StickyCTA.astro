@@ -1,0 +1,72 @@
+---
+/**
+ * StickyCTA: a small, dismissible bar (mobile bottom) / card (desktop bottom-right)
+ * pointing to the article's primary money page or top pick (src/lib/funnels.mjs).
+ * Fixed position + `hidden` until JS reveals it after scrolling, so no layout shift.
+ * Dismissal is remembered for 3 days (localStorage). Hidden while the footer is visible.
+ * Umami: funnel-click (internal) or affiliate-click with position "sticky".
+ */
+import { stickyFor } from '../lib/funnels.mjs';
+const slug = Astro.url.pathname.replace(/^\/blog\//, '').replace(/\/$/, '');
+const s = stickyFor(slug);
+---
+{s && (
+  <div class="sticky-cta" id="sticky-cta" hidden role="complementary" aria-label="Recommended for this article">
+    <div class="sticky-cta-body">
+      <span class="sticky-cta-label">{s.label}</span>
+      {s.kind === 'affiliate' && <span class="sticky-cta-name">{s.name}</span>}
+    </div>
+    {s.kind === 'internal' ? (
+      <a
+        class="sticky-cta-btn"
+        href={s.href}
+        data-umami-event="funnel-click"
+        data-umami-event-article={slug}
+        data-umami-event-position="sticky"
+        data-umami-event-target={s.target}
+      >{s.text}</a>
+    ) : (
+      <a
+        class="sticky-cta-btn"
+        href={s.href}
+        target="_blank"
+        rel="sponsored nofollow noopener"
+        data-umami-event="affiliate-click"
+        data-umami-event-merchant={s.merchant}
+        data-umami-event-article={slug}
+        data-umami-event-position="sticky"
+        data-umami-event-product={s.name}
+      >{s.text}</a>
+    )}
+    <button type="button" class="sticky-cta-close" aria-label="Dismiss recommendation">×</button>
+  </div>
+)}
+{s && (
+  <script is:inline>
+    (function () {
+      var el = document.getElementById('sticky-cta');
+      if (!el) return;
+      var KEY = 'ps-sticky-dismissed';
+      try {
+        var t = Number(localStorage.getItem(KEY) || 0);
+        if (t && Date.now() - t < 3 * 864e5) return;
+      } catch (e) {}
+      var footerVisible = false, dismissed = false;
+      var footer = document.querySelector('footer');
+      if (footer && 'IntersectionObserver' in window) {
+        new IntersectionObserver(function (es) { footerVisible = es[0].isIntersecting; update(); }).observe(footer);
+      }
+      function update() {
+        if (dismissed) return;
+        var show = window.scrollY > Math.min(900, document.body.scrollHeight * 0.2) && !footerVisible;
+        el.hidden = !show;
+      }
+      window.addEventListener('scroll', update, { passive: true });
+      el.querySelector('.sticky-cta-close').addEventListener('click', function () {
+        dismissed = true; el.hidden = true;
+        try { localStorage.setItem(KEY, String(Date.now())); } catch (e) {}
+      });
+      update();
+    })();
+  </script>
+)}

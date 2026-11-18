@@ -1,9 +1,9 @@
 ---
-title: "Cat TV: How a Window Perch Cures Indoor Boredom (Best Perches)"
-seoTitle: "Cat Window Perch: How 'Cat TV' Cures Indoor Boredom"
-description: "A window perch is the cheapest high-impact upgrade for an indoor cat. Why 'Cat TV' works, how to set it up, and the best perches and feeders for it."
+title: "Best Cat Window Perches 2026: \"Cat TV\" for Indoor Cats (Incl. Large Cats)"
+seoTitle: "Best Cat Window Perches 2026 (Incl. Large Cats)"
+description: "The best cat window perches and how to set one up: why 'Cat TV' cures indoor boredom, suction-cup vs sill perches, picks for large cats, and bird feeders that keep cats watching."
 pubDate: 2026-06-19
-updatedDate: 2026-11-18
+updatedDate: 2026-11-18T15:00:00Z
 category: "enrichment"
 tags: ["enrichment", "indoor cats", "window perch", "cat tv", "boredom"]
 readTime: "7 min read"
@@ -26,6 +26,10 @@ faq:
     answer: "Choose the window with the most outside activity, ideally one facing a garden, a tree, a feeder, or a busy street at a safe distance. Morning sun is a bonus. The more there is to watch, the more the perch gets used."
   - question: "What if my cat ignores the window perch at first?"
     answer: "Give it time and a reason. Place it at a comfortable height, add a soft cover, and seed interest by putting a treat or a favorite toy on it. A bird feeder on the outside of the glass dramatically increases use because it creates live, moving things to watch."
+  - question: "What is the best cat window perch for large cats?"
+    answer: "Pick a perch with a published weight rating comfortably above your cat's weight, mounted on clean glass. Tuft & Paw's Cloud Nine Window Hammock is rated by the maker for up to 30 lb on a glass surface. For heavier cats or non-glass windows, a sill-supported or floor-standing perch is safer than suction cups."
+  - question: "Are suction-cup cat window perches safe?"
+    answer: "They are when installed exactly as the maker says: on clean, smooth glass, within the stated weight limit, and checked regularly. Suction cups can loosen with temperature swings, so press them again every week or two."
 draft: false
 ---
 
@@ -70,6 +74,15 @@ For cats who want to survey rather than lounge at glass level, a tall tree by th
 **What helps:** A tall, stable [cat tree](https://amazon.com/dp/B078HB646M?tag=pawandsage21-20) positioned next to the window adds elevated perches and a sense of safe high ground, so your cat can watch the show from the height it instinctively prefers.
 
 If floor space is tight, use the wall instead of adding another piece of furniture. The [Lynadri Cat Wall Shelves 5-in-1](https://www.amazon.com/dp/B0GWQ42WLQ?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.38JYHVPCJO618&linkCode=tr1&tag=pawandsage21-20&linkId=amzn1.campaign.38JYHVPCJO618_1782828464101) can turn the area beside a window into a small vertical route, with steps, a condo, scratching surfaces, and resting points. The best setup is not just a perch at the glass; it is a route to the perch that gives your cat choices.
+
+## Best Cat Window Perch for Large Cats
+
+Big cats need a perch with a real weight rating, not a guess. The [Tuft & Paw Cloud Nine Window Hammock](https://www.awin1.com/cread.php?awinmid=59149&awinaffid=3141803&ued=https%3A%2F%2Fwww.tuftandpaw.com%2Fproducts%2Fcloud-nine-window-hammock) is rated by the maker for up to 30 lb and must be mounted on glass. Code **PURR20** is listed through December 31, 2026. Whatever you buy:
+
+- Check the maker's weight limit and leave a margin above your cat's weight.
+- Mount suction cups on clean, smooth glass only, and press them again every week or two.
+- For heavy jumpers, a [heated window perch](/blog/heated-cat-window-perch) that sits on the sill, or a [modern cat tree](/blog/best-modern-cat-trees) placed beside the window, takes the load off the glass.
+- Check screens and balconies too: [cat window and balcony safety](/blog/cat-window-balcony-safety).
 
 ## Getting a Reluctant Cat to Use It
 

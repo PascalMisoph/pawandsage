@@ -13,6 +13,7 @@
 //         title-N        product-card title link (raw .md product cards)
 //         image-N        product-card image link (raw .md product cards)
 //         productcard-N  card CTA button / whole affiliate-card block
+//         funnel-N       pick inside a funnel box (rehype-funnel-box.mjs)
 //       data-umami-event-product   (link text / product name, when available)
 // MDX <ProductCard> components get `position` and `article` props injected so
 // their CTA buttons are tracked the same way. Hrefs and link text never change.
@@ -160,7 +161,8 @@ function visit(node, state, context = 'inline') {
       node.properties.target = '_blank';
       const classes = [].concat(node.properties.className ?? []);
       const isCard = classes.includes('product-card-cta') || classes.includes('affiliate-card');
-      const attrs = trackingAttrs(state, { merchant, isCard, product: textOf(node) || null, kind: context });
+      const kind = classes.includes('funnel-pick') ? 'funnel' : context;
+      const attrs = trackingAttrs(state, { merchant, isCard, product: textOf(node) || null, kind });
       for (const [key, val] of Object.entries(attrs)) node.properties[toPropName(key)] = val;
     }
   }

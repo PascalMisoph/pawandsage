@@ -2,6 +2,7 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
 import rehypeAffiliateLinks from './src/lib/rehype-affiliate-links.mjs';
+import rehypeFunnelBox from './src/lib/rehype-funnel-box.mjs';
 
 export default defineConfig({
   site: 'https://www.pawandsage.com',
@@ -19,7 +20,7 @@ export default defineConfig({
   markdown: {
     // Bump `version` whenever the plugin changes: it alters the config digest so
     // Astro's content cache (also restored on Vercel) re-renders every article.
-    rehypePlugins: [[rehypeAffiliateLinks, { version: 3 }]],
+    rehypePlugins: [[rehypeFunnelBox, { version: 2 }], [rehypeAffiliateLinks, { version: 4 }]],
     shikiConfig: {
       theme: 'github-light',
     },

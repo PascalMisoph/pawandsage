@@ -3,7 +3,7 @@ title: "Cat Wall Shelves vs Cat Trees: Which Is Better for Indoor Cats?"
 seoTitle: "Cat Wall Shelves vs Cat Trees: Which Should You Buy?"
 description: "Need vertical space for an indoor cat? Compare wall shelves vs a cat tree for floor space, stability, and which setup fits apartments or multi-cat homes."
 pubDate: 2026-07-10
-updatedDate: 2026-11-18
+updatedDate: 2026-11-18T15:00:00Z
 category: "enrichment"
 tags: ["vertical space", "cat shelves", "cat trees", "indoor cats"]
 readTime: "8 min read"
@@ -64,6 +64,8 @@ For senior cats or cats with mobility issues, keep routes low, wide, and easy. H
 If you have space, pair a tree with shelves. The tree becomes the base, and shelves extend the route toward a window or quiet resting zone. This turns one object into a mini territory.
 
 For more broad setup ideas, read [20 indoor cat enrichment ideas](/blog/indoor-cat-enrichment-ideas) and [Cat TV window perch setups](/blog/cat-window-perch).
+
+Prefer a tree that looks like furniture? See our [best modern cat trees](/blog/best-modern-cat-trees).
 
 ## Safety Rules
 
