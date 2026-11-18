@@ -38,6 +38,15 @@ const litterPosts = (litterPillar?.sections ?? [])
   .flatMap((section) => section.slugs)
   .map((slug) => postById.get(slug))
   .filter((post): post is (typeof allPosts)[number] => Boolean(post) && !featuredSlugs.includes(post!.id));
+const behaviorPillar = pillars.find((pillar) => pillar.slug === 'cat-behavior');
+const enrichmentPillar = pillars.find((pillar) => pillar.slug === 'indoor-cat-enrichment');
+const litterSlugSet = new Set(litterPosts.map((post) => post.id));
+const behaviorPosts = [...new Set([
+  ...(behaviorPillar?.sections ?? []).filter((section) => !/litter/i.test(section.heading)).flatMap((section) => section.slugs),
+  ...(enrichmentPillar?.sections?.[0]?.slugs ?? []),
+])]
+  .map((slug) => postById.get(slug))
+  .filter((post): post is (typeof allPosts)[number] => Boolean(post) && !featuredSlugs.includes(post!.id) && !litterSlugSet.has(post!.id) && !/^(best|.*-vs-)/.test(post!.id));
 const giftYear = resolveSeasonal('{year}');
 const homeFaq = [
   {
@@ -245,6 +254,23 @@ const schema = [
           ))}
         </ul>
         <p class="section-more"><a href="/guides/litter-box">Open the complete litter box guide &rarr;</a></p>
+      </div>
+    </section>
+  )}
+
+  {behaviorPosts.length > 0 && (
+    <section class="quick-checks" aria-labelledby="behavior-checks-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Cat behavior questions</span>
+          <h2 id="behavior-checks-title">Why does my cat do that?</h2>
+        </div>
+        <ul class="chip-list">
+          {behaviorPosts.map((post) => (
+            <li><a href={`/blog/${post.id}`} class="chip">{post.data.title.split(/[:?(]/)[0].trim()}</a></li>
+          ))}
+        </ul>
+        <p class="section-more"><a href="/guides/cat-behavior">Open the cat behavior guide &rarr;</a> &middot; <a href="/guides/indoor-cat-enrichment">Indoor enrichment guide &rarr;</a></p>
       </div>
     </section>
   )}

@@ -85,7 +85,7 @@ Three changes, in this order:
 
 ## When it's actually a health issue
 
-If a previously quiet cat *suddenly* starts night waking — especially with vocalization — it's worth a vet check. Sudden changes in vocalization or activity in older cats can signal hyperthyroidism, cognitive decline, or pain. The patterns above describe healthy cats whose biology is just out of sync with their owners' schedules.
+If a previously quiet cat *suddenly* starts night waking — especially with vocalization — it's worth a vet check. Sudden changes in vocalization or activity in older cats can signal hyperthyroidism, cognitive decline, or pain. If the main problem is loud meowing or yowling at night, our guide to [cat meowing at night](/blog/cat-meowing-at-night) walks through the medical causes vets check first and a day-to-night routine that helps. The patterns above describe healthy cats whose biology is just out of sync with their owners' schedules.
 
 If you've made the three changes above and seen no improvement in three to four weeks, it's worth calling the vet.
 

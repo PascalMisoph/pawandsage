@@ -10,6 +10,9 @@ readTime: "7 min read"
 heroImage: "/blog/how-to-tire-out-a-cat-hero.png"
 heroAlt: "A young cat mid-leap chasing a feather wand toy across a living room in warm evening light."
 sources:
+  - title: "How Often Should You Play with Your Cat?"
+    url: "https://www.aaha.org/resources/how-often-should-you-play-with-your-cat/"
+    publisher: "American Animal Hospital Association (AAHA)"
   - title: "Feline Environmental Needs and Enrichment"
     url: "https://www.mspca.org/pet_resources/feline-enrichment/"
     publisher: "MSPCA-Angell"
@@ -97,6 +100,18 @@ In winter the evening energy surge tends to arrive earlier, because it gets dark
 - **Hide-and-seek with food.** Hide a few pieces of kibble around one room and let your cat hunt them out. It is slower, but it tires the brain, which matters just as much.
 
 Finish every game the same way: a final catch, then food. For more toy ideas that hold a cat's interest, see our picks for the [best interactive cat toys](/blog/best-interactive-cat-toys). If space is the limit, [small apartment cat enrichment](/blog/small-apartment-cat-enrichment-vertical-space) shows how to use walls instead of floor space.
+
+## What Are Zoomies, and Why Do They Hit at Night?
+
+"Zoomies" is owner slang for those sudden full-speed laps around the house. There is no single veterinary definition, but the timing has a well-documented reason: AAHA (the American Animal Hospital Association) explains that cats are **crepuscular**, most active at **dawn and dusk**. A cat that slept through the afternoon has energy to spend right when you are winding down.
+
+What AAHA recommends maps directly onto zoomie control:
+
+- **Schedule play at the peaks.** Morning and evening sessions match your cat's natural activity, and a session **before bed** helps tire your cat out so they are less likely to wake you at night.
+- **Match the dose to the age.** Kittens and young cats typically need several short sessions a day; adults may thrive with 1–2; seniors play slower and shorter.
+- **Run the full hunt.** Stare, stalk or chase, pounce, grab, kill, then a treat to finish.
+
+AAHA also warns that cats without proper outlets for these instincts can become frustrated, which can lead to aggression, furniture scratching and yowling. If the zoomies come with any of those, the answer is usually more structured play, not less. Our [how much playtime does a cat need](/blog/how-much-playtime-does-a-cat-need) guide has the full breakdown by age.
 
 ## When Hyper Is Something Else
 

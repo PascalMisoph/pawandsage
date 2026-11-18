@@ -51,7 +51,7 @@ Spider plants have long, arching, grass-like leaves that sway and dangle, which 
 If your cat targets the plant:
 
 - Hang it or put it on a shelf your cat cannot reach, and let the runners ("spiderettes") trail out of paw range.
-- Offer something better to chase. A short play session with a wand toy before you leave the room often does more than any deterrent; see [our indoor enrichment guide](/guides/indoor-cat-enrichment).
+- Offer something better to chase. A short play session with a wand toy before you leave the room often does more than any deterrent; see [how much playtime a cat needs](/blog/how-much-playtime-does-a-cat-need).
 - Check what else is nearby. A spider plant on a shelf next to a pothos or a peace lily is only as safe as its neighbour.
 
 ## Don't confuse it with these
