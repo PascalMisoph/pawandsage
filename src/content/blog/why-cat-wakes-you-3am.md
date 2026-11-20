@@ -1,9 +1,9 @@
 ---
-title: "Why Your Cat Wakes You Up at 3 AM (And How to Stop It)"
-seoTitle: "Why Cats Wake You at 3 AM: 3 Reasons and Fixes"
-description: "Why cats wake you at 3 AM, in three specific reasons, and how to stop the cycle without shutting your cat out of the bedroom."
+title: "Why Does My Cat Wake Me Up at 3 AM? 3 Reasons and How to Stop It"
+seoTitle: "Why Does My Cat Wake Me Up at 3 AM? 3 Causes + Fixes"
+description: "Why does your cat wake you up at 3 AM? Usually hunger timing, too little daytime play or a habit you rewarded. How to fix each one tonight, and when to call your vet."
 pubDate: 2026-04-10
-updatedDate: 2026-11-18
+updatedDate: 2026-11-20
 category: "behavior"
 tags: ["behavior", "sleep", "night activity", "training"]
 readTime: "6 min read"
