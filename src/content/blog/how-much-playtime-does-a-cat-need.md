@@ -1,7 +1,7 @@
 ---
 title: "How Much Playtime Does a Cat Need a Day? (By Age)"
 seoTitle: "How Much Playtime Does a Cat Need a Day? (By Age)"
-description: "How much playtime does a cat need? AAHA: kittens need several short sessions a day, adults 1–2. When to play, how to mimic the hunting sequence, and signs of too little play."
+description: "How much playtime does a cat need? AAHA: kittens need several short sessions a day, adults 1–2. When to play, how to mimic the hunt, and signs of too little."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "enrichment"

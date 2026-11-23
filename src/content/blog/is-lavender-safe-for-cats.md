@@ -1,7 +1,7 @@
 ---
 title: "Is Lavender Safe for Cats? The Plant, the Oil and Diffusers"
 seoTitle: "Is Lavender Safe for Cats? Plant, Oil & Diffusers"
-description: "Is lavender safe for cats? The ASPCA lists lavender as toxic to cats (linalool, linalyl acetate). What that means for lavender plants, essential oil and diffusers."
+description: "Is lavender safe for cats? The ASPCA lists lavender as toxic to cats (linalool, linalyl acetate). What that means for lavender plants, oils and diffusers."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "health-safety"

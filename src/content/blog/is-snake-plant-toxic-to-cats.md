@@ -1,7 +1,7 @@
 ---
 title: "Is Snake Plant Toxic to Cats? (Mother-in-Law's Tongue)"
 seoTitle: "Is Snake Plant Toxic to Cats? Symptoms & What to Do"
-description: "Is snake plant toxic to cats? The ASPCA lists snake plant (mother-in-law's tongue, Sansevieria) as toxic to cats due to saponins. Symptoms, what to do, safer plants."
+description: "Is snake plant toxic to cats? The ASPCA lists snake plant (mother-in-law's tongue, Sansevieria) as toxic to cats due to saponins. Symptoms and what to do."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "health-safety"

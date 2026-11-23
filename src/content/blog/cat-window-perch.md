@@ -1,7 +1,7 @@
 ---
 title: "Best Cat Window Perches {year}: \"Cat TV\" for Indoor Cats (Incl. Large Cats)"
 seoTitle: "Best Cat Window Perches {year} (Incl. Large Cats)"
-description: "The best cat window perches and how to set one up: why 'Cat TV' cures indoor boredom, suction-cup vs sill perches, picks for large cats, and bird feeders that keep cats watching."
+description: "The best cat window perches and how to set one up: why 'Cat TV' cures indoor boredom, suction-cup vs sill perches, picks for large cats, and bird feeders."
 pubDate: 2026-06-19
 updatedDate: 2026-11-18T15:00:00Z
 category: "enrichment"

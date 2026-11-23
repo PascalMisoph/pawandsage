@@ -1,7 +1,7 @@
 ---
 title: "Can Cats Drink Milk? Why Most Vets Say Skip the Saucer"
 seoTitle: "Can Cats Drink Milk? Lactose Intolerance Explained"
-description: "Can cats drink milk? Cornell and VCA say many cats are lactose intolerant, and the ASPCA warns dairy can cause diarrhea. What kittens should drink and what to offer instead."
+description: "Can cats drink milk? Cornell and VCA say many cats are lactose intolerant, and the ASPCA warns dairy can cause diarrhea. What kittens should drink instead."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "health-safety"

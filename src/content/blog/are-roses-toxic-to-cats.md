@@ -1,7 +1,7 @@
 ---
 title: "Are Roses Toxic to Cats? Petals, Leaves and Bouquets"
 seoTitle: "Are Roses Toxic to Cats? (ASPCA Verdict & Bouquets)"
-description: "Are roses toxic to cats? The ASPCA lists roses (Rosa species) as non-toxic to cats. What to check in rose bouquets, plus thorns, flower food and look-alike \"roses\"."
+description: "Are roses toxic to cats? The ASPCA lists roses (Rosa species) as non-toxic to cats. What to check in bouquets: thorns, flower food and look-alike \"roses\"."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "health-safety"

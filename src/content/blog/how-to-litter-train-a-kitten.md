@@ -1,7 +1,7 @@
 ---
 title: "How to Litter Train a Kitten: A Simple First-Week Plan"
 seoTitle: "How to Litter Train a Kitten: A First-Week Plan"
-description: "How to litter train a kitten: low-sided box, clumping litter, one room to start, n+1 boxes, enzymatic clean-ups and no punishment. A plan based on VCA and Cornell guidance."
+description: "How to litter train a kitten: low-sided box, clumping litter, one room to start, n+1 boxes, enzymatic cleanups and no punishment. A plan from VCA and Cornell."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "new-cat"

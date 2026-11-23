@@ -1,7 +1,7 @@
 ---
 title: "Cat Not Covering Poop? What It Can Mean and What to Change"
 seoTitle: "Cat Not Covering Poop? What It Means & What to Do"
-description: "Why is my cat not covering poop? Cornell lists refusing to bury waste as a sign of litter box aversion. Check cleanliness, litter, box size and comfort, then pain."
+description: "Why is my cat not covering poop? Cornell lists refusing to bury waste as a sign of litter box aversion. Check cleanliness, litter and box size, then pain."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "behavior"

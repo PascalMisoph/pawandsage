@@ -1,7 +1,7 @@
 ---
 title: "Is Basil Safe for Cats? The Plant vs Basil Essential Oil"
 seoTitle: "Is Basil Safe for Cats? Plant vs Essential Oil"
-description: "Is basil safe for cats? The ASPCA lists the basil plant as non-toxic to cats. Basil essential oil is a different matter. What to know before you grow it in the kitchen."
+description: "Is basil safe for cats? The ASPCA lists the basil plant as non-toxic to cats. Basil essential oil is a different matter. What to know before you grow it."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "health-safety"

@@ -1,7 +1,7 @@
 ---
 title: "Is Eucalyptus Safe for Cats? Plants, Oil and Shower Bundles"
 seoTitle: "Is Eucalyptus Safe for Cats? Plant, Oil & Diffusers"
-description: "Is eucalyptus safe for cats? The ASPCA lists eucalyptus as toxic to cats (eucalyptol). Signs, why concentrated oil is worse, shower bundles, diffusers and what to do."
+description: "Is eucalyptus safe for cats? The ASPCA lists eucalyptus as toxic to cats (eucalyptol). Signs, why concentrated oil is worse, shower bundles and diffusers."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "health-safety"

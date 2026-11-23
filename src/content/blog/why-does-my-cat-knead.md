@@ -1,7 +1,7 @@
 ---
 title: "Why Does My Cat Knead? \"Making Biscuits,\" Explained"
 seoTitle: "Why Does My Cat Knead? Making Biscuits, Explained"
-description: "Why do cats knead? It starts with nursing, and adults knead to self-soothe, show contentment and scent-mark with paw glands. VCA and AAHA explain, plus claw tips."
+description: "Why do cats knead? It starts with nursing; adults knead to self-soothe, show contentment and scent-mark with paw glands. VCA and AAHA explain, plus claw tips."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "behavior"

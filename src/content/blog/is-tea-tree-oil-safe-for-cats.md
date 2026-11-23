@@ -1,7 +1,7 @@
 ---
 title: "Is Tea Tree Oil Safe for Cats? Why a Few Drops Can Be Dangerous"
 seoTitle: "Is Tea Tree Oil Safe for Cats? Why a Few Drops Matter"
-description: "Is tea tree oil safe for cats? No: Pet Poison Helpline warns even a few concentrated drops can cause severe poisoning. Signs, shampoos, what to do and when to call."
+description: "Is tea tree oil safe for cats? No: Pet Poison Helpline warns a few concentrated drops can cause severe poisoning. Signs, shampoos, what to do, when to call."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "health-safety"

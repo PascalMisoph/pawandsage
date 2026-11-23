@@ -1,7 +1,7 @@
 ---
 title: "Can Cats Eat Watermelon? Seedless Fruit as a Summer Treat"
 seoTitle: "Can Cats Eat Watermelon? A Vet-Sourced Answer"
-description: "Can cats eat watermelon? VCA lists seedless watermelon among foods safe for cats. How to serve it (no seeds, no rind), how much, and fruits to avoid like grapes."
+description: "Can cats eat watermelon? VCA lists seedless watermelon among foods safe for cats. How to serve it (no seeds, no rind), how much, and fruits to avoid (grapes)."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "health-safety"

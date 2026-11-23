@@ -1,7 +1,7 @@
 ---
 title: "Cat Pooping Outside the Litter Box: Why It Happens and Fixes"
 seoTitle: "Cat Pooping Outside the Litter Box? Why & What to Do"
-description: "Why is my cat pooping outside the litter box? Medical causes, box size and cleanliness, litter, location and stress, with fixes from Cornell, the ASPCA and AAFP guidance."
+description: "Why is my cat pooping outside the litter box? Medical causes, box size and cleanliness, litter, location and stress, with fixes from Cornell, ASPCA and AAFP."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "behavior"

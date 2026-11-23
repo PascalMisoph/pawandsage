@@ -1,7 +1,7 @@
 ---
 title: "Is Chocolate Toxic to Cats? Symptoms, Types and What to Do"
 seoTitle: "Is Chocolate Toxic to Cats? Symptoms & What to Do"
-description: "Is chocolate toxic to cats? Yes: the ASPCA and Pet Poison Helpline say methylxanthines (theobromine, caffeine) can cause vomiting, tremors and seizures. What to do now."
+description: "Is chocolate toxic to cats? Yes: the ASPCA and Pet Poison Helpline say methylxanthines (theobromine, caffeine) cause vomiting, tremors, seizures. What to do."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "health-safety"

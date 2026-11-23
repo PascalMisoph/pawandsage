@@ -97,7 +97,7 @@ export const pillars: Pillar[] = [
     title: 'The Litter Box Guide: Problems, Setup, Litter and Cleaning',
     seoTitle: 'Litter Box Problems & Setup: The Complete Guide',
     description:
-      'Every Paw & Sage litter box guide in one place: peeing or pooping outside the box, how many boxes, where to put them, cleaning schedules, switching litter and the best boxes and litters.',
+      'Every Paw & Sage litter box guide in one place: peeing or pooping outside the box, how many boxes, where to put them, cleaning, switching litter, top picks.',
     eyebrow: 'Pillar guide',
     intro: [
       'House soiling is the most common behavior problem cat owners report, according to the Cornell Feline Health Center. The good news: most cases come down to a handful of causes you can check one by one: a medical problem, something the cat dislikes about the box, the litter or the location, or stress.',
@@ -181,7 +181,7 @@ export const pillars: Pillar[] = [
     title: 'Cat Behavior Guide: What Your Cat Is Telling You',
     seoTitle: 'Cat Behavior Guide: Why Cats Do What They Do',
     description:
-      'All Paw & Sage cat behavior guides in one place: staring, kneading, headbutting, night meowing, 3 AM wake-ups, biting, scratching, and when a behavior change means a vet visit.',
+      'All Paw & Sage cat behavior guides in one place: staring, kneading, headbutting, night meowing, 3 AM wake-ups, biting, scratching, and when to see a vet.',
     eyebrow: 'Pillar guide',
     intro: [
       'Most "weird" cat behavior has a sensible reason once you know how cats communicate: scent, routine, hunting instinct and a strong need to feel safe. These guides explain the common ones and the fixes that actually work.',
@@ -233,7 +233,7 @@ export const pillars: Pillar[] = [
     title: 'Indoor Cat Enrichment Guide: Play, Climbing and Busy Days',
     seoTitle: 'Indoor Cat Enrichment Guide: Play, Climb & Explore',
     description:
-      'Every Paw & Sage enrichment guide in one place: how much play an indoor cat needs, play routines, puzzle feeders, vertical space, window perches and enrichment for busy owners.',
+      'Every Paw & Sage enrichment guide in one place: how much play an indoor cat needs, play routines, puzzle feeders, vertical space and window perches.',
     eyebrow: 'Pillar guide',
     intro: [
       'Indoor cats still have a hunter\'s brain. The American Animal Hospital Association (AAHA) suggests an average of two or three 10 to 15 minute interactive play sessions a day, adjusted for age, energy and health, and explains that unmet hunting instincts can turn into frustration and problem behavior.',
@@ -285,7 +285,7 @@ export const pillars: Pillar[] = [
     title: 'New Cat Guide: The First Weeks, Supplies and Setup',
     seoTitle: 'New Cat Guide: First Weeks, Supplies & Setup',
     description:
-      'Bringing home a kitten or cat? Every Paw & Sage new-cat guide in one place: the checklist, litter training, litter box setup, feeding basics, carriers, safety at home and the first big purchases.',
+      'Bringing home a kitten or cat? Every Paw & Sage new-cat guide in one place: the checklist, litter training, box setup, feeding, carriers and safety at home.',
     eyebrow: 'Pillar guide',
     intro: [
       'The first weeks set the habits. VCA Animal Hospitals recommends keeping a new kitten in one room, ideally the room where its litter box will stay, and only letting it roam unsupervised once it uses the box consistently. The guides below follow that order: prepare, settle in, then upgrade.',
@@ -332,7 +332,7 @@ export const pillars: Pillar[] = [
     title: 'Is It Safe for Cats? Plants, Foods and Essential Oils',
     seoTitle: 'Is It Safe for Cats? Plants, Foods & Essential Oils',
     description:
-      'Toxic or safe for cats? A traffic-light list of houseplants, people foods and essential oils, with verdicts from the ASPCA Animal Poison Control Center and veterinary sources.',
+      'Toxic or safe for cats? A traffic-light list of houseplants, people foods and essential oils, with verdicts from the ASPCA Animal Poison Control Center.',
     eyebrow: 'Safety hub',
     intro: [
       'Each entry below links to a short, sourced page: the verdict, what makes it risky, the signs to watch for and what to do. Plant verdicts follow the ASPCA Animal Poison Control Center\'s toxic and non-toxic plant database; foods and essential oils follow ASPCA, Pet Poison Helpline, VCA, Merck Veterinary Manual and Cornell guidance.',

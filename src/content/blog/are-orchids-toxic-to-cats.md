@@ -1,7 +1,7 @@
 ---
 title: "Are Orchids Toxic to Cats? Moth Orchids and the ASPCA List"
 seoTitle: "Are Orchids Toxic to Cats? (Moth Orchid Verdict)"
-description: "Are orchids toxic to cats? The ASPCA lists the common moth orchid (Phalaenopsis) as non-toxic to cats. What that covers, what it does not, and how to keep orchids safe."
+description: "Are orchids toxic to cats? The ASPCA lists the common moth orchid (Phalaenopsis) as non-toxic to cats. What that covers, what it doesn't, and orchid safety."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "health-safety"

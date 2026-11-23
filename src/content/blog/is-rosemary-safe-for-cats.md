@@ -1,7 +1,7 @@
 ---
 title: "Is Rosemary Safe for Cats? Plant, Smell and Rosemary Oil"
 seoTitle: "Is Rosemary Safe for Cats? Plant, Smell & Oil"
-description: "Is rosemary safe for cats? The ASPCA lists the rosemary plant as non-toxic to cats. Rosemary essential oil is on veterinary lists of oils toxic to pets. What to know."
+description: "Is rosemary safe for cats? The ASPCA lists the rosemary plant as non-toxic to cats, but rosemary essential oil is on vet lists of oils toxic to pets."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "health-safety"

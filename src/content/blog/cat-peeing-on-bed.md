@@ -1,7 +1,7 @@
 ---
 title: "Why Is My Cat Peeing on My Bed? Causes and What to Do"
 seoTitle: "Why Is My Cat Peeing on My Bed? Causes & What to Do"
-description: "Why is my cat peeing on the bed? Medical causes first, then box problems, soft-surface preference and stress. Cleaning tips and fixes from Cornell, the ASPCA and AAFP."
+description: "Why is my cat peeing on the bed? Medical causes first, then box problems, soft-surface preference and stress. Cleanup and fixes from Cornell, ASPCA and AAFP."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "behavior"

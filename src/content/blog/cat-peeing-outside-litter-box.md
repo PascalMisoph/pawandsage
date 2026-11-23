@@ -1,7 +1,7 @@
 ---
 title: "Cat Peeing Outside the Litter Box? Causes and Fixes That Work"
 seoTitle: "Cat Peeing Outside the Litter Box? Causes & Fixes"
-description: "Why is my cat peeing outside the litter box? The vet-backed checklist: medical causes first, then box, litter, location and stress, from Cornell, the ASPCA and AAFP."
+description: "Why is my cat peeing outside the litter box? A vet-backed checklist: medical causes, then box, litter, location and stress, from Cornell, ASPCA and AAFP."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "behavior"

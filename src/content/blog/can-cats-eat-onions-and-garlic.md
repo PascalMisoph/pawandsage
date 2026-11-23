@@ -1,7 +1,7 @@
 ---
 title: "Can Cats Eat Onions or Garlic? Why Alliums Are Toxic to Cats"
 seoTitle: "Can Cats Eat Onions or Garlic? Allium Toxicity Explained"
-description: "Can cats eat onions or garlic? No: the ASPCA and Pet Poison Helpline say Alliums damage red blood cells and cats are more sensitive. Hidden sources and what to do."
+description: "Can cats eat onions or garlic? No: the ASPCA and Pet Poison Helpline say Alliums damage red blood cells, and cats are more sensitive. Hidden sources to avoid."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "health-safety"

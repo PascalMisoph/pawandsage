@@ -1,7 +1,7 @@
 ---
 title: "Where to Put a Litter Box: Best and Worst Spots in Your Home"
 seoTitle: "Where to Put a Litter Box: Best & Worst Spots"
-description: "Where should a litter box go? Quiet, private, easy to reach and away from food, with more than one exit. Best and worst spots per the ASPCA, VCA, Cornell and AAFP guidance."
+description: "Where should a litter box go? Quiet, private, easy to reach, away from food, with more than one exit. Best and worst spots per ASPCA, VCA, Cornell and AAFP."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "new-cat"

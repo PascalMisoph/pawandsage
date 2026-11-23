@@ -1,7 +1,7 @@
 ---
 title: "Why Is My Cat Sitting in the Litter Box? When to Call a Vet"
 seoTitle: "Why Is My Cat Sitting in the Litter Box? When to Worry"
-description: "Cat sitting in the litter box? First check for straining with little or no urine, an emergency per VCA. Other causes: frequent urination, stress, another pet, age."
+description: "Cat sitting in the litter box? First check for straining with little or no urine, an emergency per VCA. Other causes: frequent urination, stress, other pets."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "behavior"

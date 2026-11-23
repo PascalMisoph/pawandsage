@@ -1,7 +1,7 @@
 ---
 title: "Is Pothos Toxic to Cats? Symptoms and What to Do"
 seoTitle: "Is Pothos Toxic to Cats? Symptoms & What to Do"
-description: "Is pothos toxic to cats? Yes: the ASPCA lists golden pothos (devil's ivy) as toxic to cats because of insoluble calcium oxalates. Symptoms, what to do and safe swaps."
+description: "Is pothos toxic to cats? Yes: the ASPCA lists golden pothos (devil's ivy) as toxic to cats due to insoluble calcium oxalates. Symptoms, what to do, swaps."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "health-safety"

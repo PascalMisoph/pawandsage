@@ -1,7 +1,7 @@
 ---
 title: "Can Cats Eat Tuna? Canned Tuna, Mercury and How Often"
 seoTitle: "Can Cats Eat Tuna? Canned Tuna, Mercury & How Often"
-description: "Can cats eat tuna? VCA warns regularly feeding tuna is dangerous because of mercury, and Cornell links human canned fish to neurological problems. What is OK and what is not."
+description: "Can cats eat tuna? VCA warns feeding tuna regularly is dangerous due to mercury, and Cornell links canned fish to neurological problems. What's safe to feed."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "health-safety"

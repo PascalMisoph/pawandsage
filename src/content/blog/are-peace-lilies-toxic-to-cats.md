@@ -1,7 +1,7 @@
 ---
 title: "Are Peace Lilies Toxic to Cats? Not a True Lily, Still Toxic"
 seoTitle: "Are Peace Lilies Toxic to Cats? What to Know"
-description: "Are peace lilies toxic to cats? Yes: the ASPCA lists peace lily (Spathiphyllum) as toxic (insoluble calcium oxalates). How it differs from true lilies and what to do."
+description: "Are peace lilies toxic to cats? Yes: the ASPCA lists peace lily (Spathiphyllum) as toxic (insoluble calcium oxalates). How it differs from true lilies."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "health-safety"

@@ -1,7 +1,7 @@
 ---
 title: "Is a Jade Plant Toxic to Cats? Symptoms and Safer Succulents"
 seoTitle: "Is Jade Plant Toxic to Cats? Symptoms & What to Do"
-description: "Is a jade plant toxic to cats? Yes: the ASPCA lists jade plant (Crassula) as toxic to cats, with vomiting, depression and incoordination. What to do and what to watch."
+description: "Is a jade plant toxic to cats? Yes: the ASPCA lists jade plant (Crassula) as toxic to cats, with vomiting, depression and incoordination. What to do next."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "health-safety"

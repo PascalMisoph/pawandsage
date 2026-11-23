@@ -1,7 +1,7 @@
 ---
 title: "Cat Meowing at Night? Why It Happens and How to Stop It"
 seoTitle: "Cat Meowing at Night? Why It Happens & How to Stop It"
-description: "Why is my cat meowing at night? Attention-seeking, heat, play, or medical causes like hyperthyroidism, hypertension and cognitive decline in older cats. VCA and Cornell fixes."
+description: "Why is my cat meowing at night? Attention-seeking, heat, play, or medical causes like hyperthyroidism, hypertension and cognitive decline. Fixes from VCA."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "behavior"

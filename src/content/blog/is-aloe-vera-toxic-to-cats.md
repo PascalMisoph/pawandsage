@@ -1,7 +1,7 @@
 ---
 title: "Is Aloe Vera Toxic to Cats? Plant vs Gel, Explained"
 seoTitle: "Is Aloe Vera Toxic to Cats? Plant vs Gel, Explained"
-description: "Is aloe vera toxic to cats? The ASPCA lists the aloe plant as toxic to cats (saponins, anthraquinones): vomiting, lethargy, diarrhea. What about the gel? Sourced answer."
+description: "Is aloe vera toxic to cats? The ASPCA lists the aloe plant as toxic to cats (saponins, anthraquinones): vomiting, lethargy, diarrhea. What about the gel?"
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "health-safety"

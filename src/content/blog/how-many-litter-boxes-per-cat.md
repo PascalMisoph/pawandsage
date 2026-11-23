@@ -1,7 +1,7 @@
 ---
 title: "How Many Litter Boxes Per Cat? The N+1 Rule Explained"
 seoTitle: "How Many Litter Boxes Per Cat? The N+1 Rule Explained"
-description: "How many litter boxes do you need? One per cat plus one, in different locations, and one on each floor. What Cornell, VCA, the ASPCA and AAFP guidance actually say."
+description: "How many litter boxes do you need? One per cat plus one, in different locations, and one on each floor. What Cornell, VCA, the ASPCA and AAFP actually say."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "new-cat"

@@ -1,7 +1,7 @@
 ---
 title: "Can Cats Eat Cheese? Lactose, Calories and Safe Amounts"
 seoTitle: "Can Cats Eat Cheese? Lactose, Calories & Safe Amounts"
-description: "Can cats eat cheese? VCA lists cheese as a treat many cats enjoy, but the ASPCA warns dairy can cause digestive upset and cheese is calorie-dense. Sourced guide."
+description: "Can cats eat cheese? VCA lists cheese as a treat many cats enjoy, but the ASPCA warns dairy can upset digestion and cheese is calorie-dense. How much is OK."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "health-safety"

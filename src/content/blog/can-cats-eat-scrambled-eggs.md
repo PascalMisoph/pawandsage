@@ -1,7 +1,7 @@
 ---
 title: "Can Cats Eat Scrambled Eggs? Cooked vs Raw, Explained"
 seoTitle: "Can Cats Eat Scrambled Eggs? Cooked vs Raw Eggs"
-description: "Can cats eat scrambled eggs? VCA lists cooked eggs as a safe treat if unseasoned. Why raw eggs are a no, what to leave out (butter, milk, onion) and how much is OK."
+description: "Can cats eat scrambled eggs? VCA lists cooked eggs as a safe treat if unseasoned. Why raw eggs are a no, what to leave out (butter, milk, onion) and how much."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "health-safety"

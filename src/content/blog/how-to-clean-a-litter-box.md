@@ -1,7 +1,7 @@
 ---
 title: "How to Clean a Litter Box: Daily, Weekly and Deep Clean"
 seoTitle: "How to Clean a Litter Box (Daily, Weekly & Deep Clean)"
-description: "How to clean a litter box the way vets recommend: daily scooping, a weekly wash with unscented soap or baking soda, and which cleaners to avoid (ammonia, vinegar, scents)."
+description: "How to clean a litter box the way vets recommend: daily scooping, a weekly wash with unscented soap or baking soda, and cleaners to avoid, like ammonia."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "new-cat"

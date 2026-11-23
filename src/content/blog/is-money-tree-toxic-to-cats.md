@@ -1,7 +1,7 @@
 ---
 title: "Is a Money Tree Toxic to Cats? (Pachira and \"Money Plant\")"
 seoTitle: "Is a Money Tree Toxic to Cats? (ASPCA Verdict)"
-description: "Is a money tree toxic to cats? The ASPCA lists the money tree (Pachira aquatica) as non-toxic to cats, but notes possible stomach upset. Not to be confused with jade or pothos."
+description: "Is a money tree toxic to cats? The ASPCA lists the money tree (Pachira aquatica) as non-toxic to cats, with possible stomach upset. Not the same as jade."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "health-safety"

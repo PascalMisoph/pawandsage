@@ -1,7 +1,7 @@
 ---
 title: "Why Does My Cat Headbutt Me? (Bunting, Explained)"
 seoTitle: "Why Does My Cat Headbutt Me? Bunting, Explained"
-description: "Why do cats headbutt you? VCA explains bunting: scent glands on the cheeks, forehead and chin mark you as family. A sign of trust, and when a change is worth a vet check."
+description: "Why do cats headbutt you? VCA explains bunting: scent glands on the cheeks, forehead and chin mark you as family. A sign of trust, and when to see a vet."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "behavior"

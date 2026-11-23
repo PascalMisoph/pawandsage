@@ -1,7 +1,7 @@
 ---
 title: "Why Does My Cat Stare at the Wall? Normal vs. Worth a Vet Visit"
 seoTitle: "Why Does My Cat Stare at the Wall? Normal vs. Worrying"
-description: "Why does my cat stare at the wall or at nothing? Usually harmless: sharp senses, UV vision, hunting. In cats over 10, long blank staring can signal cognitive dysfunction."
+description: "Why does my cat stare at the wall or at nothing? Often harmless: keen senses, UV vision, hunting. In cats over 10, blank staring can signal cognitive decline."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "behavior"

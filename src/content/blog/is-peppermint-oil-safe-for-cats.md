@@ -1,7 +1,7 @@
 ---
 title: "Is Peppermint Oil Safe for Cats? Mint Plants and Oil Explained"
 seoTitle: "Is Peppermint Oil Safe for Cats? Mint Plants & Oil"
-description: "Is peppermint oil safe for cats? VCA lists peppermint oil as poisonous to cats, and the ASPCA lists mint plants as toxic. Signs, diffusers, mint \"pest repellents\" and what to do."
+description: "Is peppermint oil safe for cats? VCA lists peppermint oil as poisonous to cats; the ASPCA lists mint as toxic. Signs, diffusers, mint \"pest repellents\"."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "health-safety"

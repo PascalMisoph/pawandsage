@@ -1,7 +1,7 @@
 ---
 title: "Can Cats Eat Peanut Butter? Xylitol, Fat and Better Treats"
 seoTitle: "Can Cats Eat Peanut Butter? Xylitol & Safer Treats"
-description: "Can cats eat peanut butter? VCA warns some peanut butters contain xylitol, and the ASPCA says nuts are high in fat. Why it is a poor cat treat and what to check."
+description: "Can cats eat peanut butter? VCA warns some peanut butters contain xylitol, and the ASPCA says nuts are high in fat. Why it's a poor treat and what to check."
 pubDate: 2026-11-18T16:00:00Z
 updatedDate: 2026-11-18T16:00:00Z
 category: "health-safety"
