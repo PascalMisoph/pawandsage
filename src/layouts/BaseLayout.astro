@@ -6,7 +6,7 @@ import '@fontsource-variable/fraunces/full-italic.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { getShareImage } from '../lib/images';
-import { DEFAULT_SOCIAL_IMAGE, ORGANIZATION, PERSON, SITE_DESCRIPTION, SITE_LANGUAGE, SITE_LOGO, SITE_NAME, SITE_URL } from '../lib/site';
+import { DEFAULT_SOCIAL_IMAGE, ORGANIZATION, ORGANIZATION_REFERENCE, PERSON, SITE_DESCRIPTION, SITE_LANGUAGE, SITE_LOGO, SITE_NAME, SITE_URL } from '../lib/site';
 import { buildBreadcrumbSchema, type BreadcrumbItem } from '../lib/schema';
 import Analytics from '@vercel/analytics/astro';
 
@@ -70,12 +70,13 @@ const robotsContent = noindex
 const siteSchemas = [
   {
     '@context': 'https://schema.org',
-    '@id': `${SITE_URL}#organization`,
+    '@id': ORGANIZATION.id,
     '@type': 'Organization',
     name: ORGANIZATION.name,
     legalName: ORGANIZATION.legalName,
     url: ORGANIZATION.url,
     email: ORGANIZATION.email,
+    description: SITE_DESCRIPTION,
     logo: {
       '@type': 'ImageObject',
       url: ORGANIZATION.logo,
@@ -99,11 +100,7 @@ const siteSchemas = [
     url: PERSON.url,
     jobTitle: PERSON.jobTitle,
     description: PERSON.description,
-    worksFor: {
-      '@type': 'Organization',
-      name: ORGANIZATION.name,
-      url: ORGANIZATION.url,
-    },
+    worksFor: ORGANIZATION_REFERENCE,
     ...(PERSON.sameAs.length > 0 ? { sameAs: PERSON.sameAs } : {}),
   },
   {
@@ -120,11 +117,7 @@ const siteSchemas = [
       name: PERSON.name,
       url: PERSON.url,
     },
-    publisher: {
-      '@type': 'Organization',
-      name: ORGANIZATION.name,
-      url: ORGANIZATION.url,
-    },
+    publisher: ORGANIZATION_REFERENCE,
     publishingPrinciples: ORGANIZATION.publishingPrinciples,
   },
 ];

@@ -164,6 +164,7 @@ export const clusterConfigs: ClusterConfig[] = [
       'how-to-get-rid-of-litter-box-smell',
       'how-to-transition-cat-to-new-litter',
       'new-kitten-checklist',
+      'best-automatic-litter-box',
       'litter-robot-4-vs-5-vs-evo',
       'litter-robot-4-vs-petlibro-luma',
       'litter-robot-vs-neakasa-m1',

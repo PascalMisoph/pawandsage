@@ -1,12 +1,14 @@
 ---
+import { SITE_DESCRIPTION } from '../lib/site';
+
 const year = new Date().getFullYear();
 ---
 
 <footer>
   <div class="container footer-inner">
     <div class="footer-brand">
-      <div class="footer-logo">paw <span class="and">and</span> sage</div>
-      <p class="footer-tagline">A calm guide to the cat in your home.</p>
+      <div class="footer-logo">Paw <span class="and">&amp;</span> Sage</div>
+      <p class="footer-tagline">{SITE_DESCRIPTION}</p>
     </div>
     <div class="footer-links">
       <div class="footer-col">
@@ -46,7 +48,7 @@ const year = new Date().getFullYear();
   </div>
   <div class="footer-bottom">
     <div class="container">
-      <p>&copy; {year} paw and sage. Made with care for cats and the people who love them.</p>
+      <p>&copy; {year} Paw &amp; Sage. Made with care for cats and the people who love them.</p>
     </div>
   </div>
 </footer>

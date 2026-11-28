@@ -7,7 +7,7 @@ import { getBlogPosts } from '../lib/posts';
 import { pillars } from '../lib/pillars';
 import { resolveSeasonal } from '../lib/seasonal';
 import responsiveImageManifest from '../generated/responsive-image-manifest.json';
-import { PERSON, SITE_URL } from '../lib/site';
+import { ORGANIZATION_REFERENCE, PERSON, SITE_URL } from '../lib/site';
 import { buildFAQPageSchema, buildPageSchema } from '../lib/schema';
 
 const allPosts = await getBlogPosts(({ data }) => !data.draft);
@@ -87,11 +87,7 @@ const schema = [
     url: PERSON.url,
     description: PERSON.description,
     jobTitle: PERSON.jobTitle,
-    worksFor: {
-      '@type': 'Organization',
-      name: 'Paw & Sage',
-      url: SITE_URL,
-    },
+    worksFor: ORGANIZATION_REFERENCE,
   },
 ];
 ---
@@ -281,7 +277,7 @@ const schema = [
         <span class="eyebrow">Why trust this journal</span>
         <h2>Clear guidance, visible sources, and real editorial standards.</h2>
         <p>
-          Paw & Sage is written and edited by <a href="/about">Pascal Misoph</a> and built around published feline welfare guidance, veterinary behavior resources, and practical home routines that are actually usable.
+          Paw &amp; Sage is written and edited by <a href="/about">Pascal Misoph</a> and built around published feline welfare guidance, veterinary behavior resources, and practical home routines that are actually usable.
         </p>
         <p class="trust-meta">
           Updated {updatedDate} · Read the <a href="/editorial-policy">editorial policy</a> and <a href="/how-we-pick">how we pick products</a>
@@ -301,7 +297,7 @@ const schema = [
   <section class="faq-section" aria-labelledby="home-faq-title">
     <div class="container-narrow">
       <span class="eyebrow">FAQ</span>
-      <h2 id="home-faq-title">Common questions about Paw & Sage.</h2>
+      <h2 id="home-faq-title">Common questions about Paw &amp; Sage.</h2>
       <div class="faq-list">
         {homeFaq.map((item) => (
           <details>

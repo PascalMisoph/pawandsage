@@ -1,4 +1,4 @@
-import { ORGANIZATION, PERSON, SITE_LANGUAGE, SITE_NAME, SITE_URL } from './site';
+import { ORGANIZATION, ORGANIZATION_REFERENCE, PERSON, SITE_LANGUAGE, SITE_NAME, SITE_URL, WEBSITE_ID } from './site';
 
 export interface BreadcrumbItem {
   name: string;
@@ -41,14 +41,9 @@ const imageObject = (image?: string) =>
 
 const siteReference = {
   '@type': 'WebSite',
+  '@id': WEBSITE_ID,
   name: SITE_NAME,
   url: SITE_URL,
-};
-
-const organizationReference = {
-  '@type': 'Organization',
-  name: ORGANIZATION.name,
-  url: ORGANIZATION.url,
 };
 
 const personReference = {
@@ -68,7 +63,7 @@ export function buildPersonSchema() {
     url: PERSON.url,
     jobTitle: PERSON.jobTitle,
     description: PERSON.description,
-    worksFor: organizationReference,
+    worksFor: ORGANIZATION_REFERENCE,
     sameAs: PERSON.sameAs.length > 0 ? PERSON.sameAs : undefined,
   });
 }
@@ -127,7 +122,7 @@ export function buildPageSchema({
     inLanguage: SITE_LANGUAGE,
     isPartOf: siteReference,
     author: personReference,
-    publisher: organizationReference,
+    publisher: ORGANIZATION_REFERENCE,
     about: about
       ? {
           '@type': 'Thing',
@@ -201,7 +196,7 @@ export function buildContactPageSchema(name: string, description: string, path: 
       path,
       about: ORGANIZATION.name,
     }),
-    mainEntity: organizationReference,
+    mainEntity: ORGANIZATION_REFERENCE,
   });
 }
 

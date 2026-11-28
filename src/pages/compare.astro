@@ -19,6 +19,7 @@ const groups: { title: string; blurb: string; slugs: string[] }[] = [
     title: 'Automatic litter boxes',
     blurb: 'Litter-Robot comparisons, open-top alternatives, and budget self-cleaning boxes.',
     slugs: [
+      'best-automatic-litter-box',
       'litter-robot-4-vs-5-vs-evo',
       'litter-robot-4-vs-petlibro-luma',
       'litter-robot-vs-neakasa-m1',
@@ -129,6 +130,7 @@ const listedPosts = grouped.flatMap((group) => group.posts);
 const uniqueListed = [...new Map(listedPosts.map((post) => [post.id, post])).values()];
 
 const bestFor: Record<string, string> = {
+  'best-automatic-litter-box': 'Choosing a design by cat count, cat size, floor type, and budget',
   'litter-robot-4-vs-5-vs-evo': 'Choosing among Whisker globe models by cat count, weight and camera features',
   'litter-robot-4-vs-petlibro-luma': 'Enclosed Litter-Robot 4 versus an open-top Petlibro box',
   'litter-robot-vs-neakasa-m1': 'Litter-Robot 4 versus the open-top Neakasa M1 Plus',

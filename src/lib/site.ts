@@ -5,7 +5,11 @@ export const SITE_DESCRIPTION =
 export const SITE_LANGUAGE = 'en-US';
 export const SITE_LOGO = '/favicon.svg';
 
+export const ORGANIZATION_ID = `${SITE_URL}#organization`;
+export const WEBSITE_ID = `${SITE_URL}#website`;
+
 export const ORGANIZATION = {
+  id: ORGANIZATION_ID,
   name: SITE_NAME,
   legalName: 'Paw & Sage',
   url: SITE_URL,
@@ -14,6 +18,14 @@ export const ORGANIZATION = {
   sameAs: ['https://pinterest.com/pawandsage'],
   publishingPrinciples: `${SITE_URL}/editorial-policy`,
 };
+
+/**
+ * Reference to the one canonical Organization entity (full node emitted site-wide by
+ * BaseLayout.astro). Use this for every nested publisher / worksFor / mainEntity.
+ */
+export const ORGANIZATION_REFERENCE = {
+  '@id': ORGANIZATION_ID,
+} as const;
 
 export const PERSON = {
   name: 'Pascal Misoph',

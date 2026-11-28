@@ -211,6 +211,22 @@ em,
   margin-bottom: 0.5rem;
 }
 
+.tldr > p:last-child,
+.prose .tldr > p:last-child {
+  margin-bottom: 0;
+}
+
+/* Answer-first pages: visible check/review date directly under the .tldr box */
+.last-checked,
+.prose .last-checked {
+  font-family: 'Inter Variable', 'Inter', sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: -1.25rem 0 2rem;
+}
+
 .prose ul,
 .prose ol {
   margin: 0 0 1.5rem 1.5rem;

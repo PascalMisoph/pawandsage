@@ -409,6 +409,7 @@ const PAGE_GROUP = {
   'tofu-vs-clay-cat-litter': 'litter', 'really-great-cat-litter-review': 'litter', 'really-great-cat-litter-vs-pidan': 'litter',
   'worlds-best-cat-litter-review': 'litter', 'pretty-litter-vs-tidy-cats': 'litter', 'tuft-and-paw-cove-vs-cubby': 'litter',
   'litter-robot-4-vs-5-vs-evo': 'robot', 'litter-robot-3-vs-4': 'robot', 'litter-robot-alternatives': 'robot',
+  'best-automatic-litter-box': 'robot',
   'best-automatic-litter-box-multiple-cats': 'robot', 'best-automatic-litter-box-under-200': 'robot',
   'best-litter-for-litter-robot': 'robot', 'litter-robot-4-vs-petlibro-luma': 'robot', 'litter-robot-vs-neakasa-m1': 'robot',
   'petkit-pura-max-2-vs-litter-robot-4': 'robot', 'litter-robot-black-friday-deal': 'robot',

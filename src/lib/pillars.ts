@@ -147,6 +147,7 @@ export const pillars: Pillar[] = [
         heading: '5. Thinking about an automatic litter box?',
         blurb: 'What self-cleaning boxes do well, where they fail, and which one fits your home.',
         slugs: [
+          'best-automatic-litter-box',
           'best-automatic-litter-box-multiple-cats',
           'best-automatic-litter-box-under-200',
           'litter-robot-4-vs-5-vs-evo',

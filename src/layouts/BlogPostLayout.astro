@@ -7,7 +7,7 @@ import StickyCTA from '../components/StickyCTA.astro';
 import ResponsiveImage from '../components/ResponsiveImage.astro';
 import { buildImageObject, buildImagePreloadHint } from '../lib/images';
 import { buildFAQPageSchema, buildItemListSchema, type ItemListEntry } from '../lib/schema';
-import { ORGANIZATION, PERSON, SITE_LANGUAGE, SITE_URL } from '../lib/site';
+import { ORGANIZATION_REFERENCE, PERSON, SITE_LANGUAGE, SITE_URL } from '../lib/site';
 
 export interface RelatedPost {
   href: string;
@@ -117,15 +117,7 @@ const articleSchema = {
     url: PERSON.url,
     jobTitle: PERSON.jobTitle,
   },
-  publisher: {
-    '@type': 'Organization',
-    name: ORGANIZATION.name,
-    url: ORGANIZATION.url,
-    logo: {
-      '@type': 'ImageObject',
-      url: ORGANIZATION.logo,
-    },
-  },
+  publisher: ORGANIZATION_REFERENCE,
   citation: sources.length > 0 ? sources.map((source) => source.url) : undefined,
   isAccessibleForFree: true,
 };
