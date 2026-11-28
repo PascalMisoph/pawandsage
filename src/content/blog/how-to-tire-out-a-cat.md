@@ -1,7 +1,7 @@
 ---
 title: "How to Tire Out a Hyper Cat Before Bed (Evening Routine)"
-seoTitle: "How to Tire Out a Hyper Cat Before Bed: A Night Plan"
-description: "Hyper cat at night? A hunt-catch-eat play routine, self-play toys and indoor exercise that tamps down evening zoomies and 3 AM wake-ups."
+seoTitle: "How to Tire Out a Cat Before Bed With Hunt-Catch-Eat Play"
+description: "Help your cat burn energy before bed with a stalk, chase, pounce, and catch routine followed by a meal. Add self-play to curb zoomies and 3 AM wake-ups."
 pubDate: 2026-06-12
 updatedDate: 2026-11-18
 category: "enrichment"

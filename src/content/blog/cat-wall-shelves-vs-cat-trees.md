@@ -1,7 +1,7 @@
 ---
 title: "Cat Wall Shelves vs Cat Trees: Which Is Better for Indoor Cats?"
-seoTitle: "Cat Wall Shelves vs Cat Trees: Which Should You Buy?"
-description: "Need vertical space for an indoor cat? Compare wall shelves vs a cat tree for floor space, stability, and which setup fits apartments or multi-cat homes."
+seoTitle: "Cat Wall Shelves vs Cat Trees: Floor Space or No Drilling?"
+description: "Choose a cat tree for movable climbing and scratching without drilling, or wall shelves to save floor space. Compare layouts for cats that like to jump."
 pubDate: 2026-07-10
 updatedDate: 2026-11-28T15:00:00Z
 category: "enrichment"

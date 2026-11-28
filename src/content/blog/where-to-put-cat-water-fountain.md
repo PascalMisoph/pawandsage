@@ -1,7 +1,7 @@
 ---
 title: "Where to Put a Cat Water Fountain: 5 Placement Rules"
-seoTitle: "Where to Put a Cat Water Fountain (5 Rules That Work)"
-description: "Where to put a cat water fountain so your cat drinks more: five placement rules, why next to the food bowl is usually wrong, and multi-cat setups."
+seoTitle: "Where to Put a Cat Water Fountain: 5 Placement Rules"
+description: "Put the fountain in a quiet spot on your cat's usual route, away from food and litter. See five placement rules and how to set up multiple water stations."
 pubDate: 2026-07-05
 updatedDate: 2026-11-28
 category: "seasonal"
