@@ -243,6 +243,69 @@ em,
   margin: 1.5rem 0;
 }
 
+.prose .table-scroll {
+  max-width: 100%;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.prose .table-scroll:focus-visible {
+  outline: 2px solid var(--sage-900);
+  outline-offset: 2px;
+}
+
+.prose table:not(.safety-table) {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.prose table:not(.safety-table) :is(th, td) {
+  padding: 0.65rem 0.75rem;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+  overflow-wrap: break-word;
+}
+
+.prose table:not(.safety-table) thead th {
+  background: var(--sage-50);
+  color: var(--sage-900);
+}
+
+@media (width < 768px) {
+  .prose .table-scroll {
+    /* The solid layer covers the edge shadow when scrolled fully right. */
+    background:
+      linear-gradient(var(--cream-100), var(--cream-100)) right / 1rem 100% local no-repeat,
+      linear-gradient(to left, var(--line), transparent) right / 0.5rem 100% scroll no-repeat;
+  }
+
+  .prose table:not(.safety-table) :is(th, td) {
+    min-width: 10rem;
+    border-inline-end: 1px solid var(--line);
+  }
+
+  .prose table:not(.safety-table) thead th {
+    white-space: nowrap;
+  }
+
+  .prose table:not(.safety-table) tr > :first-child {
+    min-width: 9rem;
+    position: sticky;
+    inset-inline-start: 0;
+    background: var(--cream-100);
+    box-shadow: 2px 0 4px -2px var(--line);
+  }
+
+  .prose table:not(.safety-table) thead tr > :first-child {
+    background: var(--sage-50);
+  }
+}
+
 .prose blockquote {
   border-left: 3px solid var(--terra-500);
   padding-left: 1.25rem;
